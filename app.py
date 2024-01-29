@@ -18,7 +18,7 @@ st.markdown(f'<style>{custom_css}</style>', unsafe_allow_html=True)
 
 options = ["Product analytics", "Order analytics", "Competitors analytics"]
 
-default_option = "Order analytics"
+default_option = "Product analytics"
 
 selected_option = st.sidebar.radio("Select an Option", options, index=options.index(default_option))
 

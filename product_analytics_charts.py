@@ -219,6 +219,7 @@ def generate_page_views_and_ratio_by_category_with_selector(data_original):
     st.pyplot(fig)
 
 def generate_page_views_and_ratio_by_product_with_selector(data_original):
+    st.markdown("<h1 class='title-text'>Page Views and Page Views / Orders Evolution by Product</h1>", unsafe_allow_html=True)
     data = data_original.copy()
     # Find the default selected products with the most views in 2023
     most_viewed_product = data.groupby('Product name')['Page views'].sum().idxmax()
@@ -236,35 +237,33 @@ def generate_page_views_and_ratio_by_product_with_selector(data_original):
 
     # Filter data for selected products
     filtered_data = data[data['Product name'] == selected_product]
-    st.dataframe(filtered_data)
 
     monthly_data = filtered_data.resample('M', on='Date').agg({'Page views': 'sum', 'Orders': 'sum'})
     monthly_data['Page views / Orders ratio'] = monthly_data.apply(lambda row: row['Page views'] / row['Orders'] if row['Orders'] > 0 else 0, axis=1)
     # Add a 'Date' column to the DataFrame
     monthly_data['Date'] = monthly_data.index
-    st.dataframe(monthly_data)
-    st.text(monthly_data.columns)
-    st.dataframe(monthly_data['Date'])
+    # we change date to format YYYY/MM
+    monthly_data['Date'] = monthly_data['Date'].dt.strftime("%Y-%m")
 
-    # Group data by both 'Product name' and month, sum the page views
-    monthly_views = filtered_data.groupby(['Product name', pd.to_datetime(filtered_data['Date']).dt.to_period('M')])['Page views'].sum().reset_index()
-    st.dataframe(monthly_views)
-
-     # Create the Matplotlib chart
+    # Create the Matplotlib chart
     fig, ax1 = plt.subplots(figsize=(10, 6))
 
     # Plot 'Page views' on the primary y-axis
-    ax1.plot( monthly_data['Date'].astype(str), monthly_data['Page views / Orders ratio'], label='Page Views/Orders Ratio', marker='o')
+    ax1.plot( monthly_data['Date'].astype(str), monthly_data['Page views'], marker='o', label='Page Views')
     ax1.set_xlabel('Date')
-    ax1.set_ylabel('Page Views/Orders Ratio')
-    ax1.tick_params(axis='y')
+    ax1.set_ylabel('Page views')
+    #ax1.tick_params(axis='y')
     plt.xticks(rotation=45, ha='right')
 
     # Create a secondary y-axis for 'PageViews/Orders Ratio'
     ax2 = ax1.twinx()
-    ax2.plot(monthly_data['Date'].astype(str), monthly_data['Page views'], linestyle='--', marker='x', color='tab:orange', label='Page views')
-    ax2.set_ylabel('Page views')
-    ax2.tick_params(axis='y')
+    ax2.plot(monthly_data['Date'].astype(str), monthly_data['Page views / Orders ratio'], linestyle='--', marker='x', color='tab:orange', label='Page Views/Orders Ratio')
+    ax2.set_ylabel('Page Views/Orders Ratio')
+    #ax2.tick_params(axis='y')
+
+    # Set the y-axis limits to start from 0
+    ax1.set_ylim(bottom=0)
+    ax2.set_ylim(bottom=0)
 
     plt.legend()
     st.pyplot(plt)

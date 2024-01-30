@@ -10,6 +10,8 @@ from product_analytics_charts import (generate_pageviews_orders_ratio_chart,
 
 from order_analytics_charts import (lifetime_performance_metrics)
 
+from competitors_analytics_charts import (get_competitors_brand_data, competitor_analysis)
+
 with open("custom.css") as f:
     custom_css = f.read()
 
@@ -18,7 +20,7 @@ st.markdown(f'<style>{custom_css}</style>', unsafe_allow_html=True)
 
 options = ["Product analytics", "Order analytics", "Competitors analytics"]
 
-default_option = "Product analytics"
+default_option = "Competitors analytics"
 
 selected_option = st.sidebar.radio("Select an Option", options, index=options.index(default_option))
 
@@ -58,5 +60,7 @@ elif selected_option == "Order analytics":
 
 elif selected_option == "Competitors analytics":
     st.title("Competitors Analytics Dashboard")
+    # get_competitors_brand_data()
+    competitor_analysis()
 
 

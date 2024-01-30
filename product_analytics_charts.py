@@ -160,6 +160,9 @@ def generate_pageviews_orders_ratio_chart(data_original, year):
     ax1.set_ylim(bottom=0)
     ax2.set_ylim(bottom=0)
 
+    ax1.legend(loc='upper left')
+    ax2.legend(loc='upper right')
+
     # Display the chart in your Streamlit app
     st.pyplot(plt)
 

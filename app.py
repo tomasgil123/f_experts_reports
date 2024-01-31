@@ -70,7 +70,9 @@ elif selected_option == "Order analytics":
 elif selected_option == "Competitors analytics":
     st.title("Competitors Analytics Dashboard")
     
-    df_brand_data = get_competitors_brand_data()
+    #df_brand_data = get_competitors_brand_data()
+    #df_brand_data.to_csv('competitors_data/brand_data.csv', index=False)
+    df_brand_data = pd.read_csv('competitors_data/brand_data.csv')
 
     df = pd.read_csv('competitors_data/products_20240130.csv')
     df_reviews = pd.read_csv('competitors_data/reviews.csv')

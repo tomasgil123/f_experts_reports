@@ -104,13 +104,30 @@ def get_competitors_total_reviews(data):
     # Customize the appearance of the chart if needed
     plt.xticks(rotation=45)  # Rotate the x-axis labels for better readability
 
+    plt.title('Total Reviews per Brand', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
     # Display the chart in your Streamlit app
     st.pyplot(fig)
 
 def get_competitors_average_rating(data):
-    average_rating = data.groupby('brand')['ratings'].mean()
-    average_rating = average_rating.round(1)
-    st.write(average_rating.reset_index())
+     average_rating = data.groupby('brand')['ratings'].mean()
+     average_rating = average_rating.round(1)
+    
+    # Create a figure and axis for the table
+     fig, ax = plt.subplots(figsize=(6, 2))  # Adjust the figsize as needed
+    
+    # Create a table from the DataFrame and add it to the axis
+     table = ax.table(cellText=average_rating.reset_index().values,
+                     colLabels=['Brand', 'Average Rating'],
+                     cellLoc='center',
+                     loc='center',
+                     colColours=['lightgray']*2)  # Customize the table appearance
+    
+    # Hide axis
+     ax.axis('off')
+    
+     plt.title("Average rating per brand", fontsize=12, loc='left', pad=0, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+     st.pyplot(fig)
 
 def get_competitors_reviews_by_month(df):
     # Convert timestamps to datetime
@@ -134,22 +151,28 @@ def get_competitors_reviews_by_month(df):
     monthly_reviews = filtered_df.resample('M', on='publish_at_values').size()
 
     # Create a bar chart
-    plt.figure(figsize=(10, 6))
+    plt.figure()
     plt.bar(monthly_reviews.index.strftime('%b %Y'), monthly_reviews)
     plt.xlabel('Month')
     plt.ylabel('Number of Reviews')
     plt.xticks(rotation=45)
+
+    plt.title("Reviews per month (last 12 months)", fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
     st.pyplot(plt)
 
 def get_competitors_most_common_words_in_reviews(data):
     selected_brand = st.selectbox('Select a Brand:', data['brand'].unique())
     reviews = data[data['brand'] == selected_brand]['titles'].str.cat(sep=' ')
-    wordcloud = WordCloud(width=600, height=300, background_color='white').generate(reviews)
-    plt.figure(figsize=(10, 5))
+    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(reviews)
+    plt.figure()
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
+
+    plt.title(f'Most Common Words in Reviews for {selected_brand}', fontsize=13, loc='left', pad=20, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
     # Display the word cloud
-    col1, col2, col3 = st.columns([0.1,0.8,0.1])
+    col1, col2, col3 = st.columns([0.05,0.9,0.05])
 
     with col2:
         st.pyplot(plt)
@@ -177,11 +200,13 @@ def get_competitors_most_common_words_title(df):
     word_counts_df = word_counts_df.sort_values(by='Count', ascending=False)
 
     # Create a bar chart with Matplotlib
-    plt.figure(figsize=(10, 6))
+    plt.figure()
     plt.bar(word_counts_df['Word'].head(15), word_counts_df['Count'].head(15))
     plt.xlabel('Word')
     plt.ylabel('Count')
     plt.xticks(rotation=45)
+
+    plt.title(f'Most Common Words in Product Titles for {selected_brand} in {selected_category}', fontsize=12, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
     
     # Display the bar chart using Streamlit
     st.pyplot(plt)
@@ -190,7 +215,7 @@ def get_competitors_most_common_words_title(df):
     wordcloud = WordCloud(width=600, height=300, background_color='white').generate_from_frequencies(word_counts)
 
     # Display the word cloud
-    col1, col2, col3 = st.columns([0.1,0.8,0.1])
+    col1, col2, col3 = st.columns([0.05,0.9,0.05])
 
     with col2:
         st.image(wordcloud.to_array())
@@ -208,10 +233,11 @@ def get_competitors_price_distribution_by_category(df):
         filtered_df = df[(df['brand'] == selected_brand) & (df['Product Category'] == selected_category)]
 
     # Create a histogram for the distribution of retail prices using Matplotlib
-    plt.figure(figsize=(8, 6))
+    plt.figure()
     plt.hist(filtered_df['Wholesale Price'], bins=20, color='skyblue', edgecolor='black')
     plt.xlabel('Wholesale Price')
     plt.ylabel('Frequency')
+    plt.title(f'Price Distribution for {selected_category} by {selected_brand}', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
     st.pyplot(plt)
 
 def get_competitors_minimum_order_data(data):
@@ -219,7 +245,7 @@ def get_competitors_minimum_order_data(data):
     # sort in asceding order by first order minimum amount
     data = data.sort_values(by='First Order Minimum Amount', ascending=True)
     # Create a bar chart using Matplotlib
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots()
 
     # Set x-axis labels to be the Brand Names
     brand_names = data['Brand Name']
@@ -242,6 +268,8 @@ def get_competitors_minimum_order_data(data):
     ax.set_xlabel('Brand Name')
     ax.set_ylabel('Amount')
 
+    plt.title('First Order and Reorder Minimum Amount per Brand', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
     st.pyplot(fig)
 
 def get_competitors_fulfillment_data(data):
@@ -249,7 +277,7 @@ def get_competitors_fulfillment_data(data):
     data = data.copy()
     data.sort_values(by='Upper Bound Lead Time Days', ascending=True, inplace=True)
     # Create a bar chart using Matplotlib
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots()
 
     # Set x-axis labels to be the Brand Names
     brand_names = data['Brand Name']
@@ -271,82 +299,8 @@ def get_competitors_fulfillment_data(data):
     # Set labels and title
     ax.set_xlabel('Brand Name')
     ax.set_ylabel('Lead Time Days')
-    ax.set_title('Upper and Lower Bound Lead Time Days per Brand')
+
+    plt.title('Fulfillment speed per Brand', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
 
     # Display the chart using Streamlit
     st.pyplot(fig)
-
-def competitor_analysis():
-
-    st.markdown("<p style='font-weight: bold;' class='body-text'>Major Competitors:</p>", unsafe_allow_html=True)
-    
-    text_brands = ["Sarta", "Roma Leathers (Top Shop)", "Sixtease Bags USA", "Threaded Pair"]
-    # Render a ul list with each text as an li element using st.markdown
-    st.markdown("<ul class='body-text'>", unsafe_allow_html=True)
-    for text in text_brands:
-        st.markdown(f"<li>{text}</li>", unsafe_allow_html=True)
-    st.markdown("</ul>", unsafe_allow_html=True)
-
-    st.markdown("<p style='font-weight: bold;' class='body-text'>Product Optimization Strategies:</p>", unsafe_allow_html=True)
-
-        # Texts
-    texts_opt_strategies = [
-        "Enhance Product Titles: Incorporate ‘Handcrafted’ into product names to emphasize craftsmanship.",
-        "Highlight Media Recognition: Showcase publications where Latico has been featured, enhancing brand credibility.",
-        "Leverage Awards: Use ‘award-winning’ in product descriptions to underline quality and distinction.",
-        "Seasonal Marketing Focus: Utilize holiday-themed keywords in collection names, email campaign subjects, and content to drive seasonal sales."
-    ]
-
-    # Render a ul list with each text as an li element using st.markdown
-    st.markdown("<ul class='body-text'>", unsafe_allow_html=True)
-    for text in texts_opt_strategies:
-        st.markdown(f"<li>{text}</li>", unsafe_allow_html=True)
-    st.markdown("</ul>", unsafe_allow_html=True)
-
-    st.markdown("<p style='font-weight: bold;' class='body-text'>Review Analysis:</p>", unsafe_allow_html=True)
-
-    text_reviews = ["General Trends: Most competitors have over 30 reviews.", 
-                    "Notable Exception: Threaded Pair stands out with over 450 reviews.", 
-                    "Rating Overview: All competitors maintain high ratings, averaging above 4.8 stars."]
-    
-     # Render a ul list with each text as an li element using st.markdown
-    st.markdown("<ul class='body-text'>", unsafe_allow_html=True)
-    for text in text_reviews:
-        st.markdown(f"<li>{text}</li>", unsafe_allow_html=True)
-    st.markdown("</ul>", unsafe_allow_html=True)
-
-    st.markdown("<p style='font-weight: bold;' class='body-text'>Brand Attributes:</p>", unsafe_allow_html=True)
-
-    text_brand_attributes = ["Key Differentiators: Eco-Friendly", "Women-Owned", "Exclusive to Faire (Not on Amazon)", "Handmade Products", "Charitable Contributions"]
-
-    # Render a ul list with each text as an li element using st.markdown
-    st.markdown("<ul class='body-text'>", unsafe_allow_html=True)
-    for text in text_brand_attributes:
-        st.markdown(f"<li>{text}</li>", unsafe_allow_html=True)
-    st.markdown("</ul>", unsafe_allow_html=True)
-
-    st.markdown("<p style='font-weight: bold;' class='body-text'>Key Market Insights:</p>", unsafe_allow_html=True)
-
-    text_market_insights = ["Pricing Strategy: Competitors generally offer products at a lower price point, likely making them more accessible to a wider audience.",
-                            "Suggestion: Consider revising Latico’s pricing strategy to be more competitive, particularly for entry-level products.",
-                            "Brand Minimums: Latico’s current minimum order value is significantly higher ($500) compared to competitors, who range between $100-$300.",
-                            "Recommendation: Lower the minimum order value to align more closely with market standards. This could enhance accessibility and appeal to a broader customer base.",
-                            "Customer Engagement: Proactively engage with customers to encourage more 5-star reviews, enhancing the brand’s reputation and trustworthiness."]
-    
-    # Render a ul list with each text as an li element using st.markdown
-    st.markdown("<ul class='body-text'>", unsafe_allow_html=True)
-    for text in text_market_insights:
-        st.markdown(f"<li>{text}</li>", unsafe_allow_html=True)
-    st.markdown("</ul>", unsafe_allow_html=True)
-
-    st.markdown("<p style='font-weight: bold;' class='body-text'>Action Plan:</p>", unsafe_allow_html=True)
-
-    text_action_plan = ["Revisit Pricing Strategy: Conduct a detailed analysis of product pricing compared to competitors. Consider adjustments to be more competitive while maintaining profit margins.",
-                        "Minimum Order Adjustment: Explore the feasibility of lowering the minimum order value. Analyze the potential impact on sales volume and customer acquisition.",
-                        "Enhance Customer Engagement: Develop a strategy for increasing customer reviews and feedback, possibly through post-purchase follow-ups or incentives for reviewing products."]
-    
-    # Render a ul list with each text as an li element using st.markdown
-    st.markdown("<ul class='body-text'>", unsafe_allow_html=True)
-    for text in text_action_plan:
-        st.markdown(f"<li>{text}</li>", unsafe_allow_html=True)
-    st.markdown("</ul>", unsafe_allow_html=True)

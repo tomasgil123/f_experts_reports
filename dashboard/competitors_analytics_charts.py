@@ -8,11 +8,16 @@ from collections import Counter
 from wordcloud import WordCloud
 from datetime import datetime, timedelta
 
-def get_competitors_brand_data():
+competitors = {
+    "tenzo_tea": ["b_94de8w6es5", "b_doloeypc", "b_8pbavjqbfx", "b_4fvfm8f5", "b_2wiwcytj"],
+    "latico_leathers":["b_arceup81f2", "b_6dyd8buw9c", "b_40j19ly1ct", "b_b2pjelg0sv", "b_aikxxfpecb"] 
+}
+
+def get_competitors_brand_data(selected_client):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
-    brand_ids =["b_arceup81f2", "b_6dyd8buw9c", "b_40j19ly1ct", "b_b2pjelg0sv", "b_aikxxfpecb"]
+    brand_ids = competitors[selected_client]
     # Initialize an empty list to store responses
     responses_brand_data = []
 
@@ -224,7 +229,7 @@ def get_competitors_most_common_words_title(df):
 def get_competitors_price_distribution_by_category(df):
     all_brands_option = "All Brands"
     selected_brand = st.selectbox("Select Brand", np.append(df['brand'].unique(), all_brands_option))
-    selected_category = st.selectbox("Select Category", df['Product Category'].unique(), index=df['Product Category'].unique().tolist().index("Crossbody Bags"))
+    selected_category = st.selectbox("Select Category", df['Product Category'].unique(), index=0)
 
         # Filter data based on user selections
     if selected_brand == all_brands_option:

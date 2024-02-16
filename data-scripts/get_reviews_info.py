@@ -42,7 +42,11 @@ def get_reviews_data_for_page(brand_token, page_number):
                     #     metrics_data[metric["label"]].append(metric["selected"])
                     
                      ratings.append(review["rating"])
-                     titles.append(review["title"])
+                     # if title exists
+                     if "title" in review:
+                        titles.append(review["title"])
+                     else:
+                        titles.append("")
                 break  # Successful request, exit the loop
             elif response.status_code == 429:
                 print(f"Rate limit exceeded. Retrying in 30 seconds (Retry {retry_count + 1}/{max_retries})")

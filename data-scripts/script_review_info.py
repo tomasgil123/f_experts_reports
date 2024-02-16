@@ -4,11 +4,11 @@ from datetime import datetime
 from get_reviews_info import (get_reviews_info)
 
 brands_list = [
-    {"id": "b_arceup81f2", "name": "Latico Leathers"}, 
-              {"id": "b_6dyd8buw9c", "name": "Sarta"}, 
-               {"id": "b_40j19ly1ct", "name": "Roma Leathers (Top Shop)"}, 
-               {"id": "b_b2pjelg0sv", "name": "Sixtease Bags USA"}, 
-               {"id": "b_aikxxfpecb", "name": "Threaded Pair"}
+    {"id": "b_94de8w6es5", "name": "Tenzo Tea"}, 
+               {"id": "b_doloeypc", "name": "Blume"}, 
+               {"id": "b_8pbavjqbfx", "name": "Matcha & CO"}, 
+                {"id": "b_4fvfm8f5", "name": "Dona"}, 
+               {"id": "b_2wiwcytj", "name": "The Tea Spot"}
                ]
 
 # Create an empty DataFrame to store the merged data

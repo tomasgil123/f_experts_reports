@@ -1,5 +1,4 @@
 import streamlit as st
-import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -7,92 +6,6 @@ import re
 from collections import Counter
 from wordcloud import WordCloud
 from datetime import datetime, timedelta
-
-competitors = {
-    "tenzo_tea": ["b_94de8w6es5", "b_doloeypc", "b_8pbavjqbfx", "b_4fvfm8f5", "b_2wiwcytj"],
-    "latico_leathers":["b_arceup81f2", "b_6dyd8buw9c", "b_40j19ly1ct", "b_b2pjelg0sv", "b_aikxxfpecb"] 
-}
-
-def get_competitors_brand_data(selected_client):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    }
-    brand_ids = competitors[selected_client]
-    # Initialize an empty list to store responses
-    responses_brand_data = []
-
-    # Iterate over each brand ID and make a request
-    for brand_id in brand_ids:
-        url = f"https://www.faire.com/api/v2/brand-view/{brand_id}"
-        response = requests.get(url, headers=headers)
-        
-        # Check if the request was successful (status code 200)
-        if response.status_code == 200:
-            responses_brand_data.append(response.json())
-        else:
-            print(f"Failed to fetch data for brand ID {brand_id}")
-    
-    # Define empty lists to store the extracted information
-    brand_names = []
-    average_ratings = []
-    number_of_reviews = []
-    minimum_order_amounts = []
-    first_order_minimum_amounts = []
-    reorder_minimum_amounts = []
-    sold_on_amazon = []
-    eco_friendly = []
-    hand_made = []
-    charitable = []
-    organic = []
-    women_owned = []
-    small_batch = []
-    upper_bound_lead_time_days = []
-    lower_bound_lead_time_days = []
-
-    # Iterate through the brand_list and extract the required information
-    for brand_data in responses_brand_data:
-        brand = brand_data["brand"]
-        brand_names.append(brand["name"])
-        
-        # Extract review info
-        average_ratings.append(brand["brand_reviews_summary"]["average_rating"])
-        number_of_reviews.append(brand["brand_reviews_summary"]["number_of_reviews"])
-        first_order_minimum_amounts.append(brand["first_order_minimum_amount"]["amount_cents"] / 100)  # Convert cents to dollars
-        
-        # Extract minimum order info
-        minimum_order_amounts.append(brand["minimum_order_amount"]["amount_cents"] / 100)  # Convert cents to dollars
-        reorder_minimum_amounts.append(brand["reorder_minimum_amount"]["amount_cents"] / 100)  # Convert cents to dollars
-        sold_on_amazon.append(brand["sold_on_amazon"])
-        eco_friendly.append(brand["eco_friendly"])
-        hand_made.append(brand["hand_made"])
-        charitable.append(brand["charitable"])
-        organic.append(brand["organic"])
-        women_owned.append(brand["women_owned"])
-        small_batch.append(brand["small_batch"])
-        upper_bound_lead_time_days.append(brand["upper_bound_lead_time_days"])
-        lower_bound_lead_time_days.append(brand["lower_bound_lead_time_days"])
-
-    # Create a DataFrame using the extracted information
-    data = {
-        "Brand Name": brand_names,
-        "Average Rating": average_ratings,
-        "Number of Reviews": number_of_reviews,
-        "First Order Minimum Amount": first_order_minimum_amounts,
-        "Minimum Order Amount": minimum_order_amounts,
-        "Reorder Minimum Amount": reorder_minimum_amounts,
-        "Sold on Amazon": sold_on_amazon,
-        "Eco-Friendly": eco_friendly,
-        "Hand-Made": hand_made,
-        "Charitable": charitable,
-        "Organic": organic,
-        "Woman Owned": women_owned,
-        "Small Batch": small_batch,
-        "Upper Bound Lead Time Days": upper_bound_lead_time_days,
-        "Lower Bound Lead Time Days": lower_bound_lead_time_days
-    }
-    
-    brand_df = pd.DataFrame(data)
-    return brand_df
 
 def get_competitors_total_reviews(data):
     brand_reviews = data.groupby('brand')['ratings'].count()
@@ -243,6 +156,7 @@ def get_competitors_price_distribution_by_category(df):
     plt.xlabel('Wholesale Price')
     plt.ylabel('Frequency')
     plt.title(f'Price Distribution for {selected_category} by {selected_brand}', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+    plt.xlim(left=0)  # Set the x-axis limit to start from 0
     st.pyplot(plt)
 
 def get_competitors_minimum_order_data(data):
@@ -308,4 +222,87 @@ def get_competitors_fulfillment_data(data):
     plt.title('Fulfillment speed per Brand', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
 
     # Display the chart using Streamlit
+    st.pyplot(fig)
+
+def get_number_collections_per_brand(df):
+    # Group by brand and count the number of collections
+    brand_counts = df['brand'].value_counts()
+    # Plotting
+    fig, ax = plt.subplots()
+    brand_counts.plot(kind='bar', ax=ax)
+    ax.set_xlabel('Brand')
+    ax.set_ylabel('Number of Collections')
+    ax.tick_params(axis='x', rotation=45)
+    plt.tight_layout()
+
+    plt.title('Number of collections per Brand', fontsize=14, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
+    # Display the plot using Streamlit
+    st.pyplot(fig)
+
+def get_median_maturity_collections_per_brand(df):
+    # Convert created_at to datetime format
+    df['created_at'] = pd.to_datetime(df['created_at'], unit='ms')
+
+    # Calculate time differences
+    current_date = datetime.now()
+    df['time_since_creation'] = (current_date - df['created_at']).dt.days
+
+    # Group by brand and calculate the mean time since creation
+    brand_time_since_creation = df.groupby('brand')['time_since_creation'].median().sort_values()
+
+    # Plotting
+    fig, ax = plt.subplots()
+    brand_time_since_creation.plot(kind='bar', ax=ax)
+    ax.set_xlabel('Brand')
+    ax.set_ylabel('Median Time Since Creation (days)')
+    ax.set_xticklabels(brand_time_since_creation.index, rotation=45, ha='right')
+    plt.tight_layout()
+
+    plt.title('Median Time Since Creation of Collections by Brand', fontsize=14, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
+    # Display the plot using Streamlit
+    st.pyplot(fig)
+def get_median_update_time_collections_per_brand(df):
+    # Convert updated_at to datetime format
+    df['updated_at'] = pd.to_datetime(df['updated_at'], unit='ms')
+
+    # Calculate time differences
+    current_date = datetime.now()
+    df['time_since_update'] = (current_date - df['updated_at']).dt.days
+
+    # Group by brand and calculate the mean time since update
+    brand_time_since_update = df.groupby('brand')['time_since_update'].median().sort_values()
+
+    # Plotting
+    fig, ax = plt.subplots()
+    brand_time_since_update.plot(kind='bar', ax=ax)
+    ax.set_xlabel('Brand')
+    ax.set_ylabel('Median Time Since Last Update (days)')
+    ax.set_xticklabels(brand_time_since_update.index, rotation=45, ha='right')
+    plt.tight_layout()
+
+    plt.title('Median Time Since Last Update of Collections by Brand', fontsize=14, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
+
+    # Display the plot using Streamlit
+    st.pyplot(fig)
+
+def get_median_items_per_collection_per_brand(df):
+
+    # Group by brand and calculate the median number of total_items
+    median_total_items = df.groupby('brand')['total_items'].median().sort_values()
+
+    # Plotting
+    fig, ax = plt.subplots()
+    median_total_items.plot(kind='bar', ax=ax)
+    ax.set_xlabel('Brand')
+    ax.set_ylabel('Median Total Items')
+    ax.set_xticklabels(median_total_items.index, rotation=45, ha='right')
+    plt.tight_layout()
+
+    plt.title('Median Number of Total Items per Collection by Brand', fontsize=14, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
+
+    # Display the plot using Streamlit
     st.pyplot(fig)

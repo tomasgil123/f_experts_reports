@@ -1,0 +1,25 @@
+import pandas as pd
+from datetime import datetime
+
+from cookie import (cookie_token)
+from get_competitors_brand_info import (get_competitors_brand_data)
+
+# we create a dataframe using the brands_competitors csv
+df_brands = pd.read_csv('brands_competitors.csv')
+
+# get array of values for column "brand_owner"
+brand_owners = df_brands['brand_owner'].unique()
+
+# for each brand owner we get brand data
+for brand_owner in brand_owners:
+    # we filter the dataframe to get the brands for each brand_owner
+    df_brands_filtered = df_brands[df_brands['brand_owner'] == brand_owner]
+    # we get the brands list
+    brands_list = df_brands_filtered.to_dict('records')
+    brand_ids = df_brands_filtered['id'].unique()
+
+    brands_data = get_competitors_brand_data(brand_ids)
+    df = pd.DataFrame(brands_data)
+    
+    # we create a csv file with the brand info
+    df.to_csv(f"brand_info_{brand_owner}.csv", index=False)

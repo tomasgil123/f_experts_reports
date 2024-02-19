@@ -149,15 +149,30 @@ def get_competitors_price_distribution_by_category(df):
         filtered_df = df[df['Product Category'] == selected_category]
     else:
         filtered_df = df[(df['brand'] == selected_brand) & (df['Product Category'] == selected_category)]
+    
+    # Calculate the median of wholesale prices and retail prices
+    median_wholesale_price = np.median(filtered_df['Wholesale Price'])
+    median_retail_price = np.median(filtered_df['Retail Price'])
 
-    # Create a histogram for the distribution of retail prices using Matplotlib
-    plt.figure()
-    plt.hist(filtered_df['Wholesale Price'], bins=20, color='skyblue', edgecolor='black')
-    plt.xlabel('Wholesale Price')
-    plt.ylabel('Frequency')
-    plt.title(f'Price Distribution for {selected_category} by {selected_brand}', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
-    plt.xlim(left=0)  # Set the x-axis limit to start from 0
-    st.pyplot(plt)
+    # Calculate the percentage difference between retail and wholesale prices
+    price_difference_percentage = ((median_retail_price - median_wholesale_price) / median_wholesale_price) * 100
+
+    # Create a figure and axis object using plt.subplots()
+    fig, ax = plt.subplots()
+
+    # Plot the histograms for wholesale and retail prices on the axis object
+    ax.hist(filtered_df['Wholesale Price'], bins=20, color='skyblue', edgecolor='black', alpha=0.7, label='Wholesale Price')
+    ax.hist(filtered_df['Retail Price'], bins=20, color='orange', edgecolor='black', alpha=0.7, label='Retail Price')
+    ax.set_xlabel('Price')
+    ax.set_ylabel('Frequency')
+    ax.legend()
+
+    ax.set_title(f'Price Distribution for {selected_category} by {selected_brand}', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+    ax.set_xlim(left=0)  # Set the x-axis limit to start from 0
+    st.pyplot(fig)
+
+     # Display the median difference between wholesale and retail prices as a percentage
+    st.write(f"The median difference between wholesale and retail prices is: {price_difference_percentage:.2f}%")
 
 def get_competitors_minimum_order_data(data):
     data = data.copy()

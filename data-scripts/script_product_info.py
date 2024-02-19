@@ -2,43 +2,36 @@ import os
 import pandas as pd
 from datetime import datetime
 
-from get_product_info import (get_product_categories, get_products_info)
+from get_product_info import (get_products_info)
 
 from cookie import (cookie_token)
 
-brands_list = [
-    {"id": "b_94de8w6es5", "name": "Tenzo Tea"}, 
-              {"id": "b_doloeypc", "name": "Blume"}, 
-               {"id": "b_8pbavjqbfx", "name": "Matcha & CO"}, 
-               {"id": "b_4fvfm8f5", "name": "Dona"}, 
-               {"id": "b_2wiwcytj", "name": "The Tea Spot"}]
+# we create a dataframe using the brands_competitors csv
+df_brands = pd.read_csv('brands_competitors.csv')
 
-# we loop over the different brands and get the products info
-for brand in brands_list:
-    products_info = get_products_info(brand_token=brand["id"], cookie=cookie_token)
+# get array of values for column "brand_owner"
+# brand_owners = df_brands['brand_owner'].unique()
+brand_owners = ["The Perfect Jeans"]
 
+# we iterate over the brand_owners
+for brand_owner in brand_owners:
+    # we filter the dataframe to get the brands for each brand_owner
+    df_brands_filtered = df_brands[df_brands['brand_owner'] == brand_owner]
+    # we get the brands list
+    brands_list = df_brands_filtered.to_dict('records')
+
+    # Create an empty DataFrame to store the merged data
+    merged_data = pd.DataFrame()
+
+    # we iterate over the brands list
+    for brand in brands_list:
+        print("brand", brand)
+        products_info = get_products_info(brand_token=brand["id"], cookie=cookie_token)
+        df = pd.DataFrame(products_info)
+        df['brand'] = brand["name"]
+        merged_data = pd.concat([merged_data, df], ignore_index=True)
+    
     # Get the current date in yyyy/mm/dd format
     current_date = datetime.now().strftime('%Y%m%d')
-
-    # Create the file name with the current date
-    file_name = f'{brand["name"]}_products_{current_date}.csv'
-
-    # Create a dataframe from the extracted information
-    df = pd.DataFrame(products_info)
-    df["brand"] = brand["name"]
-    df.to_csv(file_name, index=False)
-
-
-# we merged the csv generated
-csv_directory = './'
-csv_files = [file for file in os.listdir(csv_directory) if file.endswith('.csv')]
-merged_data = pd.DataFrame()
-
-for csv_file in csv_files:
-    file_path = os.path.join(csv_directory, csv_file)
-    df = pd.read_csv(file_path)
-    merged_data = pd.concat([merged_data, df], ignore_index=True)
-    # we create a new csv
-    # Get the current date in yyyy/mm/dd format
-    current_date = datetime.now().strftime('%Y%m%d')
-    merged_data.to_csv(f"products_{current_date}.csv", index=False)
+    # we create a csv file with the collections info
+    merged_data.to_csv(f"products_{brand_owner}_{current_date}.csv", index=False)

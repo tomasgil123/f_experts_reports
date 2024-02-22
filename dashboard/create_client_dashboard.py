@@ -127,7 +127,7 @@ def create_dashboard(selected_client, selected_report):
 
         get_competitors_most_common_words_in_reviews(df_reviews)
 
-        review_analysis = get_text_between_comments(markdown_text, "<!-- Review analysis -->", "<!")
+        review_analysis = get_text_between_comments(markdown_text, "<!-- Competitors: Review analysis -->", "<!")
         if review_analysis is not None:
             st.markdown(review_analysis, unsafe_allow_html=True)
 
@@ -137,7 +137,7 @@ def create_dashboard(selected_client, selected_report):
                     """)
         get_competitors_most_common_words_title(df)
         
-        product_optimization_strategies = get_text_between_comments(markdown_text, "<!-- Product optimization analysis -->", "<!")
+        product_optimization_strategies = get_text_between_comments(markdown_text, "<!-- Competitors: Product optimization analysis -->", "<!")
         if product_optimization_strategies is not None:
             st.markdown(product_optimization_strategies, unsafe_allow_html=True)
 
@@ -151,7 +151,7 @@ def create_dashboard(selected_client, selected_report):
 
         get_competitors_fulfillment_data(df_brand_data)
 
-        pricing_strategy = get_text_between_comments(markdown_text, "<!-- Competitor pricing, minimum order and fulfillment analysis -->", "<!")
+        pricing_strategy = get_text_between_comments(markdown_text, "<!-- Competitors: Competitor pricing, minimum order and fulfillment analysis -->", "<!")
         if pricing_strategy is not None:
             st.markdown(pricing_strategy, unsafe_allow_html=True)
 
@@ -170,7 +170,7 @@ def create_dashboard(selected_client, selected_report):
 
         get_median_items_per_collection_per_brand(df_brands_collections)
 
-        collections = get_text_between_comments(markdown_text, "<!-- Competitor collection analysis -->", "<!")
+        collections = get_text_between_comments(markdown_text, "<!-- Competitors: Competitor collection analysis -->", "<!")
         if collections is not None:
             st.markdown(collections, unsafe_allow_html=True)
 

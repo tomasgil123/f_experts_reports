@@ -1,5 +1,5 @@
 
-<!-- Review analysis -->
+<!-- Competitors: Review analysis -->
 #
 
 General Trends: Most competitors have over 30 reviews.
@@ -10,7 +10,7 @@ Rating Overview: All competitors maintain high ratings, averaging above 4.8 star
 
 #
 
-<!-- Product optimization analysis -->
+<!-- Competitors: Product optimization analysis -->
 
 # 
 
@@ -24,7 +24,7 @@ Seasonal Marketing Focus: Utilize holiday-themed keywords in collection names, e
 
 # 
 
-<!-- Competitor price analysis -->
+<!-- Competitors: Competitor price analysis -->
 
 ##### Pricing strategy:
 
@@ -34,7 +34,7 @@ Competitors generally offer products at a lower price point, likely making them 
 
 Consider revising Latico’s pricing strategy to be more competitive, particularly for entry-level products.
                     
-<!-- Competitor minimum order analysis -->
+<!-- Competitors: Competitor minimum order analysis -->
 
 # 
 

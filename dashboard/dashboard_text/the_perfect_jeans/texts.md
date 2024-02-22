@@ -1,5 +1,5 @@
 
-<!-- Review analysis -->
+<!-- Competitors: Review analysis -->
 #
 
 __General Trends:__ Most competitors have over 30 reviews.
@@ -12,7 +12,7 @@ __Noteworthy Point:__ Silver Jeans has only one review and was made on january, 
 
 #
 
-<!-- Product optimization analysis -->
+<!-- Competitors: Product optimization analysis -->
 
 # 
 
@@ -22,7 +22,7 @@ __Recommendation:__ Incorporate distinctive words into product titles to differe
 
 # 
 
-<!-- Competitor pricing, minimum order and fulfillment analysis -->
+<!-- Competitors: Competitor pricing, minimum order and fulfillment analysis -->
 
 __Pricing strategy:__ After analyzing pricing dynamics within the "jeans" category, it's evident that the majority of brands, except Silver Jeans, offer their products within the price range of \$10 to \$20. In contrast, Silver Jeans positions its products between \$30 and \$50. The recommended retail price adjustment averages a 120% increase, with the exception of Rodeo Clothing, which suggests a 400% increase.
 
@@ -34,7 +34,7 @@ __Recommendation:__ Aim for an order minimum below \$250 and ensure a fulfillmen
 
 #
 
-<!-- Competitor collection analysis -->
+<!-- Competitors: Competitor collection analysis -->
 
 # 
 

@@ -1,5 +1,5 @@
 
-<!-- Review analysis -->
+<!-- Competitors: Review analysis -->
 #
 
 __General Trends:__ Most competitors have over 70 reviews.
@@ -12,7 +12,7 @@ __Noteworthy Point:__ Most brands received the majority of reviews during the fi
 
 #
 
-<!-- Product optimization analysis -->
+<!-- Competitors: Product optimization analysis -->
 
 # 
 
@@ -22,7 +22,7 @@ __Recommendation:__ Incorporate distinctive words into product titles to differe
 
 # 
 
-<!-- Competitor pricing, minimum order and fulfillment analysis -->
+<!-- Competitors: Competitor pricing, minimum order and fulfillment analysis -->
 
 __Pricing strategy:__ The majority of products within the t-shirt categories are priced between \$10 and \$20, with recommended retail price adjustments consistently showing a 100% increase across most brands. Notably, Crazy Dog T-Shirts deviates from this trend by offering their t-shirts at a lower price range of \$4 to \$8.
 
@@ -34,13 +34,13 @@ __Recommendation:__ It is advisable to set an order minimum equal to or below \$
 
 #
 
-<!-- Competitor collection analysis -->
+<!-- Competitors: Competitor collection analysis -->
 
 # 
 
 __Collections:__ Recently, Crazy Dog T-Shirts and WEIV have launched new collections, suggesting a potential focus on seasonal offerings. These collections typically feature a broader range of products compared to other brands.
 
-__Collection updates:__ OppoSuits - US and WEIV are notably proactive in updating their collections on a regular basis.
+__Collection updates:__ Crazy Dog T-Shirts and WEIV are notably proactive in updating their collections on a regular basis.
 
 __Recommendation:__ Consider creating seasonal collections to make it easier for customers to find the products they are looking for.
 

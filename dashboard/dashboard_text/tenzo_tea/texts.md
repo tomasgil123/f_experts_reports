@@ -1,5 +1,5 @@
 
-<!-- Review analysis -->
+<!-- Competitors: Review analysis -->
 #
 
 __General Trends:__ Most competitors have over 30 reviews.
@@ -12,7 +12,7 @@ __Noteworthy Point:__ The upward trend in reviews for The Tea Spot suggests that
 
 #
 
-<!-- Product optimization analysis -->
+<!-- Competitors: Product optimization analysis -->
 
 # 
 
@@ -22,7 +22,7 @@ __Recommendation:__ Incorporate distinctive words into product titles to differe
 
 # 
 
-<!-- Competitor pricing, minimum order and fulfillment analysis -->
+<!-- Competitors: Competitor pricing, minimum order and fulfillment analysis -->
 
 __Pricing strategy:__ Upon examining the pricing dynamics within the "loose tea" and "tea bags" categories, it becomes evident that The Tea Spot and Dona present their offerings at more competitive price points compared to Tenzo. This observation may suggest that they cater to consumers seeking smaller quantities of tea products.
 
@@ -34,7 +34,7 @@ __Recommendation:__ A majority of competitors excel in providing lower minimum o
 
 #
 
-<!-- Competitor collection analysis -->
+<!-- Competitors: Competitor collection analysis -->
 
 # 
 

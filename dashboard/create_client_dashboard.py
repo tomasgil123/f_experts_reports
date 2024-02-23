@@ -2,17 +2,21 @@ import streamlit as st
 import pandas as pd
 import glob
 import os
+from datetime import datetime
 
 def list_files_in_directory(directory_path):
     with os.scandir(directory_path) as entries:
         for entry in entries:
             print(entry.name)
 
+def get_creation_time(file_path):
+    return os.path.getctime(file_path)
+
 from dashboard.product_analytics_charts import (generate_pageviews_orders_ratio_chart, 
-                    generate_page_views_chart_by_category,
-                    generate_page_views_chart_by_product, 
+                    generate_page_views_chart_by_category_last_12_months,
+                    generate_page_views_chart_by_product_last_12_months, 
                     generate_page_views_and_ratio_by_category_with_selector, 
-                    generate_page_views_orders_ratio_chart_by_category,
+                    generate_conversion_rate_chart_by_category,
                     generate_page_views_and_ratio_by_product_with_selector)
 
 from dashboard.order_analytics_charts import (lifetime_performance_metrics, sales_per_quarter, 
@@ -66,19 +70,39 @@ def create_dashboard(selected_client, selected_report):
         sales_by_month(data, 'click_based_total_order_value', 'Total Sales Click emails (12 months)')
 
     elif selected_report == "Product analytics":
-        data = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/product_analytics.csv")
+        data = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/page_views_info.csv")
 
-        data['Date'] = pd.to_datetime(data['Date'])
+        data['date'] = pd.to_datetime(data['date'])
 
-        st.title("Product Analytics Dashboard")
+        last_update_data = get_creation_time(f"./dashboard/dashboard_data/{selected_client}/page_views_info.csv")
+        # Convert timestamp to datetime object
+        dt_object = datetime.fromtimestamp(last_update_data)
 
-        generate_page_views_chart_by_category(data, 2023)
+        # Format datetime object as MM/dd/yyyy
+        formatted_date = dt_object.strftime("%m/%d/%Y")
+        st.markdown(f"Data was last updated at: {formatted_date}")
 
-        generate_page_views_chart_by_product(data, 2023)
+        st.markdown(f"# Product Analytics Dashboard")
 
-        generate_page_views_orders_ratio_chart_by_category(data, 2023)
+        generate_page_views_chart_by_category_last_12_months(data)
 
-        generate_pageviews_orders_ratio_chart(data, 2023)
+        page_views_by_category_analysis = get_text_between_comments(markdown_text, "<!-- Product: page views by category last 12 months -->", "<!")
+        if page_views_by_category_analysis is not None:
+            st.markdown(page_views_by_category_analysis, unsafe_allow_html=True)
+
+        generate_page_views_chart_by_product_last_12_months(data)
+
+        generate_conversion_rate_chart_by_category(data)
+
+        conversion_category_analysis = get_text_between_comments(markdown_text, "<!-- Product: conversion by category -->", "<!")
+        if conversion_category_analysis is not None:
+            st.markdown(conversion_category_analysis, unsafe_allow_html=True)
+
+        generate_pageviews_orders_ratio_chart(data, "Crossbody Bags")
+
+        conversion_product_analysis = get_text_between_comments(markdown_text, "<!-- Product: conversion by product -->", "<!")
+        if conversion_product_analysis is not None:
+            st.markdown(conversion_product_analysis, unsafe_allow_html=True)
 
         generate_page_views_and_ratio_by_category_with_selector(data)
 

@@ -1,110 +1,134 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
+from datetime import datetime, timedelta
 
-def generate_page_views_chart_by_category(data, year):
-    st.markdown("<h1 class='title-text'>Total Page Views by Product Type for year 2023</h1>", unsafe_allow_html=True)
-    # Group the data by the 'Type' column and calculate the sum of 'Page views'
-    category_views_2023 = data[data['Date'].dt.year == year].groupby('Type')['Page views'].sum().reset_index()
+def generate_page_views_chart_by_category_last_12_months(data):
 
-    # Sort the DataFrame by 'Page views' in descending order
-    category_views_2023 = category_views_2023.sort_values(by='Page views', ascending=False)
+    # Convert 'date' column to datetime format
+    data['date'] = pd.to_datetime(data['date'])
+
+    # Filter the data for the last 12 months
+    today = datetime.today()
+    last_12_months_start = today - timedelta(days=365)
+    last_12_months_data = data[(data['date'] >= last_12_months_start) & (data['date'] <= today)]
+
+    # Group the data by the 'category' column and calculate the sum of 'visit_count'
+    category_views_last_12_months = last_12_months_data.groupby('category')['visit_count'].sum().reset_index()
+
+    # Sort the DataFrame by 'visit_count' in descending order
+    category_views_last_12_months = category_views_last_12_months.sort_values(by='visit_count', ascending=False)
 
     # Create a bar chart using matplotlib
-    plt.figure(figsize=(10, 6))
-    plt.bar(category_views_2023['Type'], category_views_2023['Page views'])
+    plt.figure()
+    plt.bar(category_views_last_12_months['category'], category_views_last_12_months['visit_count'])
     plt.xlabel('Product Category')
-    plt.ylabel('Total Page Views')
+    plt.ylabel('Total Visit Count')
     plt.xticks(rotation=45, ha='right')
 
-    # Display the chart in your Streamlit app
+    plt.title("Total Page Views by Product Category (Last 12 Months)", fontsize=13, loc='left', pad=20, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
     st.pyplot(plt)
 
-    st.markdown("<p class='body-text'>Cross body bag and tote bag are by far the types that most page views generate. There are several categories that generate almost no views.</p>", unsafe_allow_html=True)
-    st.markdown("<p style='font-weight: bold;' class='body-text'>Opportunity</p>", unsafe_allow_html=True)
-    st.markdown("<p class='body-text'>Do SEO for type of products with few page views and low page views / ratio (or in other words high conversion). For example: 'wristlet'.</p>", unsafe_allow_html=True)
-
-
-def generate_page_views_chart_by_product(data_original, year):
-    st.markdown("<h1 class='title-text'>Total Page Views by Product for year 2023</h1>", unsafe_allow_html=True)
+def generate_page_views_chart_by_product_last_12_months(data_original):
 
     data = data_original.copy()
-    default_value = "Crossbody Bags"  # Replace with the name you want as the default
 
-    options = data['Type'].unique()
-    default_index = options.tolist().index(default_value)
+    # Convert 'date' column to datetime type if not already done
+    if not isinstance(data['date'], pd.DatetimeIndex):
+        data['date'] = pd.to_datetime(data['date'])
 
-    selected_type = st.selectbox(
-        "Select Product Type",
+    # Filter data for the last 12 months
+    end_date = datetime.now()
+    start_date = end_date - timedelta(days=365)
+    filtered_data = data[(data['date'] >= start_date) & (data['date'] <= end_date)]
+
+    options = filtered_data['category'].unique()
+    default_index = 0  # Assuming the first category is the default
+
+    selected_category = st.selectbox(
+        "Select Product Category",
         options,
         key="generate_page_views_chart_by_product",
         index=default_index
     )
-    # Group the data by the 'Type' column and calculate the sum of 'Page views'
-    product_views_2023 = data[(data['Date'].dt.year == year) & (data['Type'] == selected_type)].groupby('Product name')['Page views'].sum().reset_index()
-    
-    # Sort the DataFrame by 'Page views' in descending order
-    product_views_2023 = product_views_2023.sort_values(by='Page views', ascending=False)
-    filtered_products = product_views_2023.head(12)
+
+    # Filter data for the selected category
+    filtered_data = filtered_data[filtered_data['category'] == selected_category]
+
+    # Group the filtered data by 'name' column and calculate the sum of 'visit_count'
+    product_views_last_12_months = filtered_data.groupby('name')['visit_count'].sum().reset_index()
+
+    # Sort the DataFrame by 'visit_count' in descending order
+    product_views_last_12_months = product_views_last_12_months.sort_values(by='visit_count', ascending=False)
+
+    # Take top 12 products by visit count
+    top_products = product_views_last_12_months.head(12)
 
     # Create a bar chart using matplotlib
-    plt.figure(figsize=(10, 6))
-    plt.bar(filtered_products['Product name'], filtered_products['Page views'])
-    plt.xlabel('Product Category')
+    plt.figure()
+    plt.bar(top_products['name'], top_products['visit_count'])
+    plt.xlabel('Product Name')
     plt.ylabel('Total Page Views')
     plt.xticks(rotation=45, ha='right')
 
+    plt.title("Total Page Views by Product (Last 12 Months)", fontsize=13, loc='left', pad=20, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
     # Display the chart in your Streamlit app
     st.pyplot(plt)
 
-def generate_page_views_orders_ratio_chart_by_category(data_original, year):
-    st.markdown("<h1 class='title-text'>Page Views / Orders Ratio by Product Type (Descending Order, >= 500 Total Views)</h1>", unsafe_allow_html=True)
+def generate_conversion_rate_chart_by_category(data_original):
 
     data = data_original.copy()
-    # Calculate the total page views for each product
-    total_page_views = data[data['Date'].dt.year == year].groupby('Type')['Page views'].sum().reset_index()
+    # Calculate the date range for the last 12 months
+    end_date = datetime.now()
+    start_date = end_date - timedelta(days=365)
+    
+    # Filter data for the last 12 months
+    data = data[(data['date'] >= start_date) & (data['date'] <= end_date)]
 
-    # Filter products with at least 500 total page views
-    filtered_categories = total_page_views[total_page_views['Page views'] >= 500]['Type']
+    # Calculate total page views for each product category
+    category_views_orders = data.groupby('category').agg({'visit_count': 'sum', 'order_count': 'sum'}).reset_index()
+    category_views_orders = category_views_orders.rename(columns={'visit_count': 'Page views', 'order_count': 'Orders'})
 
-    # Filter the original data to keep only the selected categories
-    filtered_data = data[data['Type'].isin(filtered_categories)]
-
-    # Group the filtered data by the 'Type' column and calculate the sum of 'Page views' and 'Orders'
-    category_views_orders = filtered_data.groupby('Type')[['Page views', 'Orders']].sum().reset_index()
+    # Filter categories with at least 500 total page views
+    category_views_orders = category_views_orders[category_views_orders['Page views'] >= 500]
 
     # Calculate the ratio of Page views to Orders
-    category_views_orders['PageViews/Orders Ratio'] = category_views_orders['Page views'] / category_views_orders['Orders']
+    category_views_orders['Conversion'] = (category_views_orders['Orders'] / category_views_orders['Page views'])*100
 
     # Sort the DataFrame by the ratio in descending order
-    category_views_orders = category_views_orders.sort_values(by='PageViews/Orders Ratio', ascending=True)
+    category_views_orders = category_views_orders.sort_values(by='Conversion', ascending=False)
 
     # Create a bar chart using matplotlib
-    plt.figure(figsize=(10, 6))
-
-    plt.bar(category_views_orders['Type'], category_views_orders['PageViews/Orders Ratio'])
+    plt.figure()
+    plt.bar(category_views_orders['category'], category_views_orders['Conversion'])
     plt.xlabel('Product Category')
-    plt.ylabel('Page Views / Orders Ratio')
+    plt.ylabel('Conversion Rate')
     plt.xticks(rotation=45, ha='right')
+
+    # Add % symbol to y-axis tick labels
+    fmt = '%.0f%%'  # Format as percentage with no decimal places
+    plt.gca().yaxis.set_major_formatter(mtick.FuncFormatter(lambda x, _: fmt % x))
+
+
+    plt.title("Conversion Rate by Product Category (Descending Order, >= 500 Total Views)", fontsize=13, loc='left', pad=20, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
 
     # Display the chart in your Streamlit app
     st.pyplot(plt)
 
-    st.markdown("<p class='body-text'>Page views / orders ratio is different across type of products. The best converting type is 'Wristlet'. Every 8-9 page views an order is placed.</p>", unsafe_allow_html=True)
-    st.markdown("<p style='font-weight: bold;' class='body-text'>Opportunity</p>", unsafe_allow_html=True)
-    st.markdown("<p class='body-text'>'Wristlet' has low page views, but very good conversion rate. It might be worth to grab the best performing products in the category and improve product title, description, tags, etc in order to increment page views.</p>", unsafe_allow_html=True)
-
-
-def generate_pageviews_orders_ratio_chart(data_original, year):
-    st.markdown("<h1 class='title-text'>Page Views / Orders Ratio by Product (Descending Order, first 12 products with most views)</h1>", unsafe_allow_html=True)
-
+def generate_pageviews_orders_ratio_chart(data_original, default_category):
     data = data_original.copy()
-    data_year = data[data['Date'].dt.year == year]
+    # Calculate the date range for the last 12 months
+    end_date = datetime.now()
+    start_date = end_date - timedelta(days=365)
+    
+    # Filter data for the last 12 months
+    data = data[(data['date'] >= start_date) & (data['date'] <= end_date)]
 
-    default_value = "Crossbody Bags"  # Replace with the name you want as the default
-
-    options = data['Type'].unique()
-    default_index = options.tolist().index(default_value)
+    options = data['category'].unique()
+    default_index = list(options).index(default_category)
 
     selected_type = st.selectbox(
         "Select Product Type",
@@ -114,51 +138,58 @@ def generate_pageviews_orders_ratio_chart(data_original, year):
     )
 
     # Calculate the total page views for each product
-    total_page_views = data_year[data_year['Type'] == selected_type].groupby('Product name')['Page views'].sum().reset_index()
+    total_page_views = data[data['category'] == selected_type].groupby('name')['visit_count'].sum().reset_index()
 
     # Sort the products by Page views in descending order
-    total_page_views = total_page_views.sort_values(by='Page views', ascending=False)
+    total_page_views = total_page_views.sort_values(by='visit_count', ascending=False)
 
     # Keep only the top 12 products
-    filtered_products = total_page_views.head(12)['Product name']
+    filtered_products = total_page_views.head(12)['name']
 
     # Filter the original data to keep only the selected products
-    filtered_data = data_year[data_year['Product name'].isin(filtered_products) & (data_year['Type'] == selected_type)]
-    # Group by 'Product name' and aggregate the sum of 'Page views', 'Orders', and 'Units sold'
-    grouped_df = filtered_data.groupby('Product name').agg({
-        'Page views': 'sum',
-        'Orders': 'sum',
-        'Units sold': 'sum'
+    filtered_data = data[data['name'].isin(filtered_products) & (data['category'] == selected_type)]
+    # Group by 'name' and aggregate the sum of 'visit_count', 'order_count', and 'sales_count'
+    grouped_df = filtered_data.groupby('name').agg({
+        'visit_count': 'sum',
+        'order_count': 'sum',
+        'sales_count': 'sum'
     }).reset_index()
 
     # Calculate the ratio of Page views to Orders
-    grouped_df['PageViews/Orders Ratio'] = grouped_df['Page views'] / grouped_df['Orders']
+    grouped_df['Conversion rate'] =  (grouped_df['order_count']/grouped_df['visit_count'])*100
 
     # Sort the DataFrame by the ratio in descending order
-    grouped_df = grouped_df.sort_values(by='PageViews/Orders Ratio', ascending=True)
+    grouped_df = grouped_df.sort_values(by='Conversion rate', ascending=False)
 
-     # Create the Matplotlib chart
-    fig, ax1 = plt.subplots(figsize=(10, 6))
+    # Create the Matplotlib chart
+    fig, ax1 = plt.subplots()
 
-    # Plot 'Page views' on the primary y-axis
-    ax1.bar( grouped_df['Product name'], grouped_df['PageViews/Orders Ratio'], label='PageViews/Orders Ratio')
+    # Plot 'visit_count' on the primary y-axis
+    ax1.bar(grouped_df['name'], grouped_df['Conversion rate'], label='Conversion rate')
     ax1.set_xlabel('Product name')
-    ax1.set_ylabel('PageViews/Orders Ratio')
+    ax1.set_ylabel('Conversion rate')
     ax1.tick_params(axis='y')
     plt.xticks(rotation=45, ha='right')
 
-    # Create a secondary y-axis for 'PageViews/Orders Ratio'
+    # Format y-axis labels to display '%' symbol
+    fmt = '%.1f%%'  # Format as percentage with no decimal places
+    ax1.yaxis.set_major_formatter(mtick.FuncFormatter(lambda x, _: fmt % x))
+
+    # Create a secondary y-axis for 'Page views'
     ax2 = ax1.twinx()
-    ax2.plot(grouped_df['Product name'], grouped_df['Page views'], linestyle='--', marker='x', color='tab:orange', label='Page views')
+    ax2.plot(grouped_df['name'], grouped_df['visit_count'], linestyle='--', marker='x', color='tab:orange', label='Page views')
     ax2.set_ylabel('Page views')
     ax2.tick_params(axis='y')
 
     # Customize the chart
-    plt.title('Page Views and PageViews/Orders Ratio for Products')
+    plt.title("Page Views and Conversion Rate for Products", fontsize=13, loc='left', pad=20, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
 
     # Set the y-axis limits to start from 0
     ax1.set_ylim(bottom=0)
     ax2.set_ylim(bottom=0)
+
+    # Add grid to the y-axis
+    ax1.grid(axis='y')
 
     ax1.legend(loc='upper left')
     ax2.legend(loc='upper right')
@@ -166,107 +197,121 @@ def generate_pageviews_orders_ratio_chart(data_original, year):
     # Display the chart in your Streamlit app
     st.pyplot(plt)
 
-    mean = grouped_df['PageViews/Orders Ratio'].mean()
+    mean = grouped_df['Conversion rate'].mean()
     rounded_mean = round(mean, 2)
-    median = grouped_df['PageViews/Orders Ratio'].median()
+    median = grouped_df['Conversion rate'].median()
     rounded_median = round(median, 2)
-    st.markdown("<p class='body-text'>Mean: " + str(rounded_mean) + "</p>", unsafe_allow_html=True)
-    st.markdown("<p class='body-text'>Median: " + str(rounded_median) + "</p>", unsafe_allow_html=True)
 
-    st.markdown("<p class='body-text'>In this chart we can take a deeper look into each type and see how is every product performing. For example, for type 'Crossbody Bags' product  Harbor and Miller perform really well, meaning they need very few page views to generate an order.</p>", unsafe_allow_html=True)
-    st.markdown("<p style='font-weight: bold;' class='body-text'>Opportunity</p>", unsafe_allow_html=True)
-    st.markdown("<p class='body-text'>'Callie' is one of the products with most views, but it is the worst performer. It needs approximately 16 page views to generate an order while the median of the category is 8. Something you could test is updating the images displayed on the product and see if the conversion improves.</p>", unsafe_allow_html=True)
-
-
+    st.markdown(f"""
+    Mean: {rounded_mean} %<br>
+    Median: {rounded_median} %
+    """, unsafe_allow_html=True)
 
 def generate_page_views_and_ratio_by_category_with_selector(data_original):
-    st.markdown("<h1 class='title-text'>Page Views and Page Views / Orders Evolution by Product Type</h1>", unsafe_allow_html=True)
 
     data = data_original.copy()
 
-    # Create a selectbox for type selection with default value
-    selected_type = st.selectbox(
-        "Select Product Type",
-        data['Type'].unique(),
+    # Create a selectbox for category selection with default value
+    selected_category = st.selectbox(
+        "Select Category",
+        data['category'].unique(),
         key="generate_page_views_and_ratio_by_category_with_selector"
     )
 
-    # Filter the data based on selected types
-    filtered_data = data[data['Type'] == selected_type]
+    # Filter the data based on selected category
+    filtered_data = data[data['category'] == selected_category]
 
     # Create a line chart using matplotlib
-    fig, ax1 = plt.subplots(figsize=(10, 6))
+    fig, ax1 = plt.subplots()
 
-    for product_type, group in filtered_data.groupby('Type'):
-        group = group.groupby('Date').agg({'Page views': 'sum', 'Orders': 'sum'})
-        group['Page views / Orders'] = group.apply(lambda row: row['Page views'] / row['Orders'] if row['Orders'] > 0 else 0, axis=1)
-        group.index = pd.to_datetime(group.index)  # Convert 'Date' column to datetime index
-        ax1.plot(group.index, group['Page views'], label=f'{product_type} Page Views', marker='o')
+    for category, group in filtered_data.groupby('category'):
+        group = group.groupby('date').agg({'visit_count': 'sum', 'order_count': 'sum'})
+        group['Conversion'] = group.apply(lambda row:  (row['order_count'] / row['visit_count'])*100 if row['order_count'] > 0 else 0, axis=1)
+        ax1.plot(group.index, group['visit_count'], label=f'{category} Page Views', marker='o')
         
         # Add a secondary y-axis for Page views / Orders
         ax2 = ax1.twinx()
-        ax2.plot(group.index, group['Page views / Orders'], label=f'{product_type} Page Views / Orders', linestyle='--', marker='x', color='tab:orange')
+        ax2.plot(group.index, group['Conversion'], label=f'{category} Conversion Rate', linestyle='--', marker='x', color='tab:orange')
 
     ax1.set_xlabel('Date')
     ax1.set_ylabel('Page Views', color='tab:blue')
     ax1.legend(loc='upper left')
     
-    ax2.set_ylabel('Page Views / Orders', color='tab:orange')
+    ax2.set_ylabel('Conversion Rate', color='tab:orange')
     ax2.legend(loc='upper right')
 
     # Set the y-axis limits to start from 0
     ax1.set_ylim(bottom=0)
     ax2.set_ylim(bottom=0)
+
+    fmt = '%.0f%%'  # Format as percentage with no decimal places
+    ax2.yaxis.set_major_formatter(mtick.FuncFormatter(lambda x, _: fmt % x))
+
+    # Customize the chart
+    plt.title("Conversion Rate Evolution by Category", fontsize=13, loc='left', pad=20, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
     
+    # Add grid to the x-axis
+    ax1.grid(True, which='major', axis='both', linestyle='--')
+
     # Display the plot using Streamlit
     st.pyplot(fig)
-
+    
 def generate_page_views_and_ratio_by_product_with_selector(data_original):
-    st.markdown("<h1 class='title-text'>Page Views and Page Views / Orders Evolution by Product</h1>", unsafe_allow_html=True)
+    
+    # Create a copy of the original data
     data = data_original.copy()
-    # Find the default selected products with the most views in 2023
-    most_viewed_product = data.groupby('Product name')['Page views'].sum().idxmax()
+    
+    # Convert 'date' column to datetime
+    data['date'] = pd.to_datetime(data['date'])
+    
+    # Find the default selected product with the most visits in 2023
+    most_viewed_product = data.loc[data['date'].dt.year == 2023].groupby('name')['visit_count'].sum().idxmax()
 
-    options = data['Product name'].unique()
-    default_index = options.tolist().index(most_viewed_product)
-
-    # Create a selectbox for type selection with default value
+    # Create a selectbox for product selection with default value
     selected_product = st.selectbox(
         "Select Product",
-        options,
+        sorted(data['name'].unique()),
         key="generate_page_views_and_ratio_by_product_with_selector",
-        index=default_index
+        index=sorted(data['name'].unique()).index(most_viewed_product)
     )
 
-    # Filter data for selected products
-    filtered_data = data[data['Product name'] == selected_product]
+    # Filter data for selected product
+    filtered_data = data[data['name'] == selected_product]
 
-    monthly_data = filtered_data.resample('M', on='Date').agg({'Page views': 'sum', 'Orders': 'sum'})
-    monthly_data['Page views / Orders ratio'] = monthly_data.apply(lambda row: row['Page views'] / row['Orders'] if row['Orders'] > 0 else 0, axis=1)
+    # Resample data on a monthly basis
+    monthly_data = filtered_data.resample('M', on='date').agg({'visit_count': 'sum', 'order_count': 'sum'})
+    monthly_data['Conversion'] = monthly_data.apply(lambda row: (row['order_count'] / row['visit_count'])*100  if row['order_count'] > 0 else 0, axis=1)
     # Add a 'Date' column to the DataFrame
     monthly_data['Date'] = monthly_data.index
-    # we change date to format YYYY/MM
+    # Change date format to YYYY/MM
     monthly_data['Date'] = monthly_data['Date'].dt.strftime("%Y-%m")
 
     # Create the Matplotlib chart
-    fig, ax1 = plt.subplots(figsize=(10, 6))
+    fig, ax1 = plt.subplots()
 
     # Plot 'Page views' on the primary y-axis
-    ax1.plot( monthly_data['Date'].astype(str), monthly_data['Page views'], marker='o', label='Page Views')
+    ax1.plot(monthly_data['Date'], monthly_data['visit_count'], marker='o', label='Page Views')
     ax1.set_xlabel('Date')
     ax1.set_ylabel('Page views')
-    #ax1.tick_params(axis='y')
     plt.xticks(rotation=45, ha='right')
 
     # Create a secondary y-axis for 'PageViews/Orders Ratio'
     ax2 = ax1.twinx()
-    ax2.plot(monthly_data['Date'].astype(str), monthly_data['Page views / Orders ratio'], linestyle='--', marker='x', color='tab:orange', label='Page Views/Orders Ratio')
-    ax2.set_ylabel('Page Views/Orders Ratio')
-    #ax2.tick_params(axis='y')
+    ax2.plot(monthly_data['Date'], monthly_data['Conversion'], linestyle='--', marker='x', color='tab:orange', label='Conversion Rate')
+    ax2.set_ylabel('Conversion Rate')
 
     # Set the y-axis limits to start from 0
     ax1.set_ylim(bottom=0)
     ax2.set_ylim(bottom=0)
+
+    fmt = '%.0f%%'  # Format as percentage with no decimal places
+    ax2.yaxis.set_major_formatter(mtick.FuncFormatter(lambda x, _: fmt % x))
+
+    # Add grid to the x-axis
+    ax1.grid(True, which='major', axis='both', linestyle='--')
+
+     # Customize the chart
+    plt.title("Conversion Rate Evolution by Product", fontsize=13, loc='left', pad=20, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
 
     plt.legend()
     st.pyplot(plt)

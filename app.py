@@ -75,7 +75,7 @@ if st.session_state.get("is_admin", False):
     if any("marketing_campaign_info" in file for file in files):
         report_options.append("Email marketing analytics")
     
-    if any("product_analytics" in file for file in files):
+    if any("page_views_info" in file for file in files):
         report_options.append("Product analytics")
 
     if any("orders_from_api" in file for file in files):

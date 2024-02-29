@@ -118,7 +118,7 @@ def generate_conversion_rate_chart_by_category(data_original):
     # Display the chart in your Streamlit app
     st.pyplot(plt)
 
-def generate_pageviews_orders_ratio_chart(data_original, default_category):
+def generate_pageviews_orders_ratio_chart(data_original):
     data = data_original.copy()
     # Calculate the date range for the last 12 months
     end_date = datetime.now()
@@ -127,8 +127,13 @@ def generate_pageviews_orders_ratio_chart(data_original, default_category):
     # Filter data for the last 12 months
     data = data[(data['date'] >= start_date) & (data['date'] <= end_date)]
 
+
+    # We find category with most views in the last 12 months
+    category_views_last_12_months = data.groupby('category')['visit_count'].sum()
+    most_viewed_category = category_views_last_12_months.idxmax()
+
     options = data['category'].unique()
-    default_index = list(options).index(default_category)
+    default_index = list(options).index(most_viewed_category)
 
     selected_type = st.selectbox(
         "Select Product Type",

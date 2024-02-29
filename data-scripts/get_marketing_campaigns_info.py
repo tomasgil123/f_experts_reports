@@ -49,7 +49,7 @@ def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
                     types.append(campaign["type"])
                     states.append(campaign["state"])
                     # if state is DRAFT, campaign doesn't have a start_sending_at and also doesn't have stats_v3
-                    if campaign["state"] == "DRAFT":
+                    if campaign["state"] == "DRAFT" or campaign["state"] == "RUNNING":
                         start_sending_at.append(None)
                         recipient_count.append(None)
                         delivered_count.append(None)
@@ -85,7 +85,8 @@ def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
                 retry_count += 1
             else:
                 print(f"Request failed with status code {response.status_code}")
-                break  # Exit the loop on other errors
+                time.sleep(30)  # Wait for 30 seconds before retrying
+                retry_count += 1
         except Exception as e:
             print(f"An error occurred: {e}")
             break

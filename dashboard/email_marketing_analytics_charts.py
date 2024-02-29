@@ -25,12 +25,6 @@ def get_email_marketing_kpis_last_30_days(df):
         {"title": "Average placed order rate", "value": f"{weighted_average_open_based_orders:.2%}"},
     ]
 
-    st.markdown("""
-                # Email Marketing Analytics
-                ### Email performance review
-                Last 30 days:
-                """)
-
     st.markdown(f"""
 
                     <div class="row">
@@ -147,7 +141,8 @@ def sales_by_month(df, type_action, title):
     last_12_months = pd.period_range(start=start_date, end=end_date, freq='M')
 
     # Filter sales for the last 12 months
-    sales_by_last_12_months = sales_by_month[last_12_months]
+    #sales_by_last_12_months = sales_by_month[last_12_months]
+    sales_by_last_12_months = sales_by_month.reindex(last_12_months, fill_value=0)
 
     # Create a bar chart
     fig, ax = plt.subplots()

@@ -12,6 +12,16 @@ def list_files_in_directory(directory_path):
 def get_creation_time(file_path):
     return os.path.getctime(file_path)
 
+def get_last_update_time(file_path):
+    last_update_data = get_creation_time(file_path)
+        # Convert timestamp to datetime object
+    dt_object = datetime.fromtimestamp(last_update_data)
+
+    # Format datetime object as MM/dd/yyyy
+    formatted_date = dt_object.strftime("%m/%d/%Y")
+
+    st.markdown(f"Data was last updated at: {formatted_date}")
+
 from dashboard.product_analytics_charts import (generate_pageviews_orders_ratio_chart, 
                     generate_page_views_chart_by_category_last_12_months,
                     generate_page_views_chart_by_product_last_12_months, 
@@ -22,7 +32,7 @@ from dashboard.product_analytics_charts import (generate_pageviews_orders_ratio_
 from dashboard.order_analytics_charts import (lifetime_performance_metrics, sales_per_quarter, 
                                     sales_previous_year_vs_sales_year_before_that_one,
                                     orders_previous_year_vs_orders_year_before_that_one, sales_by_source,
-                                    new_merchants_by_source, sales_by_retailer)
+                                    new_merchants_by_source, sales_by_retailer, cumulative_distribution_of_retailers)
 
 from dashboard.competitors_analytics_charts import (
                                           get_competitors_total_reviews,
@@ -62,6 +72,14 @@ def create_dashboard(selected_client, selected_report):
     if selected_report == "Email marketing analytics":
         data = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/marketing_campaign_info.csv")
 
+        get_last_update_time(f"./dashboard/dashboard_data/{selected_client}/marketing_campaign_info.csv")
+
+        st.markdown("""
+                # Email Marketing Analytics
+                ### Email performance review
+                Last 30 days:
+                """)
+
         get_email_marketing_kpis_last_30_days(data)
 
         get_email_marketing_kpis_by_month(data)
@@ -74,15 +92,9 @@ def create_dashboard(selected_client, selected_report):
 
         data['date'] = pd.to_datetime(data['date'])
 
-        last_update_data = get_creation_time(f"./dashboard/dashboard_data/{selected_client}/page_views_info.csv")
-        # Convert timestamp to datetime object
-        dt_object = datetime.fromtimestamp(last_update_data)
+        get_last_update_time(f"./dashboard/dashboard_data/{selected_client}/page_views_info.csv")
 
-        # Format datetime object as MM/dd/yyyy
-        formatted_date = dt_object.strftime("%m/%d/%Y")
-        st.markdown(f"Data was last updated at: {formatted_date}")
-
-        st.markdown(f"# Product Analytics Dashboard")
+        st.markdown(f"# Product Analytics")
 
         generate_page_views_chart_by_category_last_12_months(data)
 
@@ -98,7 +110,7 @@ def create_dashboard(selected_client, selected_report):
         if conversion_category_analysis is not None:
             st.markdown(conversion_category_analysis, unsafe_allow_html=True)
 
-        generate_pageviews_orders_ratio_chart(data, "Crossbody Bags")
+        generate_pageviews_orders_ratio_chart(data)
 
         conversion_product_analysis = get_text_between_comments(markdown_text, "<!-- Product: conversion by product -->", "<!")
         if conversion_product_analysis is not None:
@@ -109,10 +121,13 @@ def create_dashboard(selected_client, selected_report):
         generate_page_views_and_ratio_by_product_with_selector(data)
 
     elif selected_report == "Order analytics":
+
+        get_last_update_time(f"./dashboard/dashboard_data/{selected_client}/orders_from_api.csv")
+
         st.markdown("""
-                    # Order Analytics Dashboard
+                    # Order Analytics
                     ### Total sales, average order value and orders
-                    Only orders with status 'Delivered' or 'Shipped' were considered.
+                    Only orders with status 'Delivered' or 'Shipped' and type 'New Order' were considered.
                     """)
         df = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/orders_from_api.csv")
         df['payout_total_values'] = df['payout_total_values']/100
@@ -135,7 +150,9 @@ def create_dashboard(selected_client, selected_report):
 
         new_merchants_by_source(df)
 
-        # sales_by_retailer(df)
+        cumulative_distribution_of_retailers(df)
+
+        sales_by_retailer(df)
 
     elif selected_report == "Competitors analytics":
         df_brand_data = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/brand_info.csv")

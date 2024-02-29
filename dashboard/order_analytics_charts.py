@@ -7,12 +7,6 @@ def lifetime_performance_metrics(df):
     
     df = df.copy()
 
-    # Convert 'brand_contacted_at_values' to datetime
-    df['brand_contacted_at_values'] = pd.to_datetime(df['brand_contacted_at_values'], unit='ms')
-
-    # Filter orders where creation_reasons is equal to NEW_ORDER
-    df = df[(df['creation_reasons'] == 'NEW_ORDER') & ((df['states'] == 'SHIPPED') | (df['states'] == 'DELIVERED'))]
-
     # Calculate the date range for the last 12 months and last 3 months
     current_date = datetime.now()
     last_12_months_start = current_date - timedelta(days=365)
@@ -106,18 +100,12 @@ def lifetime_performance_metrics(df):
 
 def sales_per_quarter(df):
     df = df.copy()
-    # Convert brand_contacted_at_values to datetime
-    df['brand_contacted_at_values'] = pd.to_datetime(df['brand_contacted_at_values'], unit='ms')
-
-    # Filter data
-    filtered_data = df[(df['creation_reasons'] == 'NEW_ORDER') & 
-                    (df['states'].isin(['SHIPPED', 'DELIVERED']))]
 
     # Extract quarter and year from brand_contacted_at_values
-    filtered_data['quarter_year'] = filtered_data['brand_contacted_at_values'].dt.to_period('Q')
+    df['quarter_year'] = df['brand_contacted_at_values'].dt.to_period('Q')
 
     # Group by quarter and sum the sales
-    sales_per_quarter = filtered_data.groupby('quarter_year')['payout_total_values'].sum()
+    sales_per_quarter = df.groupby('quarter_year')['payout_total_values'].sum()
 
    # Plotting
     fig, ax = plt.subplots()
@@ -145,16 +133,10 @@ def get_previous_months(current_month):
 
 def sales_previous_year_vs_sales_year_before_that_one(df):
     df = df.copy()
-    # Convert timestamp to datetime
-    df['brand_contacted_at_values'] = pd.to_datetime(df['brand_contacted_at_values'], unit='ms')
-
-    # Filter orders based on criteria
-    filtered_data = df[(df['creation_reasons'] == 'NEW_ORDER') & 
-                        (df['states'].isin(['SHIPPED', 'DELIVERED']))]
 
     # Group orders by month and calculate total sales
-    filtered_data['month'] = pd.to_datetime(filtered_data['brand_contacted_at_values']).dt.to_period('M')
-    sales_by_month = filtered_data.groupby('month')['payout_total_values'].sum()
+    df['month'] = pd.to_datetime(df['brand_contacted_at_values']).dt.to_period('M')
+    sales_by_month = df.groupby('month')['payout_total_values'].sum()
 
     # Get the last 12 months and 12 months prior to those months
     current_month = pd.Period(datetime.now(), 'M')
@@ -196,17 +178,11 @@ def sales_previous_year_vs_sales_year_before_that_one(df):
 
 def orders_previous_year_vs_orders_year_before_that_one(df):
     df = df.copy()
-    # Convert timestamp to datetime
-    df['brand_contacted_at_values'] = pd.to_datetime(df['brand_contacted_at_values'], unit='ms')
-
-    # Filter orders based on criteria
-    filtered_data = df[(df['creation_reasons'] == 'NEW_ORDER') & 
-                        (df['states'].isin(['SHIPPED', 'DELIVERED']))]
 
     # Group orders by month and calculate total sales
-    filtered_data['month'] = pd.to_datetime(filtered_data['brand_contacted_at_values']).dt.to_period('M')
+    df['month'] = pd.to_datetime(df['brand_contacted_at_values']).dt.to_period('M')
     # Group by month and count the number of orders
-    orders_by_month = filtered_data.groupby('month').size()
+    orders_by_month = df.groupby('month').size()
 
     # Get the last 12 months and 12 months prior to those months
     current_month = pd.Period(datetime.now(), 'M')
@@ -248,19 +224,13 @@ def orders_previous_year_vs_orders_year_before_that_one(df):
 
 def sales_by_source(df):
     df = df.copy()
-    # Convert timestamp to datetime
-    df['brand_contacted_at_values'] = pd.to_datetime(df['brand_contacted_at_values'], unit='ms')
 
     # Extract month from timestamp
     df['month'] = df['brand_contacted_at_values'].dt.to_period('M')
 
-    # Filter orders based on criteria
-    filtered_data = df[(df['creation_reasons'] == 'NEW_ORDER') & 
-                        (df['states'].isin(['SHIPPED', 'DELIVERED']))]
-
     # Filter data for the last 12 months
     last_12_months = datetime.now() - timedelta(days=365)
-    df_last_12_months = filtered_data[filtered_data['brand_contacted_at_values'] >= last_12_months]
+    df_last_12_months = df[df['brand_contacted_at_values'] >= last_12_months]
 
     # Aggregate sales data by source
     sales_by_source = df_last_12_months.groupby(['month', 'sources'])['payout_total_values'].sum().unstack()
@@ -287,8 +257,6 @@ def sales_by_source(df):
     st.pyplot(fig)
 
 def new_merchants_by_source(df):
-    # Convert timestamp to datetime
-    df['brand_contacted_at_values'] = pd.to_datetime(df['brand_contacted_at_values'], unit='ms')
 
     # Filter rows where either 'first_order_for_brand_values' or 'very_first_order_for_brand_values' is True
     new_merchants_df = df[(df['first_order_for_brand_values'] == True) | (df['very_first_order_for_brand_values'] == True)]
@@ -329,6 +297,39 @@ def new_merchants_by_source(df):
 
     plt.title('New Merchants by Month and Source', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
 
+
+    # Display chart in Streamlit
+    st.pyplot(fig)
+
+def sales_by_retailer(df):
+    # we make a copy of the dataframe 
+    df = df.copy()
+
+    # Calculate the date 12 months ago from today
+    last_12_months_date = datetime.now() - timedelta(days=365)
+
+    # Filter the DataFrame for the last 12 months
+    df_last_12_months = df[df['brand_contacted_at_values'] >= last_12_months_date]
+
+    # Group by retailer_tokens and sum the payout_total_values for each retailer
+    sales_by_retailer = df_last_12_months.groupby('retailer_tokens')['payout_total_values'].sum().sort_values(ascending=False)
+
+    # Calculate the total sales across all retailers
+    total_sales = sales_by_retailer.sum()
+
+    # Calculate the percentage of total sales for each retailer
+    sales_percentage = (sales_by_retailer / total_sales) * 100
+
+    # Creating the figure and axes
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # Plotting
+    sales_percentage.plot(kind='bar', color='skyblue', ax=ax)
+    ax.set_title('Percentage of Total Sales by Retailer (Last 12 Months)')
+    ax.set_xlabel('Retailer')
+    ax.set_ylabel('Percentage of Total Sales')
+    ax.tick_params(axis='x', rotation=45)  # Rotate x-labels for better readability
+    plt.tight_layout()
 
     # Display chart in Streamlit
     st.pyplot(fig)

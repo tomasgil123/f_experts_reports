@@ -22,7 +22,7 @@ from dashboard.product_analytics_charts import (generate_pageviews_orders_ratio_
 from dashboard.order_analytics_charts import (lifetime_performance_metrics, sales_per_quarter, 
                                     sales_previous_year_vs_sales_year_before_that_one,
                                     orders_previous_year_vs_orders_year_before_that_one, sales_by_source,
-                                    new_merchants_by_source)
+                                    new_merchants_by_source, sales_by_retailer)
 
 from dashboard.competitors_analytics_charts import (
                                           get_competitors_total_reviews,
@@ -117,6 +117,12 @@ def create_dashboard(selected_client, selected_report):
         df = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/orders_from_api.csv")
         df['payout_total_values'] = df['payout_total_values']/100
 
+        # Convert 'brand_contacted_at_values' to datetime
+        df['brand_contacted_at_values'] = pd.to_datetime(df['brand_contacted_at_values'], unit='ms')
+
+        # Filter orders where creation_reasons is equal to NEW_ORDER
+        df = df[(df['creation_reasons'] == 'NEW_ORDER') & ((df['states'] == 'SHIPPED') | (df['states'] == 'DELIVERED'))]
+
         lifetime_performance_metrics(df)
 
         sales_per_quarter(df)
@@ -128,6 +134,8 @@ def create_dashboard(selected_client, selected_report):
         sales_by_source(df)
 
         new_merchants_by_source(df)
+
+        # sales_by_retailer(df)
 
     elif selected_report == "Competitors analytics":
         df_brand_data = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/brand_info.csv")

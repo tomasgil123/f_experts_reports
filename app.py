@@ -4,6 +4,15 @@ import streamlit as st
 
 from dashboard.create_client_dashboard import create_dashboard
 
+def convert_string(string):
+    # Replace "_" with space
+    string = string.replace("_", " ")
+    
+    # Capitalize each word
+    string = string.title()
+    
+    return string
+
 with open("custom.css") as f:
     custom_css = f.read()
 
@@ -102,7 +111,7 @@ else:
     if any("marketing_campaign_info" in file for file in files):
         report_options.append("Email marketing analytics")
     
-    if any("product_analytics" in file for file in files):
+    if any("page_views_info" in file for file in files):
         report_options.append("Product analytics")
 
     if any("orders_from_api" in file for file in files):
@@ -112,6 +121,8 @@ else:
         report_options.append("Competitors analytics")
 
     default_report_option = report_options[0]
+
+    st.sidebar.title(convert_string(st.session_state['user_name']))
 
     report_option_selected = st.sidebar.radio("Select a report", options=report_options, index=report_options.index(default_report_option), key = 2)
 

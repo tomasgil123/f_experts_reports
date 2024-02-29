@@ -51,6 +51,8 @@ from dashboard.competitors_analytics_charts import (
 from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis_last_30_days, 
                                               get_email_marketing_kpis_by_month, sales_by_month)
 
+from dashboard.utils import (extract_date_from_filename)
+
 def read_md_file(filename):
     with open(filename, "r", encoding="utf-8") as file:
         return file.read()
@@ -70,9 +72,12 @@ def create_dashboard(selected_client, selected_report):
     markdown_text = read_md_file(f"./dashboard/dashboard_text/{selected_client}/texts.md")
     
     if selected_report == "Email marketing analytics":
-        data = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/marketing_campaign_info.csv")
 
-        get_last_update_time(f"./dashboard/dashboard_data/{selected_client}/marketing_campaign_info.csv")
+        product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/marketing_campaign_info_*.csv")
+
+        st.write(f"Data was last updated at: {extract_date_from_filename(product_file[0])}")
+
+        data = pd.read_csv(product_file[0])
 
         st.markdown("""
                 # Email Marketing Analytics
@@ -88,11 +93,14 @@ def create_dashboard(selected_client, selected_report):
         sales_by_month(data, 'click_based_total_order_value', 'Total Sales Click emails (12 months)')
 
     elif selected_report == "Product analytics":
-        data = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/page_views_info.csv")
+
+        product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/page_views_info_*.csv")
+
+        st.write(f"Data was last updated at: {extract_date_from_filename(product_file[0])}")
+
+        data = pd.read_csv(product_file[0])
 
         data['date'] = pd.to_datetime(data['date'])
-
-        get_last_update_time(f"./dashboard/dashboard_data/{selected_client}/page_views_info.csv")
 
         st.markdown(f"# Product Analytics")
 
@@ -122,14 +130,16 @@ def create_dashboard(selected_client, selected_report):
 
     elif selected_report == "Order analytics":
 
-        get_last_update_time(f"./dashboard/dashboard_data/{selected_client}/orders_from_api.csv")
+        product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
+
+        st.write(f"Data was last updated at: {extract_date_from_filename(product_file[0])}")
 
         st.markdown("""
                     # Order Analytics
                     ### Total sales, average order value and orders
                     Only orders with status 'Delivered' or 'Shipped' and type 'New Order' were considered.
                     """)
-        df = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/orders_from_api.csv")
+        df = pd.read_csv(product_file[0])
         df['payout_total_values'] = df['payout_total_values']/100
 
         # Convert 'brand_contacted_at_values' to datetime

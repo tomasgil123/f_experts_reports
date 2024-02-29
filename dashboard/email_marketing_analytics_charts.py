@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
 
 def get_email_marketing_kpis_last_30_days(df):
     # Convert start_sending_at to datetime
@@ -116,7 +117,12 @@ def get_email_marketing_kpis_by_month(df):
         axes[i].grid(axis='y')
         axes[i].tick_params(axis='x', rotation=45)
         axes[i].set_ylim(0, None)
+        # Add % symbol to y-axis tick labels
+        fmt = '%.2f%%'  # Format as percentage with no decimal places
+        axes[i].yaxis.set_major_formatter(mtick.FuncFormatter(lambda x, _: fmt % x))
+        
 
+    
     plt.tight_layout()
     
     st.pyplot(fig)

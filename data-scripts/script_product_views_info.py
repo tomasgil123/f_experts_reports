@@ -7,4 +7,12 @@ data = get_page_views_for_all_months_since_date(cookie=cookie_token, starting_da
 # we create a new dataframe
 df = pd.DataFrame(data)
 # we download it as a csv
-df.to_csv('page_views_info.csv', index=False)
+
+# get today date
+today = pd.to_datetime('today').date()
+# convert it to a string with format yyyy/mm/dd
+today = today.strftime('%Y-%m-%d')
+
+name_csv = f'page_views_info_{today}.csv'
+
+df.to_csv(name_csv, index=False)

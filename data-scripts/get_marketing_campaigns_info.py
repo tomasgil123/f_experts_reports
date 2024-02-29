@@ -6,8 +6,9 @@ def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
     
     endpoint = f"https://www.faire.com/api/crm/brands/{brand_token}/marketing-campaigns?calculateStats=true&page={page_number}&pageSize=20&type=ONE_TIME&sortOrder=DESC&sortBy=CREATED_AT"
 
+    default_user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'User-Agent': default_user_agent,
         'Cookie': cookie
     }
 
@@ -86,6 +87,11 @@ def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
             else:
                 print(f"Request failed with status code {response.status_code}")
                 time.sleep(30)  # Wait for 30 seconds before retrying
+                # we change headers to avoid being blocked
+                headers = {
+                    'User-Agent': "insomnia/8.6.1",
+                    'Cookie': cookie
+                }
                 retry_count += 1
         except Exception as e:
             print(f"An error occurred: {e}")

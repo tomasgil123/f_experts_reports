@@ -9,7 +9,7 @@ df_brands = pd.read_csv('brands_competitors.csv')
 
 # brand_owners = df_brands['brand_owner'].unique()
 # brand_owners = ["Latico Leathers"]
-brand_owners = ["Caravan"]
+brand_owners = ["Couleur Nature"]
 
 # we iterate over the brand_owners
 for brand_owner in brand_owners:

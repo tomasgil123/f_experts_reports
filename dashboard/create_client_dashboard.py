@@ -178,6 +178,7 @@ def create_dashboard(selected_client, selected_report):
                     #### Review analysis:
                     ###
                     """)
+        
         get_competitors_total_reviews(df_reviews)
 
         get_competitors_average_rating(df_reviews)

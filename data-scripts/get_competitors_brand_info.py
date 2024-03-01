@@ -1,10 +1,5 @@
 import requests
-import pandas as pd
-
-competitors = {
-    "tenzo_tea": ["b_94de8w6es5", "b_doloeypc", "b_8pbavjqbfx", "b_4fvfm8f5", "b_2wiwcytj"],
-    "latico_leathers":["b_arceup81f2", "b_6dyd8buw9c", "b_40j19ly1ct", "b_b2pjelg0sv", "b_aikxxfpecb"] 
-}
+import time
 
 def get_competitors_brand_data(brand_ids):
     headers = {
@@ -23,6 +18,7 @@ def get_competitors_brand_data(brand_ids):
             responses_brand_data.append(response.json())
         else:
             print(f"Failed to fetch data for brand ID {brand_id}")
+        time.sleep(15)
     
     # Define empty lists to store the extracted information
     brand_names = []

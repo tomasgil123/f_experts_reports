@@ -174,7 +174,7 @@ def create_dashboard(selected_client, selected_report):
         df_reviews = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/competitors_data/reviews.csv")
 
         st.markdown("""
-                    # Competitors analytics dashboard
+                    # Competitors analytics
                     #### Review analysis:
                     ###
                     """)

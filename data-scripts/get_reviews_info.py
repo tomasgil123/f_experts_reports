@@ -58,7 +58,7 @@ def get_reviews_data_for_page(brand_token, page_number):
         except Exception as e:
             print(f"An error occurred: {e}")
             break  # Exit the loop on other exceptions
-            
+    print("titles", titles)
     return tokens, publish_at_values, created_at_values, titles, ratings, page_count
 
 
@@ -84,6 +84,8 @@ def get_reviews_info(brand_token):
 
     if page_count > 1:
             for page in range(2, page_count + 1):
+                print(f"Fetching page {page}/{page_count}")
+                print("----------------")
                 tokens_page, publish_at_values_page, created_at_values_page, titles_page, ratings_page, page_count = get_reviews_data_for_page(brand_token, page)
                 tokens.extend(tokens_page)
                 publish_at_values.extend(publish_at_values_page)
@@ -91,6 +93,7 @@ def get_reviews_info(brand_token):
                 #metrics_data.extend(metrics_data_page)
                 titles.extend(titles_page)
                 ratings.extend(ratings_page)
+                time.sleep(10)  # Sleep for 30 second between requests
 
     data = {
         "tokens": tokens,

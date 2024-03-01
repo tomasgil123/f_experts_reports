@@ -1,5 +1,6 @@
 import pandas as pd
 from datetime import datetime
+import time
 
 from get_reviews_info import (get_reviews_info)
 
@@ -8,7 +9,7 @@ df_brands = pd.read_csv('brands_competitors.csv')
 
 # brand_owners = df_brands['brand_owner'].unique()
 # brand_owners = ["Latico Leathers"]
-brand_owners = ["Free Planet"]
+brand_owners = ["Caravan"]
 
 # we iterate over the brand_owners
 for brand_owner in brand_owners:
@@ -28,6 +29,7 @@ for brand_owner in brand_owners:
         df = pd.DataFrame(reviews_info)
         df['brand'] = brand["name"]
         merged_data = pd.concat([merged_data, df], ignore_index=True)
+        time.sleep(10)
 
     # create csv based on the merged data
     merged_data.to_csv('reviews.csv', index=False)

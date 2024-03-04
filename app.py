@@ -69,6 +69,22 @@ if not check_password():
 
 # Main Streamlit app starts here
     
+st.markdown(
+    """
+    <style>
+        [data-testid=stSidebar] [data-testid=stImage]{
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            margin-top: -75px;
+        }
+    </style>
+    """, unsafe_allow_html=True
+)
+st.sidebar.image('brand_caffeine_logo_black.png', caption='', width=150)
+
 if st.session_state.get("is_admin", False):
 
     client_options = [key for key in st.secrets["passwords"] if key != "admin"]

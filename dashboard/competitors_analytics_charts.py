@@ -30,7 +30,6 @@ def get_competitors_total_reviews(data):
 def get_competitors_average_rating(data):
      average_rating = data.groupby('brand')['ratings'].mean()
      average_rating = average_rating.round(1)
-    
     # Create a figure and axis for the table
      fig, ax = plt.subplots(figsize=(6, 2))  # Adjust the figsize as needed
     
@@ -48,6 +47,8 @@ def get_competitors_average_rating(data):
      st.pyplot(fig)
 
 def get_competitors_reviews_by_month(df):
+    # we create a copy of the dataframe
+    df = df.copy()
     # Convert timestamps to datetime
     df['publish_at_values'] = pd.to_datetime(df['publish_at_values'], unit='ms')
     df['created_at_values'] = pd.to_datetime(df['created_at_values'], unit='ms')
@@ -59,18 +60,17 @@ def get_competitors_reviews_by_month(df):
     # Filter data for the last 12 months
     df = df[(df['publish_at_values'] >= start_date) & (df['publish_at_values'] <= end_date)]
 
+    # Group data by brand and month
+    grouped_df = df.groupby([df['brand'], pd.Grouper(key='publish_at_values', freq='M')]).size().reset_index(name='count')
     # Sidebar: Brand selector
     selected_brand = st.selectbox("Select Brand", df['brand'].unique())
 
     # Filter data based on selected brand
-    filtered_df = df[df['brand'] == selected_brand]
-
-    # Group data by month and count the number of reviews
-    monthly_reviews = filtered_df.resample('M', on='publish_at_values').size()
+    filtered_df = grouped_df[grouped_df['brand'] == selected_brand]
 
     # Create a bar chart
     plt.figure()
-    plt.bar(monthly_reviews.index.strftime('%b %Y'), monthly_reviews)
+    plt.bar(filtered_df['publish_at_values'].dt.strftime('%b %Y'), filtered_df['count'])
     plt.xlabel('Month')
     plt.ylabel('Number of Reviews')
     plt.xticks(rotation=45)

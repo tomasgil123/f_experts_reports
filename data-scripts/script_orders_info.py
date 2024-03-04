@@ -2,7 +2,7 @@ import pandas as pd
 from get_orders_brand_info import (get_orders_info)
 from cookie import (cookie_token)
 
-brand_token = "b_bdz7u5jj94" 
+brand_token = "b_cmvrf26fxf" 
 
 orders_info = get_orders_info(brand_token, cookie=cookie_token)
 

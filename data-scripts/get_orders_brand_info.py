@@ -79,7 +79,7 @@ def get_orders_info_page(page_number, brand_token, cookie):
         except Exception as e:
             print(f"An error occurred: {e}")
             break
-    
+    print(f"Page {page_number} of {page_count} processed")
     return tokens, creation_reasons, sources, brand_contacted_at_values, first_order_for_brand_values, very_first_order_for_brand_values, retailer_tokens, payout_total_values, states, fulfillment_states, page_count
 
 def get_orders_info(brand_token, cookie):
@@ -98,6 +98,7 @@ def get_orders_info(brand_token, cookie):
     # we loop over the different pages and get the orders info
     page_number = 1
     tokens_page, creation_reasons_page, sources_page, brand_contacted_at_values_page, first_order_for_brand_values_page, very_first_order_for_brand_values_page, retailer_tokens_page, payout_total_values_page, states_page, fulfillment_states_page, page_count  =  get_orders_info_page(page_number, brand_token, cookie)
+    time.sleep(10)
     tokens.extend(tokens_page)
     creation_reasons.extend(creation_reasons_page)
     states.extend(states_page)
@@ -113,6 +114,7 @@ def get_orders_info(brand_token, cookie):
     if page_count > 1:
         for page_number in range(2, page_count + 1):
             tokens_page, creation_reasons_page, sources_page, brand_contacted_at_values_page, first_order_for_brand_values_page, very_first_order_for_brand_values_page, retailer_tokens_page, payout_total_values_page, states_page, fulfillment_states_page, _ =  get_orders_info_page(page_number, brand_token, cookie)
+            time.sleep(10)
             tokens.extend(tokens_page)
             creation_reasons.extend(creation_reasons_page)
             states.extend(states_page)

@@ -1,12 +1,11 @@
 import requests
 import time
-import json
 
 def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
     
     endpoint = f"https://www.faire.com/api/crm/brands/{brand_token}/marketing-campaigns?calculateStats=true&page={page_number}&pageSize=20&type=ONE_TIME&sortOrder=DESC&sortBy=CREATED_AT"
 
-    default_user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    default_user_agent = "insomnia/8.6.1"
     headers = {
         'User-Agent': default_user_agent,
         'Cookie': cookie
@@ -85,17 +84,21 @@ def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
                 time.sleep(30)  # Wait for 30 seconds before retrying
                 retry_count += 1
             else:
+                print(endpoint)
                 print(f"Request failed with status code {response.status_code}")
+                # we print the error message
+                print(response.json())
                 time.sleep(30)  # Wait for 30 seconds before retrying
                 # we change headers to avoid being blocked
                 headers = {
-                    'User-Agent': "insomnia/8.6.1",
+                    'User-Agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
                     'Cookie': cookie
                 }
                 retry_count += 1
         except Exception as e:
             print(f"An error occurred: {e}")
             break
+    print(f"Page {page_number} of {page_count} processed")
     return tokens, names, types, states, start_sending_at, recipient_count, delivered_count, view_count, click_count, open_based_orders_count, open_based_total_order_value, click_based_orders_count, click_based_total_order_value, page_count
 
 
@@ -118,6 +121,7 @@ def get_marketing_campaigns_info(brand_token, cookie):
 
     page_number = 1
     tokens_page, names_page, types_page, states_page, start_sending_at_page, recipient_count_page, delivered_count_page, view_count_page, click_count_page, open_based_orders_count_page, open_based_total_order_value_page, click_based_orders_count_page, click_based_total_order_value_page, page_count = get_marketing_campaigns_info_page(page_number, brand_token, cookie)
+    time.sleep(10)
     tokens.extend(tokens_page)
     names.extend(names_page)
     types.extend(types_page)
@@ -149,6 +153,7 @@ def get_marketing_campaigns_info(brand_token, cookie):
             open_based_total_order_value.extend(open_based_total_order_value_page)
             click_based_orders_count.extend(click_based_orders_count_page)
             click_based_total_order_value.extend(click_based_total_order_value_page)
+            time.sleep(10)
 
     data = {
         "tokens": tokens,

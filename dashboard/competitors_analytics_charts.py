@@ -96,17 +96,28 @@ def get_competitors_most_common_words_in_reviews(data):
         st.pyplot(plt)
     
 
+# A chat gpt le tengo que pasar un prompt => ese prompt lo tengo que poder editar
+# Esa prompt le tengo que agregar un dataframe 
+        
+# La funcion de chat gpt tiene que recibir un string (que van a ser los dataframes)
+
+
 def get_competitors_most_common_words_title(df):
+    all_brands_option = "All Brands"
     # Create a brand selector widget
-    selected_brand = st.selectbox("Select a Brand", df['brand'].unique())
+    selected_brand = st.selectbox("Select a Brand", np.append(df['brand'].unique(), all_brands_option))
     # Create a product category selector widget
     selected_category = st.selectbox("Select a Product Category", df['Product Category'].unique())
 
-    # Filter the data based on the selected brand and category
-    filtered_df = df[(df['brand'] == selected_brand) & (df['Product Category'] == selected_category)]
+    # Filter data based on user selections
+    if selected_brand == all_brands_option:
+        filtered_df = df[df['Product Category'] == selected_category]
+    else:
+        filtered_df = df[(df['brand'] == selected_brand) & (df['Product Category'] == selected_category)]
 
     # Tokenize and count words in product names
     product_names = filtered_df['Product Name'].str.lower()
+    st.dataframe(filtered_df)
     words = re.findall(r'\b\w+\b', ' '.join(product_names))
     word_counts = Counter(words)
 

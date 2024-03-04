@@ -104,6 +104,7 @@ def get_page_views_for_all_months_since_date(cookie, starting_date):
     for idx, (start_at, end_at) in enumerate(ranges, 1):
         print(f"Getting page views for month {idx}: start_at = {start_at}, end_at = {end_at}")
         product_tokens_month, names_month, categories_month, sales_count_month, order_count_month, visit_count_month, date_month = get_page_views_for_specific_period(start_at, end_at, cookie)
+        time.sleep(10)
         product_tokens.extend(product_tokens_month)
         names.extend(names_month)
         categories.extend(categories_month)

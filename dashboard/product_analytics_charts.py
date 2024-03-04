@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 from datetime import datetime, timedelta
 
-def generate_page_views_chart_by_category_last_12_months(data):
+def generate_page_views_chart_by_category_last_12_months(data, date_last_update):
 
     # Convert 'date' column to datetime format
     data['date'] = pd.to_datetime(data['date'])
 
     # Filter the data for the last 12 months
-    today = datetime.today()
+    today = date_last_update
     last_12_months_start = today - timedelta(days=365)
     last_12_months_data = data[(data['date'] >= last_12_months_start) & (data['date'] <= today)]
 
@@ -31,7 +31,7 @@ def generate_page_views_chart_by_category_last_12_months(data):
 
     st.pyplot(plt)
 
-def generate_page_views_chart_by_product_last_12_months(data_original):
+def generate_page_views_chart_by_product_last_12_months(data_original, date_last_update):
 
     data = data_original.copy()
 
@@ -40,7 +40,7 @@ def generate_page_views_chart_by_product_last_12_months(data_original):
         data['date'] = pd.to_datetime(data['date'])
 
     # Filter data for the last 12 months
-    end_date = datetime.now()
+    end_date = date_last_update
     start_date = end_date - timedelta(days=365)
     filtered_data = data[(data['date'] >= start_date) & (data['date'] <= end_date)]
 
@@ -78,11 +78,11 @@ def generate_page_views_chart_by_product_last_12_months(data_original):
     # Display the chart in your Streamlit app
     st.pyplot(plt)
 
-def generate_conversion_rate_chart_by_category(data_original):
+def generate_conversion_rate_chart_by_category(data_original, date_last_update):
 
     data = data_original.copy()
     # Calculate the date range for the last 12 months
-    end_date = datetime.now()
+    end_date = date_last_update
     start_date = end_date - timedelta(days=365)
     
     # Filter data for the last 12 months
@@ -118,10 +118,10 @@ def generate_conversion_rate_chart_by_category(data_original):
     # Display the chart in your Streamlit app
     st.pyplot(plt)
 
-def generate_pageviews_orders_ratio_chart(data_original):
+def generate_pageviews_orders_ratio_chart(data_original, date_last_update):
     data = data_original.copy()
     # Calculate the date range for the last 12 months
-    end_date = datetime.now()
+    end_date = date_last_update
     start_date = end_date - timedelta(days=365)
     
     # Filter data for the last 12 months

@@ -4,12 +4,12 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 
-def get_email_marketing_kpis_last_30_days(df):
+def get_email_marketing_kpis_last_30_days(df, date_last_update):
     # Convert start_sending_at to datetime
     df['start_sending_at'] = pd.to_datetime(df['start_sending_at'], unit='ms')
 
     # Filter rows with state "COMPLETED" and start_sending_at within the last 30 days
-    recent_completed_campaigns = df[(df['states'] == 'COMPLETED') & (df['start_sending_at'] >= datetime.now() - timedelta(days=30))]
+    recent_completed_campaigns = df[(df['states'] == 'COMPLETED') & (df['start_sending_at'] >= date_last_update - timedelta(days=30))]
 
     # Calculate the weighted averages
     weighted_average_view = (recent_completed_campaigns['view_count'] / recent_completed_campaigns['delivered_count']).mean()
@@ -127,7 +127,7 @@ def get_email_marketing_kpis_by_month(df):
     
     st.pyplot(fig)
 
-def sales_by_month(df, type_action, title):
+def sales_by_month(df, type_action, title, date_last_update):
     df = df.copy()
     # Filter rows with state "COMPLETED"
     completed_campaigns = df[df['states'] == 'COMPLETED']
@@ -142,7 +142,7 @@ def sales_by_month(df, type_action, title):
     sales_by_month = completed_campaigns.groupby('month')[type_action].sum()
 
     # Get the last 12 months
-    end_date = pd.to_datetime(datetime.now().date())
+    end_date = pd.to_datetime(date_last_update.date())
     start_date = end_date - pd.DateOffset(months=11)
     last_12_months = pd.period_range(start=start_date, end=end_date, freq='M')
 

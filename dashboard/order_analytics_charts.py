@@ -4,12 +4,11 @@ import matplotlib.ticker as mtick
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 
-def lifetime_performance_metrics(df):
-    
+def lifetime_performance_metrics(df, day_data_was_obtained):
     df = df.copy()
 
     # Calculate the date range for the last 12 months and last 3 months
-    current_date = datetime.now()
+    current_date = day_data_was_obtained
     last_12_months_start = current_date - timedelta(days=365)
     last_3_months_start = current_date - timedelta(days=90)
 
@@ -134,7 +133,7 @@ def get_previous_months(current_month):
     
     return previous_months
 
-def sales_previous_year_vs_sales_year_before_that_one(df):
+def sales_previous_year_vs_sales_year_before_that_one(df, day_data_was_obtained):
     df = df.copy()
 
     # Group orders by month and calculate total sales
@@ -142,7 +141,7 @@ def sales_previous_year_vs_sales_year_before_that_one(df):
     sales_by_month = df.groupby('month')['payout_total_values'].sum()
 
     # Get the last 12 months and 12 months prior to those months
-    current_month = pd.Period(datetime.now(), 'M')
+    current_month = pd.Period(day_data_was_obtained, 'M')
     last_12_months = get_previous_months(current_month)[::-1]
     current_month_12_months_ago = current_month - 12
     previous_12_months = get_previous_months(current_month_12_months_ago)[::-1]
@@ -180,7 +179,7 @@ def sales_previous_year_vs_sales_year_before_that_one(df):
 
     st.pyplot(fig)
 
-def orders_previous_year_vs_orders_year_before_that_one(df):
+def orders_previous_year_vs_orders_year_before_that_one(df, day_data_was_obtained):
     df = df.copy()
 
     # Group orders by month and calculate total sales
@@ -189,7 +188,7 @@ def orders_previous_year_vs_orders_year_before_that_one(df):
     orders_by_month = df.groupby('month').size()
 
     # Get the last 12 months and 12 months prior to those months
-    current_month = pd.Period(datetime.now(), 'M')
+    current_month = pd.Period(day_data_was_obtained, 'M')
     last_12_months = get_previous_months(current_month)[::-1]
     current_month_12_months_ago = current_month - 12
     previous_12_months = get_previous_months(current_month_12_months_ago)[::-1]
@@ -227,14 +226,14 @@ def orders_previous_year_vs_orders_year_before_that_one(df):
 
     st.pyplot(fig)
 
-def sales_by_source(df):
+def sales_by_source(df, day_data_was_obtained):
     df = df.copy()
 
     # Extract month from timestamp
     df['month'] = df['brand_contacted_at_values'].dt.to_period('M')
 
     # Filter data for the last 12 months
-    last_12_months = datetime.now() - timedelta(days=365)
+    last_12_months = day_data_was_obtained - timedelta(days=365)
     df_last_12_months = df[df['brand_contacted_at_values'] >= last_12_months]
 
     # Aggregate sales data by source
@@ -267,13 +266,13 @@ def sales_by_source(df):
     # Display chart in Streamlit
     st.pyplot(fig)
 
-def new_merchants_by_source(df):
+def new_merchants_by_source(df, day_data_was_obtained):
 
     # Filter rows where either 'first_order_for_brand_values' or 'very_first_order_for_brand_values' is True
     new_merchants_df = df[(df['first_order_for_brand_values'] == True) | (df['very_first_order_for_brand_values'] == True)]
 
     # Group by month and count the number of new merchants for each month in the last 12 months
-    current_date = pd.to_datetime('now')
+    current_date = day_data_was_obtained
     last_12_months = current_date - pd.DateOffset(months=12)
     new_merchants_by_month_and_source = new_merchants_df[new_merchants_df['brand_contacted_at_values'] >= last_12_months] \
                                 .groupby([pd.Grouper(key='brand_contacted_at_values', freq='M'), 'sources']) \
@@ -312,11 +311,11 @@ def new_merchants_by_source(df):
     # Display chart in Streamlit
     st.pyplot(fig)
 
-def cumulative_distribution_of_retailers(df):
+def cumulative_distribution_of_retailers(df, day_data_was_obtained):
     # we make a copy of the dataframe 
     df = df.copy()
     # Calculate the date 12 months ago from today
-    last_12_months_date = datetime.now() - timedelta(days=365)
+    last_12_months_date = day_data_was_obtained - timedelta(days=365)
 
         # Filter the DataFrame for the last 12 months
     df_last_12_months = df[df['brand_contacted_at_values'] >= last_12_months_date]
@@ -355,12 +354,12 @@ def cumulative_distribution_of_retailers(df):
     # Display chart in Streamlit
     st.pyplot(fig)
 
-def sales_by_retailer(df):
+def sales_by_retailer(df, day_data_was_obtained):
     # we make a copy of the dataframe 
     df = df.copy()
 
     # Calculate the date 12 months ago from today
-    last_12_months_date = datetime.now() - timedelta(days=365)
+    last_12_months_date = day_data_was_obtained - timedelta(days=365)
 
     # Filter the DataFrame for the last 12 months
     df_last_12_months = df[df['brand_contacted_at_values'] >= last_12_months_date]

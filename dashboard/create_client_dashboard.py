@@ -52,7 +52,10 @@ def create_dashboard(selected_client, selected_report):
 
         product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/marketing_campaign_info_*.csv")
 
-        st.write(f"Data was last updated at: {extract_date_from_filename(product_file[0])}")
+
+        date_last_update = extract_date_from_filename(product_file[0])
+
+        st.write(f"Data was last updated at: {date_last_update.date()}")
 
         data = pd.read_csv(product_file[0])
 
@@ -62,18 +65,20 @@ def create_dashboard(selected_client, selected_report):
                 Last 30 days:
                 """)
 
-        get_email_marketing_kpis_last_30_days(data)
+        get_email_marketing_kpis_last_30_days(data, date_last_update)
 
         get_email_marketing_kpis_by_month(data)
 
-        sales_by_month(data, 'open_based_total_order_value', 'Total Sales Open emails (12 months)')
-        sales_by_month(data, 'click_based_total_order_value', 'Total Sales Click emails (12 months)')
+        sales_by_month(data, 'open_based_total_order_value', 'Total Sales Open emails (12 months)', date_last_update)
+        sales_by_month(data, 'click_based_total_order_value', 'Total Sales Click emails (12 months)', date_last_update)
 
     elif selected_report == "Product analytics":
 
         product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/page_views_info_*.csv")
 
-        st.write(f"Data was last updated at: {extract_date_from_filename(product_file[0])}")
+        date_last_update = extract_date_from_filename(product_file[0])
+
+        st.write(f"Data was last updated at: {date_last_update.date()}")
 
         data = pd.read_csv(product_file[0])
 
@@ -81,21 +86,21 @@ def create_dashboard(selected_client, selected_report):
 
         st.markdown(f"# Product Analytics")
 
-        generate_page_views_chart_by_category_last_12_months(data)
+        generate_page_views_chart_by_category_last_12_months(data, date_last_update)
 
         page_views_by_category_analysis = get_text_between_comments(markdown_text, "<!-- Product: page views by category last 12 months -->", "<!")
         if page_views_by_category_analysis is not None:
             st.markdown(page_views_by_category_analysis, unsafe_allow_html=True)
 
-        generate_page_views_chart_by_product_last_12_months(data)
+        generate_page_views_chart_by_product_last_12_months(data, date_last_update)
 
-        generate_conversion_rate_chart_by_category(data)
+        generate_conversion_rate_chart_by_category(data, date_last_update)
 
         conversion_category_analysis = get_text_between_comments(markdown_text, "<!-- Product: conversion by category -->", "<!")
         if conversion_category_analysis is not None:
             st.markdown(conversion_category_analysis, unsafe_allow_html=True)
 
-        generate_pageviews_orders_ratio_chart(data)
+        generate_pageviews_orders_ratio_chart(data, date_last_update)
 
         conversion_product_analysis = get_text_between_comments(markdown_text, "<!-- Product: conversion by product -->", "<!")
         if conversion_product_analysis is not None:
@@ -109,7 +114,9 @@ def create_dashboard(selected_client, selected_report):
 
         product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
 
-        st.write(f"Data was last updated at: {extract_date_from_filename(product_file[0])}")
+        date_last_update = extract_date_from_filename(product_file[0])
+
+        st.write(f"Data was last updated at: {date_last_update.date()}")
 
         st.markdown("""
                     # Order Analytics
@@ -125,21 +132,21 @@ def create_dashboard(selected_client, selected_report):
         # Filter orders where creation_reasons is equal to NEW_ORDER
         df = df[(df['creation_reasons'] == 'NEW_ORDER') & ((df['states'] == 'SHIPPED') | (df['states'] == 'DELIVERED'))]
 
-        lifetime_performance_metrics(df)
+        lifetime_performance_metrics(df, date_last_update)
 
         sales_per_quarter(df)
 
-        sales_previous_year_vs_sales_year_before_that_one(df)
+        sales_previous_year_vs_sales_year_before_that_one(df, date_last_update)
 
-        orders_previous_year_vs_orders_year_before_that_one(df)
+        orders_previous_year_vs_orders_year_before_that_one(df, date_last_update)
 
-        sales_by_source(df)
+        sales_by_source(df, date_last_update)
 
-        new_merchants_by_source(df)
+        new_merchants_by_source(df, date_last_update)
 
-        cumulative_distribution_of_retailers(df)
+        cumulative_distribution_of_retailers(df, date_last_update)
 
-        sales_by_retailer(df)
+        sales_by_retailer(df, date_last_update)
 
     elif selected_report == "Competitors analytics":
         

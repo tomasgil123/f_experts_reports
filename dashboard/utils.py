@@ -34,7 +34,10 @@ def extract_date_from_filename(file_name):
     if match:
         # Extract the matched date string
         date_str = match.group(0)
+
+        # Convert the date string to a datetime object
+        date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         
-        return date_str
+        return date_obj
     else:
         return None

@@ -49,7 +49,7 @@ __Brand Minimums:__ Minimum order requirements vary significantly across brands,
 
 __Fulfillment time:__ Most brands typically fulfill orders within 4-7 days, although Driftless Studios stands out with a quicker turnaround of 1-3 days. Conversely, Bon Artis requires 8-10 days for order fulfillment.
 
-__Recommendation:__ To boost overall competitiveness, consider implementing a minimum order threshold of /$100-/$150 and streamlining fulfillment times. Retail markup appears to be in line with industry standards.
+__Recommendation:__ To boost overall competitiveness, consider implementing a minimum order threshold of \$100-\$150 and streamlining fulfillment times. Retail markup appears to be in line with industry standards.
 
 #
 

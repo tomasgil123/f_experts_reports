@@ -20,9 +20,12 @@ def generate_page_views_chart_by_category_last_12_months(data, date_last_update)
     # Sort the DataFrame by 'visit_count' in descending order
     category_views_last_12_months = category_views_last_12_months.sort_values(by='visit_count', ascending=False)
 
+    # Select only the top 15 categories
+    top_15_categories = category_views_last_12_months.head(15)
+
     # Create a bar chart using matplotlib
     plt.figure()
-    plt.bar(category_views_last_12_months['category'], category_views_last_12_months['visit_count'])
+    plt.bar(top_15_categories['category'], top_15_categories['visit_count'])
     plt.xlabel('Product Category')
     plt.ylabel('Total Visit Count')
     plt.xticks(rotation=45, ha='right')

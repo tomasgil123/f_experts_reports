@@ -56,6 +56,7 @@ def get_products_info_page(page_number, brand_token, cookie, filter_keys):
     product_states = []
     retail_prices = []
     wholesale_prices = []
+    wholesale_promo_prices = []
 
     retry_count = 0
     max_retries = 3
@@ -89,6 +90,10 @@ def get_products_info_page(page_number, brand_token, cookie, filter_keys):
                         wholesale_prices.append(0)
                     else:
                         wholesale_prices.append(product_tile["min_option_wholesale_price"]["amount_cents"] / 100)
+                    if "min_option_wholesale_promo_price" not in product_tile:
+                        wholesale_promo_prices.append(0)
+                    else:
+                        wholesale_promo_prices.append(product_tile["min_option_wholesale_promo_price"]["discount_bps"] / 100)
                 print("after product tiles")
                 break  # Successful request, exit the loop
             elif response.status_code == 429:
@@ -104,7 +109,7 @@ def get_products_info_page(page_number, brand_token, cookie, filter_keys):
             print(f"An error occurred: {e}")
             break  # Exit the loop on other exceptions
     print('end getting product info', product_names)
-    return product_names, is_new_list, product_tokens, product_states, retail_prices, wholesale_prices, page_count
+    return product_names, is_new_list, product_tokens, product_states, retail_prices, wholesale_prices, wholesale_promo_prices, page_count
 
 def get_products_info(brand_token, cookie):
     
@@ -120,12 +125,13 @@ def get_products_info(brand_token, cookie):
     product_states = []
     retail_prices = []
     wholesale_prices = []
+    wholesale_promo_prices = []
 
     # Loop through the product categories
     for category in product_categories:
         filter_keys = [category["key"]]
         page_number = 1
-        product_names_page, is_new_list_page, product_tokens_page, product_states_page, retail_prices_page, wholesale_prices_page, page_count = get_products_info_page(page_number, brand_token, cookie, filter_keys)
+        product_names_page, is_new_list_page, product_tokens_page, product_states_page, retail_prices_page, wholesale_prices_page, wholesale_promo_prices_page, page_count = get_products_info_page(page_number, brand_token, cookie, filter_keys)
         product_category.extend([category["display_name"] for i in range(len(product_names_page))])
         product_names.extend(product_names_page)
         is_new_list.extend(is_new_list_page)
@@ -133,13 +139,14 @@ def get_products_info(brand_token, cookie):
         product_states.extend(product_states_page)
         retail_prices.extend(retail_prices_page)
         wholesale_prices.extend(wholesale_prices_page)
+        wholesale_promo_prices.extend(wholesale_promo_prices_page)
         time.sleep(10)  # Sleep for 30 second between requests
 
         if page_count > 1:
             for page in range(2, page_count + 1):
                 print(f"Fetching page {page}/{page_count} for category {category['display_name']}")
                 print("---------")
-                product_names_page, is_new_list_page, product_tokens_page, product_states_page, retail_prices_page, wholesale_prices_page, _ = get_products_info_page(page, brand_token, cookie, filter_keys)
+                product_names_page, is_new_list_page, product_tokens_page, product_states_page, retail_prices_page, wholesale_prices_page, wholesale_promo_prices_page, _ = get_products_info_page(page, brand_token, cookie, filter_keys)
                 product_category.extend([category["display_name"] for i in range(len(product_names_page))])
                 print("after request")
                 product_names.extend(product_names_page)
@@ -148,6 +155,7 @@ def get_products_info(brand_token, cookie):
                 product_states.extend(product_states_page)
                 retail_prices.extend(retail_prices_page)
                 wholesale_prices.extend(wholesale_prices_page)
+                wholesale_promo_prices.extend(wholesale_promo_prices_page)
                 time.sleep(10)  # Sleep for 30 second between requests
 
     data = {
@@ -157,7 +165,8 @@ def get_products_info(brand_token, cookie):
         "Product Token": product_tokens,
         "Product State": product_states,
         "Retail Price": retail_prices,
-        "Wholesale Price": wholesale_prices
+        "Wholesale Price": wholesale_prices,
+        "Wholesale Promo Discount Percentage": wholesale_promo_prices
     }
 
     return data

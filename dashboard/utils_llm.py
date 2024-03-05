@@ -27,7 +27,7 @@ class OpenaiInsights():
                     'content': f"{delimiter}{data['string_data']}{delimiter}"},  
                 ]
                 response = self.client.chat.completions.create(
-                    model="gpt-3.5-turbo",
+                    model="gpt-4-0125-preview",
                     messages=messages,
                     temperature=0, 
                     max_tokens=1000, 

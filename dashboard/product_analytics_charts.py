@@ -91,9 +91,14 @@ def generate_conversion_rate_chart_by_category(data_original, date_last_update):
     # Calculate total page views for each product category
     category_views_orders = data.groupby('category').agg({'visit_count': 'sum', 'order_count': 'sum'}).reset_index()
     category_views_orders = category_views_orders.rename(columns={'visit_count': 'Page views', 'order_count': 'Orders'})
-
+    
     # Filter categories with at least 500 total page views
-    category_views_orders = category_views_orders[category_views_orders['Page views'] >= 500]
+    categories_with_500_views = category_views_orders[category_views_orders['Page views'] >= 500]
+
+    # Check if there are more than 5 categories
+    if len(categories_with_500_views) > 5:
+        # Filter categories with at least 500 total page views
+        category_views_orders = category_views_orders[category_views_orders['Page views'] >= 500]
 
     # Calculate the ratio of Page views to Orders
     category_views_orders['Conversion'] = (category_views_orders['Orders'] / category_views_orders['Page views'])*100

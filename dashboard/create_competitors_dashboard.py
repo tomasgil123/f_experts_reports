@@ -1,13 +1,15 @@
 import streamlit as st
 import pandas as pd
 import glob
+import numpy as np
 
 from dashboard.competitors_analytics_charts import (
                                           get_competitors_total_reviews,
                                           get_competitors_average_rating,
                                           get_competitors_reviews_by_month,
                                           get_competitors_most_common_words_in_reviews, 
-                                          get_competitors_most_common_words_title, 
+                                          get_competitors_most_common_words_title_data,
+                                          get_competitors_most_common_words_title_display, 
                                           get_competitors_price_distribution_by_category,
                                           get_competitors_minimum_order_data,
                                           get_competitors_fulfillment_data,
@@ -18,8 +20,7 @@ from dashboard.competitors_analytics_charts import (
 
 from dashboard.utils import (extract_date_from_filename, get_text_between_comments)
 
-# if st.session_state.get("is_admin", True):
-#         st.write("user IS admin")
+from dashboard.utils_llm import OpenaiInsights
 
 def create_competitors_dashboard(selected_client, markdown_text):  
 
@@ -27,7 +28,9 @@ def create_competitors_dashboard(selected_client, markdown_text):
 
     product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/competitors_data/products_*.csv")
 
-    st.write(f"Data was last updated at: {extract_date_from_filename(product_file[0])}")
+    date_last_update = extract_date_from_filename(product_file[0])
+
+    st.write(f"Data was last updated at: {date_last_update.date()}")
 
     df = pd.read_csv(product_file[0])
     df_reviews = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/competitors_data/reviews.csv")
@@ -54,7 +57,22 @@ def create_competitors_dashboard(selected_client, markdown_text):
                 #### Product analysis:
                 ###
                 """)
-    get_competitors_most_common_words_title(df)
+    
+    all_brands_option = "All Brands"
+    # Create a brand selector widget
+    selected_brand = st.selectbox("Select a Brand", np.append(df['brand'].unique(), all_brands_option))
+    # Create a product category selector widget
+    selected_category = st.selectbox("Select a Product Category", df['Product Category'].unique())
+
+    df_product_names = get_competitors_most_common_words_title_data(df, selected_brand, selected_category)
+
+    get_competitors_most_common_words_title_display(df_product_names, selected_brand, selected_category)
+
+    if st.session_state.get("is_admin", True): 
+        insights = OpenaiInsights() 
+        st.dataframe(df_product_names)
+        string_dataframe = df_product_names.to_string(index=False)
+        insights.display_llm_insight_helper({"string_data": string_dataframe, "section": "<!-- Competitors: Product titles analysis -->"})
     
     product_optimization_strategies = get_text_between_comments(markdown_text, "<!-- Competitors: Product optimization analysis -->", "<!")
     if product_optimization_strategies is not None:

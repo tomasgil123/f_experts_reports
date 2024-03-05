@@ -4,6 +4,11 @@ import streamlit as st
 
 from dashboard.create_client_dashboard import create_dashboard
 
+openai_api_key = st.secrets["openai_api_key"]
+
+if openai_api_key != "":
+    os.environ['OPENAI_API_KEY'] = openai_api_key
+
 def convert_string(string):
     # Replace "_" with space
     string = string.replace("_", " ")

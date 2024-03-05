@@ -138,23 +138,39 @@ def sales_previous_year_vs_sales_year_before_that_one(df, day_data_was_obtained)
 
     # Group orders by month and calculate total sales
     df['month'] = pd.to_datetime(df['brand_contacted_at_values']).dt.to_period('M')
-    sales_by_month = df.groupby('month')['payout_total_values'].sum()
 
+    sales_by_month = df.groupby(pd.Grouper(key='brand_contacted_at_values', freq='M'))['payout_total_values'].sum()
+    sales_by_month = sales_by_month.to_frame()
+    sales_by_month.reset_index(inplace=True)
+
+    sales_by_month['brand_contacted_at_values'] = sales_by_month['brand_contacted_at_values'].dt.strftime('%Y/%m')
+    sales_by_month = sales_by_month.rename(columns={'brand_contacted_at_values': 'month'})
     # Get the last 12 months and 12 months prior to those months
     current_month = pd.Period(day_data_was_obtained, 'M')
     last_12_months = get_previous_months(current_month)[::-1]
     current_month_12_months_ago = current_month - 12
     previous_12_months = get_previous_months(current_month_12_months_ago)[::-1]
 
-    sales_last_12_months = sales_by_month[last_12_months]
-    sales_last_12_months = sales_last_12_months.to_frame().reset_index()
+    all_months = last_12_months + previous_12_months
+    df_all_months = pd.DataFrame({'month': all_months})
+
+    # Merge the dataframes
+    sales_by_month = pd.merge(df_all_months, sales_by_month, on='month', how='left')
+    sales_by_month['payout_total_values'] = sales_by_month['payout_total_values'].fillna(0)
+    
+    sales_last_12_months = sales_by_month[sales_by_month['month'].isin(last_12_months)]
+    
+    # convert month to datetime
+    sales_last_12_months['month'] = pd.to_datetime(sales_last_12_months['month'])
     sales_last_12_months['month_name'] = sales_last_12_months['month'].dt.strftime('%B')
 
     # drop the month column
     sales_last_12_months = sales_last_12_months.drop(columns=['month'])
 
-    sales_previous_12_months = sales_by_month[previous_12_months]
-    sales_previous_12_months = sales_previous_12_months.to_frame().reset_index()
+    sales_previous_12_months = sales_by_month[sales_by_month['month'].isin(previous_12_months)]
+    # convert month to datatime
+    sales_previous_12_months['month'] = pd.to_datetime(sales_previous_12_months['month'])
+
     sales_previous_12_months['month_name'] = sales_previous_12_months['month'].dt.strftime('%B')
     # drop the month column
     sales_previous_12_months = sales_previous_12_months.drop(columns=['month'])
@@ -183,9 +199,12 @@ def orders_previous_year_vs_orders_year_before_that_one(df, day_data_was_obtaine
     df = df.copy()
 
     # Group orders by month and calculate total sales
-    df['month'] = pd.to_datetime(df['brand_contacted_at_values']).dt.to_period('M')
+    df['month'] = pd.to_datetime(df['brand_contacted_at_values']).dt.strftime('%Y/%m')
     # Group by month and count the number of orders
     orders_by_month = df.groupby('month').size()
+    orders_by_month = orders_by_month.to_frame()
+
+    orders_by_month = orders_by_month.rename(columns={0: 'number_orders'})
 
     # Get the last 12 months and 12 months prior to those months
     current_month = pd.Period(day_data_was_obtained, 'M')
@@ -193,15 +212,27 @@ def orders_previous_year_vs_orders_year_before_that_one(df, day_data_was_obtaine
     current_month_12_months_ago = current_month - 12
     previous_12_months = get_previous_months(current_month_12_months_ago)[::-1]
 
-    sales_last_12_months = orders_by_month[last_12_months]
-    sales_last_12_months = sales_last_12_months.to_frame().reset_index()
+    all_months = last_12_months + previous_12_months
+    df_all_months = pd.DataFrame({'month': all_months})
+
+    # we complete missing months on orders_by_month
+    orders_by_month = pd.merge(df_all_months, orders_by_month, on='month', how='left')
+    orders_by_month['number_orders'] = orders_by_month['number_orders'].fillna(0)
+
+
+    sales_last_12_months = orders_by_month[orders_by_month['month'].isin(last_12_months)]
+    # convert month to datatime
+    sales_last_12_months['month'] = pd.to_datetime(sales_last_12_months['month'])
+    
     sales_last_12_months['month_name'] = sales_last_12_months['month'].dt.strftime('%B')
 
     # drop the month column
     sales_last_12_months = sales_last_12_months.drop(columns=['month'])
 
-    sales_previous_12_months = orders_by_month[previous_12_months]
-    sales_previous_12_months = sales_previous_12_months.to_frame().reset_index()
+    sales_previous_12_months = orders_by_month[orders_by_month['month'].isin(previous_12_months)]
+    # convert month to datatime
+    sales_previous_12_months['month'] = pd.to_datetime(sales_previous_12_months['month'])
+
     sales_previous_12_months['month_name'] = sales_previous_12_months['month'].dt.strftime('%B')
     # drop the month column
     sales_previous_12_months = sales_previous_12_months.drop(columns=['month'])
@@ -211,8 +242,8 @@ def orders_previous_year_vs_orders_year_before_that_one(df, day_data_was_obtaine
 
     # Plot
     fig, ax = plt.subplots()
-    ax.plot(sales_versus["month_name"], sales_versus["0_last_12_months"], marker='o', label='12 month lookback')
-    ax.plot(sales_versus["month_name"], sales_versus["0_previous_12_months"], marker='o', label='13-24 month lookback')
+    ax.plot(sales_versus["month_name"], sales_versus["number_orders_last_12_months"], marker='o', label='12 month lookback')
+    ax.plot(sales_versus["month_name"], sales_versus["number_orders_previous_12_months"], marker='o', label='13-24 month lookback')
     ax.set_xlabel('Month')
     ax.set_ylabel('Sales')
     ax.tick_params(axis='x', rotation=45)

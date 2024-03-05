@@ -88,7 +88,7 @@ st.markdown(
     </style>
     """, unsafe_allow_html=True
 )
-st.sidebar.image('brand_caffeine_logo_black.png', caption='', width=150)
+st.sidebar.image('brand_caffeine_logo.png', caption='', width=150) 
 
 if st.session_state.get("is_admin", False):
 

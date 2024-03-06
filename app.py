@@ -93,10 +93,11 @@ st.sidebar.image('brand_caffeine_logo.png', caption='', width=150)
 if st.session_state.get("is_admin", False):
 
     client_options = [key for key in st.secrets["passwords"] if key != "admin"]
+    sorted_client_options = sorted(client_options)
 
-    default_client_option = client_options[0]
+    default_client_option = sorted_client_options[0]
 
-    client_option_selected = st.sidebar.radio("Select a client",  options=client_options, index=client_options.index(default_client_option), key=1)
+    client_option_selected = st.sidebar.radio("Select a client",  options=sorted_client_options, index=sorted_client_options.index(default_client_option), key=1)
 
     files = get_all_files_in_directory(f"./dashboard/dashboard_data/{client_option_selected}")
 

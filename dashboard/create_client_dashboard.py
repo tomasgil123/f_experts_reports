@@ -24,6 +24,7 @@ def get_last_update_time(file_path):
 
 from dashboard.product_analytics_charts import (generate_pageviews_orders_ratio_chart, 
                     generate_page_views_chart_by_category_last_12_months,
+                    generate_page_views_evolution_last_12_months_by_category,
                     generate_page_views_chart_by_product_last_12_months, 
                     generate_page_views_and_ratio_by_category_with_selector, 
                     generate_conversion_rate_chart_by_category,
@@ -32,7 +33,8 @@ from dashboard.product_analytics_charts import (generate_pageviews_orders_ratio_
 from dashboard.order_analytics_charts import (lifetime_performance_metrics, sales_per_quarter, 
                                     sales_previous_year_vs_sales_year_before_that_one,
                                     orders_previous_year_vs_orders_year_before_that_one, sales_by_source,
-                                    new_merchants_by_source, sales_by_retailer, cumulative_distribution_of_retailers)
+                                    new_merchants_by_source, sales_by_retailer, cumulative_distribution_of_retailers,
+                                    type_of_store_top_10_retailers)
 
 
 from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis_last_30_days, 
@@ -88,11 +90,13 @@ def create_dashboard(selected_client, selected_report):
 
         generate_page_views_chart_by_category_last_12_months(data, date_last_update)
 
+        generate_page_views_evolution_last_12_months_by_category(data)
+
         page_views_by_category_analysis = get_text_between_comments(markdown_text, "<!-- Product: page views by category last 12 months -->", "<!")
         if page_views_by_category_analysis is not None:
             st.markdown(page_views_by_category_analysis, unsafe_allow_html=True)
 
-        generate_page_views_chart_by_product_last_12_months(data, date_last_update)
+        # generate_page_views_chart_by_product_last_12_months(data, date_last_update)
 
         generate_conversion_rate_chart_by_category(data, date_last_update)
 
@@ -147,6 +151,8 @@ def create_dashboard(selected_client, selected_report):
         cumulative_distribution_of_retailers(df, date_last_update)
 
         sales_by_retailer(df, date_last_update)
+
+        # type_of_store_top_10_retailers(df, date_last_update)
 
     elif selected_report == "Competitors analytics":
         

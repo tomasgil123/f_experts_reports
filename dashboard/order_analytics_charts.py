@@ -395,8 +395,13 @@ def sales_by_retailer(df, day_data_was_obtained):
     # Filter the DataFrame for the last 12 months
     df_last_12_months = df[df['brand_contacted_at_values'] >= last_12_months_date]
 
+    # Determine the column to group by
+    group_by_column = 'retailer_tokens'
+    if 'retailer_names' in df.columns:
+        group_by_column = 'retailer_names'
+
     # Group by retailer_tokens and sum the payout_total_values for each retailer
-    sales_by_retailer = df_last_12_months.groupby('retailer_tokens')['payout_total_values'].sum().sort_values(ascending=False)
+    sales_by_retailer = df_last_12_months.groupby(group_by_column)['payout_total_values'].sum().sort_values(ascending=False)
 
     # Calculate the total sales across all retailers
     total_sales = sales_by_retailer.sum()
@@ -406,6 +411,8 @@ def sales_by_retailer(df, day_data_was_obtained):
 
     # Get the top 5% of retailers
     top_retailers = sales_percentage[sales_percentage >= sales_percentage.quantile(0.95)]
+
+    top_retailers.index = [label[:20] for label in top_retailers.index]
 
     # Creating the figure and axes
     fig, ax = plt.subplots()
@@ -425,3 +432,29 @@ def sales_by_retailer(df, day_data_was_obtained):
 
     st.pyplot(fig)
 
+def type_of_store_top_10_retailers(df, day_data_was_obtained):
+    df = df.copy()
+    if 'retailer_names' in df.columns:
+
+        # Calculate the date 12 months ago from today
+        last_12_months_date = day_data_was_obtained - timedelta(days=365)
+
+        # Filter the DataFrame for the last 12 months
+        df_last_12_months = df[df['brand_contacted_at_values'] >= last_12_months_date]
+
+        # Group by retailer_tokens and sum the payout_total_values for each retailer
+        sales_by_retailer = df_last_12_months.groupby('retailer_names')['payout_total_values'].sum().sort_values(ascending=False)
+
+        # Calculate the total sales across all retailers
+        total_sales = sales_by_retailer.sum()
+
+        # Calculate the percentage of total sales for each retailer
+        sales_percentage = (sales_by_retailer / total_sales) * 100
+
+        # Get the top 10% of the retailers
+        top_retailers = sales_percentage[sales_percentage >= sales_percentage.quantile(0.90)]
+
+        # we do a left join with the original dataframe to get the type of store
+        #top_retailers = pd.merge(top_retailers, df[['retailer_names', 'retailer_store_types']], on='retailer_names', how='left')
+
+        st.dataframe(top_retailers)

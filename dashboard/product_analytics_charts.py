@@ -34,6 +34,40 @@ def generate_page_views_chart_by_category_last_12_months(data, date_last_update)
 
     st.pyplot(plt)
 
+def generate_page_views_evolution_last_12_months_by_category(data):
+    # Convert 'date' column to datetime
+    data['date'] = pd.to_datetime(data['date'])
+
+    default_category = data['category'].unique()[0]
+    # Sidebar for category selection
+    selected_categories = st.multiselect("Select categories", data['category'].unique(), default_category)
+
+    # Filter data based on selected categories
+    filtered_data = data[data['category'].isin(selected_categories)]
+
+    # Group data by month and sum sales_count
+    grouped_data = filtered_data.groupby(['category', pd.Grouper(key='date', freq='M')]).sum().reset_index()
+
+    # Filter data for the last 12 months
+    last_12_months = grouped_data[grouped_data['date'] >= grouped_data['date'].max() - pd.DateOffset(months=11)]
+
+    # Plot the data
+    fig, ax = plt.subplots()
+    for category, category_data in last_12_months.groupby('category'):
+        ax.plot(category_data['date'].dt.strftime('%Y/%m'), category_data['visit_count'], marker='o', linestyle='-', label=category)
+
+    # Customize the plot
+    ax.set_title("Evolution of Page Views by Category (Last 12 Months)")
+    ax.set_xlabel("Date")
+    ax.set_ylabel("Page Views")
+    ax.grid(True)
+    ax.legend()
+    plt.xticks(rotation=45, ha='right')
+
+    # Display the plot
+    st.pyplot(fig)
+    
+
 def generate_page_views_chart_by_product_last_12_months(data_original, date_last_update):
 
     data = data_original.copy()
@@ -102,6 +136,9 @@ def generate_conversion_rate_chart_by_category(data_original, date_last_update):
     if len(categories_with_500_views) > 5:
         # Filter categories with at least 500 total page views
         category_views_orders = category_views_orders[category_views_orders['Page views'] >= 500]
+    else:
+        # we keep 10 categories with most views
+        category_views_orders = category_views_orders.sort_values(by='Page views', ascending=False).head(10)
 
     # Calculate the ratio of Page views to Orders
     category_views_orders['Conversion'] = (category_views_orders['Orders'] / category_views_orders['Page views'])*100

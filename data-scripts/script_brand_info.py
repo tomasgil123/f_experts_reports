@@ -9,7 +9,7 @@ df_brands = pd.read_csv('brands_competitors.csv')
 
 # get array of values for column "brand_owner"
 # brand_owners = df_brands['brand_owner'].unique()
-brand_owners = ["Boredwalk"]
+brand_owners = ["Born To Rally"]
 # for each brand owner we get brand data
 for brand_owner in brand_owners:
     # we filter the dataframe to get the brands for each brand_owner

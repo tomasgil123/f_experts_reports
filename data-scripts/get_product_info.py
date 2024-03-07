@@ -29,6 +29,12 @@ def get_product_categories(brand_token, cookie):
         product_categories = category_filter_section[0]["options"]
 
         return product_categories
+    elif response.status_code == 429:
+        print(f"Rate limit exceeded")
+                
+    else:
+        print(f"Request failed with status code {response.status_code}")
+        return []
 
         
 

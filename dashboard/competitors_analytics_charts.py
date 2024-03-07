@@ -140,18 +140,20 @@ def get_competitors_most_common_words_title_display(df, selected_brand, selected
     with col2:
         st.image(wordcloud.to_array())
 
-
-def get_competitors_price_distribution_by_category(df):
-    all_brands_option = "All Brands"
-    selected_brand = st.selectbox("Select Brand", np.append(df['brand'].unique(), all_brands_option))
-    selected_category = st.selectbox("Select Category", df['Product Category'].unique(), index=0)
-
-        # Filter data based on user selections
+def get_competitors_price_distribution_by_category_data(df,selected_brand, all_brands_option, selected_category):
+    # Filter data based on user selections
     if selected_brand == all_brands_option:
         filtered_df = df[df['Product Category'] == selected_category]
     else:
         filtered_df = df[(df['brand'] == selected_brand) & (df['Product Category'] == selected_category)]
+
+    columns_to_keep = ['brand', 'Product Category', 'Wholesale Price', 'Retail Price']
     
+    return filtered_df[columns_to_keep]
+
+
+def get_competitors_price_distribution_by_category_display(filtered_df, selected_category, selected_brand):
+
     # Calculate the median of wholesale prices and retail prices
     median_wholesale_price = np.median(filtered_df['Wholesale Price'])
     median_retail_price = np.median(filtered_df['Retail Price'])

@@ -16,7 +16,7 @@ class OpenaiInsights():
 
         system_message = st.text_area("System Message", value=prompt)
 
-        if st.button("Ask Chat GPT"):
+        if st.button("Ask Chat GPT", key=data['button_key']):
             try:
                 delimiter = "####"
                 

@@ -2,7 +2,7 @@ import pandas as pd
 from get_marketing_campaigns_info import (get_marketing_campaigns_info)
 from cookie import (cookie_token)
 
-brand_token = "b_c5ad8a80"
+brand_token = "b_vtmq6kd56j"
 
 marketing_campaign_info = get_marketing_campaigns_info(brand_token, cookie=cookie_token)
 

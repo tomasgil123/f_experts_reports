@@ -62,9 +62,14 @@ def get_page_views_for_specific_period(start_at, end_at, cookie):
 
                 # Loop through the product tiles
                 for product in data["product_sales_and_conversion_data"]:
-                    product_tokens.append(product["product"]["product_token"])
-                    names.append(product["product"]["name"])
-                    categories.append(product["product"]["category"])
+                    product_data = product["product"]
+                    product_tokens.append(product_data["product_token"])
+                    names.append(product_data["name"])
+                    # if category is not in product append none
+                    if "category" in product_data:
+                        categories.append(product_data["category"])
+                    else:
+                        categories.append(None)
                     sales_count.append(product["sales_count"])
                     order_count.append(product["order_count"])
                     visit_count.append(product["visit_count"])
@@ -78,13 +83,15 @@ def get_page_views_for_specific_period(start_at, end_at, cookie):
                 time.sleep(30)  # Wait for 30 seconds before retrying
                 retry_count += 1
             else:
+                print(response)
                 print(f"An error occurred:", response.status_code)
-                time.sleep(1)
+                time.sleep(10)
                 retry_count += 1
         except Exception as e:
             print(f"An error occurred: {e}")
             retry_count += 1
-
+            time.sleep(10)
+    
     return product_tokens, names, categories, sales_count, order_count, visit_count, date
 
 # we get page views starting for each month starting first day 2023 until today

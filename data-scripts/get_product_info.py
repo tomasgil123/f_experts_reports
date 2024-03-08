@@ -23,9 +23,9 @@ def get_product_categories(brand_token, cookie):
     if response.status_code == 200:
         # Parse the JSON response
         data = response.json()
-
+        
         category_filter_section = [obj for obj in data["filter_sections"] if obj["field_name"] == "TAXONOMY_TYPE"] 
-
+        
         product_categories = category_filter_section[0]["options"]
 
         return product_categories

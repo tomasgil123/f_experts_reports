@@ -34,7 +34,7 @@ from dashboard.order_analytics_charts import (lifetime_performance_metrics, sale
                                     sales_previous_year_vs_sales_year_before_that_one,
                                     orders_previous_year_vs_orders_year_before_that_one, sales_by_source,
                                     new_merchants_by_source, sales_by_retailer, cumulative_distribution_of_retailers,
-                                    type_of_store_top_10_retailers)
+                                    type_of_store_top_10_retailers, sales_distribution)
 
 
 from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis_last_30_days, 
@@ -152,7 +152,9 @@ def create_dashboard(selected_client, selected_report):
 
         sales_by_retailer(df, date_last_update)
 
-        # type_of_store_top_10_retailers(df, date_last_update)
+        #type_of_store_top_10_retailers(df, date_last_update)
+
+        #sales_distribution(df, date_last_update)
 
     elif selected_report == "Competitors analytics":
         

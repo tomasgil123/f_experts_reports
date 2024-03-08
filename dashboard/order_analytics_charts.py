@@ -425,10 +425,38 @@ def sales_by_retailer(df, day_data_was_obtained):
     ax.tick_params(axis='x', rotation=45)  # Rotate x-labels for better readability
 
     # Add % symbol to y-axis tick labels
-    fmt = '%.0f%%'  # Format as percentage with no decimal places
+    fmt = '%.1f%%'  # Format as percentage with no decimal places
     plt.gca().yaxis.set_major_formatter(mtick.FuncFormatter(lambda x, _: fmt % x))
 
     plt.tight_layout()
+
+    st.pyplot(fig)
+
+def sales_distribution(df, day_data_was_obtained):
+
+    # we make a copy of the dataframe 
+    df = df.copy()
+
+    # Calculate the date 12 months ago from today
+    last_12_months_date = day_data_was_obtained - timedelta(days=365)
+
+    # Filter the DataFrame for the last 12 months
+    df_last_12_months = df[df['brand_contacted_at_values'] >= last_12_months_date]
+
+    # Calculate total payout for each retailer
+    retailer_payout = df_last_12_months.groupby('retailer_tokens')['payout_total_values'].sum()
+
+    # Create figure and axis objects
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # Plot the distribution chart
+    # Plot the histogram
+    ax.hist(retailer_payout, bins=20, color='skyblue', edgecolor='black')
+    ax.set_title('Distribution of Money Spent by Retailer')
+    ax.set_xlabel('Total Payout')
+    ax.set_ylabel('Frequency')
+    plt.tight_layout()
+    ax.tick_params(axis='x', rotation=45)
 
     st.pyplot(fig)
 
@@ -455,6 +483,7 @@ def type_of_store_top_10_retailers(df, day_data_was_obtained):
         top_retailers = sales_percentage[sales_percentage >= sales_percentage.quantile(0.90)]
 
         # we do a left join with the original dataframe to get the type of store
-        #top_retailers = pd.merge(top_retailers, df[['retailer_names', 'retailer_store_types']], on='retailer_names', how='left')
-
+        top_retailers = pd.merge(top_retailers, df[['retailer_names', 'retailer_store_types']], on='retailer_names', how='left')
+        # we remove duplicates
+        top_retailers = top_retailers.drop_duplicates(subset=['retailer_names'])
         st.dataframe(top_retailers)

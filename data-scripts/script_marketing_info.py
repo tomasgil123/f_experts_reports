@@ -2,7 +2,9 @@ import pandas as pd
 from get_marketing_campaigns_info import (get_marketing_campaigns_info)
 from cookie import (cookie_token)
 
-brand_token = "b_vtmq6kd56j"
+brand_token = "b_9j68t72ipo"
+brand_name = "true_classic"
+
 
 marketing_campaign_info = get_marketing_campaigns_info(brand_token, cookie=cookie_token)
 
@@ -14,6 +16,6 @@ today = pd.to_datetime('today').date()
 # convert it to a string with format yyyy/mm/dd
 today = today.strftime('%Y-%m-%d')
 
-name_csv = f'marketing_campaign_info_{today}.csv'
+name_csv = f'../dashboard/dashboard_data/{brand_name}/marketing_campaign_info_{today}.csv'
 
 df.to_csv(name_csv, index=False)

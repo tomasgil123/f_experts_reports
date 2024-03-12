@@ -9,7 +9,7 @@ df_brands = pd.read_csv('brands_competitors.csv')
 
 # brand_owners = df_brands['brand_owner'].unique()
 # brand_owners = ["Latico Leathers"]
-brand_owners = ["Shinesty"]
+brand_owners = ["True Classic"]
 
 # we iterate over the brand_owners
 for brand_owner in brand_owners:
@@ -32,4 +32,4 @@ for brand_owner in brand_owners:
         time.sleep(10)
 
     # create csv based on the merged data
-    merged_data.to_csv('reviews.csv', index=False)
+    merged_data.to_csv(f"../dashboard/dashboard_data/{brand_owners[0].lower().replace(' ', '_')}/competitors_data/reviews.csv", index=False)

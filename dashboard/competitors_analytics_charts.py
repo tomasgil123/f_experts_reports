@@ -176,7 +176,40 @@ def get_competitors_price_distribution_by_category_display(filtered_df, selected
     st.pyplot(fig)
 
      # Display the median difference between wholesale and retail prices as a percentage
-    st.write(f"The median difference between wholesale and retail prices is: {price_difference_percentage:.2f}%")
+    #st.write(f"The median difference between wholesale and retail prices is: {price_difference_percentage:.2f}%")
+
+def get_competitors_price_table_data(df, selected_category):
+
+    filtered_df = df[df['Product Category'] == selected_category]
+    # Group by brand and calculate median wholesale and retail prices
+    grouped = filtered_df.groupby('brand').agg({'Wholesale Price': 'median', 'Retail Price': 'median'})
+
+    # we change column names to reflect they display the median value
+    grouped.rename(columns={'Wholesale Price': 'Median Wholesale Price', 'Retail Price': 'Median Retail Price'}, inplace=True)
+
+    # Calculate markup percentage
+    grouped['Markup Percentage'] = ((grouped['Median Retail Price'] - grouped['Median Wholesale Price']) / grouped['Median Wholesale Price']) * 100
+
+    # Reset index to have 'brand' as a regular column
+    grouped.reset_index(inplace=True)
+
+    return grouped
+
+def get_competitors_price_table_display(df, selected_category):
+    df['Markup Percentage'] = df['Markup Percentage'].map('{:.2f}%'.format)
+    # Create table plot
+    col_colors = ['lightgray'] * len(df.columns)
+    fig, ax = plt.subplots(figsize=(8, 2))
+    ax.axis('off')  # Turn off axis
+    ax.table(cellText=df.values.tolist(),
+            colLabels=df.columns,
+            cellLoc='center',
+            loc='center', 
+            colColours=col_colors
+            )
+    # Display the table plot
+    st.write(f"Summarized data for category {selected_category}:")
+    st.pyplot(fig)
 
 def get_competitors_minimum_order_data(data):
     data = data.copy()

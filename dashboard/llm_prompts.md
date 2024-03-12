@@ -5,7 +5,7 @@ The dataframe will be delimited with four hashtags: ####
 
 <!-- Competitors: Prices analysis -->
 
-You are going to receive a string representation of a python dataframe. It has four columns: "product category", "brand", "retail price" and "wholesale price". I want you to get insights about the retail price and wholesale price distribution and compare the results between brands. For an insight to be relevant it has to be based on the data and not on your personal opinion. Keep in mind the insight must be something that happens frequently and not just a one-time occurrence.
+You are going to receive a string representation of a python dataframe. It has four columns: "brand", "Median Wholesale Price", "Median Retail Price" and "Markup Percentage". I want you to compare the results between brands. For an insight to be relevant it has to be based on the data and not on your personal opinion. Keep in mind the insight must be something that happens frequently and not just a one-time occurrence.
 The dataframe will be delimited with four hashtags: ####
 
 <!-- end -->

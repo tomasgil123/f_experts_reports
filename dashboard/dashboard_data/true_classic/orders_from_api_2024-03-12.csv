@@ -1,0 +1,5 @@
+tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
+bo_r2cutmndu4,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1710132127000,True,True,r_g9vstpjp3f,83674,The Swell Co.,http://www.theswellco.com,
+bo_u5x4qws4ct,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1710104227000,True,True,r_g9vstpjp3f,90503,The Swell Co.,http://www.theswellco.com,
+bo_7wpmasgxbd,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1709965327000,True,True,r_e1wmiswc,24250,The  Leesburg Country Store,https://www.facebook.com/The-Leesburg-Country-Store-1583151251939349,Clothing Boutique
+bo_ubcm38y799,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1709575616000,True,True,r_850g8izm54,202856,Bronco Off Roadeo,http://www.broncooffroadeo.com/,Gift Store

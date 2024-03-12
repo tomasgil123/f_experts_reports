@@ -9,7 +9,7 @@ df_brands = pd.read_csv('brands_competitors.csv')
 
 # get array of values for column "brand_owner"
 # brand_owners = df_brands['brand_owner'].unique()
-brand_owners = ["Shinesty"]
+brand_owners = ["True Classic"]
 # for each brand owner we get brand data
 for brand_owner in brand_owners:
     # we filter the dataframe to get the brands for each brand_owner
@@ -22,4 +22,4 @@ for brand_owner in brand_owners:
     df = pd.DataFrame(brands_data)
     
     # we create a csv file with the brand info
-    df.to_csv(f"brand_info_{brand_owner}.csv", index=False)
+    df.to_csv(f"../dashboard/dashboard_data/{brand_owners[0].lower().replace(' ', '_')}/brand_info.csv", index=False)

@@ -12,6 +12,8 @@ from dashboard.competitors_analytics_charts import (
                                           get_competitors_most_common_words_title_display, 
                                           get_competitors_price_distribution_by_category_data,
                                           get_competitors_price_distribution_by_category_display,
+                                          get_competitors_price_table_data,
+                                          get_competitors_price_table_display,
                                           get_competitors_minimum_order_data,
                                           get_competitors_fulfillment_data,
                                           get_number_collections_per_brand,
@@ -93,9 +95,12 @@ def create_competitors_dashboard(selected_client, markdown_text):
     df_competitors_price_distribution = get_competitors_price_distribution_by_category_data(df, selected_brand, all_brands_option, selected_category)
     get_competitors_price_distribution_by_category_display(df_competitors_price_distribution,selected_category, selected_brand )
 
+    df_sum_data = get_competitors_price_table_data(df, selected_category)
+    get_competitors_price_table_display(df_sum_data, selected_category)
+
     if st.session_state.get("is_admin", True):
         st.dataframe(df_competitors_price_distribution)
-        string_dataframe = df_competitors_price_distribution.to_string(index=False)
+        string_dataframe = df_sum_data.to_string(index=False)
         insights.display_llm_insight_helper({"string_data": string_dataframe, "section": "<!-- Competitors: Prices analysis -->", "button_key": "df_competitors_price_distribution"})
 
     get_competitors_minimum_order_data(df_brand_data)

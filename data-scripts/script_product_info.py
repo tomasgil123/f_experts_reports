@@ -11,7 +11,7 @@ df_brands = pd.read_csv('brands_competitors.csv')
 
 # get array of values for column "brand_owner"
 # brand_owners = df_brands['brand_owner'].unique()
-brand_owners = ["Shinesty"]
+brand_owners = ["True Classic"]
 
 # we iterate over the brand_owners
 for brand_owner in brand_owners:
@@ -32,6 +32,7 @@ for brand_owner in brand_owners:
         merged_data = pd.concat([merged_data, df], ignore_index=True)
     
     # Get the current date in yyyy/mm/dd format
-    current_date = datetime.now().strftime('%Y%m%d')
+    current_date = datetime.now().strftime('%Y-%m-%d')
     # we create a csv file with the collections info
-    merged_data.to_csv(f"products_{brand_owner}_{current_date}.csv", index=False)
+    merged_data.to_csv(f"../dashboard/dashboard_data/{brand_owners[0].lower().replace(' ', '_')}/competitors_data/products_{current_date}.csv", index=False)
+    

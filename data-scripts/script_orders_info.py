@@ -2,8 +2,8 @@ import pandas as pd
 from get_orders_brand_info import (get_orders_info)
 from cookie import (cookie_token)
 
-brand_token = "b_9j68t72ipo"
-brand_name = "true_classic"
+brand_token = "b_arceup81f2"
+brand_name = "latico_leathers"
 
 orders, items_order = get_orders_info(brand_token, cookie=cookie_token)
 

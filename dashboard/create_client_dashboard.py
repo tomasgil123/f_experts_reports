@@ -25,6 +25,7 @@ def get_last_update_time(file_path):
 from dashboard.product_analytics_charts import (generate_pageviews_orders_ratio_chart, 
                     generate_page_views_chart_by_category_last_12_months,
                     generate_page_views_evolution_last_12_months_by_category,
+                    generates_sales_chart_by_category_last_12_months,
                     generate_page_views_chart_by_product_last_12_months, 
                     generate_page_views_and_ratio_by_category_with_selector, 
                     generate_conversion_rate_chart_by_category,
@@ -43,7 +44,7 @@ from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis
 from dashboard.utils import (extract_date_from_filename, read_md_file, get_text_between_comments)
 
 # Dashboard creation
-from dashboard.create_competitors_dashboard import (create_competitors_dashboard)
+from dashboard.create_competitors_dashboard import (create_competitors_dashboard, create_custom_competitors_dashboard)
 
 
 def create_dashboard(selected_client, selected_report):
@@ -97,6 +98,8 @@ def create_dashboard(selected_client, selected_report):
             st.markdown(page_views_by_category_analysis, unsafe_allow_html=True)
 
         # generate_page_views_chart_by_product_last_12_months(data, date_last_update)
+            
+        # generates_sales_chart_by_category_last_12_months(data, date_last_update)
 
         generate_conversion_rate_chart_by_category(data, date_last_update)
 
@@ -159,4 +162,8 @@ def create_dashboard(selected_client, selected_report):
     elif selected_report == "Competitors analytics":
         
         create_competitors_dashboard(selected_client, markdown_text)
+    
+    elif selected_report == "Custom Competitors analytics":
+        
+        create_custom_competitors_dashboard(selected_client, markdown_text)
         

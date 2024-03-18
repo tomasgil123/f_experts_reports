@@ -27,6 +27,31 @@ def get_competitors_total_reviews(data):
     # Display the chart in your Streamlit app
     st.pyplot(fig)
 
+def get_brands_total_reviews(data):
+    # Sort the DataFrame by the 'Number of Reviews' column in descending order
+    sorted_data = data.sort_values(by='Number of Reviews', ascending=False)
+
+    # Select only the first 12 rows
+    top_12_data = sorted_data.head(12)
+
+    # Extract brand names and number of reviews
+    brands = top_12_data['Brand Name']
+    reviews = top_12_data['Number of Reviews']
+
+    # Create a figure and axes object
+    fig, ax = plt.subplots()
+
+    # Plot the bar chart on the axes
+    ax.bar(brands, reviews)  # Use ax.bar instead of ax.barh
+    ax.set_xlabel('Brand Name')
+    ax.set_ylabel('Number of Reviews')
+    plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels for better readability
+
+    plt.title('Total Reviews per Brand', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+    
+    # Display the chart in your Streamlit app
+    st.pyplot(fig)
+
 def get_competitors_average_rating(data):
      average_rating = data.groupby('brand')['ratings'].mean()
      average_rating = average_rating.round(1)
@@ -45,6 +70,30 @@ def get_competitors_average_rating(data):
     
      plt.title("Average rating per brand", fontsize=12, loc='left', pad=0, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
      st.pyplot(fig)
+
+def get_brands_average_rating(data):
+    sorted_data = data.sort_values(by="Average Rating", ascending=False)
+
+    # Extract Brand Name and Average Rating columns
+    brand_names = sorted_data["Brand Name"]
+    average_ratings = sorted_data["Average Rating"]
+
+    # Create a table
+    fig, ax = plt.subplots(figsize=(6, 2))
+    ax.axis('off')  # Turn off axis for a cleaner table
+
+    # Create the table
+    table_data = []
+    for brand, rating in zip(brand_names, average_ratings):
+        table_data.append([brand, rating])
+    # Create a table from the DataFrame and add it to the axis
+    table = ax.table(cellText=table_data,
+                    colLabels=['Brand', 'Average Rating'],
+                    cellLoc='center',
+                    loc='center',
+                    colColours=['lightgray']*2)  # Customize the table appearance
+
+    st.pyplot(fig)
 
 def get_competitors_reviews_by_month(df):
     # we create a copy of the dataframe
@@ -154,13 +203,6 @@ def get_competitors_price_distribution_by_category_data(df,selected_brand, all_b
 
 def get_competitors_price_distribution_by_category_display(filtered_df, selected_category, selected_brand):
 
-    # Calculate the median of wholesale prices and retail prices
-    median_wholesale_price = np.median(filtered_df['Wholesale Price'])
-    median_retail_price = np.median(filtered_df['Retail Price'])
-
-    # Calculate the percentage difference between retail and wholesale prices
-    price_difference_percentage = ((median_retail_price - median_wholesale_price) / median_wholesale_price) * 100
-
     # Create a figure and axis object using plt.subplots()
     fig, ax = plt.subplots()
 
@@ -175,8 +217,51 @@ def get_competitors_price_distribution_by_category_display(filtered_df, selected
     ax.set_xlim(left=0)  # Set the x-axis limit to start from 0
     st.pyplot(fig)
 
-     # Display the median difference between wholesale and retail prices as a percentage
-    #st.write(f"The median difference between wholesale and retail prices is: {price_difference_percentage:.2f}%")
+def remove_outliers_iqr(df, column):
+    Q1 = df[column].quantile(0.25)
+    Q3 = df[column].quantile(0.75)
+    IQR = Q3 - Q1
+    # if iqr is equal to 0
+    if IQR == 0:
+        return df
+    lower_bound = Q1 - 1.5 * IQR
+    upper_bound = Q3 + 1.5 * IQR
+    return df[(df[column] >= lower_bound) & (df[column] <= upper_bound)]
+
+def get_competitors_price_distribution_by_category_display_custom(filtered_df, selected_category, selected_brand, client):
+    # we make a copy of the dataframe
+    filtered_df = filtered_df.copy()
+
+    # Remove outliers from wholesale price and retail price columns
+    filtered_df = remove_outliers_iqr(filtered_df, 'Wholesale Price')
+    filtered_df = remove_outliers_iqr(filtered_df, 'Retail Price')
+
+    # we replace "_" in client with an empty space and capitalize the first letter of each word
+    client = client.replace("_", " ").title()
+
+    # Calculate the median of wholesale prices and retail prices
+    median_wholesale_price = np.median(filtered_df[filtered_df['brand'] == client]['Wholesale Price'])
+    median_retail_price = np.median(filtered_df[filtered_df['brand'] == client]['Retail Price'])
+
+    # Create a figure and axis object using plt.subplots()
+    fig, ax = plt.subplots()
+
+    # Plot the histograms for wholesale and retail prices on the axis object
+    ax.hist(filtered_df['Wholesale Price'], bins=20, color='skyblue', edgecolor='black', alpha=0.7, label='Wholesale Price')
+    ax.hist(filtered_df['Retail Price'], bins=20, color='orange', edgecolor='black', alpha=0.7, label='Retail Price')
+
+    # Plot vertical lines for median wholesale and retail prices
+    ax.axvline(x=median_wholesale_price, color='blue', linestyle='--', label=f"{client} Median W-Price")
+    ax.axvline(x=median_retail_price, color='red', linestyle='--', label=f"{client} Median R-Price")
+
+
+    ax.set_xlabel('Price')
+    ax.set_ylabel('Frequency')
+    ax.legend()
+
+    ax.set_title(f'Price Distribution for {selected_category} by {selected_brand}', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+    ax.set_xlim(left=0)  # Set the x-axis limit to start from 0
+    st.pyplot(fig)
 
 def get_competitors_price_table_data(df, selected_category):
 
@@ -201,12 +286,13 @@ def get_competitors_price_table_display(df, selected_category):
     col_colors = ['lightgray'] * len(df.columns)
     fig, ax = plt.subplots(figsize=(8, 2))
     ax.axis('off')  # Turn off axis
-    ax.table(cellText=df.values.tolist(),
+    table = ax.table(cellText=df.values.tolist(),
             colLabels=df.columns,
             cellLoc='center',
             loc='center', 
             colColours=col_colors
             )
+
     # Display the table plot
     st.write(f"Summarized data for category {selected_category}:")
     st.pyplot(fig)
@@ -358,3 +444,42 @@ def get_median_items_per_collection_per_brand(df):
 
     # Display the plot using Streamlit
     st.pyplot(fig)
+
+def get_badge_items_per_category(df, type_badge, selected_category, title):
+    # Filter rows where type_badge is present in the 'Badge List' column and category is selected
+    filter_df = df[(df['Badge List'] == type_badge) & (df['Product Category'] == selected_category)]
+
+    # Group by Brand ID and count the occurrences, then sort and select top 10
+    top_10_brands = filter_df.groupby('brand').size().nlargest(10).reset_index(name='amount_badge')
+
+    fig, ax = plt.subplots()
+
+    # Plot the bar chart on the axes
+    ax.bar(top_10_brands['brand'], top_10_brands['amount_badge'])  # Use ax.bar instead of ax.barh
+    ax.set_xlabel('Brand')
+    ax.set_ylabel('Amount of Bestsellers')
+    plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels for better readability
+
+    plt.title(title, fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+    
+    
+    # we display chart in streamlit
+    st.pyplot(fig)
+
+def display_product_links(df, type_badge, selected_category):
+
+    # Create a button to toggle the display of links
+    display_links = st.toggle('Display Product Links', key=type_badge)
+
+    if display_links:
+        filter_df = df[(df['Badge List'] == type_badge) & (df['Product Category'] == selected_category)]
+
+        top_10_brands = filter_df.groupby('brand').size().nlargest(10).reset_index(name='amount_badge')
+
+        # we iterate over the differnt brands and create a link element for each product they have
+        for brand in top_10_brands['brand']:
+            st.write(f"{brand}")
+            for product, token in filter_df[filter_df['brand'] == brand][['Product Name', 'Product Token']].itertuples(index=False):
+                st.write(f"[{product}](https://www.faire.com/product/{token})")
+
+        

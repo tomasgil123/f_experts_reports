@@ -74,6 +74,39 @@ __Recommendation:__ To remain competitive, introducing seasonal collections and 
 
 #
 
+<!-- Custom Competitors: Competitor pricing -->
+
+#
+
+__Pricing strategy - General:__ Boredwalk products tend to be a little bit more expensive than the median of the categories. Markup tends to align with industry standards in each category.
+
+__Pricing strategy - Conversation Cards:__ The majority of products in the "Conversation Cards" category are priced between \$10 and \$15, with industry-standard markups of 100%. Boredwalk products seem to be a little bit more expensive than the median of the category.
+
+__Pricing strategy - Journals:__ There seems to be a wider range of prices in category "Journals", going from less than \$5 to more than \$15. Boredwalk products seem to be a little more expensive than the median of the category.
+
+__Pricing strategy - Adult Coloring Books:__ There seems to be also a wide range of prices in the category "Adult Coloring books", varying from \$2 to \$10. Boredwalk products seem to be the more expensive in the category.
+
+__Pricing strategy - Screen Printed T-Shirts:__ Almost all brands have the same price, which varies between \$14 and \$16.
+
+__Pricing strategy - Screen Graphic T-Shirts:__ Price doesn't seem to vary much. Boredwalk products seem to be a little bit more expensive than the median of the category.
+
+
+#
+
+<!-- Custom Competitors: minimum order and fulfillment analysis -->
+
+__Brand Minimums:__ Minimum order requirements vary significantly across brands, ranging from the lowest minimum order at Boredwalk (\$100) to the highest at Hart and Hollow (\$200).
+
+__Fulfillment time:__ Most brands typically fulfill orders within 8-15 days, although Duck Creations stands out with a quicker turnaround of 3-5 days. Conversely, Hart and Hollow requires 20-30 days for order fulfillment.
+
+#
+
+<!-- Custom Competitors: Bestsellers -->
+
+__Bestsellers:__ 
+
+#
+
 <!-- Product: page views by category last 12 months -->
 
 # 

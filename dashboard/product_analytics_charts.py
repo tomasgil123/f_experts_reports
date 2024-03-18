@@ -34,6 +34,36 @@ def generate_page_views_chart_by_category_last_12_months(data, date_last_update)
 
     st.pyplot(plt)
 
+def generates_sales_chart_by_category_last_12_months(data, date_last_update):
+
+    # Convert 'date' column to datetime format
+    data['date'] = pd.to_datetime(data['date'])
+
+    # Filter the data for the last 12 months
+    today = date_last_update
+    last_12_months_start = today - timedelta(days=365)
+    last_12_months_data = data[(data['date'] >= last_12_months_start) & (data['date'] <= today)]
+
+    # Group the data by the 'category' column and calculate the sum of 'sales_count'
+    category_sales_last_12_months = last_12_months_data.groupby('category')['sales_count'].sum().reset_index()
+
+    # Sort the DataFrame by 'sales_count' in descending order
+    category_sales_last_12_months = category_sales_last_12_months.sort_values(by='sales_count', ascending=False)
+
+    # Select only the top 15 categories
+    top_15_categories = category_sales_last_12_months.head(15)
+
+    # Create a bar chart using matplotlib
+    plt.figure()
+    plt.bar(top_15_categories['category'], top_15_categories['sales_count'])
+    plt.xlabel('Product Category')
+    plt.ylabel('Total Sales Count')
+    plt.xticks(rotation=45, ha='right')
+
+    plt.title("Total Sales by Product Category (Last 12 Months)", fontsize=13, loc='left', pad=20, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+
+    st.pyplot(plt)
+
 def generate_page_views_evolution_last_12_months_by_category(data):
     # Convert 'date' column to datetime
     data['date'] = pd.to_datetime(data['date'])

@@ -38,17 +38,26 @@ def get_product_categories(brand_token, cookie):
 
         
 
-def get_products_info_page(page_number, brand_token, cookie, filter_keys):
+def get_products_info_page(page_number, brand_token, cookie, filter_keys, type_search="filter"):
     # Define the API endpoint URL
     endpoint_url = "https://www.faire.com/api/v2/search/products/from-brand"
 
     # Define the payload data for the POST request
-    payload = {
-        "filter_keys": filter_keys,
-        "brand_token": brand_token,
-        "page_number": page_number,
-        "page_size": 100
-    }
+    if type_search == "filter":
+        payload = {
+            "filter_keys": filter_keys,
+            "brand_token": brand_token,
+            "page_number": page_number,
+            "page_size": 100
+        }
+    else:
+        payload = {
+            "filter_keys": [],
+            "brand_token": brand_token,
+            "page_number": page_number,
+            "query": filter_keys,
+            "page_size": 100
+        }
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -63,6 +72,7 @@ def get_products_info_page(page_number, brand_token, cookie, filter_keys):
     retail_prices = []
     wholesale_prices = []
     wholesale_promo_prices = []
+    badge_list = []
 
     retry_count = 0
     max_retries = 3
@@ -100,6 +110,23 @@ def get_products_info_page(page_number, brand_token, cookie, filter_keys):
                         wholesale_promo_prices.append(0)
                     else:
                         wholesale_promo_prices.append(product_tile["min_option_wholesale_promo_price"]["discount_bps"] / 100)
+                    
+                    # we get badges (Bestseller, Brand Bestseller, Trending, New, etc.)
+                    badges = product_tile["badge_list"]["badges"]
+                    # we check if len is bigger than 0
+                    if len(badges) > 0:
+                        badge_list_string = ""
+                        # we loop through the badges
+                        for badge in badges:
+                            # if string is empty
+                            if badge_list_string == "":
+                                badge_list_string = badge["type"]
+                            else:
+                                badge_list_string = badge_list_string + " | " + badge["type"]
+                        badge_list.append(badge_list_string)
+                    else:
+                        badge_list.append("")
+
                 print("after product tiles")
                 break  # Successful request, exit the loop
             elif response.status_code == 429:
@@ -115,7 +142,7 @@ def get_products_info_page(page_number, brand_token, cookie, filter_keys):
             print(f"An error occurred: {e}")
             break  # Exit the loop on other exceptions
     print('end getting product info', product_names)
-    return product_names, is_new_list, product_tokens, product_states, retail_prices, wholesale_prices, wholesale_promo_prices, page_count
+    return product_names, is_new_list, product_tokens, product_states, retail_prices, wholesale_prices, wholesale_promo_prices, badge_list, page_count
 
 def get_products_info(brand_token, cookie):
     
@@ -132,12 +159,13 @@ def get_products_info(brand_token, cookie):
     retail_prices = []
     wholesale_prices = []
     wholesale_promo_prices = []
+    badge_list  = []
 
     # Loop through the product categories
     for category in product_categories:
         filter_keys = [category["key"]]
         page_number = 1
-        product_names_page, is_new_list_page, product_tokens_page, product_states_page, retail_prices_page, wholesale_prices_page, wholesale_promo_prices_page, page_count = get_products_info_page(page_number, brand_token, cookie, filter_keys)
+        product_names_page, is_new_list_page, product_tokens_page, product_states_page, retail_prices_page, wholesale_prices_page, wholesale_promo_prices_page, badge_list_page, page_count = get_products_info_page(page_number, brand_token, cookie, filter_keys)
         product_category.extend([category["display_name"] for i in range(len(product_names_page))])
         product_names.extend(product_names_page)
         is_new_list.extend(is_new_list_page)
@@ -146,13 +174,14 @@ def get_products_info(brand_token, cookie):
         retail_prices.extend(retail_prices_page)
         wholesale_prices.extend(wholesale_prices_page)
         wholesale_promo_prices.extend(wholesale_promo_prices_page)
+        badge_list.extend(badge_list_page)
         time.sleep(10)  # Sleep for 30 second between requests
 
         if page_count > 1:
             for page in range(2, page_count + 1):
                 print(f"Fetching page {page}/{page_count} for category {category['display_name']}")
                 print("---------")
-                product_names_page, is_new_list_page, product_tokens_page, product_states_page, retail_prices_page, wholesale_prices_page, wholesale_promo_prices_page, _ = get_products_info_page(page, brand_token, cookie, filter_keys)
+                product_names_page, is_new_list_page, product_tokens_page, product_states_page, retail_prices_page, wholesale_prices_page, wholesale_promo_prices_page, badge_list_page, _ = get_products_info_page(page, brand_token, cookie, filter_keys)
                 product_category.extend([category["display_name"] for i in range(len(product_names_page))])
                 print("after request")
                 product_names.extend(product_names_page)
@@ -162,6 +191,7 @@ def get_products_info(brand_token, cookie):
                 retail_prices.extend(retail_prices_page)
                 wholesale_prices.extend(wholesale_prices_page)
                 wholesale_promo_prices.extend(wholesale_promo_prices_page)
+                badge_list.extend(badge_list_page)
                 time.sleep(10)  # Sleep for 30 second between requests
 
     data = {
@@ -172,7 +202,8 @@ def get_products_info(brand_token, cookie):
         "Product State": product_states,
         "Retail Price": retail_prices,
         "Wholesale Price": wholesale_prices,
-        "Wholesale Promo Discount Percentage": wholesale_promo_prices
+        "Wholesale Promo Discount Percentage": wholesale_promo_prices,
+        "Badge List": badge_list
     }
 
     return data

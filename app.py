@@ -114,6 +114,9 @@ if st.session_state.get("is_admin", False):
 
     if any("competitors_data/product" in file for file in files) and any("competitors_data/reviews" in file for file in files):
         report_options.append("Competitors analytics")
+    
+    if any("competitors_data/custom_product" in file for file in files):
+        report_options.append("Custom Competitors analytics")
 
     default_report_option = report_options[0]
 
@@ -141,6 +144,9 @@ else:
 
     if any("competitors_data/product" in file for file in files) and any("competitors_data/reviews" in file for file in files):
         report_options.append("Competitors analytics")
+
+    if any("competitors_data/custom_product" in file for file in files):
+        report_options.append("Custom Competitors analytics")
 
     default_report_option = report_options[0]
 

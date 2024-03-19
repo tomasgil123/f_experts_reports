@@ -55,7 +55,6 @@ def create_dashboard(selected_client, selected_report):
 
         product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/marketing_campaign_info_*.csv")
 
-
         date_last_update = extract_date_from_filename(product_file[0])
 
         st.write(f"Data was last updated at: {date_last_update.date()}")

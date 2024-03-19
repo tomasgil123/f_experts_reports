@@ -3,7 +3,7 @@ import time
 
 def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
     
-    endpoint = f"https://www.faire.com/api/crm/brands/{brand_token}/marketing-campaigns?calculateStats=true&page={page_number}&pageSize=10&type=ONE_TIME&sortOrder=DESC&sortBy=CREATED_AT"
+    endpoint = f"https://www.faire.com/api/crm/brands/{brand_token}/marketing-campaigns?calculateStats=true&page={page_number}&pageSize=5&type=ONE_TIME&sortOrder=DESC&sortBy=CREATED_AT"
 
     default_user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     headers = {
@@ -121,7 +121,7 @@ def get_marketing_campaigns_info(brand_token, cookie):
 
     page_number = 1
     tokens_page, names_page, types_page, states_page, start_sending_at_page, recipient_count_page, delivered_count_page, view_count_page, click_count_page, open_based_orders_count_page, open_based_total_order_value_page, click_based_orders_count_page, click_based_total_order_value_page, page_count = get_marketing_campaigns_info_page(page_number, brand_token, cookie)
-    time.sleep(10)
+    time.sleep(15)
     tokens.extend(tokens_page)
     names.extend(names_page)
     types.extend(types_page)
@@ -153,7 +153,7 @@ def get_marketing_campaigns_info(brand_token, cookie):
             open_based_total_order_value.extend(open_based_total_order_value_page)
             click_based_orders_count.extend(click_based_orders_count_page)
             click_based_total_order_value.extend(click_based_total_order_value_page)
-            time.sleep(10)
+            time.sleep(15)
 
     data = {
         "tokens": tokens,

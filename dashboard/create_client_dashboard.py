@@ -131,6 +131,7 @@ def create_dashboard(selected_client, selected_report):
                     Only orders with status 'Delivered' or 'Shipped' and type 'New Order' were considered.
                     """)
         df = pd.read_csv(product_file[0])
+
         df['payout_total_values'] = df['payout_total_values']/100
 
         # Convert 'brand_contacted_at_values' to datetime

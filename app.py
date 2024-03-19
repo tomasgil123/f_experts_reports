@@ -146,6 +146,8 @@ if st.session_state.get("is_admin", False):
     # we check starting_date of the brand
     starting_date = df_brands_reports[df_brands_reports["brand"] == client_option_selected]["starting_date"].values[0]
 
+    display_monthly_reports = False
+
     # if current date is at least 30 days greater than starting date, we show the "Monthly Reports" expander
     if pd.to_datetime(starting_date) < pd.to_datetime("today") - pd.Timedelta(days=30):
         display_monthly_reports = st.sidebar.toggle("Display Monthly Reports", False)
@@ -188,12 +190,10 @@ else:
 
     st.sidebar.title(convert_string(st.session_state['user_name']))
 
-    # report_option_selected = st.sidebar.radio("Select a report", options=report_options, index=report_options.index(default_report_option), key = 2)
-
-    # create_dashboard(selected_client=st.session_state["user_name"], selected_report=report_option_selected)
-    
     # we check starting_date of the brand
     starting_date = df_brands_reports[df_brands_reports["brand"] == st.session_state["user_name"]]["starting_date"].values[0]
+    
+    display_monthly_reports = False
 
     # if current date is at least 30 days greater than starting date, we show the "Monthly Reports" expander
     if pd.to_datetime(starting_date) < pd.to_datetime("today") - pd.Timedelta(days=30):

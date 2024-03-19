@@ -53,3 +53,17 @@ p {
 .card-text {
     font-size: 16px;
 }
+.divider-line {
+    border-bottom: 1px solid #D2D2D2;
+    margin: 20px 0;
+}
+
+.text-color-green {
+    color: #00A651;
+    font-weight: 600;
+}
+
+.text-color-red {
+    color: #FF0000;
+    font-weight: 600;
+}

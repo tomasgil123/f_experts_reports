@@ -1,8 +1,12 @@
 import os
 import hmac
 import streamlit as st
+import pandas as pd
+from datetime import datetime, timedelta
+from dateutil.relativedelta import relativedelta
 
 from dashboard.create_client_dashboard import create_dashboard
+from dashboard.create_monthly_report import create_monthly_report
 
 openai_api_key = st.secrets["openai_api_key"]
 
@@ -17,6 +21,23 @@ def convert_string(string):
     string = string.title()
     
     return string
+
+def list_months(start_date):
+    # Convert the start date string to a datetime object
+    start_date = datetime.strptime(start_date, '%m-%d-%Y')
+    
+    # Get the current date
+    current_date = datetime.now()
+    
+    # Initialize an empty list to store the month names
+    months_list = []
+    
+    # Iterate over months from the start date until the previous month of the current month
+    while start_date < datetime(current_date.year, current_date.month, 1):
+        months_list.append(start_date.strftime('%B %Y'))  # Append month name to the list
+        start_date += relativedelta(months=1)  # Increment by one month
+    
+    return months_list
 
 with open("custom.css") as f:
     custom_css = f.read()
@@ -88,9 +109,11 @@ st.markdown(
     </style>
     """, unsafe_allow_html=True
 )
-st.sidebar.image('brand_caffeine_logo.png', caption='', width=150) 
+st.sidebar.image('brand_caffeine_logo.png', caption='', width=150)
 
 if st.session_state.get("is_admin", False):
+
+    df_brands_reports = pd.read_csv("./brands_monthly_reports.csv")
 
     client_options = [key for key in st.secrets["passwords"] if key != "admin"]
     sorted_client_options = sorted(client_options)
@@ -120,12 +143,25 @@ if st.session_state.get("is_admin", False):
 
     default_report_option = report_options[0]
 
+    # we check starting_date of the brand
+    starting_date = df_brands_reports[df_brands_reports["brand"] == client_option_selected]["starting_date"].values[0]
+
+    # if current date is at least 30 days greater than starting date, we show the "Monthly Reports" expander
+    if pd.to_datetime(starting_date) < pd.to_datetime("today") - pd.Timedelta(days=30):
+        display_monthly_reports = st.sidebar.toggle("Display Monthly Reports", False)
+        if display_monthly_reports:
+            monthly_report_options = list_months(starting_date)
+            monthly_report_option_selected = st.sidebar.radio("Select month", options=monthly_report_options, index=len(monthly_report_options)-1, key=3)
+        
     report_option_selected = st.sidebar.radio("Select a report", options=report_options, index=report_options.index(default_report_option), key = 2)
 
-    create_dashboard(selected_client=client_option_selected, selected_report=report_option_selected)
+    if display_monthly_reports:
+        create_monthly_report(selected_client=client_option_selected, selected_month_string=monthly_report_option_selected)
+    else:
+        create_dashboard(selected_client=client_option_selected, selected_report=report_option_selected)
     
 else:
-
+    df_brands_reports = pd.read_csv("./brands_monthly_reports.csv")
     # these report options depend on the files the client has
     # get all files in folder ./dahsboard/dashboard_data/{selected_client}
 
@@ -152,6 +188,23 @@ else:
 
     st.sidebar.title(convert_string(st.session_state['user_name']))
 
+    # report_option_selected = st.sidebar.radio("Select a report", options=report_options, index=report_options.index(default_report_option), key = 2)
+
+    # create_dashboard(selected_client=st.session_state["user_name"], selected_report=report_option_selected)
+    
+    # we check starting_date of the brand
+    starting_date = df_brands_reports[df_brands_reports["brand"] == st.session_state["user_name"]]["starting_date"].values[0]
+
+    # if current date is at least 30 days greater than starting date, we show the "Monthly Reports" expander
+    if pd.to_datetime(starting_date) < pd.to_datetime("today") - pd.Timedelta(days=30):
+        display_monthly_reports = st.sidebar.toggle("Display Monthly Reports", False)
+        if display_monthly_reports:
+            monthly_report_options = list_months(starting_date)
+            monthly_report_option_selected = st.sidebar.radio("Select month", options=monthly_report_options, index=len(monthly_report_options)-1, key=3)
+        
     report_option_selected = st.sidebar.radio("Select a report", options=report_options, index=report_options.index(default_report_option), key = 2)
 
-    create_dashboard(selected_client=st.session_state["user_name"], selected_report=report_option_selected)
+    if display_monthly_reports:
+        create_monthly_report(selected_client=st.session_state["user_name"], selected_month_string=monthly_report_option_selected)
+    else:
+        create_dashboard(selected_client=st.session_state["user_name"], selected_report=report_option_selected)

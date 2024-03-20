@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.ticker as mtick
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
+import numpy as np
 
 def lifetime_performance_metrics(df, day_data_was_obtained):
     df = df.copy()
@@ -487,3 +488,159 @@ def type_of_store_top_10_retailers(df, day_data_was_obtained):
         # we remove duplicates
         top_retailers = top_retailers.drop_duplicates(subset=['retailer_names'])
         st.dataframe(top_retailers)
+
+def sales_quantiles(df, day_data_was_obtained):
+    # we make a copy of the dataframe 
+    df = df.copy()
+
+    # Calculate the date 12 months ago from today
+    last_12_months_date = day_data_was_obtained - timedelta(days=365)
+
+    # Filter the DataFrame for the last 12 months
+    df_last_12_months = df[df['brand_contacted_at_values'] >= last_12_months_date]
+
+    # Determine the column to group by
+    group_by_column = 'retailer_tokens'
+    if 'retailer_names' in df.columns:
+        group_by_column = 'retailer_names'
+
+    # Group by retailer_tokens and sum the payout_total_values for each retailer
+    sales_by_retailer = df_last_12_months.groupby(group_by_column)['payout_total_values'].sum().sort_values(ascending=False)
+
+    # we convert this series to a dataframe
+    sales_by_retailer = sales_by_retailer.to_frame()
+
+    # we add index as a column
+    sales_by_retailer.reset_index(inplace=True)
+
+    # Store quantiles for the specified options
+    quantile_options = [0.90, 0.80, 0.70, 0.60, 0.50]
+    quantiles_values = []
+
+    for quantile in quantile_options:
+        quantiles_values.append(sales_by_retailer['payout_total_values'].quantile(quantile)) 
+
+    # we create a dataframe with the results. I want the quantiles as columns and the values as rows
+    quantiles = pd.DataFrame()
+    quantiles['quantile'] = quantile_options
+    quantiles['value'] = quantiles_values
+
+    # convert column "quantiles" to string
+    quantiles['quantile'] = quantiles['quantile'].astype(str)
+
+    # Create figure and axis
+    fig, ax = plt.subplots()
+
+    # we create a bar chart using quantile dataframe data
+    ax.bar(quantiles['quantile'], quantiles['value'], color='skyblue')
+
+    # Set labels and title
+    ax.set_xlabel('Quantile')
+    ax.set_ylabel('Sales')
+    ax.set_title('Sales by Quantile (Last 12 months)')
+
+    # we add a grid
+    ax.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # display chart in Streamlit
+    st.pyplot(fig)
+
+def purchase_frequency(df):
+    # Select orders made in 2023
+    df_filtered_2023 = df[df['brand_contacted_at_values'].dt.year == 2023]
+
+    # Sort the DataFrame by retailer and timestamp
+    df_final_sorted = df_filtered_2023.sort_values(by=['retailer_tokens', 'brand_contacted_at_values'])
+
+    # Calculate the time difference between consecutive orders for each retailer
+    df_final_sorted['time_diff'] = df_final_sorted.groupby('retailer_tokens')['brand_contacted_at_values'].diff().dt.days
+
+    # Group by retailer and find the median number of days between orders for every retailer
+    median_days_between_orders = df_final_sorted.groupby('retailer_tokens')['time_diff'].median()
+
+    # we filter rows were time_dff is None
+    median_days_between_orders = median_days_between_orders[~median_days_between_orders.isna()]
+
+    # we filter rows were time_dff is 0
+    median_days_between_orders = median_days_between_orders[median_days_between_orders != 0]
+
+    # we convert this series to a dataframe
+    median_days_between_orders = median_days_between_orders.to_frame()
+
+    # use index as column retailer_tokens
+    median_days_between_orders.reset_index(inplace=True)
+
+    # Create figure and axis
+    fig, ax = plt.subplots()
+
+    # Create histogram
+    ax.hist(median_days_between_orders['time_diff'], bins=20, color='skyblue', edgecolor='black')
+
+    # Add labels and title
+    ax.set_xlabel('Time Difference (days)')
+    ax.set_ylabel('Frequency (Number of retailers)')
+    ax.set_title('Distribution of Days between Orders (Orders made in 2023)')
+
+    # Calculate percentiles
+    fiftieth_percentile = np.percentile(median_days_between_orders['time_diff'], 50)
+    seventy_fifth_percentile = np.percentile(median_days_between_orders['time_diff'], 75)
+
+    # Add percentage annotation
+    ax.axvline(x=fiftieth_percentile, color='r', linestyle='--', linewidth=1)
+    ax.text(fiftieth_percentile + 5, 1, '50% of retailers re-order in less than {} days'.format(int(fiftieth_percentile)), rotation=90)
+
+    # Add percentage annotation
+    ax.axvline(x=seventy_fifth_percentile, color='r', linestyle='--', linewidth=1)
+    ax.text(seventy_fifth_percentile + 5, 1, '75% of retailers re-order in less than {} days'.format(int(seventy_fifth_percentile)), rotation=90)
+    
+    # Display chart in Streamlit
+    st.pyplot(fig)
+
+def retailers_did_not_reorder(df):
+    # Select orders made in 2023
+    df_filtered_2023 = df[df['brand_contacted_at_values'].dt.year == 2023]
+
+    # Filter by 'very_first_order_for_brand_values' equal to True
+    df_filtered_very_first = df_filtered_2023[df_filtered_2023['very_first_order_for_brand_values']]
+
+    # Create an array of unique retailer_tokens
+    unique_retailer_tokens = df_filtered_very_first['retailer_tokens'].unique()
+
+    # Filter the original DataFrame using the unique retailer_tokens
+    df_final = df[df['retailer_tokens'].isin(unique_retailer_tokens)]
+
+    # Sort the DataFrame by retailer and timestamp
+    df_final_sorted = df_final.sort_values(by=['retailer_tokens', 'brand_contacted_at_values'])
+
+    # we group by retailer and count number of orders
+    number_of_orders = df_final_sorted.groupby('retailer_tokens').size()
+
+    # we convert this to a dataframe
+    number_of_orders = number_of_orders.to_frame()
+
+    # we set the index as a column
+    number_of_orders.reset_index(inplace=True)
+
+    # we rename both columns
+    number_of_orders.columns = ['retailer_tokens', 'number_of_orders']
+
+    # Count the number of retailers with only one order
+    one_order_retailers = number_of_orders[number_of_orders['number_of_orders'] == 1].shape[0]
+
+    # Count the number of retailers with more than one order
+    more_than_one_order_retailers = number_of_orders[number_of_orders['number_of_orders'] > 1].shape[0]
+
+    # Pie chart data
+    labels = ['Retailers with 1 Order', 'Retailers with more than 1 Order']
+    sizes = [one_order_retailers, more_than_one_order_retailers]
+    colors = ['#ff9999','#66b3ff']
+    explode = (0.1, 0)  # explode 1st slice
+
+    # Create figure and axis
+    fig, ax = plt.subplots()
+
+    ax.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
+    ax.set_title('Percentage of Retailers with Only One Order')
+    
+    # Display chart in Streamlit
+    st.pyplot(fig)

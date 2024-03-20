@@ -413,6 +413,9 @@ def sales_by_retailer(df, day_data_was_obtained):
     # Get the top 5% of retailers
     top_retailers = sales_percentage[sales_percentage >= sales_percentage.quantile(0.95)]
 
+    # keep only the first 10 retailers
+    top_retailers = top_retailers.head(10)
+
     top_retailers.index = [label[:20] for label in top_retailers.index]
 
     # Creating the figure and axes
@@ -420,7 +423,7 @@ def sales_by_retailer(df, day_data_was_obtained):
 
     # Plotting
     top_retailers.plot(kind='bar', color='skyblue', ax=ax)
-    ax.set_title('Percentage of Total Sales by Top 5% Retailers (Last 12 Months)')
+    ax.set_title('Percentage of Total Sales by Top 10 Retailers (Last 12 Months)')
     ax.set_xlabel('Retailer')
     ax.set_ylabel('Percentage of Total Sales')
     ax.tick_params(axis='x', rotation=45)  # Rotate x-labels for better readability

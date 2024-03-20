@@ -4,7 +4,9 @@ from cookie import (cookie_token)
 
 #brand_name = "true_classic"
 #brand_name = "couleur_nature"
-brand_name = "caravan"
+# brand_name = "caravan"
+# brand_name = "bon_artis"
+brand_name = "lothantique"
 
 data = get_page_views_for_all_months_since_date(cookie=cookie_token, starting_date="2023-01-01")
 

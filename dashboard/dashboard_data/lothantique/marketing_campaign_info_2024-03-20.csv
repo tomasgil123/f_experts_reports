@@ -1,6 +1,7 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_wgmwyu5rk3,New Laboratorio Olfattivo Scents,ONE_TIME,COMPLETED,1709215200000,2025,847,400,1,2,1262.7,0,0.0
-bmc_up26nreby8,New Laboratorio Olfattivo Candles ,ONE_TIME,COMPLETED,1708092000000,2020,860,423,6,8,4256.4,0,0.0
+bmc_zyk8mq4yfs,Miller et Bertaux Top Sellers,ONE_TIME,COMPLETED,1710507600000,2028,922,455,4,6,3237.35,0,0.0
+bmc_wgmwyu5rk3,New Laboratorio Olfattivo Scents,ONE_TIME,COMPLETED,1709215200000,2025,847,409,1,4,1832.8,0,0.0
+bmc_up26nreby8,New Laboratorio Olfattivo Candles ,ONE_TIME,COMPLETED,1708092000000,2020,860,425,6,10,4826.5,0,0.0
 bmc_wsj7edata7,Reminder Faire Winter Market 2024 ,ONE_TIME,COMPLETED,1705672800000,2007,769,419,5,14,14091.8,2,2950.7
 bmc_sg8fvv8a29,Faire Winter Market 2024,ONE_TIME,COMPLETED,1705068000000,2006,875,453,5,4,2192.4,1,339.5
 bmc_z5m99fpvtn,Untitled campaign,ONE_TIME,COMPLETED,1704463200000,2003,894,446,7,5,4292.85,0,0.0

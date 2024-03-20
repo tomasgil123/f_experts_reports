@@ -1,6 +1,4 @@
 product_token,name,category,sales_count,order_count,visit_count,date
-p_pg4r4y6tmr,Normandy White - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-01-01
-p_d2entyk3c3,Normandy White - Red/Grey/Black Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_a8dpz8rhet,Marble & Wood Cheese Board,Cheese Board,16,5,15,2023-01-01
 p_carncmitw9,Marble Small Paddle,Cutting Board,6,2,8,2023-01-01
 p_c9xwftlltl,Bistro Glass - Set of 6,Drinking Glasses & Cups,40,7,44,2023-01-01
@@ -47,9 +45,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,3,1,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,4,2,8,2023-01-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,11,5,6,2023-01-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,9,4,5,2023-01-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,5,2023-01-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,16,6,25,2023-01-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,16,7,3,2023-01-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,5,2023-01-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,16,6,25,2023-01-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,16,7,3,2023-01-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,7,2,2,2023-01-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,10,3,21,2023-01-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,11,2023-01-01
@@ -88,7 +86,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,33,7,43,2023-01-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,30,9,30,2023-01-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,41,12,90,2023-01-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,33,10,29,2023-01-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,8,4,29,2023-01-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,11,4,9,2023-01-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,0,0,9,2023-01-01
@@ -124,7 +121,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,0,2023-01-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-01-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-01-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-01-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-01-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-01-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-01-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,0,2023-01-01
@@ -159,7 +156,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,0,2023-01-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-01-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-01-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-01-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-01-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-01-01
@@ -169,7 +166,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-01-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-01-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-01-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,0,2023-01-01
@@ -200,7 +197,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-01-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-01-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-01-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-01-01
@@ -244,6 +241,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-01-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-01-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,8,2,12,2023-01-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,22,6,39,2023-01-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,12,2023-01-01
@@ -255,10 +254,13 @@ p_vfvzatgf38,Bold Stripe Linen White/Slate/Green Towels 20x30 - Set of 2,Dishclo
 p_f7ab7tt55t,Bold Stripe Linen White/Rust/Slate Tea Towels 20x30-Set of 2,Dishcloth,0,0,0,2023-01-01
 p_vx87z5h552,Hemstitch Ivory Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,4,1,3,2023-01-01
 p_3sqz2vmvp6,Hemstitch Navy Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,4,1,7,2023-01-01
+p_vdjbxeka89,Hemstitch Kiwi Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,1,2023-01-01
 p_hmmpw49x9q,Hemstitch Dijon Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,4,1,2,2023-01-01
 p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,4,2,4,2023-01-01
+p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-01-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-01-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,53,13,62,2023-01-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,33,10,29,2023-01-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,40,10,49,2023-01-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,3,1,4,2023-01-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,11,2023-01-01
@@ -267,20 +269,18 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,0,0,12,2023-01-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,4,2,48,2023-01-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,8,2,10,2023-01-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,14,2023-01-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,22,6,27,2023-01-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,14,4,20,2023-01-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-01-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-01-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-01-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,22,6,27,2023-01-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,14,4,20,2023-01-01
+p_ttdm9xth34,Marseille - Red & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-01-01
-p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-01-01
-p_vdjbxeka89,Hemstitch Kiwi Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,1,2023-01-01
+p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-01-01
+p_d2entyk3c3,Normandy White - Red/Grey/Black Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-01-01
+p_pg4r4y6tmr,Normandy White - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-01-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-01-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-01-01
-p_ttdm9xth34,Marseille - Red & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-01-01
-p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-01-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-01-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-02-01
@@ -333,9 +333,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,4,2,4,2023-02-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,6,2023-02-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,2,1,5,2023-02-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,3,2023-02-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,2,1,13,2023-02-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,3,1,1,2023-02-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,3,2023-02-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,2,1,13,2023-02-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,3,1,1,2023-02-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,2,2023-02-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2023-02-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,2,5,2023-02-01
@@ -374,7 +374,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,3,1,14,2023-02-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,14,5,24,2023-02-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-02-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-02-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,0,0,7,2023-02-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,8,3,17,2023-02-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,0,0,6,2023-02-01
@@ -410,7 +409,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,0,2023-02-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-02-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-02-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-02-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-02-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-02-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-02-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,0,2023-02-01
@@ -445,7 +444,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,0,2023-02-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-02-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-02-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-02-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-02-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-02-01
@@ -455,7 +454,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-02-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-02-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-02-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,0,2023-02-01
@@ -486,7 +485,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-02-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-02-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-02-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-02-01
@@ -530,6 +529,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-02-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-02-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,1,1,6,2023-02-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,1,1,18,2023-02-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,7,2023-02-01
@@ -547,6 +548,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-02-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2023-02-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,2,1,65,2023-02-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-02-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,10,3,18,2023-02-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,1,2023-02-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,2,2023-02-01
@@ -555,14 +557,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,0,0,7,2023-02-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,5,2023-02-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,15,2023-02-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2023-02-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,15,2023-02-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,10,2,14,2023-02-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-02-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-02-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-02-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-02-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-02-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,15,2023-02-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,10,2,14,2023-02-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-03-01
@@ -615,9 +615,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,3,1,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,3,1,3,2023-03-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-03-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,2,2023-03-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,2,2023-03-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,0,0,12,2023-03-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,6,2023-03-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,2,2023-03-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,0,0,12,2023-03-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,6,2023-03-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,3,2023-03-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2023-03-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,5,1,4,2023-03-01
@@ -656,7 +656,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,6,1,22,2023-03-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,6,3,38,2023-03-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,0,0,1,2023-03-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-03-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,0,0,9,2023-03-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,12,3,31,2023-03-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,0,0,6,2023-03-01
@@ -692,7 +691,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,0,2023-03-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-03-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-03-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-03-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-03-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-03-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-03-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,0,2023-03-01
@@ -727,7 +726,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,0,2023-03-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-03-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-03-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-03-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-03-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-03-01
@@ -737,7 +736,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-03-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-03-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-03-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,0,2023-03-01
@@ -768,7 +767,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-03-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-03-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-03-01
@@ -812,6 +811,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-03-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,2,2023-03-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,0,0,19,2023-03-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,8,2023-03-01
@@ -829,6 +830,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2023-03-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,17,5,35,2023-03-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-03-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,10,4,15,2023-03-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,5,2023-03-01
@@ -837,14 +839,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,10,1,15,2023-03-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,13,2023-03-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,6,1,5,2023-03-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,2,1,2023-03-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,12,2023-03-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,4,1,9,2023-03-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-03-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-03-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-03-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-03-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-03-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,12,2023-03-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,4,1,9,2023-03-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-04-01
@@ -897,9 +897,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,8,1,1,2023-04-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,8,1,1,2023-04-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,3,2023-04-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,80,1,3,2023-04-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,30,1,6,2023-04-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,8,1,2,2023-04-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,80,1,3,2023-04-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,30,1,6,2023-04-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,8,1,2,2023-04-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,77,1,8,2023-04-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,1,6,2023-04-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,6,2023-04-01
@@ -938,7 +938,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,2,22,2023-04-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,0,0,12,2023-04-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,22,4,9,2023-04-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,13,4,5,2023-04-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,19,5,22,2023-04-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,17,5,19,2023-04-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,21,6,34,2023-04-01
@@ -974,7 +973,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,0,2023-04-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-04-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-04-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-04-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-04-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-04-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-04-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,0,2023-04-01
@@ -1009,7 +1008,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,0,2023-04-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-04-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-04-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-04-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-04-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-04-01
@@ -1019,7 +1018,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-04-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-04-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-04-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,0,2023-04-01
@@ -1050,7 +1049,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-04-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-04-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-04-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-04-01
@@ -1094,6 +1093,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-04-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-04-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,1,2023-04-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,22,5,27,2023-04-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,6,2023-04-01
@@ -1111,6 +1112,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-04-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-04-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,18,5,35,2023-04-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,13,4,5,2023-04-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,26,6,29,2023-04-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,1,2023-04-01
@@ -1119,14 +1121,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,8,3,11,2023-04-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,6,2,22,2023-04-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,12,2023-04-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,1,2023-04-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,8,3,15,2023-04-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,6,2,6,2023-04-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-04-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-04-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-04-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-04-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-04-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,8,3,15,2023-04-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,6,2,6,2023-04-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-05-01
@@ -1179,9 +1179,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,2,1,2,2023-05-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,3,2023-05-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-05-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,6,2023-05-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,0,0,4,2023-05-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,6,2,3,2023-05-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,6,2023-05-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,0,0,4,2023-05-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,6,2,3,2023-05-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,2,2023-05-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,4,2023-05-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2023-05-01
@@ -1220,7 +1220,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,6,2023-05-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,0,0,5,2023-05-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,18,7,47,2023-05-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,18,8,11,2023-05-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,17,7,19,2023-05-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,15,6,16,2023-05-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,7,3,23,2023-05-01
@@ -1256,7 +1255,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,0,2023-05-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-05-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-05-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-05-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-05-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-05-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-05-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,0,2023-05-01
@@ -1291,7 +1290,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,0,2023-05-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-05-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-05-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-05-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-05-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-05-01
@@ -1301,7 +1300,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-05-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-05-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-05-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,0,2023-05-01
@@ -1332,7 +1331,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-05-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-05-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-05-01
@@ -1376,6 +1375,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-05-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,0,2023-05-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,16,4,22,2023-05-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,7,2023-05-01
@@ -1393,6 +1394,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,10,1
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-05-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,6,3,44,2023-05-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,18,8,11,2023-05-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,18,7,17,2023-05-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,1,2023-05-01
@@ -1401,14 +1403,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,12,5,25,2023-05-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,8,3,27,2023-05-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,1,2023-05-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-05-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,30,4,21,2023-05-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,20,6,9,2023-05-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-05-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-05-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-05-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-05-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-05-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,30,4,21,2023-05-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,20,6,9,2023-05-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-06-01
@@ -1461,9 +1461,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,8,3,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,2,1,5,2023-06-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,2,1,5,2023-06-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,1,2023-06-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,2,2023-06-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,7,3,8,2023-06-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,8,4,5,2023-06-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,2,2023-06-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,7,3,8,2023-06-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,8,4,5,2023-06-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,3,1,1,2023-06-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,1,3,2023-06-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2023-06-01
@@ -1502,7 +1502,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,2,25,2023-06-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,14,4,20,2023-06-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,29,10,49,2023-06-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,27,9,18,2023-06-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,58,8,7,2023-06-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,18,5,12,2023-06-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,10,4,21,2023-06-01
@@ -1538,7 +1537,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,0,2023-06-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-06-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-06-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-06-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-06-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-06-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-06-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,0,2023-06-01
@@ -1573,7 +1572,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,0,2023-06-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-06-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-06-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-06-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-06-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-06-01
@@ -1583,7 +1582,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-06-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-06-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-06-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,0,2023-06-01
@@ -1614,7 +1613,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-06-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-06-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-06-01
@@ -1658,6 +1657,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-06-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,1,2023-06-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,4,1,28,2023-06-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,6,2023-06-01
@@ -1675,6 +1676,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,2,1,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-06-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,24,7,31,2023-06-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,27,9,18,2023-06-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,22,7,17,2023-06-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,0,2023-06-01
@@ -1683,14 +1685,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,2,1,23,2023-06-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,2,1,19,2023-06-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,3,2023-06-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,3,1,4,2023-06-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,6,1,5,2023-06-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,26,7,26,2023-06-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-06-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-06-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-06-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-06-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-06-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,6,1,5,2023-06-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,26,7,26,2023-06-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-07-01
@@ -1743,9 +1743,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,2,1,5,2023-07-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,3,1,1,2023-07-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,2,2023-07-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,10,2,3,2023-07-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,2,1,4,2023-07-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,19,6,11,2023-07-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,10,2,3,2023-07-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,2,1,4,2023-07-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,19,6,11,2023-07-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,6,1,4,2023-07-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2023-07-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2023-07-01
@@ -1784,7 +1784,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,11,2023-07-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,13,3,14,2023-07-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,18,5,37,2023-07-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,22,5,17,2023-07-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,12,3,14,2023-07-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,2,1,7,2023-07-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,10,2,21,2023-07-01
@@ -1820,7 +1819,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,0,2023-07-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-07-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-07-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-07-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-07-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-07-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-07-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,0,2023-07-01
@@ -1855,7 +1854,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,0,2023-07-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-07-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-07-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-07-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-07-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-07-01
@@ -1865,7 +1864,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-07-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-07-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-07-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,0,2023-07-01
@@ -1896,7 +1895,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-07-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-07-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-07-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-07-01
@@ -1940,6 +1939,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-07-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-07-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,1,2023-07-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,7,3,21,2023-07-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,18,2023-07-01
@@ -1957,6 +1958,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,2,1,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-07-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-07-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,28,5,28,2023-07-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,22,5,17,2023-07-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,5,2,22,2023-07-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,1,2023-07-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,1,2023-07-01
@@ -1965,14 +1967,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,0,0,13,2023-07-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,13,2023-07-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,2,2023-07-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,1,4,2023-07-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,4,1,10,2023-07-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,17,5,31,2023-07-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-07-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-07-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-07-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-07-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-07-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,4,1,10,2023-07-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,17,5,31,2023-07-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-08-01
@@ -2025,9 +2025,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,4,2,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,8,1,3,2023-08-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,3,2023-08-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,1,2023-08-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,2,1,0,2023-08-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,4,1,3,2023-08-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,7,1,3,2023-08-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,2,1,0,2023-08-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,4,1,3,2023-08-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,7,1,3,2023-08-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,2,1,4,2023-08-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,0,2023-08-01
@@ -2066,7 +2066,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,7,2,17,2023-08-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,11,4,12,2023-08-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,12,4,44,2023-08-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,13,4,16,2023-08-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,14,4,22,2023-08-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,9,3,9,2023-08-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,6,2,12,2023-08-01
@@ -2102,7 +2101,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,8,2023-08-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-08-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-08-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-08-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-08-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-08-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-08-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,0,2023-08-01
@@ -2137,7 +2136,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,0,2023-08-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-08-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-08-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-08-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,0,2023-08-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-08-01
@@ -2147,7 +2146,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-08-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-08-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-08-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,0,2023-08-01
@@ -2178,7 +2177,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-08-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-08-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-08-01
@@ -2222,6 +2221,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-08-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-08-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,0,2023-08-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,6,1,7,2023-08-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,8,2023-08-01
@@ -2239,6 +2240,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,2,1,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2023-08-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2023-08-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,10,4,25,2023-08-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,13,4,16,2023-08-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,0,0,13,2023-08-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,8,2023-08-01
@@ -2247,14 +2249,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,4,2,27,2023-08-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,6,2023-08-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,0,2023-08-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2023-08-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,5,2023-08-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,11,2,13,2023-08-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-08-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-08-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-08-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-08-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-08-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,5,2023-08-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,11,2,13,2023-08-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-09-01
@@ -2307,9 +2307,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,3,1,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,0,0,3,2023-09-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,2,2023-09-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-09-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,1,2023-09-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,0,0,6,2023-09-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-09-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,1,2023-09-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,0,0,6,2023-09-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-09-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,6,1,6,2023-09-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,2,2023-09-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2023-09-01
@@ -2348,7 +2348,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,7,2023-09-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,6,3,10,2023-09-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,4,2,32,2023-09-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,2,1,7,2023-09-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,4,2,6,2023-09-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,2,1,4,2023-09-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,4,2,3,2023-09-01
@@ -2384,7 +2383,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,2,1,4,2023-09-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,8,2023-09-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,5,2023-09-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-09-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-09-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-09-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-09-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,1,2023-09-01
@@ -2419,7 +2418,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,1,9,2023-09-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,1,0,2023-09-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,3,2023-09-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-09-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-09-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,1,2023-09-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,4,1,2,2023-09-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,1,2023-09-01
@@ -2429,7 +2428,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,1,2023-09-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,1,2023-09-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-09-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,2,2023-09-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,2,2023-09-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,2,2023-09-01
@@ -2460,7 +2459,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-09-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-09-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-09-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-09-01
@@ -2504,6 +2503,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-09-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-09-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,0,2023-09-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,0,0,6,2023-09-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,2,2023-09-01
@@ -2521,6 +2522,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,6,1,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-09-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,8,3,29,2023-09-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,2,1,7,2023-09-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,4,2,5,2023-09-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,6,2023-09-01
@@ -2529,14 +2531,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,18,3,44,2023-09-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,5,2023-09-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,0,2023-09-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,12,3,19,2023-09-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,1,2023-09-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,8,2,8,2023-09-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-09-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-09-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-09-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-09-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-09-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,1,2023-09-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,8,2,8,2023-09-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-10-01
@@ -2589,9 +2589,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,2,1,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,15,2,3,2023-10-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,3,1,5,2023-10-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,23,2,1,2023-10-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,1,2023-10-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,0,0,4,2023-10-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,3,2023-10-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,1,2023-10-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,0,0,4,2023-10-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,3,2023-10-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,16,3,1,2023-10-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,1,1,2023-10-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,1,0,2023-10-01
@@ -2630,7 +2630,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2023-10-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,8,2,12,2023-10-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,13,5,15,2023-10-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,10,2,1,2023-10-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,24,9,13,2023-10-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,0,0,2,2023-10-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,7,2,3,2023-10-01
@@ -2666,7 +2665,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,7,2023-10-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,8,2023-10-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,5,1,6,2023-10-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,6,1,11,2023-10-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,6,1,11,2023-10-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-10-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,1,2023-10-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,1,2023-10-01
@@ -2701,7 +2700,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,5,2023-10-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2023-10-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,3,1,7,2023-10-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-10-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-10-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,3,1,7,2023-10-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,10,2023-10-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,1,2023-10-01
@@ -2711,7 +2710,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,12,1,2,2023-10-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,1,2023-10-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-10-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-10-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,2,1,0,2023-10-01
@@ -2742,7 +2741,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-10-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-10-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-10-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-10-01
@@ -2786,6 +2785,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-10-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-10-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,0,2023-10-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,0,0,5,2023-10-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,3,2023-10-01
@@ -2803,6 +2804,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,4,2,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,8,2,8,2023-10-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,1,1,2023-10-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,25,8,29,2023-10-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,10,2,1,2023-10-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,15,5,8,2023-10-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,1,2023-10-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,2,2023-10-01
@@ -2811,14 +2813,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,0,0,23,2023-10-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,4,2023-10-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,0,2023-10-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,6,2023-10-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,3,2023-10-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,12,2,6,2023-10-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-10-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-10-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-10-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-10-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-10-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,3,2023-10-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,12,2,6,2023-10-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-11-01
@@ -2871,9 +2871,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,2,1,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-11-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,6,2023-11-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,3,2023-11-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-11-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,0,0,5,2023-11-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-11-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-11-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,0,0,5,2023-11-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-11-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,1,2023-11-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-11-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2023-11-01
@@ -2912,7 +2912,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2023-11-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,7,3,8,2023-11-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,15,5,19,2023-11-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,6,2,7,2023-11-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,5,2,14,2023-11-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,0,0,1,2023-11-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,3,1,6,2023-11-01
@@ -2948,7 +2947,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,4,2,4,2023-11-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,6,1,2,2023-11-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,6,1,1,2023-11-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,2,2023-11-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,2,2023-11-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-11-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-11-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,4,2023-11-01
@@ -2983,7 +2982,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-11-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2023-11-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,0,2023-11-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-11-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-11-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,6,1,6,2023-11-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,6,1,3,2023-11-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-11-01
@@ -2993,7 +2992,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-11-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-11-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-11-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-11-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,0,2023-11-01
@@ -3024,7 +3023,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-11-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-11-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-11-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-11-01
@@ -3068,6 +3067,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-11-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-11-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,0,2023-11-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,0,0,6,2023-11-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,7,2023-11-01
@@ -3085,6 +3086,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,6,3,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,4,2023-11-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,16,6,18,2023-11-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,6,2,7,2023-11-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,5,2,5,2023-11-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,5,2023-11-01
@@ -3093,14 +3095,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,2,1,24,2023-11-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,0,2023-11-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,0,2023-11-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,6,2,6,2023-11-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,0,2023-11-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,12,2,6,2023-11-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-11-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-11-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-11-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-11-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-11-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,0,2023-11-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,12,2,6,2023-11-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2023-12-01
@@ -3153,9 +3153,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-12-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,1,2023-12-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,1,2023-12-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-12-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,0,0,1,2023-12-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-12-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-12-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,0,0,1,2023-12-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-12-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-12-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-12-01
@@ -3194,7 +3194,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2023-12-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,2,1,2,2023-12-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,13,3,16,2023-12-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,2,1,4,2023-12-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,6,2,7,2023-12-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,0,0,1,2023-12-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,0,0,2,2023-12-01
@@ -3230,7 +3229,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,6,2023-12-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,4,1,3,2023-12-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,2,1,4,2023-12-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,2,1,1,2023-12-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,2,1,1,2023-12-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-12-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,0,2023-12-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,4,1,9,2023-12-01
@@ -3265,7 +3264,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2023-12-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-12-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,5,2,4,2023-12-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2023-12-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2023-12-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,16,2023-12-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,6,2023-12-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,2,1,0,2023-12-01
@@ -3275,7 +3274,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,2,1,2,2023-12-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,2,2023-12-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,0,2023-12-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,1,2023-12-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,1,2023-12-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,2,2023-12-01
@@ -3306,7 +3305,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-12-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,0,2023-12-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,0,2023-12-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2023-12-01
@@ -3350,6 +3349,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-12-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-12-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,0,2023-12-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,6,3,12,2023-12-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,4,2023-12-01
@@ -3367,6 +3368,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2023-12-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,11,2,10,2023-12-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,2,1,4,2023-12-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,2,1,9,2023-12-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,0,2023-12-01
@@ -3375,14 +3377,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,0,0,19,2023-12-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,1,2023-12-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,0,2023-12-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2023-12-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,0,2023-12-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,9,2,8,2023-12-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2023-12-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2023-12-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2023-12-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-12-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2023-12-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,0,2023-12-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,9,2,8,2023-12-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2024-01-01
@@ -3435,9 +3435,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,0,0,2,2024-01-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,4,2,9,2024-01-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,0,2024-01-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,0,2024-01-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,0,0,2,2024-01-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,2,2024-01-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,0,2024-01-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,0,0,2,2024-01-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,2,2024-01-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,0,2024-01-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,6,1,2,2024-01-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,3,1,6,2024-01-01
@@ -3476,7 +3476,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,13,5,12,2024-01-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,27,9,17,2024-01-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,34,10,20,2024-01-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,33,10,9,2024-01-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,42,12,14,2024-01-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,13,5,4,2024-01-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,2,1,3,2024-01-01
@@ -3512,7 +3511,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,0,0,3,2024-01-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,7,3,12,2024-01-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,3,2024-01-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,2,2024-01-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,2,2024-01-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,6,1,8,2024-01-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,6,2,2,2024-01-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,2,1,1,2024-01-01
@@ -3547,7 +3546,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,9,2024-01-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,5,2024-01-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,18,6,3,2024-01-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2024-01-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2024-01-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,16,5,9,2024-01-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,6,1,9,2024-01-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,5,1,2,2024-01-01
@@ -3557,7 +3556,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,4,2024-01-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,3,2024-01-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,10,2,2,2024-01-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,8,2,3,2024-01-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,8,2,3,2024-01-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,6,2,4,2024-01-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,2,1,3,2024-01-01
@@ -3588,7 +3587,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-01-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,2,1,2,2024-01-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-01-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,0,0,4,2024-01-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,4,2024-01-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,2,2024-01-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,0,2024-01-01
@@ -3632,6 +3631,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-01-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,2,2024-01-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,1,2024-01-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,0,0,9,2024-01-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,14,2024-01-01
@@ -3649,6 +3650,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,5,2,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,20,7,27,2024-01-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,33,10,9,2024-01-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,23,7,13,2024-01-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,1,2024-01-01
@@ -3657,14 +3659,12 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,4,1,20,2024-01-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,5,2024-01-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,1,2024-01-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,7,2024-01-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,0,2024-01-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,4,1,20,2024-01-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,1,2024-01-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,1,2024-01-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,2,2024-01-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-01-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-01-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,0,2024-01-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,4,1,20,2024-01-01
 p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2024-02-01
@@ -3717,9 +3717,9 @@ p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,0,0,
 p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,0,0,4,2024-02-01
 p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,3,2024-02-01
 p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,1,2024-02-01
-p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Dishcloth,2,1,1,2024-02-01
-p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Dishcloth,0,0,2,2024-02-01
-p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Dishcloth,15,1,4,2024-02-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,2,1,1,2024-02-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,0,0,2,2024-02-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,15,1,4,2024-02-01
 p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,1,2024-02-01
 p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,8,2024-02-01
 p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,7,2024-02-01
@@ -3758,7 +3758,6 @@ p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Clot
 p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,8,3,10,2024-02-01
 p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,17,5,13,2024-02-01
 p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,16,5,28,2024-02-01
-p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,15,4,12,2024-02-01
 p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,4,2,19,2024-02-01
 p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,6,3,7,2024-02-01
 p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,2,1,7,2024-02-01
@@ -3794,7 +3793,7 @@ p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Nap
 p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,2,1,3,2024-02-01
 p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,8,2024-02-01
 p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,3,2024-02-01
-p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,6,2024-02-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,6,2024-02-01
 p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,1,2024-02-01
 p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,0,0,1,2024-02-01
 p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,3,2024-02-01
@@ -3829,7 +3828,7 @@ p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth 
 p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-02-01
 p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,0,0,5,2024-02-01
-p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2024-02-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,0,2024-02-01
 p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,10,2024-02-01
 p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,5,2024-02-01
 p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,4,2024-02-01
@@ -3839,7 +3838,7 @@ p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & 
 p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,1,2024-02-01
 p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,2,2024-02-01
 p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,2,2024-02-01
-p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,1,2024-02-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,1,2024-02-01
 p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2024-02-01
 p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,0,2024-02-01
@@ -3870,7 +3869,7 @@ p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins
 p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,7,2024-02-01
 p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,7,2024-02-01
 p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-02-01
-p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Dishcloth,4,1,5,2024-02-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,4,1,5,2024-02-01
 p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,5,2024-02-01
 p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,1,2024-02-01
 p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,1,2024-02-01
@@ -3914,6 +3913,8 @@ p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,
 p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-02-01
 p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-02-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2024-02-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,0,2024-02-01
 p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,0,0,3,2024-02-01
 p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,2,2024-02-01
@@ -3931,6 +3932,7 @@ p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,2,1,
 p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,10,2,10,2024-02-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,15,4,12,2024-02-01
 p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,2,1,19,2024-02-01
 p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,0,2024-02-01
@@ -3939,11 +3941,291 @@ p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,0,0,3,2024-02-01
 p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,0,2024-02-01
 p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,1,2024-02-01
 p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2024-02-01
-p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,0,2024-02-01
-p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,14,4,15,2024-02-01
 p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2024-02-01
 p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2024-02-01
-p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,0,2024-02-01
-p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-02-01
 p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-02-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,0,2024-02-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,14,4,15,2024-02-01
+p_5sz5dgr8f8,Marseille - Black & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_appm4wm4aa,Marseille - Blue & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_x55sbaj9g4,Marseille - Olive Green & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_ttdm9xth34,Marseille - Red & Natural Cushion Covers 22x22,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_pg4r4y6tmr,Normandy White - Red/Grey/Black Stripes Tea Towels 20x30,Dishcloth,0,0,0,2024-03-01
+p_d2entyk3c3,Normandy White - Red/Grey/Black Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_a8dpz8rhet,Marble & Wood Cheese Board,Cheese Board,3,1,8,2024-03-01
+p_carncmitw9,Marble Small Paddle,Cutting Board,0,0,4,2024-03-01
+p_c9xwftlltl,Bistro Glass - Set of 6,Drinking Glasses & Cups,34,2,78,2024-03-01
+p_h80ygem2og,Marble Grande Round Tray,Serving Tray,4,1,47,2024-03-01
+p_aj2h90xqrv,Marble Key Bowl,Decorative Plate & Dish & Bowl,0,0,6,2024-03-01
+p_8w8o4xojh0,Marble Heart Dishes - Set of 4,Decorative Plate & Dish & Bowl,0,0,8,2024-03-01
+p_f1cw6daugq,Large White Marble Pot,Outdoor Plant Pots,0,0,1,2024-03-01
+p_6nwpg1ehfn,Small Marble Flower Pot,Outdoor Plant Pots,0,0,6,2024-03-01
+p_cli83ipljq,Salt & Pepper Shakers,Salt & Pepper Shaker Set,0,0,0,2024-03-01
+p_xt04rmyzyw,Large Marble Round Cheeseboard,Cheese Board,4,1,3,2024-03-01
+p_abw3jkrhz0,August Linen Stitch Multi Napkins - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_clqsqkwcdq,Marble Hexagon Coasters - Set of 4,Coasters,4,1,1,2024-03-01
+p_2pkxp4z9gp,Marble Grande Canister,Outdoor Plant Pots,0,0,5,2024-03-01
+p_4r8179r6z1,Natural Market Tote,Tote Bag,4,1,11,2024-03-01
+p_sxkra2u736,"Seagrass Natural Placemats, Set of 4",Placemat,0,0,3,2024-03-01
+p_2mwaduk2y5,Boat Stripe Linen Indigo & White Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,1,2024-03-01
+p_ttw555png9,Boat Stripe Linen Natural & White Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2024-03-01
+p_p2swqk4dsq,Boat Stripe Linen White & Blue Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_c9swqhnm8u,Boat Stripe Linen Indigo & White Towels 20x30 - Set of 2,Dishcloth,2,1,11,2024-03-01
+p_g4gjadacp3,Boat Stripe Linen Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,20,2024-03-01
+p_rwuqeyxm5y,Boat Stripe Linen Natural & White Towels 20x30 - Set of 2,Tea Towel,0,0,5,2024-03-01
+p_vcqxhefua5,Boat Stripe Linen White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,1,2024-03-01
+p_sz4r4y8t32,Bold Stripe Linen Grey & Dijon Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,1,2024-03-01
+p_ukmseyqawz,Bold Stripe Linen Turquoise Orange Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_vprraxs2z2,Bold Stripe Linen Grey/Dijon Towels 20x30 - Set of 2,Dishcloth,0,0,2,2024-03-01
+p_4hz4e77sux,Chunky Linen Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_a46ejavvbw,Chunky Linen Mustard Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_bktegtqnkn,Chunky Linen Orange Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,5,2024-03-01
+p_htn2ra2jdm,Chunky Linen Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_729nz6ahqk,Chunky Linen Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,6,2024-03-01
+p_brk5phry4v,Chunky Linen Forest Green Towels 20x30 - Set of 2,Bath Towels & Washcloths,10,3,54,2024-03-01
+p_59w2twst76,Chunky Linen Lime Towels 20x30 - Set of 2,Bath Towels & Washcloths,13,4,30,2024-03-01
+p_5ajscssabf,Chunky Linen Mustard Towels 20x30 - Set of 2,Bath Towels & Washcloths,10,3,13,2024-03-01
+p_naccq6dvyn,Chunky Linen Orange Towels 20x30 - Set of 2,Bath Towels & Washcloths,12,4,29,2024-03-01
+p_f44u3r7fk9,Chunky Linen Red Towels 20x30 - Set of 2,Towel Set,4,2,5,2024-03-01
+p_kzhauxts4a,Color Block Green & Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2024-03-01
+p_44dmpr9qk8,Color Block Red & Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_3r4u2jxuq6,Hemstitch Orange Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_6zkveznawe,Laundered Linen Aqua/Charcoal Towels 20x30 - Set of 2,Tea Towel,2,1,6,2024-03-01
+p_d7gqffkdpp,Laundered Linen Aqua/Lime Towels 20x30 - Set of 2,Tea Towel,0,0,7,2024-03-01
+p_gq555rkj3k,Laundered Linen Charcoal/Aqua Towels 20x30 - Set of 2,Tea Towel,2,1,9,2024-03-01
+p_78e5aur8fv,Laundered Linen Grey/Lime Towels 20x30 - Set of 2,Dishcloth,2,1,3,2024-03-01
+p_qxfrfc3mye,Laundered Linen Indigo/White Towels 20x30 - Set of 2,Tea Towel,2,1,5,2024-03-01
+p_zyfr8ntqmh,Laundered Linen Lime/Aqua Towels 20x30 - Set of 2,Dishcloth,2,1,8,2024-03-01
+p_mzd3fehakj,Laundered Linen Lime/Grey Towels 20x30 - Set of 2,Tea Towel,2,1,14,2024-03-01
+p_3xrfjqwkck,Laundered Linen Mustard/Grey Towels 20x30 - Set of 2,Dishcloth,0,0,8,2024-03-01
+p_5extt9ajuy,Laundered Linen Natural/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,8,2024-03-01
+p_d58bv75w2v,Laundered Linen Natural/White Towels 20x30 - Set of 2,Tea Towel,2,1,6,2024-03-01
+p_6auczr4qkx,Laundered Linen Orange/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,9,2024-03-01
+p_68wmsycqqq,Laundered Linen White/Natural Towels 20x30 - Set of 2,Dishcloth,0,0,1,2024-03-01
+p_748njm2ev4,Laundered Linen Aqua/Charcoal Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,5,2024-03-01
+p_6j6zn2kdzw,Laundered Linen Aqua/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_9h8mzmgw96,Laundered Linen Charcoal / Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,5,2024-03-01
+p_jcsrphnutx,Laundered Linen Grey/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_hnjzxqqn4g,Laundered Linen Grey/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_7cq7ydfpna,Laundered Linen Indigo/White Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,3,1,5,2024-03-01
+p_ws6wpm9ndz,Laundered Linen Lime Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,5,2024-03-01
+p_ysgrn4zx2r,Laundered Linen Lime/Grey Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,1,2024-03-01
+p_knwx3efmay,Laundered Linen Mustard/Grey Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_am74sg6r2u,Laundered Linen Natural/Grey Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2024-03-01
+p_g7zrxsjta8,Laundered Linen Natural/White Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_bkxxjwuprg,Laundered Linen Orange/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_2qakyse8qy,Laundered Linen Pink/Lime Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,6,2024-03-01
+p_swkkk2h8fv,Laundered Linen White/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_b43grm4c25,Linen Stitch Chambray Denim Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_cpcbhbe6an,Linen Stitch Chambray Stripe Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_9m3j86hmbt,"Multi Stripes ""Black"" Napkins 20x20 - Set of 4",Dinner & Cloth Napkins,4,1,6,2024-03-01
+p_hx45pgqbtj,"Multi Stripes ""Stem"" Napkins 20x20 - Set of 4",Dinner & Cloth Napkins,4,1,5,2024-03-01
+p_xfbn7jrd8m,Palma Handwoven Cornflower Blue Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_fqd4xjyj9y,Palma Handwoven Citronelle Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_nz82c2gtjm,Palma Handwoven Cherry Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_qmxrst4ts6,Palma Handwoven Nude Peach Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_y762z6s52v,Palma Handwoven Navy Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_7scu53u4vh,Palma Handwoven Fuchsia Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_wy9tk9ku6y,Palma Handwoven Steel Lavender Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2024-03-01
+p_umd5a6nzt9,Palma Handwoven Teal Blue Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_hf59sstncq,Palma Handwoven White Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_mwa9qxh64d,Two-Tone Gingham Aqua/Orange Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,6,2,12,2024-03-01
+p_ykdq4h7d7n,Two-Tone Gingham Blue/Cognac Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,12,1,36,2024-03-01
+p_xcyv7gnpn8,Two-Tone Gingham Cognac/Blue Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,11,3,29,2024-03-01
+p_8sxf7k82zq,Two-Tone Gingham Dijon/Grey Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,6,2024-03-01
+p_5uhdp9yppy,Two-Tone Gingham Grey/Dijon Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,9,2024-03-01
+p_zjmtzxcnng,Two-Tone Gingham Lime/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,2,10,2024-03-01
+p_y4puc37mff,Two-Tone Gingham Orange/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,10,2,29,2024-03-01
+p_gyvn3jnfym,Two-Tone Gingham Natural/Aqua Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_dspgyvzrn8,Two-Tone Gingham Aqua/Orange Towels 20x30 - Set of 2,Dishcloth,8,4,9,2024-03-01
+p_xbezxn74a7,Two-Tone Gingham Blue/Cognac Towels 20x30 - Set of 2,Dishcloth,10,4,26,2024-03-01
+p_2qyvxr7x2r,Two-Tone Gingham Grey/Dijon Towels 20x30 - Set of 2,Tea Towel,14,6,13,2024-03-01
+p_wc4xk6hcjd,Two-Tone Gingham Lime/Aqua Towels 20x30 - Set of 2,Tea Towel,6,3,12,2024-03-01
+p_pg2y7n3h8f,Two-Tone Gingham Natural/Aqua Towels - Set of 2,Dishcloth,9,4,10,2024-03-01
+p_rw9qhvhchq,Two-Tone Gingham Natural/Dijon Towels 20x30 - Set of 2,Dishcloth,7,2,12,2024-03-01
+p_sw6e8z3p4h,Vintage Linen Natural/Black Towels 20x30 - Set of 2,Dishcloth,0,0,3,2024-03-01
+p_7qetx8b4d2,Vintage Linen Ivory/Grey Towels 20x30 - Set of 2,Tea Towel,0,0,2,2024-03-01
+p_jddrcs5hr8,Vintage Linen Natural/Blue Towels 20x30 - Set of 2,Dishcloth,0,0,8,2024-03-01
+p_q9ejxhm38s,Vintage Linen Natural/Ivory Towels 20x30 - Set of 2,Dishcloth,0,0,16,2024-03-01
+p_m7emrgpuzj,Vintage Linen Ivory/Navy Towels 20x30 - Set of 2,Dishcloth,3,1,15,2024-03-01
+p_fchdasbkc8,Vintage Linen Natural/Red Towels 20x30 - Set of 2,Tea Towel,0,0,2,2024-03-01
+p_6rsvhazbqw,Vintage Linen Natural/Black Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,3,2024-03-01
+p_hyhqwhm9ry,Vintage Linen Ivory/Grey Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2024-03-01
+p_s32f3hp7r2,Vintage Linen Natural/Blue Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,5,2024-03-01
+p_nxwkjr8fte,Vintage Linen Ivory/Navy Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,6,2024-03-01
+p_5pce799gwj,Vintage Linen Natural/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_5m32z9rffj,Summer Glass Orange & Turquoise Large 15oz - Set of 4,Drinking Glasses & Cups,13,4,90,2024-03-01
+p_7dwh6wyjtg,Summer Glass Turquoise & White Small 9oz - Set of 4,Drinking Glasses & Cups,2,1,12,2024-03-01
+p_r4jcasnu22,Summer Glass Turquoise & White Large 15oz - Set of 4,Drinking Glasses & Cups,0,0,3,2024-03-01
+p_u9re3qkzp3,Summer Glass White & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,7,1,20,2024-03-01
+p_my3ufkjwdk,Summer Glass White & Turquoise Large 15oz - Set of 4,Drinking Glasses & Cups,12,3,8,2024-03-01
+p_rnng74dutw,Pepe White Marble Cheese Board Large 25x5.75,Cheese Board,0,0,2,2024-03-01
+p_sawsz75ynb,Pepe Marble Cheese Board Small 10x5,Cheese Board,0,0,0,2024-03-01
+p_c8fhgvpcvs,Pepe Black Marble Cheese Board Large 25x5.75,Cheese Board,0,0,2,2024-03-01
+p_v27qysnafw,Saint-Rémy d'Or et Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_478nyzqwy8,Saint-Rémy d'Or et Vert Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_wfces3zbe9,Blossom Natural Round Placemat Flower 38cm - Set of 4,Placemat,0,0,33,2024-03-01
+p_pjfxbgv6w5,"Daisy Jute Blue Jean Placemat 15"" Round - Set of 4",Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_vffh9dcj4q,"Daisy Jute Clementine Placemat 15"" Round - Set of 4",Dinner & Cloth Napkins,0,0,9,2024-03-01
+p_vk2rjgkbju,"Daisy Jute Green Placemat 15"" Round - Set of 4",Dinner & Cloth Napkins,0,0,6,2024-03-01
+p_p5m52fzksj,"Daisy Jute Mustard Placemat 15"" Round - Set of 4",Dinner & Cloth Napkins,2,1,4,2024-03-01
+p_5zswn43xe6,"Daisy Jute Natural Placemat 15"" Round - Set of 4",Dinner & Cloth Napkins,5,2,22,2024-03-01
+p_xkkfjkf3uk,"Daisy Jute Navy Placemat 15"" Round - Set of 4",Dinner & Cloth Napkins,0,0,17,2024-03-01
+p_vrh25gfb2k,Marble Large Paddle 14X11,Cutting Board,4,1,5,2024-03-01
+p_a9gq4p7ape,Alsace Natural & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,1,2024-03-01
+p_gvqnm3nfdx,Alsace Natural & Red Towels 20x30 - Set of 2,Dishcloth,0,0,1,2024-03-01
+p_nch85jqngq,Alsace Natural & Mustard Towels 20x30 - Set of 2,Tea Towel,0,0,3,2024-03-01
+p_4gh2akmugn,Alsace White & Blue Towels 20x30 - Set of 2,Dishcloth,0,0,0,2024-03-01
+p_r6y8tnytnt,Alsace White & Mustard Towels 20x30 - Set of 2,Dishcloth,5,2,2,2024-03-01
+p_3xv42956qy,Alsace White & Red Towels 20x30- Set of 2,Tea Towel,0,0,0,2024-03-01
+p_tcxmndhgmx,Alsace Natural & Blue Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_9sprpfcvhh,Alsace Natural & Mustard Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,7,2024-03-01
+p_tjbyjsrnw7,Alsace Natural & Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_qnkq73ds3c,Alsace White & Blue Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_njkffgfhqn,Alsace White & Mustard Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_v5gb6m82w7,Alsace White & Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_jqmuq5m39s,Classic Round Natural Round Placemat 38cm - Set of 4,Placemat,0,0,2,2024-03-01
+p_jwrbshrhns,Everyday White Wash Round Placemat 38cm - Set of 4,Placemat,0,0,4,2024-03-01
+p_bta5jdcprb,Everyday Natural Napkin Ring - Set of 4,Napkin Ring,13,2,15,2024-03-01
+p_9ghfsrqqwy,Everyday White Wash Napkin Ring - Set of 4,Napkin Ring,6,1,7,2024-03-01
+p_dw4txnx2fu,Brittany Natural & Blue Tea Towels 20x30 - Set of 2,Tea Towel,2,1,9,2024-03-01
+p_bjhxc3925f,Brittany Natural & Mustard  Tea Towels 20x30 - Set of 2,Tea Towel,3,1,6,2024-03-01
+p_gzwgp6b9a7,Brittany Natural & Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,1,2024-03-01
+p_5c2hwcg3je,Brittany White & Blue Tea Towels 20x30 - Set of 2,Tea Towel,0,0,3,2024-03-01
+p_3r8etc8fc3,Brittany White & Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,11,2024-03-01
+p_9nf9g4bjgu,Brittany White & Red Tea Towels 20x30 - Set of 2,Dishcloth,0,0,0,2024-03-01
+p_7x6xyttwsj,Brittany Natural & Blue Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_49k8gmsud8,Brittany Natural & Mustard Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_ehdhuq563c,Brittany Natural & Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_3yz3cqzdaq,Brittany White & Blue Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_kx3633qfms,Brittany White & Mustard Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,4,2,2,2024-03-01
+p_xhy6hc3h67,Brittany White & Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,2,2024-03-01
+p_r42h47bxku,Marseille - Black & Natural Tea Towels 20x30 - Set of 2,Tea Towel,3,1,5,2024-03-01
+p_3yvzxsabug,Marseille - Blue & Natural Tea Towels 20x30 - Set of 2,Tea Towel,2,1,5,2024-03-01
+p_b327jum3cn,Marseille - Olive Green/Natural Tea Towels 20x30 - Set of 2,Tea Towel,5,2,29,2024-03-01
+p_b6evp3wzja,Marseille - Red & Natural Tea Towels 20x30 - Set of 2,Tea Towel,2,1,1,2024-03-01
+p_2b34rptdp4,Marseille - Black/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_sq8yw7r972,Marseille - Blue & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,3,1,8,2024-03-01
+p_56zn9nzu44,Marseille - Olive Green/Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_ajhh6vrkjg,Marseille - Red & Natural Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_vfcfkj26rj,Normandy Natural - Mustard/Natural/Blue Tea Towels 20x30,Tea Towel,2,1,8,2024-03-01
+p_ryz7vqzxp9,Normandy Natural - Red/Grey/Black Stripes Tea Towels 20x30,Tea Towel,0,0,16,2024-03-01
+p_ny5zrhy8d3,Normandy Natural - Red/Natural/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,8,2024-03-01
+p_q39bwxdrqv,Normandy White - Mustard/White/Blue Stripes TeaTowels 20x30,Tea Towel,0,0,2,2024-03-01
+p_3257uxyhr9,Normandy White - Red/White/Blue Stripes Tea Towels 20x30,Dishcloth,0,0,3,2024-03-01
+p_5bsksr583y,Normandy Natural - Mustard/Natural/Blue Stripe Napkins 20x20,Dinner & Cloth Napkins,0,0,6,2024-03-01
+p_cn4uq5zep2,Normandy Natural - Red/Grey/Black Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_k7yup3yhue,Normandy Natural - Red/Natural/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_fp5chan9wd,Normandy White - Mustard/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_txgd3hhe8p,Normandy White - Red/White/Blue Stripes Napkins 20x20,Dinner & Cloth Napkins,0,0,2,2024-03-01
+p_g6hnw7npv3,Paris White - Blue/Mustard Tea Towels 20x30 - Set of 2,Tea Towel,0,0,4,2024-03-01
+p_8wv59zmgkp,Paris White - Blue/Red Tea Towels 20x30 - Set of 2,Tea Towel,0,0,1,2024-03-01
+p_9mgwcztp8t,Paris White - Blue/Mustard Napkins 20x20  - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_fmk937hua5,Paris White - Blue/Red Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_7dvauu7cgn,"Circolo Abaca Aqua 15"" Round - Set of 4",Placemat,0,0,3,2024-03-01
+p_ah93nxbgpc,"Circolo Abaca Mustard 15"" Round - Set of 4",Placemat,0,0,4,2024-03-01
+p_85udb49f8n,"Circolo Abaca Natural 15"" Round - Set of 4",Placemat,0,0,9,2024-03-01
+p_fehv5ksw5t,"Circolo Abaca Navy 15"" Round - Set of 4",Placemat,0,0,14,2024-03-01
+p_pw7dsfk4y4,"Circolo Abaca Olive Green 15"" Round - Set of 4",Placemat,0,0,4,2024-03-01
+p_u7ujzaapuq,"Circolo Abaca Orange 15"" Round",Placemat,0,0,3,2024-03-01
+p_8yunvc82bz,"Loopy Abaca Mustard & Natural 15"" Round - Set of 4",Placemat,0,0,2,2024-03-01
+p_2f9bd96b7m,"Loopy Abaca Natural & Olive Green 15"" Round - Set of 4",Placemat,0,0,7,2024-03-01
+p_r7zqtrubj2,"Loopy Abaca Natural & Orange 15"" Round - Set of 4",Placemat,0,0,1,2024-03-01
+p_q934ackyg4,"Loopy Abaca Natural 15"" Round - Set of 4",Placemat,0,0,10,2024-03-01
+p_bfd6hssvbs,"Loopy Abaca Navy & Natural 15"" Round - Set of 4",Placemat,0,0,8,2024-03-01
+p_wsenw8rme7,"Loopy Abaca Natural & Navy 15"" Round - Set of 4",Placemat,0,0,3,2024-03-01
+p_s2byd5hj6z,"Loopy Abaca Olive Green & Natural 15"" Round - Set of 4",Placemat,0,0,3,2024-03-01
+p_m6t2trn3cj,Picnic Napkin 20x20 - Blueberry - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_vdyfwu9can,Picnic Napkin 20x20 - Clementine - Set of 4,Dinner & Cloth Napkins,0,0,5,2024-03-01
+p_w895auxngu,Picnic Napkin 20x20 - Mustard - Set of 4,Dinner & Cloth Napkins,3,1,6,2024-03-01
+p_ayqr7w9kzr,Picnic Napkin 20x20 - Basil - Set of 4,Dinner & Cloth Napkins,2,1,0,2024-03-01
+p_nam6mukww7,Picnic Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_8hbuah6djc,Picnic Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_3gk4kmtnwg,Picnic Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,13,3,10,2024-03-01
+p_nccc96569k,Ticking Stripe Napkin 20x20 - Blueberry - Set of 4,Dinner & Cloth Napkins,0,0,7,2024-03-01
+p_aafrk398zc,Ticking Stripe Napkin 20x20 - Basil - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_h6u4ct5xcc,Ticking Stripe Napkin 20x20 - Clementine - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_wubphwtcd5,Ticking Stripe Napkin 20x20 - Mustard - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_fevgru6xpd,Ticking Stripe Napkin 20x20 - Sky - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_hwdepetxrw,Ticking Stripe Napkin 20x20 - Tomato - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_d9ynf4hpfs,Ticking Stripe Napkin 20x20 - Walnut - Set of 4,Dinner & Cloth Napkins,0,0,6,2024-03-01
+p_d8be76ge92,Bistro Napkin 20x20 - Blue & Red - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_dwuhvjzynn,Bistro Tea Towel 20x30 - Blue & Red - Set of 2,Tea Towel,0,0,11,2024-03-01
+p_b5zsheym5b,Trio Stripe Pillow Cover - Chestnut Olive 22x22,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_k8qhq5ttgj,Trio Stripe Pillow Cover - Natural Blue 22x22,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_g5ncxvzr7s,Trio Stripe Pillow Cover - Natural Chestnut 22x22,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_p9y74nkvb5,Trio Stripe Pillow Cover - Natural Olive 22x22,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_fapkyv8bwz,Trio Stripe Pillow Cover - Blue Chestnut 22x22,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_5gwu3d47ba,Trio Stripe Napkins - Natural Blue 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_pes3ap2dp5,Trio Stripe Napkins - Natural Chestnut 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,5,2024-03-01
+p_ccxrk3a2gp,Trio Stripe Napkins - Natural Olive 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_csmqtqw8c7,Bahamas Napkin 20x20 - Multi - Set of 4,Dinner & Cloth Napkins,0,0,7,2024-03-01
+p_c2vedbxnuq,Vine Stripe Napkins - Multi 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,7,2024-03-01
+p_8ev3u5exvq,"Embroidery White Napkins 20x20"" + 1.5"" Hem",Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_y5ctntdqz2,"Embroidery White Tablecloth 72x72 + 2"" Hem",Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_2v4zxnqsr3,"Embroidery White Tablecloth 60x90"" + 2"" Hem",Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_wmgw39pknn,Blue Sanctuary Printed Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_7x2drpcw8d,Windowpane - Tablecloth Blue & Natural 60x60,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_zrf884pyu5,Windowpane - Tablecloth Blue & Natural 60x90,Dinner & Cloth Napkins,2,1,3,2024-03-01
+p_ue3qcxktrw,Windowpane - Napkins Blue & Natural 20x20 - Set of 4,Dinner & Cloth Napkins,2,1,1,2024-03-01
+p_uf379b5kyb,"Bruges Cushion Cover, Blue & Chestnut 22x22",Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_45wkb94xag,"Bruges Cushion Cover, Chestnut & Olive 22x22",Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_s6vgecqey5,"Bruges Cushion Cover, Natural & Blue 22x22",Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_3mqa4atrdt,"Bruges Cushion Cover, Natural & Chestnut 22x22",Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_cnzu85pz7y,"Bruges Cushion Cover, Natural & Olive 22x22",Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_qmj6fpbn5g,Everyday Napkins Avocado 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_9qrhkde6ch,Everyday Napkins Cranberry 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_v8y3v3e9b6,Everyday Napkins Citrus 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_ksyu4rn6n9,Everyday Napkins Clementine 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,2,2024-03-01
+p_mrsfq5whgb,Everyday Napkins Dijon 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_gdx2kpsu84,Everyday Napkins Evergreen 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_efwensc5d8,Everyday Napkins Flamingo 21x21 - Set of 4,Dinner & Cloth Napkins,2,1,4,2024-03-01
+p_fccm4pfrt5,Everyday Napkins Granny Smith 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_3hb8buqtha,Everyday Napkins Indigo 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_478ay8jfjp,Everyday Napkins Ivory 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_752wpba2ua,Everyday Napkins Kiwi 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_ymwhdfxahp,Everyday Napkins Lake 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_4fg5dbt3q7,Everyday Napkins Lavender 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_fyd8v5y5mz,Everyday Napkins Navy 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_9pqtpu5vbu,Everyday Napkins Paprika 21x21- Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_yjmj62h47j,Everyday Napkins Peony 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_k5wyttwt9v,Everyday Napkins Robin's Egg 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_n5x66c7bsj,Everyday Napkins Slate 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_xspzqzj3tu,Everyday Napkins Stone 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_y5ussxj2qx,Everyday Napkins White 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_jbbwpsrjff,Everyday Napkins Walnut 21x21 - Set of 4,Dinner & Cloth Napkins,0,0,3,2024-03-01
+p_8tat73z47b,Petite Fleur Multi Tablecloth,Tablecloth,0,0,1,2024-03-01
+p_dc3xv5njfw,Petite Fleur Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_9l5z1js4k8,Coir Floor Mats,Floor Mats,0,0,0,2024-03-01
+p_adtj0fefra,Tea Caddy with 8 Glasses,Beer & Wine Caddy,0,0,2,2024-03-01
+p_coelhwyon4,Color Pop Glasses - Set of 4,Drinking Glasses & Cups,0,0,4,2024-03-01
+p_azt0aqji2o,Marble Rectangle Tray,Decorative Tray,0,0,3,2024-03-01
+p_ps6fxw7q6h,Marble Plate & Glass Dome,Platter,0,0,0,2024-03-01
+p_rpy5bt363h,"Seasgrass Braided Placemats, Set of 4",Placemat,0,0,0,2024-03-01
+p_cg3vdn8uvk,Bold Stripe Linen White/Slate/Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,4,2024-03-01
+p_vfvzatgf38,Bold Stripe Linen White/Slate/Green Towels 20x30 - Set of 2,Dishcloth,0,0,0,2024-03-01
+p_f7ab7tt55t,Bold Stripe Linen White/Rust/Slate Tea Towels 20x30-Set of 2,Dishcloth,0,0,1,2024-03-01
+p_vx87z5h552,Hemstitch Ivory Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_3sqz2vmvp6,Hemstitch Navy Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,1,2024-03-01
+p_vdjbxeka89,Hemstitch Kiwi Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_hmmpw49x9q,Hemstitch Dijon Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_5febuy8mjg,Laundered Linen Grey/Natural Towels 20x30 - Set of 2,Tea Towel,0,0,3,2024-03-01
+p_b64ejddqxj,Palma Handwoven Forest Green Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_xvzp64e6ky,Palma Handwoven Mustard Yellow Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_wzhyagdwh7,Two-Tone Gingham Cognac/Blue Towels - Set of 2,Tea Towel,0,0,3,2024-03-01
+p_2bacudfggj,Two-Tone Gingham Dijon/Grey Towels 20x30 - Set of 2,Dishcloth,6,3,10,2024-03-01
+p_wd2b8sf9bt,Two-Tone Gingham Orange/Aqua Towels 20x30 - Set of 2,Dishcloth,0,0,6,2024-03-01
+p_c5fp9cn6hu,Hemstitch Rouge Napkins 22x22 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_vhmekf7jmj,Marble Petal Tray Large 16',Decorative Tray,0,0,1,2024-03-01
+p_5mrbf8b7cs,Marble Petal Tray Petite 6.5',Decorative Tray,0,0,2,2024-03-01
+p_s85r3fsbey,Marble Petal Tray Small 10.5',Serving Tray,0,0,1,2024-03-01
+p_rmvn965ybu,Marble Petal Tray Medium 12',Decorative Tray,0,0,2,2024-03-01
+p_3k3s2ge8bd,Pepe Marble Cheese Board Medium 9x9,Cheese Board,0,0,0,2024-03-01
+p_r24qj9g6hb,Vintage Linen Natural/Ivory Napkins 20x20 - Set of 4,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_trv9yzvxgg,Coromandel Delft Tablecloth,Tablecloth,0,0,0,2024-03-01
+p_t3pgmq2gst,Coromandel Multi Tablecloth,Tablecloth,0,0,0,2024-03-01
+p_54u376kfvb,Coromandel Delft Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_qx3qb7tdsz,Coromandel Multi Napkins 19x19 - Set of 6,Dinner & Cloth Napkins,0,0,0,2024-03-01
+p_tnb3yrku6f,Marble Napkin Rectangle Tray,Serving Tray,0,0,0,2024-03-01
+p_4r9t8gdhwc,Summer Glass Orange & Turquoise Small 9oz - Set of 4,Drinking Glasses & Cups,0,0,1,2024-03-01

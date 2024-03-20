@@ -74,4 +74,14 @@ __Opportunity:__ 'Callie' is one of the products with most views, but it is the 
 
 #
 
+<!-- Email marketing: Campaign ideas -->
+
+In the following charts, a distinct variance in sales among different retailers is evident. Put simply, some retailers make substantially larger purchases than others. It's notable that the top 20% of retailers account for almost 60% of total sales over the course of the last 12 months. To be a retailer considered part of the top 20% it has to have made purchases over \$2800.
+
+Conversely, it's apparent that a majority of retailers tend to reorder within a timeframe of 50 to 93 days after their last purchase.
+
+Leveraging this data, we're poised to craft a targeted re-engagement initiative tailored towards retailers surpassing the \$1600 sales threshold, whose last purchase falls within the window of 50 to 230 days ago or occurred between 3 to 9 months ago.
+
+Furthermore, our analysis reveals that 48% of retailers who initiated their first purchase in 2023 failed to make a subsequent order. To address this, we propose a focused re-engagement campaign aimed at retailers who've made a singular purchase within the past 75 to 150 days.
+
 <!-- end -->

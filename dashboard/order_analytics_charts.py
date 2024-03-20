@@ -601,7 +601,7 @@ def retailers_did_not_reorder(df):
     df_filtered_2023 = df[df['brand_contacted_at_values'].dt.year == 2023]
 
     # Filter by 'very_first_order_for_brand_values' equal to True
-    df_filtered_very_first = df_filtered_2023[df_filtered_2023['very_first_order_for_brand_values']]
+    df_filtered_very_first = df_filtered_2023[df_filtered_2023['very_first_order_for_brand_values'] | df_filtered_2023['first_order_for_brand_values']]
 
     # Create an array of unique retailer_tokens
     unique_retailer_tokens = df_filtered_very_first['retailer_tokens'].unique()

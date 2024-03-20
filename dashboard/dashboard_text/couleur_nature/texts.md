@@ -81,12 +81,12 @@ __Opportunity:__ "Provence Avignon Dijon & Blue Tablecloth" stands out as one of
 
 <!-- Email marketing: Campaign ideas -->
 
-In the following charts, a distinct variance in sales among different retailers is evident. Put simply, some retailers make substantially larger purchases than others. It's notable that the top 20% of retailers, accounting for almost 60% of total sales, spend more than \$1600 over the course of the last 12 months to qualify as top performers.
+In the following charts, a distinct variance in sales among different retailers is evident. Put simply, some retailers make substantially larger purchases than others. It's notable that the top 20% of retailers account for almost 60% of total sales over the course of the last 12 months. To be a retailer considered part of the top 20% it has to have made purchases over \$1600.
 
 Conversely, it's apparent that a majority of retailers tend to reorder within a timeframe of 45 to 90 days after their last purchase.
 
-Utilizing this data, we can devise a re-engagement campaign targeting retailers who have surpassed the $1600 sales mark but haven't placed an order in the past 45 to 90 days.
+Leveraging this data, we're poised to craft a targeted re-engagement initiative tailored towards retailers surpassing the \$1600 sales threshold, whose last purchase falls within the window of 45 to 225 days ago or occurred between 3 to 9 months ago.
 
-Also, we can see that 60% percent of retailers that made a purchase by the first time in 2023 didn't re-order. We can devise a re-engagement campaign targeting retailers that made only one order, but didn't make a second purchase in the past 45 to 90 days.
+Furthermore, our analysis reveals 60% of retailers who initiated their first purchase in 2023 failed to make a subsequent order. To address this, we propose a focused re-engagement campaign aimed at retailers who've made a singular purchase within the past 45 to 90 days.
 
 <!-- end -->

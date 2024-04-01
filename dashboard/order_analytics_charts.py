@@ -590,11 +590,11 @@ def purchase_frequency(df):
 
     # Add percentage annotation
     ax.axvline(x=fiftieth_percentile, color='r', linestyle='--', linewidth=1)
-    ax.text(fiftieth_percentile + 5, 1, '50% of retailers re-order in less than {} days'.format(int(fiftieth_percentile)), rotation=90)
+    ax.text(fiftieth_percentile+1, ax.get_ylim()[1]*0.05, '50% of retailers re-order in less than {} days'.format(int(fiftieth_percentile)), rotation=90)
 
     # Add percentage annotation
     ax.axvline(x=seventy_fifth_percentile, color='r', linestyle='--', linewidth=1)
-    ax.text(seventy_fifth_percentile + 5, 1, '75% of retailers re-order in less than {} days'.format(int(seventy_fifth_percentile)), rotation=90)
+    ax.text(seventy_fifth_percentile+1, ax.get_ylim()[1]*0.05, '75% of retailers re-order in less than {} days'.format(int(seventy_fifth_percentile)), rotation=90)
     
     # Display chart in Streamlit
     st.pyplot(fig)

@@ -91,4 +91,16 @@ __Opportunity:__ There is a clear opportunity to capitalize on products with hig
 
 #
 
+<!-- Email marketing: Campaign ideas -->
+
+Disclaimer: Please note that the analysis provided below may be subject to limitations due to the limited number of sales recorded in 2023.
+
+In the ensuing analysis, discernible discrepancies in sales across various retailers become apparent. Put succinctly, certain retailers exhibit significantly higher purchase volumes compared to others. Notably, the top 20% of retailers contribute to 60% of the total sales over the last 12 months. To qualify as a retailer within this top percentile, purchases must exceed $500.
+
+Regarding the frequency of reorder occurrences, the scarcity of available data (with only 4 retailers having made multiple purchases in 2023) presents challenges in drawing definitive conclusions.
+
+Nevertheless, despite these limitations, there is potential to devise targeted re-engagement strategies. A tailored initiative could be designed specifically for retailers surpassing the $500 sales threshold, whose most recent purchase falls within the timeframe of 30 to 180 days ago.
+
+Furthermore, our analysis uncovers that over 70% of retailers who made their inaugural purchase in 2023 did not proceed to place subsequent orders. To tackle this issue, we advocate for a focused re-engagement campaign targeting retailers who have made a single purchase within the past 30 to 90 days.
+
 <!-- end -->

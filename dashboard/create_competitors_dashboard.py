@@ -48,8 +48,11 @@ def create_competitors_dashboard(selected_client, markdown_text):
     st.markdown("""
                 # Competitors analytics
                 #### Review analysis:
-                ###
                 """)
+    
+    review_analysis = get_text_between_comments(markdown_text, "<!-- Competitors: Review analysis -->", "<!")
+    if review_analysis is not None:
+        st.markdown(review_analysis, unsafe_allow_html=True)
         
     get_competitors_total_reviews(df_reviews)
 
@@ -58,10 +61,6 @@ def create_competitors_dashboard(selected_client, markdown_text):
     get_competitors_reviews_by_month(df_reviews)
 
     get_competitors_most_common_words_in_reviews(df_reviews)
-
-    review_analysis = get_text_between_comments(markdown_text, "<!-- Competitors: Review analysis -->", "<!")
-    if review_analysis is not None:
-        st.markdown(review_analysis, unsafe_allow_html=True)
 
     st.markdown("""
                 #### Product analysis:

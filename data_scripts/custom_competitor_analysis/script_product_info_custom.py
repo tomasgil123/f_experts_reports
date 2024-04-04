@@ -3,7 +3,8 @@ from datetime import datetime
 
 from get_product_info_custom import (get_products_info)
 
-brand_owner = "Boredwalk"
+# brand_owner = "Boredwalk"
+brand_owner = "Glimmer Wish"
 
 data = get_products_info(brand_owner)
 

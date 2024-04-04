@@ -35,7 +35,8 @@ from dashboard.order_analytics_charts import (lifetime_performance_metrics, sale
                                     sales_previous_year_vs_sales_year_before_that_one,
                                     orders_previous_year_vs_orders_year_before_that_one, sales_by_source,
                                     new_merchants_by_source, sales_by_retailer, cumulative_distribution_of_retailers,
-                                    type_of_store_top_10_retailers, sales_distribution, sales_quantiles, purchase_frequency, retailers_did_not_reorder)
+                                    type_of_store_top_10_retailers, sales_distribution, 
+                                    sales_quantiles, purchase_frequency, retailers_did_not_reorder, sales_by_store_type)
 
 
 from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis_last_30_days, 
@@ -107,6 +108,23 @@ def create_dashboard(selected_client, selected_report):
         purchase_frequency(df_orders)
 
         retailers_did_not_reorder(df_orders)
+
+        st.markdown("""
+                    #
+                #### Store type campaigns
+                """)
+        
+        type_store_campaigns = get_text_between_comments(markdown_text, "<!-- Email marketing: Campaign ideas type store -->", "<!")
+        if type_store_campaigns is not None:
+            st.markdown(type_store_campaigns, unsafe_allow_html=True)
+        
+        product_file_items_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/items_order_from_api_*.csv")
+        df_order_items = pd.read_csv(product_file_items_orders[0])
+
+        product_file_items_page_views = glob.glob(f"./dashboard/dashboard_data/{selected_client}/page_views_info_*.csv")
+        df_page_views = pd.read_csv(product_file_items_page_views[0])
+
+        sales_by_store_type(df_orders, df_order_items, df_page_views)
 
     elif selected_report == "Product analytics":
 

@@ -647,3 +647,79 @@ def retailers_did_not_reorder(df):
     
     # Display chart in Streamlit
     st.pyplot(fig)
+
+def sales_by_store_type(df, df_order_items, df_page_views):
+
+    # we create a copy of the dataframe
+    df = df.copy()
+
+    # we remove rows where retailer_store_types is null
+    df.dropna(subset=['retailer_store_types'], inplace=True)
+
+    # Filter data for the last 12 months
+    current_date = pd.to_datetime('now')
+    one_year_ago = current_date - pd.DateOffset(months=12)
+    df_last_12_months = df[df['brand_contacted_at_values'] >= one_year_ago]
+
+    # Group data by 'retailer_store_types' and calculate the sales count for each type of store
+    sales_by_store_type = df_last_12_months.groupby('retailer_store_types')['payout_total_values'].sum()
+
+    # Calculate the total sales count for the last 12 months
+    total_sales = sales_by_store_type.sum()
+
+    # Calculate the percentage of sales for each type of store
+    sales_percentage = (sales_by_store_type / total_sales) * 100
+
+    # Sort the sales percentages in descending order and select the top 5
+    top_5_sales_percentage = sales_percentage.sort_values(ascending=False).head(5)
+
+    # Create a bar chart
+    # Create figure and axis
+    fig, ax = plt.subplots()
+
+    top_5_sales_percentage.plot(kind='bar', color='skyblue')
+    ax.set_title('Top 5 Store Types by Sales Percentage (Last 12 Months)')
+    ax.set_xlabel('Store Type')
+    ax.set_ylabel('Percentage of Sales')
+    ax.set_xticklabels(top_5_sales_percentage.index, rotation=45)
+    ax.set_ylim(0, 100)  # Set y-axis limit to 0-100%
+
+    # add grid to the chart
+    ax.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # Display the chart in Streamlit
+    st.pyplot(fig)
+
+    # we select the top 3 store types from top_5_sales_percentage
+    top_3_store_types = top_5_sales_percentage.index[:3].values
+
+    filtered_df = df_last_12_months[df_last_12_months['retailer_store_types'].isin(top_3_store_types)]
+
+    df_orders_merged = pd.merge(filtered_df, df_order_items, left_on=["tokens"], right_on=["brand_order_token"])
+
+    # Group by store type and product name, then sum the quantities sold
+    grouped_products = df_orders_merged.groupby(['retailer_store_types', 'product_token'])['quantity'].sum().reset_index()
+
+    # Sort each group by quantity sold in descending order
+    grouped_products['rank'] = grouped_products.groupby('retailer_store_types')['quantity'].rank(method='dense', ascending=False)
+
+    # Filter to get the top five most sold products for each store type
+    top_five_products_by_type = grouped_products[grouped_products['rank'] <= 5]
+
+    # Sort the DataFrame by store type and rank
+    top_five_products_by_type_sorted = top_five_products_by_type.sort_values(by=['retailer_store_types', 'rank'])
+
+    # merge top_five_products_by_type_sorted with df_page_views, bringing only column "name". Merge on column "product_token"
+    df_page_views = df_page_views[['product_token', 'name']]
+    # drop duplicates
+    df_page_views.drop_duplicates(subset=['product_token'], inplace=True)
+    top_five_products_by_type_sorted = pd.merge(top_five_products_by_type_sorted, df_page_views, left_on=["product_token"], right_on=["product_token"])
+
+    # drop column "product_token"
+    top_five_products_by_type_sorted.drop(columns=['product_token'], inplace=True)
+    # change name of columns to "Store Type", "Product Name", "Quantity Sold" and "Rank"
+    top_five_products_by_type_sorted.rename(columns={"retailer_store_types": "Store Type", "quantity": "Quantity Sold", "rank": "Rank", "name": "Product Name"}, inplace=True)
+    
+    st.dataframe(top_five_products_by_type_sorted)
+
+

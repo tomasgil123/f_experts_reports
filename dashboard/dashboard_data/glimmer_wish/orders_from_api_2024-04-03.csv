@@ -1,0 +1,136 @@
+tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
+bo_fz6g9jsa6d,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712086943000,False,False,r_v7n7zsfyyn,14640,sienna's sunniews,http://siennassunnies.com/,Clothing Boutique
+bo_zbq888az4z,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1711646480000,True,True,r_3y1yefdoeq,19508,The Loft on Main,http://ishoptheloft.com/,Clothing Boutique
+bo_g8jrdp3m4g,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1711646480000,True,False,r_3y1yefdoeq,20508,The Loft on Main,http://ishoptheloft.com/,Clothing Boutique
+bo_c7m7c3ku4q,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1711566792000,True,True,r_4sy3wt1g9o,8017,Blonde Pineapple,https://m.facebook.com/2blondepineapples/,Home Decor Store
+bo_wspqk3dace,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1711557192000,False,False,r_4v9fsj8cz3,65007,The Seaside Style,,
+bo_dyc8jepsh9,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1711466300000,True,True,r_qfbstv6997,22442,Learning Express Toys Atlanta / Buckhead,https://learningexpress.com/buckhead,Kids or Toy Store
+bo_earxze3xwb,REPLACE_DAMAGED_OR_MISSING_ITEMS,SHIPPED,FULFILLED,MARKETPLACE,1711399511000,False,False,r_qtt3fyfu4q,14233,cashandclive,http://cashandclive.com/,Clothing Boutique
+bo_bu3x2qhpey,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710965017000,True,True,r_2vq5uzfm6u,7772,Maggie's Marketplace,,Gift Store
+bo_8tqnbn3geu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710959136000,True,True,r_4v4pr6d3qt,11439,Rebel Rose Boutique,http://Rebelroseboutique.shop,
+bo_h3j6wevvvn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710910528000,True,True,r_24g0lzeagd,17715,Happy Place,http://www.shop3sisters.com/,Clothing Boutique
+bo_rzxmb3v7eb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710861005000,False,False,r_a8mc1t412q,25072,elfin los angeles,http://Www.elfinlosangeles.com,
+bo_v5dkdugqq5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710439095000,False,False,r_3aqhqlablt,35571,Once Upon An Island,http://www.onceuponanisland.net/,
+bo_n4rgxmkzes,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1710427686000,True,True,r_206xq3h8z8,833,Caroline Holcomb,,Kids or Toy Store
+bo_xkbkcmemea,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710350517000,True,True,r_uxb7yw88yf,3926,Sandpiper Gift Shop,,
+bo_mmhz7rh75v,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710259848000,False,False,r_qtt3fyfu4q,55890,cashandclive,http://cashandclive.com/,Clothing Boutique
+bo_8dedukdxh8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710169689000,True,True,r_9m675mscm3,12227,Little Olives,http://littleolives.co,Clothing Boutique
+bo_ufr5qvw278,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710022027000,False,False,r_rezxsubgua,2200,Dee’s shop,,Gift Store
+bo_7mfrzdmrda,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709833350000,True,True,r_sjow30b8,13467,Happy Baby,,Kids or Toy Store
+bo_4rwcd63vpq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709711034000,True,True,r_6ewl6hw4z0,26476,Sharkey's Cuts for Kids,https://sharkeyscutsforkids.com/locations/irvine/california-irvine/,Spa or Beauty Store
+bo_txh3xc4r4v,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1709596846000,True,True,r_rqnx8kmxpn,6908,Coastal Kids Beachwear,http://www.coastalkidsbeachwear.com/,Clothing Boutique
+bo_5zsa2baps6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709497376000,True,True,r_mz84fyk5bc,25857,busy bees kids salon,http://www.busybeeskidssalon.com/,Spa or Beauty Store
+bo_95qhebg9ts,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709406476000,False,False,r_v7n7zsfyyn,25989,sienna's sunniews,http://siennassunnies.com/,Clothing Boutique
+bo_drmdaeuhz3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709325176000,True,True,r_gkugny8gga,3430,The Majestic Jackalope,https://maps.google.com/?cid=307132997137096631,Spa or Beauty Store
+bo_t4wfy7phan,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1709072455000,True,True,r_ba6t1rqqx3,1209,Happyology,,
+bo_7a4bw3t37d,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708986431000,True,True,r_zantygh29s,9873,Myers Apothecary,http://myersapothecaryoxford.com,Gift Store
+bo_6jr3gc8aau,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708736580000,True,True,r_rqnx8kmxpn,5908,Coastal Kids Beachwear,http://www.coastalkidsbeachwear.com/,Clothing Boutique
+bo_8hcq8q3qhh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708629455000,True,True,r_59lmzfx6o1,4422,Oxford Rx,http://www.oxford-rx.com/,
+bo_sxtbx6fabb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708620871000,False,False,r_qtt3fyfu4q,35778,cashandclive,http://cashandclive.com/,Clothing Boutique
+bo_mhfanq4w4f,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708617166000,True,True,r_4v9fsj8cz3,110728,The Seaside Style,,
+bo_fuaa2acvbg,SPLIT_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708617166000,True,True,r_4v9fsj8cz3,12360,The Seaside Style,,
+bo_5nd9f2423n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708372106000,True,True,r_3qrt4px682,9378,Bloomin' Creations,https://maps.google.com/?cid=11295811519768091011,Florist or Garden Store
+bo_zdes8wz49x,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1707758878000,False,False,r_v7n7zsfyyn,11864,sienna's sunniews,http://siennassunnies.com/,Clothing Boutique
+bo_vfgdpsbnzx,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1707665385000,True,True,r_24r4q4c2sz,639,Sterling's Cut & Curl,http://sterlingscutandcurl.com/,Spa or Beauty Store
+bo_egbqaaxu79,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1707545657000,True,True,r_ba6t1rqqx3,40972,Happyology,,
+bo_qvtvqw9kzk,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706490573000,True,True,r_bg5kuw6e,11608,Megan Molten,http://www.meganmoltenshop.com,Home Decor Store
+bo_fcarkycd77,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706480073000,True,True,r_57yr0n0v8c,7271,Blushing Dimple Boutique,http://www.blushingdimpleboutique.com/,Gift Store
+bo_uwm2bgbxy3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706367573000,True,True,r_ed5m2ph4m9,6652,Sweet and Sassy Alpharetta,http://sweetandsassy.com/alpharetta,Spa or Beauty Store
+bo_2a9x8ghnqj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706238873000,False,False,r_rezxsubgua,2088,Dee’s shop,,Gift Store
+bo_kgvwzjv5ke,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706232873000,True,True,r_24r4q4c2sz,36735,Sterling's Cut & Curl,http://sterlingscutandcurl.com/,Spa or Beauty Store
+bo_7gt8he42d9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706207123000,True,True,r_bn50mso7,4150,Maya Papaya & Tony Macarony,http://www.maya-tony.com/,Clothing Boutique
+bo_naxgnsv2qd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706160023000,True,True,r_206xq3h8z8,28161,Caroline Holcomb,,Kids or Toy Store
+bo_sjqba6qw9t,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706097874000,True,True,r_b0w6jsu9,23923,Gingerbread House,,
+bo_wbuhscdh3w,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706055838000,False,False,r_ar0cuhbs,40114,Tattle Tails Boutique,http://www.tattletailsboutique.com,
+bo_7ydnvke6gu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705945982000,True,True,r_8q4m8bt7,5444,Linda's Montana Gifts-Gallery,,Gift Store
+bo_bsbngzj599,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705943282000,False,False,r_8r3w22lgie,46804,Andreas Hogue Salon,http://www.andreashogue.com/,Spa or Beauty Store
+bo_a6j6cp556g,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705938487000,True,True,r_1ls0aip7u5,6156,The Happy Journey,https://maps.google.com/?cid=6008485210966562028,Kids or Toy Store
+bo_nm68w5e3uw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705929187000,True,True,r_u8dnnttnzf,14334,Fairy Godmother's Salon,http://Fairygodmotherssalonbiloxi.glossgenius.com,Spa or Beauty Store
+bo_6f36jej27b,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705465460000,True,True,r_bupyez6rfq,6652,MoonGLO Aesthetics,http://moonglo.aesthetics/,Spa or Beauty Store
+bo_kwyqwgh65x,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705124991000,False,False,r_237rzov0y4,9882,June + Grey,http://www.juneandgrey.com/,Clothing Boutique
+bo_b7jxt3zsbj,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1705002990000,False,False,r_ssrdrdyjme,1787,Sweet Southern Grace LLC,,
+bo_fzzgjh5g5p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704662131000,False,False,r_v7n7zsfyyn,12856,sienna's sunniews,http://siennassunnies.com/,Clothing Boutique
+bo_rkq5vmdsac,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704498031000,True,True,r_egxjnt3s78,7520,Kloos skin,http://www.kloosskin.com,
+bo_k8tbstgmrs,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704144911000,False,False,r_ssrdrdyjme,26692,Sweet Southern Grace LLC,,
+bo_mecm3wwxk2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1703645711000,True,True,r_82lqfuwd,6652,The Auburn Mermaid,,
+bo_jwqe7wp8au,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1703610584000,False,False,r_8r3w22lgie,8147,Andreas Hogue Salon,http://www.andreashogue.com/,Spa or Beauty Store
+bo_zgrzbyh6f3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1703185784000,True,True,r_f395wau1lo,25237,The Spotted Goose,http://www.thespottedgoose.com/,Clothing Boutique
+bo_4htx5rwmcg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1703040416000,True,True,r_r7y36athma,25237,Weldon Inn Inc.,http://www.weldoninn.com/,General or Mercantile Store
+bo_pwfvxbdqjb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702966649000,True,True,r_rezxsubgua,1944,Dee’s shop,,Gift Store
+bo_bn6v64whv9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702496292000,True,True,r_bn4athtqad,5784,Pierce & Petal Florist,http://pierceandpetalflorist.com/,Florist or Garden Store
+bo_rhhyf89h7j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702336257000,False,False,r_ssrdrdyjme,16696,Sweet Southern Grace LLC,,
+bo_f44e5fy6qr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702254103000,True,True,r_3s4ktz5rrt,12434,It’s Poppin Balloons NJ,http://www.itspoppinnj.com/,Gift Store
+bo_rhebr73u6y,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1702157803000,True,True,r_bf5dp8p3zm,9873,Jess’coiff,,
+bo_38mmdfykgh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702130203000,True,True,r_52p2ss3vbz,13467,Good Reform,http://goodreform.myshopify.com/,Clothing Boutique
+bo_9gwuaf44xk,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701719933000,True,True,r_8r3w22lgie,20363,Andreas Hogue Salon,http://www.andreashogue.com/,Spa or Beauty Store
+bo_tgwjtjugn6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701691517000,True,True,r_swuu5c9g3t,4422,Little Loves Boutique,https://www.facebook.com/mylittlelovesshop/,Kids or Toy Store
+bo_3yuqja8q9q,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1701278967000,False,False,r_5m5ckpcj6j,14708,Salon 43 One,http://www.salon43one.com/,Spa or Beauty Store
+bo_qy4zqrbjj4,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1701206909000,True,True,r_9gwivrsn3k,2200,Chicken Little,http://www.chickenlittlekids.com/,Kids or Toy Store
+bo_addmv8cyk8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701141173000,True,True,r_qtt3fyfu4q,1696,cashandclive,http://cashandclive.com/,Clothing Boutique
+bo_6h4qn88bra,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700756158000,True,True,r_59t9pbdrqh,622,Sweet Frills,,Gift Store
+bo_me39vtb98g,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700721417000,True,True,r_a9kn1ukvbq,2026,Party n Glow | Kids Spa & Girls Birthday,http://www.partynglow.com/,Clothing Boutique
+bo_n5avpk7wh7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700615836000,True,True,r_9gwivrsn3k,20942,Chicken Little,http://www.chickenlittlekids.com/,Kids or Toy Store
+bo_4ca29utxpw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700580162000,True,True,r_cymksbv7,26518,Twinkle,,Kids or Toy Store
+bo_cj8mu4xsgy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700444098000,True,True,r_pg2takx3s3,5454,Little Happy Boutique and Gifts,https://m.facebook.com/profile.php?id=100089928286696,Clothing Boutique
+bo_sp9ffaak72,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700351098000,True,True,r_c5tsu3hmm7,5619,be kind studios,http://www.thebekindstudios.com/,Fitness or Yoga Studio
+bo_rhug9ztnjc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700248851000,True,True,r_ssrdrdyjme,10740,Sweet Southern Grace LLC,,
+bo_4q2k65rg2t,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700084448000,True,True,r_d5g48l3m33,18794,Little Heritage,http://shoplittleheritage.com/,Clothing Boutique
+bo_4fqgfunprp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699733575000,False,False,r_a8mc1t412q,10873,elfin los angeles,http://Www.elfinlosangeles.com,
+bo_snw3p5zc5v,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699481740000,True,True,r_32ygnanp9v,9295,Glittering Boutique,http://www.glitteringboutique.com/,Clothing Boutique
+bo_wme3dsyvqv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699239412000,True,True,r_xjaucz25ug,6404,"The Wild Native, LLC",https://wildnativellc.com,Gift Store
+bo_n3qmxkeec4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699108798000,False,False,r_a8mc1t412q,14342,elfin los angeles,http://Www.elfinlosangeles.com,
+bo_ra26hxzyz2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1698242544000,False,False,r_vkwbqcpomj,26237,Hazer Horsewear,http://www.hazerhorsewear.com,Clothing Boutique
+bo_d6qnyvw3d6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1698169737000,True,True,r_vrmkwqpqzq,20776,The Friendship Factory,http://www.thefriendshipfactory.com/shop,Clothing Boutique
+bo_4z7ag5prne,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697591895000,True,True,r_5tiqa0te,13689,Haven Spa & Salon,http://haven-spa-salon.business.site/,
+bo_hsppbhvsj4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697223795000,True,True,r_1iylt9c36k,21768,St. Simons Sweets LLC,http://www.stsimonssweets.com/,Cafe or Restaurant
+bo_ghjagnbcqy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697157020000,True,True,r_vkwbqcpomj,23254,Hazer Horsewear,http://www.hazerhorsewear.com,Clothing Boutique
+bo_fjuxwspj82,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697133203000,False,False,r_a8mc1t412q,19794,elfin los angeles,http://Www.elfinlosangeles.com,
+bo_382f6j8y2t,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1696991745000,True,True,r_d8ujxfr61q,240899,SoHa Living,http://www.sohaliving.com,Gift Store
+bo_tune53mrrg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1696734582000,True,True,r_27r3245et5,33042,#YBL,http://ybl.beauty/,Spa or Beauty Store
+bo_4djdrpmwcr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1696534565000,True,True,r_ajodf4pd,18794,Strand Salon,http://strandsalonct.com/,
+bo_zb3u9ryqqw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1696090180000,False,False,r_zxhdvc6hws,4430,Hair Avenue,,Spa or Beauty Store
+bo_wuv3r3zt9j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695950571000,False,False,r_vt48gcx9rz,37140,Razzmatazz Kids,,Kids or Toy Store
+bo_tf9cxr3k2e,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1695833077000,False,False,r_umfedgxe3k,27200,Salons Of Volterra Fort Worth at Montserrat,http://www.salonsofvolterra.com/,Spa or Beauty Store
+bo_q38mn5cfc3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695827846000,True,True,r_zxhdvc6hws,5413,Hair Avenue,,Spa or Beauty Store
+bo_dq7a84we8d,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1695754973000,False,False,r_dwxkuosxg6,12853,Learning Express Toys,https://www.learningexpress.com/bham,Kids or Toy Store
+bo_kwdb3pcfkc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695682836000,True,True,r_y3ew753f5t,3430,Dear Magnolia Boutique,http://www.dearmagnoliaboutique.com/,Clothing Boutique
+bo_dmdu5f72q3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695423956000,True,True,r_araqrzjj,10864,Little Sprout,http://littlesproutboutique.com,Clothing Boutique
+bo_wvnf62zgmb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695046876000,True,True,r_6bxpdg2yvn,11856,Simply Elegant Salon,http://www.thereisbeautyinsimplicity.com/,Spa or Beauty Store
+bo_xkgfjuc3sp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694716834000,True,True,r_237rzov0y4,34653,June + Grey,http://www.juneandgrey.com/,Clothing Boutique
+bo_h8zfrsejhs,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1694212425000,True,False,r_5m5ckpcj6j,7729,Salon 43 One,http://www.salon43one.com/,Spa or Beauty Store
+bo_66pzx2q9bf,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1694211825000,True,True,r_5m5ckpcj6j,54284,Salon 43 One,http://www.salon43one.com/,Spa or Beauty Store
+bo_9532fbn6e6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694097667000,True,True,r_vt48gcx9rz,55881,Razzmatazz Kids,,Kids or Toy Store
+bo_8k5zfxmyvc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694018467000,True,True,r_ar0cuhbs,43657,Tattle Tails Boutique,http://www.tattletailsboutique.com,
+bo_us24uf8h4h,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1693526916000,True,True,r_dwxkuosxg6,26908,Learning Express Toys,https://www.learningexpress.com/bham,Kids or Toy Store
+bo_6bbqwct94w,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1693412767000,True,True,r_gfn3nn4qq3,7891,The Style Lounge Reading,http://thestyleloungereading.com/,Spa or Beauty Store
+bo_xdk3yhntxk,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1693005590000,False,False,r_hr78s1z533,21446,Joy Simmons,,Clothing Boutique
+bo_faz23wee6w,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1692933290000,True,True,r_h6fdggz5kj,3430,Institut de Beauté Océane,https://www.institutbeauteoceane.com/,Spa or Beauty Store
+bo_tvkyhz8pxz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1692684106000,True,True,r_3tkfhsto,21396,Elizabeth’s Closet,http://shopelizabethscloset.com,Clothing Boutique
+bo_u7qnj5g679,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1692576132000,False,False,r_umfedgxe3k,6412,Salons Of Volterra Fort Worth at Montserrat,http://www.salonsofvolterra.com/,Spa or Beauty Store
+bo_e5wttx2p6z,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1692382032000,False,False,r_qzd9vxn87q,10998,Solar Boutique,http://www.solarboutique.com/,Clothing Boutique
+bo_7c3edpjujy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1692058335000,True,True,r_45y53cbju2,10864,Sumthin Beachie,http://Sumthinbeachiepi.com,Home Decor Store
+bo_u8z8rxc9cn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1691986615000,False,False,r_hr78s1z533,10708,Joy Simmons,,Clothing Boutique
+bo_dzs7h3xmgv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1691930215000,True,True,r_qzd9vxn87q,41467,Solar Boutique,http://www.solarboutique.com/,Clothing Boutique
+bo_vuqttva54s,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1691175429000,True,True,r_1cyach2z7v,27467,Lilly & Jace Kids Boutique,https://lillyjacekids.com,Kids or Toy Store
+bo_2nj7g624ae,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1691167860000,False,False,r_umfedgxe3k,15488,Salons Of Volterra Fort Worth at Montserrat,http://www.salonsofvolterra.com/,Spa or Beauty Store
+bo_6f4qudcmtb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1691086463000,True,True,r_a8mc1t412q,41592,elfin los angeles,http://Www.elfinlosangeles.com,
+bo_p49y6avhu7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1690679288000,True,True,r_hr78s1z533,20446,Joy Simmons,,Clothing Boutique
+bo_8jpr9xvp26,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1690545879000,True,True,r_v7n7zsfyyn,11856,sienna's sunniews,http://siennassunnies.com/,Clothing Boutique
+bo_wm3ywbz2ym,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1690395164000,True,True,r_88icxgknb5,3430,Mirifique Cosmetics,https://maps.google.com/?cid=2903754679396953709,Spa or Beauty Store
+bo_4g46jzrbdh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689813017000,True,True,r_wc5g4jqy72,11683,Katie’s Faves Boutique,https://m.facebook.com/1981809472034449/,Gift Store
+bo_qr79ba46w7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689790046000,False,False,r_eesl9fdtpg,9386,Coast Hippie,http://www.coasthippie.com/,
+bo_aunz6gmqq3,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1689644281000,True,True,r_m6uk6aewvh,10295,Bleu Stitch & Embroidery,http://bleustitchandembroidery.com/,Clothing Boutique
+bo_gjeensvkmb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689641019000,True,True,r_ahsjq209ux,8779,Jenny in the City,https://shopjennyinthecity.com/,Clothing Boutique
+bo_anu96v9tds,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1688878775000,True,True,r_m6uk6aewvh,9295,Bleu Stitch & Embroidery,http://bleustitchandembroidery.com/,Clothing Boutique
+bo_c2du4p9p6z,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1688390933000,True,True,r_aeldo712nm,3300,Colquitt Pharmacy,http://229gifts.com/,
+bo_kspwvfzsxd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1687379924000,True,True,r_aeldo712nm,13950,Colquitt Pharmacy,http://229gifts.com/,
+bo_2p9vhqg5py,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1687369724000,False,False,r_umfedgxe3k,19800,Salons Of Volterra Fort Worth at Montserrat,http://www.salonsofvolterra.com/,Spa or Beauty Store
+bo_xffbtmexcs,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1686078024000,True,True,r_umfedgxe3k,29490,Salons Of Volterra Fort Worth at Montserrat,http://www.salonsofvolterra.com/,Spa or Beauty Store
+bo_d54hnfw9z4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1685983583000,True,True,r_7o99n60oez,10912,Charlotte West,http://www.charlottewestbaby.com/,Kids or Toy Store
+bo_m4ykx7rfpq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1685822622000,True,True,r_3aqhqlablt,27675,Once Upon An Island,http://www.onceuponanisland.net/,
+bo_hp5f7hqxyu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1685772222000,True,True,r_y27srmaf5y,8962,Isfrom,http://isfrom.us,General or Mercantile Store
+bo_bpz86xtexy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1685191613000,True,True,r_eesl9fdtpg,21218,Coast Hippie,http://www.coasthippie.com/,
+bo_p57xtxjy8h,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1685119732000,False,False,r_gbyz4ry6ct,21250,Dolly And Me LLC,https://www.dollyandmellc.com,Kids or Toy Store
+bo_6cz4br2e5n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1683212565000,True,True,r_8yfbfaysam,15750,Sugar Rush Candy and Gift Boutique,https://www.sugarrushnj.com/,Kids or Toy Store
+bo_nfam6f3248,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1682731175000,True,True,r_do8bim76h1,16875,Vintage chic furniture,http://We.vintagechicfurniture.com,Furniture Store
+bo_xa4ehbm4ew,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1682182590000,True,True,r_gbyz4ry6ct,67500,Dolly And Me LLC,https://www.dollyandmellc.com,Kids or Toy Store

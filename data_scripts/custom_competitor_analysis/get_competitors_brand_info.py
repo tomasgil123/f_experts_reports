@@ -133,6 +133,8 @@ def get_all_competitors_brand_data(brand_owner):
     # we loop over brands filtered and get an array of brand_ids
     brand_ids = df_brands_filtered['brand_id'].unique()
 
+    print("brands ids", brand_ids)
+
     brands_data = get_brands_data(brand_ids)
     
     return brands_data

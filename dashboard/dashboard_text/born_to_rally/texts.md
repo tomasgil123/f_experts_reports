@@ -89,4 +89,27 @@ __Opportunity:__ There is a clear opportunity to capitalize on products with hig
 
 #
 
+<!-- Email marketing: Campaign ideas -->
+
+In the following charts, a distinct variance in sales among different retailers is evident. Some retailers make substantially larger purchases than others. It's notable that the top 20% of retailers account for almost 50% of total sales over the course of the last 12 months. To be a retailer considered part of the top 20% it has to have made purchases over \$450.
+
+Conversely, it's apparent that a considerable amount of retailers tend to reorder within a short timeframe of less than 20 days.
+
+Leveraging this data, we're poised to craft a targeted re-engagement initiative tailored towards retailers surpassing the \$450 sales threshold, whose last purchase falls within the window of 20 to 60 days ago.
+
+Furthermore, our analysis reveals that more than almost 72% of retailers who initiated their first purchase in 2023 failed to make a subsequent order. To address this, we propose a focused re-engagement campaign aimed at retailers who've made a singular purchase within the past 20 to 60 days.
+
+<!-- Email marketing: Campaign ideas type store -->
+
+
+In the following charts, we delve deeper into the purchasing trends of various store types and their preferred products.
+
+With this data we can create the following marketing campaigns:
+
+- A campaign focused on "Gift Stores" that haven't bought "Pickleball Ankle Socks", "Pickleball Ball Zipper Pull Keychain" or "Pickleball Wine Tumblers".
+
+- A campaign focused on "Clothing Boutiques" that haven't bought "Pickleball Ankle Socks", "Pickleball Lucky Socks" or "Pickleball Paddle Gift Bag".
+
+
+
 <!-- end -->

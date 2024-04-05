@@ -3,15 +3,15 @@ import pandas as pd
 from get_customers_crm import get_customer_crm
 from cookie import (cookie_token)
 
-# brand_token = "b_9884o1r7ea"
+brand_token = "b_vllag6pj"
 
-# data = get_customer_crm(brand_token, cookie=cookie_token, page_number=230)
+data = get_customer_crm(brand_token, cookie=cookie_token, page_number=30)
 
 # # download to csv
 
 
-# df = pd.DataFrame(data)
-# df.to_csv("customer_data.csv", index=False)
+df = pd.DataFrame(data)
+df.to_csv("customer_data.csv", index=False)
 
 # import os
 
@@ -42,18 +42,18 @@ from cookie import (cookie_token)
 # # Write merged dataframe to a new CSV file
 # merged_df.to_csv('./merged_customer_data.csv', index=False)
 
-df = pd.read_csv("merged_customer_data.csv")
+# df = pd.read_csv("merged_customer_data.csv")
 
-# keep rows with unique email addresses, but keep rows where email address is None
-df = df.drop_duplicates(subset=["email_address"])
+# # keep rows with unique email addresses, but keep rows where email address is None
+# df = df.drop_duplicates(subset=["email_address"])
 
-# Convert Unix timestamps to datetime format
-df['last_contacted'] = pd.to_datetime(df['last_contacted'], unit='ms', errors='coerce')
-df['signed_up_at'] = pd.to_datetime(df['signed_up_at'], unit='ms', errors='coerce')
+# # Convert Unix timestamps to datetime format
+# df['last_contacted'] = pd.to_datetime(df['last_contacted'], unit='ms', errors='coerce')
+# df['signed_up_at'] = pd.to_datetime(df['signed_up_at'], unit='ms', errors='coerce')
 
-# Format the datetime columns to mm/dd/yyyy
-df['last_contacted'] = df['last_contacted'].dt.strftime('%m/%d/%Y')
-df['signed_up_at'] = df['signed_up_at'].dt.strftime('%m/%d/%Y')
+# # Format the datetime columns to mm/dd/yyyy
+# df['last_contacted'] = df['last_contacted'].dt.strftime('%m/%d/%Y')
+# df['signed_up_at'] = df['signed_up_at'].dt.strftime('%m/%d/%Y')
 
-# download csv 
-df.to_csv("unique_customer_data.csv", index=False)
+# # download csv 
+# df.to_csv("unique_customer_data.csv", index=False)

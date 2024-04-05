@@ -98,8 +98,18 @@ def get_brands_data(brand_ids):
         else:
             small_batch.append(False)
 
-        upper_bound_lead_time_days.append(brand["upper_bound_lead_time_days"])
-        lower_bound_lead_time_days.append(brand["lower_bound_lead_time_days"])
+        # if key upper_bound_lead_time_days exists
+        if "upper_bound_lead_time_days" in brand:
+            upper_bound_lead_time_days.append(brand["upper_bound_lead_time_days"])
+        else:
+            upper_bound_lead_time_days.append(0)
+
+        # if key lower_bound_lead_time_days exists
+            
+        if "lower_bound_lead_time_days" in brand:
+            lower_bound_lead_time_days.append(brand["lower_bound_lead_time_days"])
+        else:
+            lower_bound_lead_time_days.append(0)
 
     # Create a DataFrame using the extracted information
     data = {

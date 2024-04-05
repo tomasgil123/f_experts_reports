@@ -36,7 +36,8 @@ from dashboard.order_analytics_charts import (lifetime_performance_metrics, sale
                                     orders_previous_year_vs_orders_year_before_that_one, sales_by_source,
                                     new_merchants_by_source, sales_by_retailer, cumulative_distribution_of_retailers,
                                     type_of_store_top_10_retailers, sales_distribution, 
-                                    sales_quantiles, purchase_frequency, retailers_did_not_reorder, sales_by_store_type)
+                                    sales_quantiles, purchase_frequency, retailers_did_not_reorder, 
+                                    sales_by_store_type, sales_by_category)
 
 
 from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis_last_30_days, 
@@ -191,6 +192,12 @@ def create_dashboard(selected_client, selected_report):
         # Filter orders where creation_reasons is equal to NEW_ORDER
         df = df[(df['creation_reasons'] == 'NEW_ORDER') & ((df['states'] == 'SHIPPED') | (df['states'] == 'DELIVERED'))]
 
+        product_file_items_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/items_order_from_api_*.csv")
+        df_order_items = pd.read_csv(product_file_items_orders[0])
+
+        product_file_page_views = glob.glob(f"./dashboard/dashboard_data/{selected_client}/page_views_info_*.csv")
+        df_page_views = pd.read_csv(product_file_page_views[0])
+
         lifetime_performance_metrics(df, date_last_update)
 
         sales_per_quarter(df)
@@ -203,9 +210,11 @@ def create_dashboard(selected_client, selected_report):
 
         new_merchants_by_source(df, date_last_update)
 
-        #type_of_store_top_10_retailers(df, date_last_update)
+        sales_by_category(df, df_order_items, df_page_views)
 
-        #sales_distribution(df, date_last_update)
+        # type_of_store_top_10_retailers(df, date_last_update)
+
+        # sales_distribution(df, date_last_update)
 
     elif selected_report == "Competitors analytics":
         

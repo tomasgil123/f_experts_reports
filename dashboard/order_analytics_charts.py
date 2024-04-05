@@ -722,4 +722,53 @@ def sales_by_store_type(df, df_order_items, df_page_views):
     
     st.dataframe(top_five_products_by_type_sorted)
 
+def sales_by_category(df_orders, df_order_items, df_page_views):
+
+    # we keep only orders of the last 12 months
+    current_date = pd.to_datetime('now')
+    one_year_ago = current_date - pd.DateOffset(months=12)
+    df_orders = df_orders[df_orders['brand_contacted_at_values'] >= one_year_ago]
+
+    # we merge df_order_items with df_page_views on column "product_token". We only want to add column "category"
+    df_page_views = df_page_views[['product_token', 'category']]
+    df_order_items = pd.merge(df_order_items, df_page_views, left_on=["product_token"], right_on=["product_token"])
+
+    # we merge df_orders with df_order_items on column "brand_order_token"
+    df_orders_merged = pd.merge(df_orders, df_order_items, left_on=["tokens"], right_on=["brand_order_token"])
+
+    # create a bar chart with categories 0n the x axis and percentage of sales on the y axis
+    # Group by category and sum the quantity sold
+    sales_by_category = df_orders_merged.groupby('category')['retailer_price'].sum()
+
+    # Calculate the total sales across all categories
+    total_sales = sales_by_category.sum()
+
+    # Calculate the percentage of total sales for each category
+    sales_percentage = (sales_by_category / total_sales) * 100
+
+    # Sort the sales percentages in descending order
+    sales_percentage = sales_percentage.sort_values(ascending=False)
+
+    # we keep only 5 first categories
+    sales_percentage = sales_percentage.head(5)
+
+    # Create a bar chart
+    # Create figure and axis
+    fig, ax = plt.subplots()
+
+    sales_percentage.plot(kind='bar', color='skyblue')
+
+    ax.set_title('Sales by Category (Last 12 Months)')
+    ax.set_xlabel('Category')
+    ax.set_ylabel('Percentage of Sales')
+    ax.set_xticklabels(sales_percentage.index, rotation=45)
+    ax.set_ylim(0, 100)  # Set y-axis limit to 0-100%
+
+    # add grid to the chart
+    ax.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # Display the chart in Streamlit
+    st.pyplot(fig)
+
+
 

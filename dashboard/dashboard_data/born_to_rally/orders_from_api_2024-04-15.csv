@@ -1,8 +1,20 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_xgpr4yqj3m,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1712019208000,True,True,r_9brs4wtfyb,14862,Classic Crafters & Co.,http://www.classicraftersco.com/,Home Decor Store
-bo_xm22syskax,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1711993955000,True,True,r_f1nrjg01,20435,Dapple Grey Co. Boutique,http://dapplegreycoboutique.com/,
-bo_nr6mdky4nt,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1711819696000,True,True,r_b8urkryrfx,16559,Pickle on Penn,https://www.pickleonpenn.com/,
-bo_yfysajtrju,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1711578674000,True,True,r_vtmd5gt2wr,14956,Debra Kwast,http://imagescorcoran.com,Gift Store
+bo_2keew29u26,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1713153454000,False,False,r_3tc65j9wx0,46372,Jenny's Gift Baskets,http://buy-gift-baskets.jennysgiftbaskets.com/,Gift Store
+bo_7e3m7wgq3j,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1713153154000,True,True,r_2d6x98xkn6,21562,Blue Monkey,http://www.bluemonkeyrehoboth.com/,
+bo_46gke8mqb5,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1713146554000,True,True,r_46pjmxjm5z,16800,HarborWalk Resort wear,http://www.fishermensvillage.com/,Clothing Boutique
+bo_usguvj5cw6,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712957254000,True,True,r_xpb3bxn4,12601,As For Me and My House,http://www.asformeandmyhouse.com,Gift Store
+bo_ga873k5d2b,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712936557000,True,True,r_purzrgv2z4,12662,The Salt Caves & Spa at Lakewood Ranch,https://thesaltcaveslwr.com/,Spa or Beauty Store
+bo_9rk3s7eakn,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712844319000,True,True,r_vxzkwgenfu,14919,Serendipity,http://www.serendipitygiftsct.com,Gift Store
+bo_zhw8cy8kh7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712837419000,False,False,r_ke27n3am3a,11590,In Motion,,Clothing Boutique
+bo_9cmvmb7xv3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712582788000,True,True,r_a2vffid2,14379,Lisa Eskenazi,,Clothing Boutique
+bo_wmmwjfbqf8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712494888000,True,True,r_co2nxqadka,12697,Humble & Kind,,Clothing Boutique
+bo_d6jh3enrvp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712418388000,False,False,r_um34r8eyj3,16167,Obsessive Sports,http://Obsessivesport.com,Clothing Boutique
+bo_ey45gpb3gm,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712390788000,True,True,r_57rzxzq2t4,16024,Ztransformation,http://ZTRANSFORMATION.COM,
+bo_j3bptu3b96,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712354289000,False,False,r_am2dg6tzur,12870,Our Cottage,,Gift Store
+bo_xgpr4yqj3m,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712019208000,True,True,r_9brs4wtfyb,15861,Classic Crafters & Co.,http://www.classicraftersco.com/,Home Decor Store
+bo_xm22syskax,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711993955000,True,True,r_f1nrjg01,21434,Dapple Grey Co. Boutique,http://dapplegreycoboutique.com/,
+bo_nr6mdky4nt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711819696000,True,True,r_b8urkryrfx,16559,Pickle on Penn,https://www.pickleonpenn.com/,
+bo_yfysajtrju,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711578674000,True,True,r_vtmd5gt2wr,14956,Debra Kwast,http://imagescorcoran.com,Gift Store
 bo_qxqkkwvvej,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711554792000,True,True,r_9l1cx10kna,13178,Butterfly Beach,http://www.butterflybeachclothing.com/,Clothing Boutique
 bo_tstnjfmcnu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711310781000,False,False,r_2f42fadv4y,34752,stephania denton,,Gift Store
 bo_sucnmf3wy5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710960158000,False,False,r_6uz8pzs3bz,11801,Only Pickleball,http://onlypickleball.com/,
@@ -25,7 +37,7 @@ bo_ppq9zffcum,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709068222000,False,Fals
 bo_scm2zbsnxq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709066722000,True,True,r_as3sd7qr,12735,Oxbeau,http://www.shopoxbeau.com/,Clothing Boutique
 bo_jpt64u2kgt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709012231000,True,True,r_7g71gmvpij,48335,Native Treasures,http://www.visitowa.com,Clothing Boutique
 bo_sqnbgynxhm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708979231000,True,True,r_afpak3no,15588,Treasure House,http://www.treasurehousegiftsankeny.com/,Gift Store
-bo_52by6q4c3n,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1708708080000,True,True,r_alfa0q6y7v,37627,She la la,http://shopshelala.com/,
+bo_52by6q4c3n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708708080000,True,True,r_alfa0q6y7v,38826,She la la,http://shopshelala.com/,
 bo_kctzqw7hrd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708707780000,True,True,r_2jxc7yecdm,16913,Cavalier,http://www.cavalierplv.com,Clothing Boutique
 bo_2c5dndmn8p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708619866000,True,True,r_bjgrd2ak7c,13271,Dallas Athletic Club,https://maps.google.com/?cid=17933419310410396765,Clothing Boutique
 bo_wcue495au7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708567966000,True,True,r_xypynskwvb,13383,VANESSA'S BOUTIQUE LLC,,Clothing Boutique

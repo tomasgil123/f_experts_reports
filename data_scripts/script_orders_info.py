@@ -2,8 +2,8 @@ import pandas as pd
 from get_orders_brand_info import (get_orders_info)
 from cookie import (cookie_token)
 
-# brand_token = "b_cad0ccd3"
-# brand_name = "couleur_nature"
+brand_token = "b_cad0ccd3"
+brand_name = "couleur_nature"
 
 # brand_token = "b_bdz7u5jj94"
 # brand_name = "caravan"
@@ -23,8 +23,8 @@ from cookie import (cookie_token)
 # brand_token = "b_vsxe65ezpv"
 # brand_name = "glimmer_wish"
 
-brand_token = "b_vllag6pj"
-brand_name = "trek_light"
+# brand_token = "b_vllag6pj"
+# brand_name = "trek_light"
 
 # brand_token = "b_9j68t72ipo"
 # brand_name = "true_classic"

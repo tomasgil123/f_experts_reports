@@ -22,14 +22,17 @@ from cookie import (cookie_token)
 # brand_token = "b_9884o1r7ea"
 # brand_name = "shinesty"
 
-brand_token = "b_vtmq6kd56j"
-brand_name = "born_to_rally"
+# brand_token = "b_vtmq6kd56j"
+# brand_name = "born_to_rally"
 
 # brand_token = "b_vsxe65ezpv"
 # brand_name = "glimmer_wish"
 
 # brand_token = "b_vllag6pj"
 # brand_name = "trek_light"
+
+brand_token = "b_arceup81f2"
+brand_name = "latico_leathers"
 
 # # we check if there is data already downloaded
 # product_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/marketing_campaign_info_*.csv")

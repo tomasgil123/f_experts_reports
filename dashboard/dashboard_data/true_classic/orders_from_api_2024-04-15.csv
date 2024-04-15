@@ -1,0 +1,17 @@
+tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
+bo_cbsqdndju5,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712948557000,False,False,r_g9vstpjp3f,33555,The Swell Co.,http://www.theswellco.com,
+bo_n67jv5uahj,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1712259582000,True,True,r_g9vstpjp3f,8965,The Swell Co.,http://www.theswellco.com,
+bo_2d2ha9agcn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712163911000,True,True,r_9rzntzbgvo,25448,Project Angels Boutique,https://projectangelsboutique.commentsold.com/,
+bo_v23asuksyh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711835296000,True,True,r_c5o2m62a,26948,ReHome Stores,http://www.simplyrehome.com/,Home Decor Store
+bo_s5gqjdx6mj,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1711642580000,True,True,r_7yvpwfqpjx,31090,The Well Clinic,http://thewellclinic.co/,
+bo_wvsbsn5q8u,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1711227614000,True,True,r_snw6jngyed,726,Sage River Market,https://www.facebook.com/Sagerivermarket/,Clothing Boutique
+bo_e6a43c6zhf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710995917000,False,False,r_g9vstpjp3f,76515,The Swell Co.,http://www.theswellco.com,
+bo_bcgq5zu5zh,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1710845405000,True,True,r_gub394mwf5,38315,Massage Green SPA,https://massagegreenspa.com/?SPA=JAX-Intracoastal,Spa or Beauty Store
+bo_m488yabfyc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710813005000,False,False,r_e1wmiswc,22911,The  Leesburg Country Store,https://www.facebook.com/The-Leesburg-Country-Store-1583151251939349,Clothing Boutique
+bo_vdrhg3pxsc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710542912000,True,True,r_vkd7y7ftba,26157,Elite Sports Nutrition,https://elitesportsnutritionroselle.com/,Clothing Boutique
+bo_gb7cga798u,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710346017000,True,True,r_10v7cah8gc,32202,Lock 31 Outfitters,http://www.lock31.com/,Clothing Boutique
+bo_wubeg79b26,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710286617000,True,True,r_snw6jngyed,40984,Sage River Market,https://www.facebook.com/Sagerivermarket/,Clothing Boutique
+bo_r2cutmndu4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710132127000,True,True,r_g9vstpjp3f,87460,The Swell Co.,http://www.theswellco.com,
+bo_u5x4qws4ct,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1710104227000,True,True,r_g9vstpjp3f,90503,The Swell Co.,http://www.theswellco.com,
+bo_7wpmasgxbd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709965327000,True,True,r_e1wmiswc,26827,The  Leesburg Country Store,https://www.facebook.com/The-Leesburg-Country-Store-1583151251939349,Clothing Boutique
+bo_ubcm38y799,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709575616000,True,True,r_850g8izm54,202856,Bronco Off Roadeo,http://www.broncooffroadeo.com/,Gift Store

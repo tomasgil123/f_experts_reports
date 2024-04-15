@@ -4,8 +4,8 @@ import glob
 from get_marketing_campaigns_info import (get_marketing_campaigns_info)
 from cookie import (cookie_token)
 
-# brand_token = "b_9j68t72ipo"
-# brand_name = "true_classic"
+brand_token = "b_9j68t72ipo"
+brand_name = "true_classic"
 
 # brand_token = "b_cad0ccd3"
 # brand_name = "couleur_nature"
@@ -16,8 +16,8 @@ from cookie import (cookie_token)
 # brand_token = "b_cmvrf26fxf"
 # brand_name = "bon_artis"
 
-brand_token = "b_67e3bc3f"
-brand_name = "lothantique"
+# brand_token = "b_67e3bc3f"
+# brand_name = "lothantique"
 
 # brand_token = "b_9884o1r7ea"
 # brand_name = "shinesty"

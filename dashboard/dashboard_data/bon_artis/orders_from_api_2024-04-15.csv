@@ -1,4 +1,9 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
+bo_pzx2eu5fbz,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1713184054000,False,False,r_cjjk7fztoh,19229,ReFind Decor,http://www.ReFindDecorCo.com,Home Decor Store
+bo_ggnmd8t8za,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1712869835000,True,True,r_7csxkrv8ev,20538,Avery & Co,http://averyandcogifts.com/,Gift Store
+bo_8ph9bdgn56,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712424688000,True,True,r_avkycpk19g,26142,"Wisteria Antiques & Design, Inc.",http://www.wisteriaantiques.net/,Home Decor Store
+bo_h7jyz863qj,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712108616000,False,False,r_63fdylef,144849,La Petite Maison,http://www.lapetitemaison.us/,General or Mercantile Store
+bo_m3n78cgjyq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711820296000,True,True,r_ep5qh50q0k,20751,delighted,http://delightedgiftshop.com/,Gift Store
 bo_dpw4y4d92p,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1709932027000,True,True,r_7cvitf4lgn,56672,Toadflax Inc Walnut St,http://www.toadflax.com/,Florist or Garden Store
 bo_jmp7xevtkn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709675880000,False,False,r_288mc06j,19063,Artisan Spirit,https://www.facebook.com/Artisan-Spirit-983251831734055/,Gift Store
 bo_w8s7gfzebp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709318007000,False,False,r_8ikqu25rwd,45053,Relish,https://www.relishneworleans.com/,Clothing Boutique
@@ -12,7 +17,7 @@ bo_ggn9mfc7re,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1706132423000,False,False,r_
 bo_hg7294eazu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706062774000,True,True,r_brvuorgq,19411,Mrs. Post Fine Stationery & Gifts,http://www.mrspoststationery.com/,
 bo_3zgfznjmyq,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1706058838000,True,True,r_8uwqegtq,21122,illo,http://www.illoshop.com,Home Decor Store
 bo_7n53fqbbgg,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1705989482000,True,True,r_69hv5kk0,36439,Moulinette,http://Moulinette.square.site,Gift Store
-bo_cd2t5ge3p8,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1705013989000,False,False,r_6hixnh58,103871,Emily DaFoe,http://shopupstairs.com,Home Decor Store
+bo_cd2t5ge3p8,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1705013989000,False,False,r_6hixnh58,103871,Upstairs at Pierre Lafond,http://shopupstairs.com,Home Decor Store
 bo_8f6sqbrt2g,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704994355000,True,True,r_8y81s7x55r,17481,The Very Idea,,
 bo_vdxqbwb7py,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704994055000,True,True,r_288mc06j,20964,Artisan Spirit,https://www.facebook.com/Artisan-Spirit-983251831734055/,Gift Store
 bo_kgfwpkagjm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704239949000,False,False,r_2t6186m1xz,25356,Galena Forest Flowers,http://galenaforestflowers.com,Florist or Garden Store
@@ -30,7 +35,7 @@ bo_8qf99jb9m3,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1700493298000,False,False,r_
 bo_fdkcuj3w75,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1700257798000,False,False,r_4jzdc95d7b,29737,Elizabeth Grace Home,http://www.elizabethgracehome.com/,Home Decor Store
 bo_aubaefvram,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1699748575000,True,True,r_f391z06w,25638,Ei Home,http://www.eihomesf.com/,Clothing Boutique
 bo_zrzbrysbfe,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1699371450000,True,True,r_4jzdc95d7b,26548,Elizabeth Grace Home,http://www.elizabethgracehome.com/,Home Decor Store
-bo_mygfqvutvv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1698877851000,True,True,r_6hixnh58,170354,Emily DaFoe,http://shopupstairs.com,Home Decor Store
+bo_mygfqvutvv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1698877851000,True,True,r_6hixnh58,170354,Upstairs at Pierre Lafond,http://shopupstairs.com,Home Decor Store
 bo_pxegzx23t6,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1698781678000,False,False,r_63fdylef,111389,La Petite Maison,http://www.lapetitemaison.us/,General or Mercantile Store
 bo_nbab4ekrvw,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1698210144000,False,False,r_ews6m54imp,65182,Nest,http://nestsf.com,
 bo_yq9bvzggte,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697046277000,True,True,r_8spwpewb6z,20112,The Canary,,Gift Store

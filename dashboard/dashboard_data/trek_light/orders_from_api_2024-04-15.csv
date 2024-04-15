@@ -1,19 +1,44 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_bg6z72s63a,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712202311000,True,True,r_gxg2n9xkeh,8386,House of Paradox,http://houseofparadox.shop/,Clothing Boutique
+bo_x7naxnnakd,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1713129454000,False,False,r_d7a5y59kj3,1943,Zanne Merkel,http://wheregalswander.myshopify.com,Clothing Boutique
+bo_24mg3exhv6,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1713119254000,False,False,r_1u3xeujf,191857,Palace Market,"https://maps.google.com/?q=11300+CA-1,+Point+Reyes+Station,+CA+94956,+USA&ftid=0x8085c6805b1d56e5:0x5a0bb78fc14cfb9b",Grocery or Liquor Store
+bo_amygsz72yr,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1713040654000,True,True,r_8gr2btub2g,99619,Raton Adventure Centre,http://mossadventures.com/,
+bo_b29zq2ven6,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1713040654000,True,True,r_3j57f3y65q,9371,Cuyuna Outfitters,http://www.cuyunaoutfitters.com/,
+bo_jj9gbee9vj,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1713038854000,False,False,r_d60219by,17952,Distressed Vintage Furniture Co,,
+bo_983m9k6w93,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712974654000,False,False,r_1eeim2dot3,3109,wandering soul sundries,https://www.thewanderingsoulcabin.com/,Home Decor Store
+bo_j65f4eccjd,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1712943757000,False,False,r_7mrwyfqdzq,16074,Cabin Road coffeehouse,https://cabinroadcoffeehouse.com/,
+bo_ysm752eu6c,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712942557000,False,False,r_sfhtt3w14s,59624,Vanilla Urban Threads,http://www.shopvanilla.com/,Clothing Boutique
+bo_2qxtv46m9q,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712941657000,True,True,r_9q0yit3zl9,17803,The Shoe Box,http://www.theshoeboxwv.com/,Clothing Boutique
+bo_zggz3cwftb,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712941057000,True,True,r_pugs5tkf2s,18133,Hatchet West,,
+bo_rek5tgbtvm,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712796019000,False,False,r_y5qwev12ub,47944,Navydylan,http://www.navydylan.com/,Gift Store
+bo_ntmuj4vavv,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1712787319000,False,False,r_ccu9rzn8qs,33349,Ana Villarreal,http://www.abbotspassage.com/,
+bo_phb3srbzcd,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1712782819000,False,False,r_4w6svv5f,33349,CKS Main Street,http://cksmainstreet.com/,
+bo_tg3qkktepk,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1712779219000,False,False,r_48yw15zm,23768,Color It Green,,
+bo_dp6b35zmdp,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712763019000,False,False,r_88eb0iofxk,23528,Aum Apparel,http://www.aumapparel.ca,Clothing Boutique
+bo_nthu2ngk8a,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1712678372000,True,True,r_zjzah3v62j,6571,Tannersville Works,http://tannersvilleworks.com/,Gift Store
+bo_x2ne74tucw,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712615439000,False,False,r_bt7z5ysy,60984,TopSide Boutique,,Clothing Boutique
+bo_h8zb78wyqs,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712523388000,True,True,r_w6bqz3ge9s,15511,Real and Raw 30a Wellness,,Cafe or Restaurant
+bo_sek73hda66,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1712522488000,False,False,r_cos635lalu,34612,Esteban’s,http://Estebanssedona.com,Gift Store
+bo_ph53cjw4mq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712424388000,True,True,r_vunhsqkqvk,14822,Plume and Furrow,http://plumeandfurrow.com/,Florist or Garden Store
+bo_269fr9uz5z,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712369188000,True,True,r_ht62yxyjhs,14102,Ellensburg Yoga and Coffee House,https://clients.mindbodyonline.com/classic/ws?studioid=5731279&stype=-7&sView=day&sLoc=0,
+bo_xnsvw49b2b,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712345289000,True,True,r_dule8rlw,55775,Wild Carrot Herbals,http://www.wildcarrotherbals.com/,
+bo_49qh88as8g,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712328695000,False,False,r_7qdk49py2k,12460,Cuchara Lokal,https://cucharalokalhotel.com/,Gift Store
+bo_w5wm4ztmsc,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712268095000,True,True,r_akp38xz84h,27879,Armature Works,http://armatureworks.com/,Gift Store
+bo_bk3db8s8r9,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1712256095000,False,False,r_7mrwyfqdzq,9634,Cabin Road coffeehouse,https://cabinroadcoffeehouse.com/,
+bo_bg6z72s63a,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712202311000,True,True,r_gxg2n9xkeh,9731,House of Paradox,http://houseofparadox.shop/,Clothing Boutique
 bo_6ew36nf3xv,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712003608000,True,True,r_duh553rucl,95512,Little Swiss Chalet,,General or Mercantile Store
-bo_wgvmhmm9q7,NEW_ORDER,PROCESSING,FULFILLED,ELEVATE,1711998808000,False,False,r_8uqhktyph7,20414,Mohican State Park Camp Store,,Gift Store
-bo_76ygy4nhk8,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1711992755000,True,True,r_3xjnwt6kcx,29054,Mountain Market,http://mountainmarketgl.com/,
-bo_x6kvbevrfb,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1711973296000,True,True,r_m38p6832wk,12469,The Healthy Place,http://www.findyourhealthyplace.com/,
-bo_66s4bmu3eg,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1711813996000,True,True,r_72q03k0s,6500,Lagom,http://lagomliving.net,
+bo_wgvmhmm9q7,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1711998808000,False,False,r_8uqhktyph7,20414,Mohican State Park Camp Store,,Gift Store
+bo_76ygy4nhk8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711992755000,True,True,r_3xjnwt6kcx,29054,Mountain Market,http://mountainmarketgl.com/,
+bo_x6kvbevrfb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711973296000,True,True,r_m38p6832wk,12469,The Healthy Place,http://www.findyourhealthyplace.com/,
+bo_66s4bmu3eg,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1711813996000,True,True,r_72q03k0s,6500,Lagom,http://lagomliving.net,
 bo_xqh74mabaa,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711663307000,True,True,r_ar6f37lekk,24801,Latched Louisville LLC,http://latchedlouisville.com/,
-bo_h7hxjzdz3a,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1711659380000,False,False,r_7v2jl8kajg,73309,Limber Grove,http://limbergrove.com/,Clothing Boutique
+bo_h7hxjzdz3a,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711659380000,False,False,r_7v2jl8kajg,73309,Limber Grove,http://limbergrove.com/,Clothing Boutique
 bo_v44ux3atz4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711647680000,True,True,r_bg81jb4kpv,19911,Hive Hot Yoga,,Fitness or Yoga Studio
-bo_y9vccejydq,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1711640780000,False,False,r_cqq11drw,33424,Cowgirl Winery,http://www.cowgirlwinery.com/,Gift Store
-bo_nsfyx57pwa,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1711639580000,True,True,r_fsfnr45f7k,9339,Fiz on Tap LLC,http://www.facebook.com/fizontap,
-bo_2chfxvr5bg,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1711591814000,False,False,r_tk96jgmqdk,38151,Sunmoon Apparel,http://www.sunmoonapparel.com/,Clothing Boutique
-bo_n88pccnvyj,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1711580174000,True,True,r_ejjqw88n3p,9532,Simply Massage,http://www.apresmassage.com,Spa or Beauty Store
+bo_y9vccejydq,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1711640780000,False,False,r_cqq11drw,33424,Cowgirl Winery,http://www.cowgirlwinery.com/,Gift Store
+bo_nsfyx57pwa,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1711639580000,True,True,r_fsfnr45f7k,9339,Fiz on Tap LLC,http://www.facebook.com/fizontap,
+bo_2chfxvr5bg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711591814000,False,False,r_tk96jgmqdk,38151,Sunmoon Apparel,http://www.sunmoonapparel.com/,Clothing Boutique
+bo_n88pccnvyj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711580174000,True,True,r_ejjqw88n3p,9532,Simply Massage,http://www.apresmassage.com,Spa or Beauty Store
 bo_usd4vmzxs9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711570392000,True,True,r_dnw2z5o5,27726,Foxglove,,Clothing Boutique
-bo_txupk2w42d,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1711567392000,False,False,r_dwrivpolfe,12091,Wild Roamer,http://wildroamer.shop,General or Mercantile Store
+bo_txupk2w42d,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711567392000,False,False,r_dwrivpolfe,12091,Wild Roamer,http://wildroamer.shop,General or Mercantile Store
 bo_7yvq4p7ym9,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1711508592000,False,False,r_kf8eq7d486,12704,Spirit of 1876,http://www.spiritof1876.com/,
 bo_we65ayyf77,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1711483692000,False,False,r_b1e01g3g,58878,Pedestrian Shops,http://COMFORTABLESHOES.COM,
 bo_5h899bxfyy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711473192000,False,False,r_6kf27g2yss,8950,Raggamuffin Corp,http://www.raggasurfcafe.com/,
@@ -109,7 +134,7 @@ bo_sfwv8ebfhb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709126628000,True,True,
 bo_ktumpjfsh9,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1709079022000,True,True,r_ccu9rzn8qs,22876,Ana Villarreal,http://www.abbotspassage.com/,
 bo_937f78bsft,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709013131000,True,True,r_qmyknetad9,19091,Surfsidelounge,,Gift Store
 bo_ckmt3gxn62,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1709007431000,False,False,r_8g8yuv097f,40292,Broomtail,https://broomtailkids.com/,Kids or Toy Store
-bo_q692rwzyuf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708984331000,False,False,r_e9hqjcgfkm,40633,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Home Decor Store
+bo_q692rwzyuf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708984331000,False,False,r_e9hqjcgfkm,40633,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Clothing Boutique
 bo_zc4zjdvawa,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708976231000,True,True,r_7qdk49py2k,9024,Cuchara Lokal,https://cucharalokalhotel.com/,Gift Store
 bo_rzvqtwe38a,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1708968780000,False,False,r_kf8eq7d486,9359,Spirit of 1876,http://www.spiritof1876.com/,
 bo_zk9hshdzgx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708892880000,True,True,r_fzn2m6ha89,4589,Grace Collectives,http://shopgracecollectives.com/,Clothing Boutique
@@ -370,13 +395,13 @@ bo_zj9d8aktkr,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1697654015000,False,False,r_
 bo_z3zasn4afb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697650115000,True,True,r_5mje9ca3pm,44961,North Spore,http://northspore.com/,
 bo_s3j926w2by,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697562195000,True,True,r_4e3g5l8qta,84188,"Earth to Old City, Inc",,Gift Store
 bo_fy3s9zecb6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697497395000,False,False,r_edywa6y3rb,67410,Red Umbrella Designs,http://www.redumbrelladesign.com/,Gift Store
-bo_hsfdrfrgp3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697488095000,False,False,r_e9hqjcgfkm,21539,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Home Decor Store
+bo_hsfdrfrgp3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697488095000,False,False,r_e9hqjcgfkm,21539,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Clothing Boutique
 bo_ja39acadk8,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1697428995000,True,True,r_aggd8oy011,15481,Mojave + Tejon Dry Goods,,Gift Store
 bo_uzyzghz49n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697419395000,True,True,r_clepms7fgv,29053,The Great Alaskan Bowl Company,http://www.woodbowl.com/,Gift Store
 bo_x3nnvvk9cz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697419395000,True,True,r_j7r7rsmpc5,14124,Harvest Christian Fellowship,https://harvest.church/location/orange-county/,Bookstore
 bo_amnz7w484y,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697418604000,True,False,r_clepms7fgv,4143,The Great Alaskan Bowl Company,http://www.woodbowl.com/,Gift Store
 bo_9gu2knk4pu,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1697329695000,False,False,r_2xiqah4wn5,43280,Proof Lab Station,http://www.prooflab.com/,
-bo_4gww93gbmu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697310795000,False,False,r_e9hqjcgfkm,23338,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Home Decor Store
+bo_4gww93gbmu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697310795000,False,False,r_e9hqjcgfkm,23338,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Clothing Boutique
 bo_ba9g9sn4zx,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1697285595000,False,False,r_5u4k9r8g78,61550,Frae Everyday Goods,http://www.shopfrae.com/,General or Mercantile Store
 bo_ccwre7buys,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1697231895000,False,False,r_jbdfm5zqqz,25397,West Lyfe,,
 bo_h2tpg6pj2j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697207720000,True,True,r_6kf27g2yss,19654,Raggamuffin Corp,http://www.raggasurfcafe.com/,
@@ -446,7 +471,7 @@ bo_2ur6yt24d9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695068476000,False,Fals
 bo_tz5ydmjygg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694979376000,True,True,r_8h367txtsh,19380,Indigo River & Co.,http://www.indigoriverandco.com,Gift Store
 bo_62eqzuxse3,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1694893276000,False,False,r_4ae24pp3w5,8300,STICK + FIN,https://maps.google.com/?cid=6132028232122864322,Cafe or Restaurant
 bo_696zj2ykqq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694825776000,True,True,r_zh4ygyz4ce,33976,Peachies Hair,http://peachieshair.com/,Spa or Beauty Store
-bo_3hwjyvcrw4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694810176000,False,False,r_e9hqjcgfkm,27537,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Home Decor Store
+bo_3hwjyvcrw4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694810176000,False,False,r_e9hqjcgfkm,27537,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Clothing Boutique
 bo_9fsqasp6vv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1694797534000,False,False,r_4w6svv5f,92231,CKS Main Street,http://cksmainstreet.com/,
 bo_hy8gzdwfk9,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1694750734000,False,False,r_5tagfbb6s5,70340,Branch Basket,http://www.branchbasket.com,Gift Store
 bo_xk9ay2vdwe,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1694730934000,False,False,r_axbdrfizd2,14284,Elevation Goods,http://www.elevationgoods.co,Gift Store
@@ -465,7 +490,7 @@ bo_krezk9vmsu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694545357000,True,True,
 bo_sqfzbrnsj4,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1694501486000,False,False,r_kf8eq7d486,240478,Spirit of 1876,http://www.spiritof1876.com/,
 bo_nctsymusmn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694476886000,False,False,r_3s6uwvi5h0,29484,Van Dyke Floors,https://www.vandykefloors.com/,Home Decor Store
 bo_c3tkwkyu4n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694464586000,True,True,r_1pt8we8j4v,10144,Freckles & Grit,https://www.facebook.com/frecklesandgrit/,Clothing Boutique
-bo_y7jasnmmrg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694462786000,False,False,r_e9hqjcgfkm,11210,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Home Decor Store
+bo_y7jasnmmrg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694462786000,False,False,r_e9hqjcgfkm,11210,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Clothing Boutique
 bo_zxhat7pcfh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694447925000,False,False,r_v7rbfjtwpt,47626,Hey There Projects,http://heythere-projects.myshopify.com/,Gift Store
 bo_6qvzy9pdkf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694441925000,True,True,r_9qv62zc6nf,5190,One 800,http://www.one800surf.com/,Clothing Boutique
 bo_d3p59eqdnd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694214225000,True,True,r_21opo19wby,42864,Onsite Workshops,http://www.onsiteworkshops.com/,Bookstore
@@ -489,7 +514,7 @@ bo_2w2p62c4zh,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1693764766000,False,False,r_
 bo_depdvzsncu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1693754266000,False,False,r_ykbyvcm69y,23338,Evergreen Beauty and Wellness Salon LLC,http://www.evergreenbeautyandwellness.com/,Spa or Beauty Store
 bo_yntv8n5bya,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1693713766000,True,True,r_c6ksrd9wqq,25917,Barter Theatre,http://www.bartertheatre.com/,Gift Store
 bo_m799zu99xr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1693705565000,True,True,r_yga2ftdbet,11974,In My Nan's Attic,,
-bo_aqmyv6nmc5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1693699265000,False,False,r_e9hqjcgfkm,31679,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Home Decor Store
+bo_aqmyv6nmc5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1693699265000,False,False,r_e9hqjcgfkm,31679,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Clothing Boutique
 bo_vp5brz85rj,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1693688765000,False,False,r_je6rvxwjmp,41396,Native Matter,http://nativemattercompany.com,General or Mercantile Store
 bo_fs62hwq2ff,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1693620365000,True,True,r_vycpu4ta78,2710,Lav Chiere,https://www.lavchiere.com/,Clothing Boutique
 bo_qm6ymbx6zc,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1693500702000,False,False,r_2fp1ccapmn,77284,Windswept Experience & Supply Co.,http://windsweptexperiencesupplyco.com/,Clothing Boutique
@@ -507,7 +532,7 @@ bo_fdvyvk9qdp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1692824053000,False,Fals
 bo_k625n69xpb,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1692805825000,False,False,r_ah1lljz5,45166,Lake + Company,http://www.thelakeandcompany.com/,Clothing Boutique
 bo_84d4nsrfsq,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1692805525000,False,False,r_ah1lljz5,46530,Lake + Company,http://www.thelakeandcompany.com/,Clothing Boutique
 bo_fb2cwbagqu,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1692805525000,False,False,r_ah1lljz5,45166,Lake + Company,http://www.thelakeandcompany.com/,Clothing Boutique
-bo_eph9wqhc32,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1692747025000,True,True,r_e9hqjcgfkm,46827,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Home Decor Store
+bo_eph9wqhc32,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1692747025000,True,True,r_e9hqjcgfkm,46827,Grateful Goods,https://maps.google.com/?cid=7569532395854435315,Clothing Boutique
 bo_bf6t6dxz6n,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1692743725000,False,False,r_88xx9f7x54,46660,Terramor Outdoor Resort,http://www.terramoroutdoorresort.com/,Gift Store
 bo_yqh4bugh8h,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1692740125000,False,False,r_hyfh6pbuuh,17358,Rise and Wander Company,http://riseandwanderco.com,Gift Store
 bo_frxsu3nb25,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1692675406000,False,False,r_96878e95,44337,Caddywampus,http://www.caddywampusstore.com/,Gift Store
@@ -587,7 +612,7 @@ bo_425shx7ssx,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1689913191000,False,False,r_
 bo_8zpg9d94tc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689911991000,True,True,r_98mmeg7s,119518,Golden Hour Gift Co - WINOOSKI location,http://goldenhourgiftco.com,Gift Store
 bo_h8nsk6ccwx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689911691000,True,True,r_cmb2jzs0,74757,Bayview Garden,http://www.bayviewgarden.com,Gift Store
 bo_3jxfvcscnr,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1689910191000,False,False,r_1tvuybrn,41949,Shannon Juliana,https://www.theclosetshoppersantacruz.com/,Clothing Boutique
-bo_cf3q3jwcgz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689910191000,True,True,r_c9sbchff,10354,The Bodega,https://www.facebook.com/TheBodegaHumboldt/,Gift Store
+bo_cf3q3jwcgz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689910191000,True,True,r_c9sbchff,10354,The Bodega,https://www.facebook.com/TheBodegaHumboldt/,Clothing Boutique
 bo_fauebf4des,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689906891000,True,True,r_dn0fq1t5,27712,Pack & Paddle,http://www.packpaddle.com/,
 bo_dnsmu8p2eh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689906291000,False,False,r_7v2jl8kajg,84352,Limber Grove,http://limbergrove.com/,Clothing Boutique
 bo_8ffms34ffm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689904491000,False,False,r_7njgnpb5dt,13552,Twelve Eleven Provisions + Wine Bar,http://twelveelevenwine.com/,Grocery or Liquor Store
@@ -648,7 +673,7 @@ bo_wpwmkknbd8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689116135000,False,Fals
 bo_cwudx8xgg7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689099335000,True,True,r_sse5ojc582,65627,McKenzie General Store & Obsidian Restaurant,http://mckenziegeneral.com,General or Mercantile Store
 bo_hxwq6skm46,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1689087043000,False,False,r_5pw8tcers5,33727,Fly Fly Baby,http://www.flyflybaby.com/,Kids or Toy Store
 bo_yfff7awjna,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1689055243000,False,False,r_2gjl8ipo26,61127,Whiskey Creek Rustics,,Clothing Boutique
-bo_u5wrhuhg42,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689047743000,False,False,r_xh3dkfft2j,38446,High Altitude Pagosa,https://www.highaltitudecloset.com/,Clothing Boutique
+bo_u5wrhuhg42,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689047743000,False,False,r_xh3dkfft2j,38446,HAP,https://www.highaltitudecloset.com/,Clothing Boutique
 bo_74btgpxfeg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689021643000,True,True,r_yr8397v4bj,4978,Alma Home,http://www.laurengriffithinteriors.com/,
 bo_y3x2s3segg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689015676000,True,True,r_27nhp8z7mz,13449,Mettowee Mint,,Florist or Garden Store
 bo_c33quwrq4b,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1688997605000,False,False,r_9kd0irmwsw,34121,Lani Beach Club,http://lanibeachclub.com/,Clothing Boutique
@@ -712,7 +737,7 @@ bo_vxmmh8ne8x,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1686867616000,False,False,r_
 bo_jg8jdkgcaw,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1686850201000,False,False,r_82bebb58,105985,Favor the Kind,http://favorthekind.com/,
 bo_zxmfu8n4nu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1686775936000,False,False,r_5kzpejwq,19497,GOODONYA® - Encinitas,https://www.goodonyaorganic.restaurant/market,General or Mercantile Store
 bo_tj789aac69,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1686764491000,True,True,r_2pijn2t327,195092,TPD Design House,https://tpddesignhouse.com/,
-bo_m632jmyfzm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1686710791000,True,True,r_xh3dkfft2j,21576,High Altitude Pagosa,https://www.highaltitudecloset.com/,Clothing Boutique
+bo_m632jmyfzm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1686710791000,True,True,r_xh3dkfft2j,21576,HAP,https://www.highaltitudecloset.com/,Clothing Boutique
 bo_854dtd578u,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1686705691000,True,True,r_wn937f54hp,40482,Evergreen Outpost Co.,https://evergreenoutpost.co/,
 bo_5ymd9nu34z,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1686701491000,True,True,r_52gvmfzk6h,27400,Brundage Downtown Shop,https://brundage.com/trip-planner/brundage-downtown-shop/,Clothing Boutique
 bo_j9ga6qk494,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1686678991000,True,True,r_d2pcbaos,29792,Shaded Kids,,Clothing Boutique

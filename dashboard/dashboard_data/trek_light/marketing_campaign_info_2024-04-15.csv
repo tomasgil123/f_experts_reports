@@ -1,27 +1,28 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_ktup9mk23n,Spring Sale Reminder - Ends Tomorrow,ONE_TIME,COMPLETED,1711638000000.0,1740.0,1189.0,522.0,7.0,1.0,1007.0,0.0,0.0
-bmc_75jw49u4bg,Cypress Fanny Pack Restock (Copy 1),ONE_TIME,COMPLETED,1711558988000.0,804.0,532.0,245.0,5.0,2.0,1337.0,0.0,0.0
-bmc_s3sk55k2sx,Sock Offer & Low Stock Alert - Purchased Previously ,ONE_TIME,COMPLETED,1711033200000.0,795.0,544.0,255.0,2.0,7.0,1610.22,0.0,0.0
-bmc_fu5x6avfn3,New Hat - Happy To Be Here (Black),ONE_TIME,COMPLETED,1710946800000.0,1730.0,1205.0,556.0,3.0,6.0,1938.38,0.0,0.0
-bmc_xtsbux6u38,March 2024 - Amount in Cart - Discount Offer,ONE_TIME,COMPLETED,1710428400000.0,197.0,142.0,71.0,0.0,1.0,506.0,0.0,0.0
+bmc_mr8dqvds9p,Untitled campaign 1,ONE_TIME,DRAFT,,,,,,,,,
+bmc_ktup9mk23n,Spring Sale Reminder - Ends Tomorrow,ONE_TIME,COMPLETED,1711638000000.0,1740.0,1189.0,538.0,7.0,1.0,1007.0,0.0,0.0
+bmc_75jw49u4bg,Cypress Fanny Pack Restock (Copy 1),ONE_TIME,COMPLETED,1711558988000.0,804.0,532.0,248.0,5.0,3.0,1644.6,0.0,0.0
+bmc_s3sk55k2sx,Sock Offer & Low Stock Alert - Purchased Previously ,ONE_TIME,COMPLETED,1711033200000.0,795.0,544.0,256.0,2.0,7.0,1610.22,0.0,0.0
+bmc_fu5x6avfn3,New Hat - Happy To Be Here (Black),ONE_TIME,COMPLETED,1710946800000.0,1730.0,1205.0,561.0,3.0,6.0,1938.38,0.0,0.0
+bmc_xtsbux6u38,March 2024 - Amount in Cart - Discount Offer,ONE_TIME,COMPLETED,1710428400000.0,197.0,142.0,71.0,0.0,2.0,1763.78,0.0,0.0
 bmc_vgvutzac2q,Feb 2024 - Amount in Cart - Discount Last Chance,ONE_TIME,COMPLETED,1710000000000.0,200.0,150.0,79.0,0.0,5.0,1557.5,0.0,0.0
 bmc_s5fhftcak7,Warehouse Sale Reminder,ONE_TIME,COMPLETED,1709740800000.0,1715.0,1221.0,537.0,4.0,3.0,704.0,0.0,0.0
 bmc_p5gm3kcd3n,Low Stock Enamel Mugs - Purchased,ONE_TIME,COMPLETED,1709654400000.0,100.0,81.0,34.0,0.0,2.0,416.0,0.0,0.0
 bmc_77gsrus86h,Wood Key Tags - Purchased  ,ONE_TIME,COMPLETED,1709740800000.0,88.0,61.0,25.0,0.0,0.0,0.0,0.0,0.0
 bmc_yj4kx24qh8,Ordered 60+ Days Ago - Extra Discount,ONE_TIME,COMPLETED,1709654400000.0,730.0,519.0,233.0,1.0,4.0,1388.0,0.0,0.0
-bmc_tbynts2e6r,Fanny Pack Offer - Purchased Previously  ,ONE_TIME,COMPLETED,1709395200000.0,307.0,226.0,103.0,0.0,3.0,916.0,0.0,0.0
+bmc_tbynts2e6r,Fanny Pack Offer - Purchased Previously  ,ONE_TIME,COMPLETED,1709395200000.0,307.0,226.0,103.0,0.0,4.0,1755.0,0.0,0.0
 bmc_u9buqznb5r,Blanket Restock (Previously Purchased) - Discount Offer,ONE_TIME,COMPLETED,1709222400000.0,201.0,146.0,80.0,0.0,1.0,152.0,0.0,0.0
 bmc_yyzr6dbaja,Sock Offer - Purchased Previously ,ONE_TIME,COMPLETED,1709222400000.0,127.0,92.0,43.0,3.0,6.0,1620.0,1.0,248.0
 bmc_ztban5dqac,Feb 2024 - Amount in Cart - Discount Offer ,ONE_TIME,COMPLETED,1709136000000.0,195.0,145.0,67.0,0.0,6.0,1698.0,0.0,0.0
 bmc_jsvbwkqaem,Feb 2024 - Never Ordered - Discount Offer,ONE_TIME,COMPLETED,1709136000000.0,4.0,3.0,2.0,0.0,0.0,0.0,0.0,0.0
 bmc_beeveztsay,Towel Highlight - Sale Reminder (Previously Purchased),ONE_TIME,COMPLETED,1709136000000.0,20.0,16.0,8.0,0.0,0.0,0.0,0.0,0.0
 bmc_6k4958vz8t,Hat Restock - Sunshine + Stay Wild Kids,ONE_TIME,COMPLETED,1709049600000.0,201.0,136.0,66.0,2.0,4.0,1308.0,1.0,452.0
-bmc_97hjtrht2y,Warehouse Sale Reminder - Feb 2024,ONE_TIME,COMPLETED,1708444800000.0,1700.0,1224.0,556.0,26.0,3.0,692.38,1.0,221.88
-bmc_g966s4rwnt,Towel Highlight - Gear Up for Spring,ONE_TIME,COMPLETED,1708185600000.0,1698.0,1176.0,561.0,7.0,4.0,1141.88,0.0,0.0
-bmc_dqqf3ffvyj,New Blankets Launch - Goldie + Northstar,ONE_TIME,COMPLETED,1707926400000.0,813.0,596.0,287.0,6.0,1.0,76.0,0.0,0.0
-bmc_6wuxknftka,Winter Market + Warehouse Sale Reminder,ONE_TIME,COMPLETED,1705507200000.0,1724.0,1238.0,531.0,17.0,8.0,3807.46,0.0,0.0
-bmc_ft9gq3zukh,WM Reminder Last Day (Jan 2024),ONE_TIME,COMPLETED,1706198400000.0,1740.0,1052.0,380.0,9.0,2.0,342.0,2.0,342.0
-bmc_3jdbakfmv8,Winter Market Launch - Ordered (Jan 2024),ONE_TIME,COMPLETED,1706025600000.0,790.0,397.0,133.0,3.0,2.0,449.92,0.0,0.0
+bmc_97hjtrht2y,Warehouse Sale Reminder - Feb 2024,ONE_TIME,COMPLETED,1708444800000.0,1700.0,1224.0,557.0,26.0,3.0,692.38,1.0,221.88
+bmc_g966s4rwnt,Towel Highlight - Gear Up for Spring,ONE_TIME,COMPLETED,1708185600000.0,1698.0,1176.0,562.0,7.0,4.0,1141.88,0.0,0.0
+bmc_dqqf3ffvyj,New Blankets Launch - Goldie + Northstar,ONE_TIME,COMPLETED,1707926400000.0,813.0,596.0,287.0,6.0,3.0,1080.0,0.0,0.0
+bmc_6wuxknftka,Winter Market + Warehouse Sale Reminder,ONE_TIME,COMPLETED,1705507200000.0,1724.0,1238.0,531.0,17.0,9.0,4646.46,0.0,0.0
+bmc_ft9gq3zukh,WM Reminder Last Day (Jan 2024),ONE_TIME,COMPLETED,1706198400000.0,1740.0,1052.0,381.0,9.0,2.0,342.0,2.0,342.0
+bmc_3jdbakfmv8,Winter Market Launch - Ordered (Jan 2024),ONE_TIME,COMPLETED,1706025600000.0,790.0,397.0,133.0,3.0,3.0,1288.92,0.0,0.0
 bmc_qd5ayzrk5x,Reorder Campaign - 10% Off,ONE_TIME,COMPLETED,1701792000000.0,703.0,517.0,234.0,3.0,3.0,596.0,0.0,0.0
 bmc_995nf5vzje,Review Request - Placed Order,ONE_TIME,COMPLETED,1701273600000.0,391.0,291.0,140.0,0.0,3.0,828.0,0.0,0.0
 bmc_3q9h7judqz,Hat Highlight + Sale Reminder,ONE_TIME,COMPLETED,1701705600000.0,759.0,573.0,268.0,4.0,7.0,1295.84,1.0,228.0

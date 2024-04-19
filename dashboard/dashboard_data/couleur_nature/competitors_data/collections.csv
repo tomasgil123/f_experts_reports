@@ -1,37 +1,49 @@
 collection_title,created_at,updated_at,total_items,collection_promo,collection_promo_discount,collection_promo_started_at,brand
-Blue Collection,1708831497000,1708832791000,39,0,0,0,Couleur Nature
-Fruit Yellow & Green Collection,1704398754000,1708831497000,5,0,0,0,Couleur Nature
-Fig Citrine Collection,1704398706000,1708831497000,5,0,0,0,Couleur Nature
-Fig Red & Green Collection,1704398668000,1708831497000,3,0,0,0,Couleur Nature
-Jardin Blue & Vert Collection,1704398641000,1708831497000,6,0,0,0,Couleur Nature
-Jardin Red & Green Collection,1704398507000,1708831497000,5,0,0,0,Couleur Nature
-Jardin Red & Grey Collection,1704398448000,1708831497000,6,0,0,0,Couleur Nature
-Poppies Red & Green Collection,1704398409000,1708831497000,6,0,0,0,Couleur Nature
-Grenadine Orange & Green Collection,1704398333000,1708831497000,2,0,0,0,Couleur Nature
-Sunflower Yellow & Green Collection,1704397820000,1708831497000,6,0,0,0,Couleur Nature
-La Mer Citrine Collection,1704397775000,1708831497000,6,0,0,0,Couleur Nature
-Provence Avignon Blue & Marine Collection,1704397739000,1708831497000,6,0,0,0,Couleur Nature
-Provence Avignon Dijon & Blue Collection,1704397685000,1708831497000,6,0,0,0,Couleur Nature
-Springfields Collection,1704397583000,1708831497000,6,0,0,0,Couleur Nature
-Lavender Collection,1704397510000,1708831497000,6,0,0,0,Couleur Nature
-Wisteria Pink Collection,1664469156000,1708831497000,4,0,0,0,Couleur Nature
- Wisteria Blue Collection,1664469156000,1708831497000,5,0,0,0,Couleur Nature
-New Spring 2024 Collection,1704308746000,1706131499000,22,0,0,0,Sevya Handmade
-Top Sellers for Spring,1704900160000,1706131504000,48,0,0,0,Sevya Handmade
-Kantha Collection,1664469625000,1706133647000,30,0,0,0,Sevya Handmade
-Clearance Sale Collection,1679510780000,1709147047000,75,0,0,0,Sevya Handmade
-spring forward,1707269454000,1707950622000,14,0,0,0,fort & field
-neutral home,1693432432000,1708302525000,26,0,0,0,fort & field
-eco conscious,1693434941000,1707269760000,13,0,0,0,fort & field
-SALE ITEMS,1708565168000,1708565281000,22,0,0,0,Pacific & Rose Textiles
-Tablecloths,1708472920000,1708565169000,20,0,0,0,Pacific & Rose Textiles
-Napkins,1665254521000,1708565169000,15,0,0,0,Pacific & Rose Textiles
-Placemats,1708473305000,1708565169000,9,0,0,0,Pacific & Rose Textiles
-Table Runners,1708473155000,1708565169000,9,0,0,0,Pacific & Rose Textiles
-Aprons,1708473998000,1708565169000,9,0,0,0,Pacific & Rose Textiles
-Kitchen Towels,1708473499000,1708565169000,14,0,0,0,Pacific & Rose Textiles
-Pillow Covers,1708474513000,1708565169000,6,0,0,0,Pacific & Rose Textiles
-Cosmetic Bags,1708474345000,1708565169000,12,0,0,0,Pacific & Rose Textiles
-Kimono Robes,1708473728000,1708565169000,7,0,0,0,Pacific & Rose Textiles
-Clothing,1708475092000,1708634205000,17,0,0,0,Pacific & Rose Textiles
-Trendy on a Budget,1690473892000,1690477177000,1,0,0,0,Fennco Styles
+Best Sellers,1712717210000.0,1713297376000.0,17.0,0.0,0.0,0.0,Couleur Nature
+Table Runners,1713140073000.0,1713297155000.0,29.0,0.0,0.0,0.0,Couleur Nature
+Aprons,1713297142000.0,1713297155000.0,37.0,0.0,0.0,0.0,Couleur Nature
+Jardin Red & Green Collection,1704398507000.0,1713297297000.0,5.0,0.0,0.0,0.0,Couleur Nature
+Jardin Red & Grey Collection,1704398448000.0,1713297319000.0,6.0,0.0,0.0,0.0,Couleur Nature
+Jardin Blue & Vert Collection,1704398641000.0,1713297319000.0,6.0,0.0,0.0,0.0,Couleur Nature
+Pansy Collection,1713296564000.0,1713297211000.0,6.0,0.0,0.0,0.0,Couleur Nature
+Petite Fleur Multi ,1710443894000.0,1713297211000.0,2.0,0.0,0.0,0.0,Couleur Nature
+Blue Collection,1708831497000.0,1713297211000.0,39.0,0.0,0.0,0.0,Couleur Nature
+Fruit Yellow & Green Collection,1704398754000.0,1713297205000.0,6.0,0.0,0.0,0.0,Couleur Nature
+Fig Citrine Collection,1704398706000.0,1713297205000.0,5.0,0.0,0.0,0.0,Couleur Nature
+Fig Red & Green Collection,1704398668000.0,1713297205000.0,3.0,0.0,0.0,0.0,Couleur Nature
+Poppies Red & Green Collection,1704398409000.0,1713297143000.0,6.0,0.0,0.0,0.0,Couleur Nature
+Grenadine Orange & Green Collection,1704398333000.0,1713297143000.0,2.0,0.0,0.0,0.0,Couleur Nature
+Sunflower Yellow & Green Collection,1704397820000.0,1713297143000.0,6.0,0.0,0.0,0.0,Couleur Nature
+La Mer Citrine Collection,1704397775000.0,1713297143000.0,6.0,0.0,0.0,0.0,Couleur Nature
+Provence Avignon Collection,1704397685000.0,1713297143000.0,13.0,0.0,0.0,0.0,Couleur Nature
+Springfields Collection,1704397583000.0,1713297143000.0,6.0,0.0,0.0,0.0,Couleur Nature
+Lavender Collection,1704397510000.0,1713297143000.0,6.0,0.0,0.0,0.0,Couleur Nature
+Wisteria Collection,1664469156000.0,1713297143000.0,11.0,0.0,0.0,0.0,Couleur Nature
+Spring Tables with Style,1708958109000.0,1708959277000.0,38.0,0.0,0.0,0.0,Mode Living
+"New Year, New Looks",1700665798000.0,1708958335000.0,30.0,0.0,0.0,0.0,Mode Living
+15% Off Select Items,1699986904000.0,1708958335000.0,44.0,0.0,0.0,0.0,Mode Living
+"Handmade Promotion - March 19-31st, 2024",1699481118000.0,1710849697000.0,15.0,0.0,0.0,0.0,Mode Living
+Best Sellers 2023,1697812618000.0,1708958335000.0,31.0,0.0,0.0,0.0,Mode Living
+Thanksgiving in Style,1697734179000.0,1708958335000.0,33.0,0.0,0.0,0.0,Mode Living
+IN STOCK - FALL/WINTER 2023,1690485119000.0,1708958335000.0,12.0,0.0,0.0,0.0,Mode Living
+Great Gifts! ,1697751917000.0,1708958335000.0,13.0,0.0,0.0,0.0,Mode Living
+Decorative Pillows,1684354434000.0,1708958335000.0,26.0,0.0,0.0,0.0,Mode Living
+Christmas Tables with Style,1691443140000.0,1708958335000.0,43.0,0.0,0.0,0.0,Mode Living
+White Linen Essentials,1684353308000.0,1708958335000.0,12.0,0.0,0.0,0.0,Mode Living
+Fall Entertaining,1691696249000.0,1708958335000.0,25.0,0.0,0.0,0.0,Mode Living
+NEW ARRIVALS - In Stock! ,1685989561000.0,1708958335000.0,22.0,0.0,0.0,0.0,Mode Living
+Blue & White,1684789384000.0,1708958335000.0,13.0,0.0,0.0,0.0,Mode Living
+Metallics Collection,1664470377000.0,1708958335000.0,5.0,0.0,0.0,0.0,Mode Living
+Mother's Day!,1713365057000.0,1713448265000.0,36.0,0.0,0.0,0.0,April Cornell
+Luxurious Linens & Fine Embroideries,1702488333000.0,1712949030000.0,28.0,0.0,0.0,0.0,April Cornell
+Dreamy Bedding Collection,1700498527000.0,1713192257000.0,31.0,0.0,0.0,0.0,April Cornell
+Incredible Indigo Collection,1700497127000.0,1710343741000.0,10.0,0.0,0.0,0.0,April Cornell
+Welcome Spring,1700069301000.0,1712949030000.0,16.0,0.0,0.0,0.0,April Cornell
+The Lollipop Collection,1706282281000.0,1706282596000.0,6.0,0.0,0.0,0.0,ATELIER SAUCIER
+Primavera Collection,1706282184000.0,1706282281000.0,5.0,0.0,0.0,0.0,ATELIER SAUCIER
+Pop of Paradise Collection,1706282066000.0,1706282581000.0,7.0,0.0,0.0,0.0,ATELIER SAUCIER
+The Valentine's Day Collection,1704933795000.0,1706282351000.0,4.0,0.0,0.0,0.0,ATELIER SAUCIER
+Renaissance de Fleur Collection,1689385721000.0,1706282654000.0,8.0,0.0,0.0,0.0,ATELIER SAUCIER
+Day x Night Collection,1664469781000.0,1706282281000.0,5.0,0.0,0.0,0.0,ATELIER SAUCIER
+Saucier Starter Collection,1664468472000.0,1706282281000.0,4.0,0.0,0.0,0.0,ATELIER SAUCIER
+Rainbow Collection,1664469014000.0,1706282281000.0,5.0,0.0,0.0,0.0,ATELIER SAUCIER

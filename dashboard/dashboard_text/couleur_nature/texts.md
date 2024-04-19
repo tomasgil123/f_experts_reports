@@ -1,13 +1,13 @@
 <!-- Competitors: Review analysis -->
 #
 
-__General Trends:__ Most competitors have over 50 reviews.
+__General Trends:__ There's a noticeable discrepancy in the number of reviews among competitors, ranging from very few to a substantial amount.
 
-__Notable Exception:__ Sevya Handmade stands out with over 700 reviews.
+__Notable Exception:__ Couleur Nature is the brand with most reviews, over 90.
 
-__Rating Overview:__ All competitors maintain high ratings, averaging above 4.8 stars.
+__Rating Overview:__ All competitors maintain high ratings, averaging above 5 stars.
 
-__Noteworthy Point:__ The trend in Sevya Handmade's reviews is declining, indicating a decrease in sales or a reduction in the frequency of customer feedback compared to previous periods.
+__Noteworthy Point:__ Bodrum is yet to garner any reviews. Additionally, Atelier Saucier and Mode Living have received only 6 and 2 reviews respectively in the past year.
 
 #
 
@@ -15,21 +15,35 @@ __Noteworthy Point:__ The trend in Sevya Handmade's reviews is declining, indica
 
 # 
 
-__Product Titles:__ Our analysis of product titles in the tablecloth category reveals that the majority of brands predominantly highlight colors or production techniques such as embroidery.
+Our analysis of product titles in the tablecloth category reveals the following:
 
-__Recommendation:__ To stand out from competitors, infuse unique and attention-grabbing terms into product titles. Consider strategically integrating holiday-themed keywords to capitalize on seasonal trends and enhance sales performance.
+__Mode Living:__
+- Seasonal Themes: A significant portion of Mode Living's tablecloth names are associated with seasonal themes, particularly "Fall Entertaining" and "Christmas". This suggests that Mode Living targets seasonal home decor trends, offering products that cater to specific times of the year, such as autumn and the holiday season.
+- Geographic Names: Many of Mode Living's products are named after places, such as "Lisbon Light Gray Tablecloth" and "Santorini Tablecloth - Fall Entertaining". This naming convention might be intended to evoke a sense of style or atmosphere associated with those locations, suggesting a worldly or travel-inspired theme in their product line.
+
+__April Cornell:__
+- Variety and Repetition: April Cornell shows a wide variety of product names, often with a floral or nature-inspired theme, such as "Rose Nouveau Tablecloth" and "In the Garden Tablecloth". There is also a notable repetition of certain patterns with variations, for example, "Cottage Rose Tablecloth" and "Cottage Rose Round Tablecloth", indicating that products are available in multiple formats or designs.
+- Round Tablecloths: A significant number of products are specified as "Round Tablecloth", which points to a specialization in offering tablecloths suited for round tables. 
+- Natural Dye and Linen Materials: There are mentions of natural dye and linen in the product names, such as "Raj Natural Dye Tablecloth" and "Bella Linen Tablecloth". This suggests an emphasis on natural materials and eco-friendly dyes.
+
+__ATELIER SAUCIER:__
+- Unique and Specific Themes: ATELIER SAUCIER's product names suggest a focus on unique and possibly bespoke designs, such as "Jubilee Plaid Centerpiece Tablecloth" and "Morning Glory Centerpiece Tablecloth". The use of terms like "Centerpiece" implies these tablecloths are designed to be focal points of table settings.
+- Material Mention: The mention of specific materials in product names, like "Macaw Burlap Tablecloth", indicates a focus on the material quality or texture as a selling point.
+
+__Couleur Nature:__
+- Color and Pattern Focus: Couleur Nature's product names often include color descriptions and patterns, such as "Jardin Blue & Vert Tablecloth" and "Grenadine Orange & Green Tablecloth". This suggests that color and pattern variety are significant aspects of their product line, catering to customers looking for specific color schemes or decorative patterns.
+- French and Nature-Inspired Themes: Many of Couleur Nature's products have French names or themes, along with nature-inspired elements, such as "Provence Avignon Dijon & Blue Tablecloth" and "Forest Harvest Mustard & Blue Tablecloths". This could indicate a brand identity that leans towards French country aesthetics and natural motifs.
 
 # 
 
 <!-- Competitors: Competitor pricing, minimum order and fulfillment analysis -->
 
-__Pricing strategy:__ The prevailing pricing trend in the tablecloth category places products typically between $20 and $40, with recommended retail price adjustments consistently doubling across most brands. However, Fennco diverges from this pattern by offering tablecloths at a more accessible price range of $10 to $20, while Couleur Nature distinguishes itself with a 150% markup on wholesale prices.
+__Pricing strategy:__ There's a significant dispersion in median prices within the tablecloth category across various brands. April Cornell emerges as the brand with the most budget-friendly offering at \$27, closely followed by Couleur Nature at \$37. Conversely, Atelier Saucier commands the highest price point at \$99, trailed by Mode Living at \$70. Notably, Bodrum does not currently offer products in the tablecloth category.
+Moreover, brands vary in their recommended markup percentages. Couleur Nature advises the highest markup at 150%, while Atelier Saucier and April Cornell suggest the lowest at 100%.
 
-__Brand Minimums:__ The majority of brands require a minimum initial order of $100, but Couleur Nature sets a higher benchmark of $200.
+__Brand Minimums:__ The majority of brands require a minimum initial order of around \$200.
 
-__Fulfillment time:__ While most brands boast a fulfillment time of 1-3 days, fort & field sets itself apart with a slightly extended fulfillment period of 4-7 days.
-
-__Recommendation:__ To optimize customer satisfaction, it's recommended to maintain an order minimum around $100 and ensure a fulfillment period not exceeding 4 days. Additionally, aligning retail price increases closer to the industry norm of 100% could enhance overall competitiveness.
+__Fulfillment time:__ While some brands (Couleur Nature and Mode Living) boast a fulfillment time of 1-3 days, other brands (Atelier Saucier and April Cornell) are slower with a fulfillment time of 10-14 days. There is no data for Bodrum.
 
 #
 
@@ -37,9 +51,9 @@ __Recommendation:__ To optimize customer satisfaction, it's recommended to maint
 
 # 
 
-__Collections:__ Recently, Couleur Nature and Sevya Handmade have launched new collections, suggesting a potential focus on seasonal offerings.
+__Collections:__ Couleur Nature not only boasts the highest number of collections but also stands out as the brand that has most recently created the majority of its collections.
 
-__Collection updates:__ Couleur Nature and Sevya Handmade are notably proactive in updating their collections on a regular basis.
+__Collection updates:__ Couleur Nature and April Cornell are notably proactive in updating their collections on a regular basis.
 
 __Recommendation:__ When it comes to collections, Couleur Nature appears to outpace its competitors by consistently introducing new collections at a higher frequency and frequently refreshing existing ones.
 

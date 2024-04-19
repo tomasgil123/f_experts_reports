@@ -201,14 +201,25 @@ def get_competitors_price_distribution_by_category_data(df,selected_brand, all_b
     return filtered_df[columns_to_keep]
 
 
-def get_competitors_price_distribution_by_category_display(filtered_df, selected_category, selected_brand):
-
+def get_competitors_price_distribution_by_category_display(filtered_df, selected_category, selected_brand, client):
     # Create a figure and axis object using plt.subplots()
     fig, ax = plt.subplots()
+
+    # we get the median for the wholesale and retail prices for client brand
+    median_wholesale_price = np.median(filtered_df[filtered_df['brand'] == client]['Wholesale Price'])
+    median_retail_price = np.median(filtered_df[filtered_df['brand'] == client]['Retail Price'])
 
     # Plot the histograms for wholesale and retail prices on the axis object
     ax.hist(filtered_df['Wholesale Price'], bins=20, color='skyblue', edgecolor='black', alpha=0.7, label='Wholesale Price')
     ax.hist(filtered_df['Retail Price'], bins=20, color='orange', edgecolor='black', alpha=0.7, label='Retail Price')
+
+    # if median_wholesale_price and median_retail_price are not nans, we add vertical lines for the medians
+    if not np.isnan(median_wholesale_price) and not np.isnan(median_retail_price):
+        # we get new string with only the first letter of each word in client
+        client_short = ''.join(word[0] for word in client.split())
+        ax.axvline(median_wholesale_price, color='blue', linestyle='dashed', linewidth=1, label=f'Median Wholesale Price for {client_short}')
+        ax.axvline(median_retail_price, color='red', linestyle='dashed', linewidth=1, label=f'Median Retail Price for {client_short}')
+
     ax.set_xlabel('Price')
     ax.set_ylabel('Frequency')
     ax.legend()

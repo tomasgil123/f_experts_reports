@@ -64,10 +64,14 @@ def create_competitors_dashboard(selected_client, markdown_text):
 
     st.markdown("""
                 #### Product analysis:
-                ###
                 """)
     
+    product_optimization_strategies = get_text_between_comments(markdown_text, "<!-- Competitors: Product optimization analysis -->", "<!")
+    if product_optimization_strategies is not None:
+        st.markdown(product_optimization_strategies, unsafe_allow_html=True)
+    
     all_brands_option = "All Brands"
+
     # Create a brand selector widget
     selected_brand = st.selectbox("Select a Brand", np.append(df['brand'].unique(), all_brands_option))
     # Create a product category selector widget
@@ -82,22 +86,26 @@ def create_competitors_dashboard(selected_client, markdown_text):
         string_dataframe = df_product_names.to_string(index=False)
         insights.display_llm_insight_helper({"string_data": string_dataframe, "section": "<!-- Competitors: Product titles analysis -->", "button_key": "df_product_names"})
     
-    product_optimization_strategies = get_text_between_comments(markdown_text, "<!-- Competitors: Product optimization analysis -->", "<!")
-    if product_optimization_strategies is not None:
-        st.markdown(product_optimization_strategies, unsafe_allow_html=True)
+    
 
     st.markdown("""
                 #### Pricing, minimum order and fulfillment analysis:
-                ###
                 """)
+    
+    pricing_strategy = get_text_between_comments(markdown_text, "<!-- Competitors: Competitor pricing, minimum order and fulfillment analysis -->", "<!")
+    if pricing_strategy is not None:
+        st.markdown(pricing_strategy, unsafe_allow_html=True)
     
     all_brands_option = "All Brands"
     
     selected_brand = st.selectbox("Select Brand", np.append(df['brand'].unique(), all_brands_option))
     selected_category = st.selectbox("Select Category", df['Product Category'].unique(), index=0)
 
+    # we replace "_" with " " in selected_brand and also we make the first leeter of each word upper case
+    name_selected_client = selected_client.replace("_", " ").title()
+
     df_competitors_price_distribution = get_competitors_price_distribution_by_category_data(df, selected_brand, all_brands_option, selected_category)
-    get_competitors_price_distribution_by_category_display(df_competitors_price_distribution,selected_category, selected_brand )
+    get_competitors_price_distribution_by_category_display(df_competitors_price_distribution,selected_category, selected_brand, client=name_selected_client)
 
     df_sum_data = get_competitors_price_table_data(df, selected_category)
     get_competitors_price_table_display(df_sum_data, selected_category)
@@ -111,14 +119,15 @@ def create_competitors_dashboard(selected_client, markdown_text):
 
     get_competitors_fulfillment_data(df_brand_data)
 
-    pricing_strategy = get_text_between_comments(markdown_text, "<!-- Competitors: Competitor pricing, minimum order and fulfillment analysis -->", "<!")
-    if pricing_strategy is not None:
-        st.markdown(pricing_strategy, unsafe_allow_html=True)
+    
 
     st.markdown("""
                 #### Collections analysis:
-                ###
                 """)
+
+    collections = get_text_between_comments(markdown_text, "<!-- Competitors: Competitor collection analysis -->", "<!")
+    if collections is not None:
+        st.markdown(collections, unsafe_allow_html=True)
 
     df_brands_collections = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/competitors_data/collections.csv")
 
@@ -129,10 +138,7 @@ def create_competitors_dashboard(selected_client, markdown_text):
     get_median_update_time_collections_per_brand(df_brands_collections)
 
     get_median_items_per_collection_per_brand(df_brands_collections)
-
-    collections = get_text_between_comments(markdown_text, "<!-- Competitors: Competitor collection analysis -->", "<!")
-    if collections is not None:
-        st.markdown(collections, unsafe_allow_html=True)
+    
 
 def create_custom_competitors_dashboard(selected_client, markdown_text):
     

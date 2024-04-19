@@ -11,7 +11,8 @@ df_brands = pd.read_csv('brands_competitors.csv')
 # brand_owners = ["Latico Leathers"]
 # brand_owners = ["True Classic"]
 #v brand_owners = ["Glimmer Wish"]
-brand_owners = ["Trek Light"]
+#brand_owners = ["Trek Light"]
+brand_owners = ["Couleur Nature"]
 
 # we iterate over the brand_owners
 for brand_owner in brand_owners:

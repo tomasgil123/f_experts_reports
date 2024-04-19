@@ -1,15 +1,23 @@
 import pandas as pd
 
 # we load coleaur nature leads csv
-df_leads = pd.read_csv('Caravan_leads.csv')
+#df_leads = pd.read_csv('Caravan_leads.csv')
+#df_leads = pd.read_csv('Coleur_nature_leads.csv')
+#df_leads = pd.read_csv('true_classic_leads.csv')
+#df_leads = pd.read_csv('bon_artis_leads.csv')
+df_leads = pd.read_csv('lothantique_leads.csv')
 
 # convert column "Name" to lower case
 df_leads['Name'] = df_leads['Name'].str.lower()
 
-brand_name = "caravan"
+#brand_name = "caravan"
+#brand_name = "couleur_nature"
+#brand_name = "true_classic"
+#brand_name = "bon_artis"
+brand_name = "lothantique"
 
 # we load orders from coleur nature
-df_orders = pd.read_csv(f'../dashboard/dashboard_data/{brand_name}/orders_from_api_2024-04-11.csv')
+df_orders = pd.read_csv(f'../dashboard/dashboard_data/{brand_name}/orders_from_api_2024-04-15.csv')
 
 # convert column "retailer_names" to lower case
 df_orders['retailer_names'] = df_orders['retailer_names'].str.lower()

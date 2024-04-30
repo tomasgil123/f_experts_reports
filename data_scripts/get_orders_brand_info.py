@@ -126,7 +126,21 @@ def get_orders_info_page(page_number, brand_token, cookie):
 
     return data, items_order, page_count
 
-def get_orders_info(brand_token, cookie):
+def find_first_older_date_index(brand_contacted_at_values, time_most_recent_campaign):
+    # We check if the time_most_recent_campaign is bigger than any of the dates in start_sending_at
+    # If it is, we return the index of the date that is not new
+
+    print("start_sending_at", brand_contacted_at_values)
+    print("time_most_recent_campaign", time_most_recent_campaign)
+    
+    for index, date in enumerate(brand_contacted_at_values):
+        if date is not None and date < time_most_recent_campaign:
+            # We return the index of the item that is not new
+            print("index", index)
+            return index
+    return -1  # Return -1 if all dates are newer than time_most_recent_campaign
+
+def get_orders_info(brand_token, cookie, time_most_recent_campaign):
     # Initialize lists to store the specific order attributes
     tokens = []
     creation_reasons = []
@@ -147,43 +161,84 @@ def get_orders_info(brand_token, cookie):
     # we loop over the different pages and get the orders info
     page_number = 1
     data_orders, items_order_page, page_count  =  get_orders_info_page(page_number, brand_token, cookie)
-    time.sleep(10)
-    tokens.extend(data_orders["tokens"])
-    creation_reasons.extend(data_orders["creation_reasons"])
-    states.extend(data_orders["states"])
-    fulfillment_states.extend(data_orders["fulfillment_states"])
-    sources.extend(data_orders["sources"])
-    brand_contacted_at_values.extend(data_orders["brand_contacted_at_values"])
-    first_order_for_brand_values.extend(data_orders["first_order_for_brand_values"])
-    very_first_order_for_brand_values.extend(data_orders["very_first_order_for_brand_values"])
-    retailer_tokens.extend(data_orders["retailer_tokens"])
-    payout_total_values.extend(data_orders["payout_total_values"])
-    retailer_names.extend(data_orders["retailer_names"])
-    retailer_website_urls.extend(data_orders["retailer_website_urls"])
-    retailer_store_types.extend(data_orders["retailer_store_types"])
-    # we append the items order data to the dataframe
-    combine_order_items_info(items_order, items_order_page)
+
+    first_older_date_index = find_first_older_date_index(brand_contacted_at_values=data_orders["brand_contacted_at_values"], time_most_recent_campaign=time_most_recent_campaign)
+
+    if first_older_date_index == -1:
+        time.sleep(10)
+        tokens.extend(data_orders["tokens"])
+        creation_reasons.extend(data_orders["creation_reasons"])
+        states.extend(data_orders["states"])
+        fulfillment_states.extend(data_orders["fulfillment_states"])
+        sources.extend(data_orders["sources"])
+        brand_contacted_at_values.extend(data_orders["brand_contacted_at_values"])
+        first_order_for_brand_values.extend(data_orders["first_order_for_brand_values"])
+        very_first_order_for_brand_values.extend(data_orders["very_first_order_for_brand_values"])
+        retailer_tokens.extend(data_orders["retailer_tokens"])
+        payout_total_values.extend(data_orders["payout_total_values"])
+        retailer_names.extend(data_orders["retailer_names"])
+        retailer_website_urls.extend(data_orders["retailer_website_urls"])
+        retailer_store_types.extend(data_orders["retailer_store_types"])
+        # we append the items order data to the dataframe
+        combine_order_items_info(items_order, items_order_page)
+    else:
+        tokens.extend(data_orders["tokens"][:first_older_date_index])
+        creation_reasons.extend(data_orders["creation_reasons"][:first_older_date_index])
+        states.extend(data_orders["states"][:first_older_date_index])
+        fulfillment_states.extend(data_orders["fulfillment_states"][:first_older_date_index])
+        sources.extend(data_orders["sources"][:first_older_date_index])
+        brand_contacted_at_values.extend(data_orders["brand_contacted_at_values"][:first_older_date_index])
+        first_order_for_brand_values.extend(data_orders["first_order_for_brand_values"][:first_older_date_index])
+        very_first_order_for_brand_values.extend(data_orders["very_first_order_for_brand_values"][:first_older_date_index])
+        retailer_tokens.extend(data_orders["retailer_tokens"][:first_older_date_index])
+        payout_total_values.extend(data_orders["payout_total_values"][:first_older_date_index])
+        retailer_names.extend(data_orders["retailer_names"][:first_older_date_index])
+        retailer_website_urls.extend(data_orders["retailer_website_urls"][:first_older_date_index])
+        retailer_store_types.extend(data_orders["retailer_store_types"][:first_older_date_index])
+        # we append the items order data to the dataframe
+        combine_order_items_info(items_order, items_order_page)
 
     # we loop over the different pages and get the orders info
     if page_count > 1:
         for page_number in range(2, page_count + 1):
             data_orders, items_order_page, _ =  get_orders_info_page(page_number, brand_token, cookie)
-            time.sleep(10)
-            tokens.extend(data_orders["tokens"])
-            creation_reasons.extend(data_orders["creation_reasons"])
-            states.extend(data_orders["states"])
-            fulfillment_states.extend(data_orders["fulfillment_states"])
-            sources.extend(data_orders["sources"])
-            brand_contacted_at_values.extend(data_orders["brand_contacted_at_values"])
-            first_order_for_brand_values.extend(data_orders["first_order_for_brand_values"])
-            very_first_order_for_brand_values.extend(data_orders["very_first_order_for_brand_values"])
-            retailer_tokens.extend(data_orders["retailer_tokens"])
-            payout_total_values.extend(data_orders["payout_total_values"])
-            retailer_names.extend(data_orders["retailer_names"])
-            retailer_website_urls.extend(data_orders["retailer_website_urls"])
-            retailer_store_types.extend(data_orders["retailer_store_types"])
-            # we append the items order data to the dataframe
-            combine_order_items_info(items_order, items_order_page)
+
+            first_older_date_index = find_first_older_date_index(brand_contacted_at_values=data_orders["brand_contacted_at_values"], time_most_recent_campaign=time_most_recent_campaign)
+
+            if first_older_date_index == -1:
+                time.sleep(10)
+                tokens.extend(data_orders["tokens"])
+                creation_reasons.extend(data_orders["creation_reasons"])
+                states.extend(data_orders["states"])
+                fulfillment_states.extend(data_orders["fulfillment_states"])
+                sources.extend(data_orders["sources"])
+                brand_contacted_at_values.extend(data_orders["brand_contacted_at_values"])
+                first_order_for_brand_values.extend(data_orders["first_order_for_brand_values"])
+                very_first_order_for_brand_values.extend(data_orders["very_first_order_for_brand_values"])
+                retailer_tokens.extend(data_orders["retailer_tokens"])
+                payout_total_values.extend(data_orders["payout_total_values"])
+                retailer_names.extend(data_orders["retailer_names"])
+                retailer_website_urls.extend(data_orders["retailer_website_urls"])
+                retailer_store_types.extend(data_orders["retailer_store_types"])
+                # we append the items order data to the dataframe
+                combine_order_items_info(items_order, items_order_page)
+            else:
+                tokens.extend(data_orders["tokens"][:first_older_date_index])
+                creation_reasons.extend(data_orders["creation_reasons"][:first_older_date_index])
+                states.extend(data_orders["states"][:first_older_date_index])
+                fulfillment_states.extend(data_orders["fulfillment_states"][:first_older_date_index])
+                sources.extend(data_orders["sources"][:first_older_date_index])
+                brand_contacted_at_values.extend(data_orders["brand_contacted_at_values"][:first_older_date_index])
+                first_order_for_brand_values.extend(data_orders["first_order_for_brand_values"][:first_older_date_index])
+                very_first_order_for_brand_values.extend(data_orders["very_first_order_for_brand_values"][:first_older_date_index])
+                retailer_tokens.extend(data_orders["retailer_tokens"][:first_older_date_index])
+                payout_total_values.extend(data_orders["payout_total_values"][:first_older_date_index])
+                retailer_names.extend(data_orders["retailer_names"][:first_older_date_index])
+                retailer_website_urls.extend(data_orders["retailer_website_urls"][:first_older_date_index])
+                retailer_store_types.extend(data_orders["retailer_store_types"][:first_older_date_index])
+                # we append the items order data to the dataframe
+                combine_order_items_info(items_order, items_order_page)
+                break
 
     data = {
         "tokens": tokens,

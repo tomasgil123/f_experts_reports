@@ -102,7 +102,18 @@ def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
     return tokens, names, types, states, start_sending_at, recipient_count, delivered_count, view_count, click_count, open_based_orders_count, open_based_total_order_value, click_based_orders_count, click_based_total_order_value, page_count
 
 
-def get_marketing_campaigns_info(brand_token, cookie):
+def find_first_older_date_index(start_sending_at, time_most_recent_campaign):
+    # We check if the time_most_recent_campaign is bigger than any of the dates in start_sending_at
+    # If it is, we return the index of the date that is not new
+    
+    for index, date in enumerate(start_sending_at):
+        if date is not None and date < time_most_recent_campaign:
+            # We return the index of the item that is not new
+            return index
+    return -1  # Return -1 if all dates are newer than time_most_recent_campaign
+
+
+def get_marketing_campaigns_info(brand_token, cookie, time_most_recent_campaign):
 
     # Initialize lists to store specific order attributes
     tokens = []
@@ -121,39 +132,80 @@ def get_marketing_campaigns_info(brand_token, cookie):
 
     page_number = 1
     tokens_page, names_page, types_page, states_page, start_sending_at_page, recipient_count_page, delivered_count_page, view_count_page, click_count_page, open_based_orders_count_page, open_based_total_order_value_page, click_based_orders_count_page, click_based_total_order_value_page, page_count = get_marketing_campaigns_info_page(page_number, brand_token, cookie)
-    time.sleep(15)
-    tokens.extend(tokens_page)
-    names.extend(names_page)
-    types.extend(types_page)
-    states.extend(states_page)
-    start_sending_at.extend(start_sending_at_page)
-    recipient_count.extend(recipient_count_page)
-    delivered_count.extend(delivered_count_page)
-    view_count.extend(view_count_page)
-    click_count.extend(click_count_page)
-    open_based_orders_count.extend(open_based_orders_count_page)
-    open_based_total_order_value.extend(open_based_total_order_value_page)
-    click_based_orders_count.extend(click_based_orders_count_page)
-    click_based_total_order_value.extend(click_based_total_order_value_page)
+    
+    first_older_date_index = find_first_older_date_index(start_sending_at=start_sending_at_page, time_most_recent_campaign=time_most_recent_campaign)
 
-    if page_count > 1:
-        for page_number in range(2, page_count + 1):
-            tokens_page, names_page, types_page, states_page, start_sending_at_page, recipient_count_page, delivered_count_page, view_count_page, click_count_page, open_based_orders_count_page, open_based_total_order_value_page, click_based_orders_count_page, click_based_total_order_value_page, _ = get_marketing_campaigns_info_page(page_number, brand_token, cookie)
+    if first_older_date_index == -1:
+        time.sleep(15)
+        tokens.extend(tokens_page)
+        names.extend(names_page)
+        types.extend(types_page)
+        states.extend(states_page)
+        start_sending_at.extend(start_sending_at_page)
+        recipient_count.extend(recipient_count_page)
+        delivered_count.extend(delivered_count_page)
+        view_count.extend(view_count_page)
+        click_count.extend(click_count_page)
+        open_based_orders_count.extend(open_based_orders_count_page)
+        open_based_total_order_value.extend(open_based_total_order_value_page)
+        click_based_orders_count.extend(click_based_orders_count_page)
+        click_based_total_order_value.extend(click_based_total_order_value_page)
+    else:
+        tokens.extend(tokens_page[:first_older_date_index])
+        names.extend(names_page[:first_older_date_index])
+        types.extend(types_page[:first_older_date_index])
+        states.extend(states_page[:first_older_date_index])
+        start_sending_at.extend(start_sending_at_page[:first_older_date_index])
+        recipient_count.extend(recipient_count_page[:first_older_date_index])
+        delivered_count.extend(delivered_count_page[:first_older_date_index])
+        view_count.extend(view_count_page[:first_older_date_index])
+        click_count.extend(click_count_page[:first_older_date_index])
+        open_based_orders_count.extend(open_based_orders_count_page[:first_older_date_index])
+        open_based_total_order_value.extend(open_based_total_order_value_page[:first_older_date_index])
+        click_based_orders_count.extend(click_based_orders_count_page[:first_older_date_index])
+        click_based_total_order_value.extend(click_based_total_order_value_page[:first_older_date_index])
 
-            tokens.extend(tokens_page)
-            names.extend(names_page)
-            types.extend(types_page)
-            states.extend(states_page)
-            start_sending_at.extend(start_sending_at_page)
-            recipient_count.extend(recipient_count_page)
-            delivered_count.extend(delivered_count_page)
-            view_count.extend(view_count_page)
-            click_count.extend(click_count_page)
-            open_based_orders_count.extend(open_based_orders_count_page)
-            open_based_total_order_value.extend(open_based_total_order_value_page)
-            click_based_orders_count.extend(click_based_orders_count_page)
-            click_based_total_order_value.extend(click_based_total_order_value_page)
-            time.sleep(15)
+    
+
+    if first_older_date_index == -1: 
+        if page_count > 1:
+            for page_number in range(2, page_count + 1):
+                tokens_page, names_page, types_page, states_page, start_sending_at_page, recipient_count_page, delivered_count_page, view_count_page, click_count_page, open_based_orders_count_page, open_based_total_order_value_page, click_based_orders_count_page, click_based_total_order_value_page, _ = get_marketing_campaigns_info_page(page_number, brand_token, cookie)
+
+                first_older_date_index = find_first_older_date_index(start_sending_at=start_sending_at_page, time_most_recent_campaign=time_most_recent_campaign)
+
+                if first_older_date_index == -1:
+                    tokens.extend(tokens_page)
+                    names.extend(names_page)
+                    types.extend(types_page)
+                    states.extend(states_page)
+                    start_sending_at.extend(start_sending_at_page)
+                    recipient_count.extend(recipient_count_page)
+                    delivered_count.extend(delivered_count_page)
+                    view_count.extend(view_count_page)
+                    click_count.extend(click_count_page)
+                    open_based_orders_count.extend(open_based_orders_count_page)
+                    open_based_total_order_value.extend(open_based_total_order_value_page)
+                    click_based_orders_count.extend(click_based_orders_count_page)
+                    click_based_total_order_value.extend(click_based_total_order_value_page)
+                else:
+                    print("tokens", tokens_page[:first_older_date_index])
+                    tokens.extend(tokens_page[:first_older_date_index])
+                    names.extend(names_page[:first_older_date_index])
+                    types.extend(types_page[:first_older_date_index])
+                    states.extend(states_page[:first_older_date_index])
+                    start_sending_at.extend(start_sending_at_page[:first_older_date_index])
+                    recipient_count.extend(recipient_count_page[:first_older_date_index])
+                    delivered_count.extend(delivered_count_page[:first_older_date_index])
+                    view_count.extend(view_count_page[:first_older_date_index])
+                    click_count.extend(click_count_page[:first_older_date_index])
+                    open_based_orders_count.extend(open_based_orders_count_page[:first_older_date_index])
+                    open_based_total_order_value.extend(open_based_total_order_value_page[:first_older_date_index])
+                    click_based_orders_count.extend(click_based_orders_count_page[:first_older_date_index])
+                    click_based_total_order_value.extend(click_based_total_order_value_page[:first_older_date_index])
+                    break
+
+                time.sleep(15)
 
     data = {
         "tokens": tokens,

@@ -35,23 +35,34 @@ brand_token = "b_arceup81f2"
 brand_name = "latico_leathers"
 
 # # we check if there is data already downloaded
-# product_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/marketing_campaign_info_*.csv")
+product_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/marketing_campaign_info_*.csv")
 
-# # create variable time_most_recent_campaign using default Unix epoch timestamp
-# time_most_recent_campaign = pd.to_datetime(0, unit='ms')
+# create variable time_most_recent_campaign using default Unix epoch timestamp
+time_most_recent_campaign = 0
 
-# if len(product_file) > 0:
-#     df_current_marketing_campaign_info = pd.read_csv(product_file[0])
+# df_current_marketing_campaign_info is an empty dataframe
+df_current_marketing_campaign_info = pd.DataFrame()
 
-#     # identify campaign with the most recent start_sending_at date
-#     time_most_recent_campaign = df_current_marketing_campaign_info['start_sending_at'].max()
-#     # convert timestamp to datetime
-#     time_most_recent_campaign = pd.to_datetime(time_most_recent_campaign, unit='ms')
-        
-marketing_campaign_info = get_marketing_campaigns_info(brand_token, cookie=cookie_token)
+if len(product_file) > 0:
+    df_current_marketing_campaign_info = pd.read_csv(product_file[0])
+
+    # identify campaign with the most recent start_sending_at date
+    time_most_recent_campaign = df_current_marketing_campaign_info['start_sending_at'].max()
+
+    # we substract a month to the time_most_recent_campaign
+    # we do this because some campaign attributes could have been updated. We assume older campaigns don't get updated anymore
+    time_most_recent_campaign = time_most_recent_campaign - 2630304000
+   
+marketing_campaign_info = get_marketing_campaigns_info(brand_token, cookie=cookie_token, time_most_recent_campaign=time_most_recent_campaign)
 
 # we convert orders_info to a dataframe and then we download it as csv
 df = pd.DataFrame(marketing_campaign_info)
+
+# we append to df_current_marketing_campaign_info the new data
+df = pd.concat([df, df_current_marketing_campaign_info], ignore_index=True)
+
+# we drop duplicates
+df = df.drop_duplicates()
 
 # get today date
 today = pd.to_datetime('today').date()

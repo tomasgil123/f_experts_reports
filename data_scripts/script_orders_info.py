@@ -3,8 +3,8 @@ import pandas as pd
 from get_orders_brand_info import (get_orders_info)
 from cookie import (cookie_token)
 
-# brand_token = "b_cad0ccd3"
-# brand_name = "couleur_nature"
+brand_token = "b_cad0ccd3"
+brand_name = "couleur_nature"
 
 # brand_token = "b_bdz7u5jj94"
 # brand_name = "caravan"
@@ -30,8 +30,8 @@ from cookie import (cookie_token)
 # brand_token = "b_9j68t72ipo"
 # brand_name = "true_classic"
 
-brand_token = "b_arceup81f2"
-brand_name = "latico_leathers"
+# brand_token = "b_arceup81f2"
+# brand_name = "latico_leathers"
 
 # we check if there is data already downloaded
 orders_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/orders_from_api_*.csv")

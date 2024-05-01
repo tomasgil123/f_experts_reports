@@ -1,10 +1,13 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_q8htwsgeq9,Trending for Spring | 4.14.24,ONE_TIME,COMPLETED,1713155404000.0,1806.0,950.0,435.0,6.0,0.0,0.0,0.0,0.0
-bmc_xf9uqrdnwx,Gingham Linen Collection | 4.9.24,ONE_TIME,COMPLETED,1712720741000.0,225.0,144.0,87.0,1.0,1.0,204.0,0.0,0.0
+bmc_dx3map9rt4,Fine Dining | Accoutrement | 4.26.24,ONE_TIME,COMPLETED,1714158091000.0,85.0,80.0,23.0,1.0,0.0,0.0,0.0,0.0
+bmc_98gdgewb27,Gift Shop/Boutique Segment | Gifting | 4.23.24,ONE_TIME,COMPLETED,1713924002000.0,145.0,101.0,39.0,0.0,0.0,0.0,0.0,0.0
+bmc_3qghfvhvuy,30 Day Abandon Cart Recapture | 4.19.24,ONE_TIME,COMPLETED,1713559398000.0,29.0,18.0,14.0,0.0,0.0,0.0,0.0,0.0
+bmc_q8htwsgeq9,Trending for Spring | 4.14.24,ONE_TIME,COMPLETED,1713155404000.0,1806.0,950.0,512.0,8.0,1.0,480.0,0.0,0.0
+bmc_xf9uqrdnwx,Gingham Linen Collection | 4.9.24,ONE_TIME,COMPLETED,1712720741000.0,225.0,144.0,89.0,1.0,1.0,204.0,0.0,0.0
 bmc_ndsqa4wq2y,Best Sellers Collection | 4.5.24,ONE_TIME,COMPLETED,1712325600000.0,241.0,146.0,88.0,2.0,3.0,2077.0,0.0,0.0
 bmc_4ftvx99vcc,Introducing Embroidery Tablecloth (TN),ONE_TIME,COMPLETED,1712160000000.0,663.0,390.0,231.0,4.0,3.0,2077.0,1.0,90.0
 bmc_tyyattpyj5,30 Day Abandon Cart Recapture,ONE_TIME,COMPLETED,1711720800000.0,36.0,24.0,13.0,0.0,0.0,0.0,0.0,0.0
-bmc_sbmxw8a5sk,Petite Fleur Multi  (Copy 1),ONE_TIME,COMPLETED,1711814400000.0,5997.0,3362.0,1548.0,22.0,0.0,0.0,0.0,0.0
+bmc_sbmxw8a5sk,Petite Fleur Multi  (Copy 1),ONE_TIME,COMPLETED,1711814400000.0,5997.0,3362.0,1556.0,22.0,1.0,480.0,0.0,0.0
 bmc_vw2stktut3,Easter Colors,ONE_TIME,COMPLETED,1710518400000.0,5931.0,3136.0,1391.0,11.0,3.0,1012.0,0.0,0.0
 bmc_zxb9sxegdv,🌞Hello Spring! Color Your Store Bright with These Napkin Picks💛🧡💚,ONE_TIME,COMPLETED,1710864000000.0,5933.0,3205.0,1400.0,18.0,2.0,330.0,0.0,0.0
 bmc_32rkcc469d,Petite Fleur Multi ,ONE_TIME,COMPLETED,1711123200000.0,5935.0,3200.0,1403.0,11.0,0.0,0.0,0.0,0.0

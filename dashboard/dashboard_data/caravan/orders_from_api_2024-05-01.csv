@@ -1,15 +1,27 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_bttg4tcpas,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1713206176000,True,True,r_qkk444s258,18829,My Best Friend’s Closet,http://www.mybffcloset.com/,Clothing Boutique
-bo_fq6sf9twda,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1713114454000,True,True,r_q5dggdrz99,114850,Fox & Willow,http://foxandwillow.com/,Gift Store
-bo_eu5f6qn53d,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1712962054000,False,False,r_8qi9jp2ly5,65837,"Walter Pine, LLC",http://walterpine.com/,
-bo_gu8jesgr9c,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1712948857000,False,False,r_96o3s336jr,21120,COOK,,
-bo_wdc85g64tf,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712801119000,True,True,r_r2bkwqnsc4,20168,Pineapple Mercantile,http://www.pineapplemercantile.com/,General or Mercantile Store
+bo_8dptsunzf7,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714573602000,True,True,r_3he7dosy,14829,Escape and Celebrate,http://escapeandcelebrate.co,Gift Store
+bo_rzv6tx7shc,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1714346894000,False,False,r_cljs6d69nh,99519,finnesterre,http://www.finnesterre.com/,Home Decor Store
+bo_kzswf2qfyv,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714314494000,False,False,r_48c3kjccqy,23794,Dwell Home Supply,http://dwellhomesupply.com/,Home Decor Store
+bo_6fg9xvd4q2,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714261994000,True,True,r_ntv4qcxc3b,15838,"Eileen Marie Home, LLC (DBA Emptio)",http://eileenmariehome.com/,Home Decor Store
+bo_d7rpakszr5,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714243094000,True,True,r_3ds62kwvnp,25250,Le Panier à Salade - Saladerie Marseille,https://maps.google.com/?cid=6252160907016769446,Cafe or Restaurant
+bo_wyezfs68k2,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1714076308000,False,False,r_ecki7omyhl,49818,Blanche & Mimi,http://www.blancheandmimi.com/,
+bo_yaknyq889v,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713771308000,False,False,r_rtt7gjfueb,66215,Picnic,http://www.poppijohnson.com/,Gift Store
+bo_c2hmjp7tpp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713557708000,True,True,r_4v9kncr4,16829,Grayson De Vere,http://graysondevere.com,Home Decor Store
+bo_qtj8rnqnc6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713554708000,False,False,r_dn879w4p77,139401,Groundswell Table + Provisions,http://www.groundswellcafegarden.com/,Grocery or Liquor Store
+bo_tfeuyscr2p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713450203000,False,False,r_7t6twfh8vn,22064,IPA Corporate,https://www.ipacorporate.com/,
+bo_t457kmcjcm,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713295134000,False,False,r_9d10zxea,34678,nest,,Gift Store
+bo_z4mxczggng,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713218176000,True,True,r_6ng4tj9hgq,16829,Akana Home,http://akanahome.com/,Home Decor Store
+bo_bttg4tcpas,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713206176000,True,True,r_qkk444s258,18829,My Best Friend’s Closet,http://www.mybffcloset.com/,Clothing Boutique
+bo_fq6sf9twda,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713114454000,True,True,r_q5dggdrz99,114850,Fox & Willow,http://foxandwillow.com/,Gift Store
+bo_eu5f6qn53d,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712962054000,False,False,r_8qi9jp2ly5,65837,"Walter Pine, LLC",http://walterpine.com/,
+bo_gu8jesgr9c,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712948857000,False,False,r_96o3s336jr,21120,COOK,,
+bo_wdc85g64tf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712801119000,True,True,r_r2bkwqnsc4,20168,Pineapple Mercantile,http://www.pineapplemercantile.com/,General or Mercantile Store
 bo_mmz6bg7rsn,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712784019000,False,False,r_tfe3sptb9f,57467,Go Outside,"https://maps.google.com/?q=111+Morris+St,+La+Conner,+WA+98257,+USA&ftid=0x548565a4df76e70d:0x49771c52210823d2",Gift Store
 bo_uxudqzvdue,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712769019000,True,True,r_qgfqoye1sl,89406,High Camp Home,http://www.highcamphome.com/,Home Decor Store
-bo_mn2ue2tfk6,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712740472000,True,True,r_8gjklzj4jm,16646,Abigail Fox Designs,https://www.abigailfoxstore.com/,Clothing Boutique
-bo_t25r8698ug,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712690072000,False,False,r_dn879w4p77,127744,Groundswell Table + Provisions,http://www.groundswellcafegarden.com/,Grocery or Liquor Store
+bo_mn2ue2tfk6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712740472000,True,True,r_8gjklzj4jm,20646,Abigail Fox Designs,https://www.abigailfoxstore.com/,Clothing Boutique
+bo_t25r8698ug,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712690072000,False,False,r_dn879w4p77,124688,Groundswell Table + Provisions,http://www.groundswellcafegarden.com/,Grocery or Liquor Store
 bo_x42fxjv6sg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712514388000,True,True,r_r7uru7y972,27529,"Collected, LTD.",http://www.collectedvt.com/,Gift Store
-bo_awqgd5nq9r,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712429488000,True,True,r_drjvsnhypx,37845,Maine Street Design Co.,http://www.mainestreetdesign.com,Home Decor Store
+bo_awqgd5nq9r,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712429488000,True,True,r_drjvsnhypx,37845,Maine Street Design Co.,http://www.mainestreetdesign.com,Home Decor Store
 bo_2c8u36zuah,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712273495000,True,True,r_mdacvtq6yt,212077,Stay Kauai Vacations,http://staykauaivacations.com/,Clothing Boutique
 bo_ggcphqpv33,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712184011000,False,False,r_5gd2nhx7a6,34798,The Malibu Colony Company,http://www.malibucolonyco.com/,Home Decor Store
 bo_rg3t4kwgwv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712095943000,False,False,r_7prqqz4s,63133,Back 40 Mercantile,http://back40mercantile.com/,Gift Store

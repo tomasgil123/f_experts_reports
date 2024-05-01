@@ -1,9 +1,0 @@
-tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_efk7n87mmx,Derby Day | 3.31.24,ONE_TIME,COMPLETED,1711947024000.0,738.0,523.0,206.0,8.0,0.0,0.0,0.0,0.0
-bmc_m57rrh4q7x,Untitled campaign 3,ONE_TIME,COMPLETED,1711807200000.0,54.0,39.0,18.0,1.0,0.0,0.0,0.0,0.0
-bmc_fq4x25c4vb,Abandon Cart 60+ Days | 3.28.24,ONE_TIME,COMPLETED,1711636260000.0,11.0,6.0,3.0,0.0,0.0,0.0,0.0,0.0
-bmc_9uq7gz4v6t,BH Spring Men's Collection | 3.21.24,ONE_TIME,COMPLETED,1711064120000.0,8823.0,6018.0,2772.0,88.0,1.0,559.6,0.0,0.0
-bmc_z6mj7dk2ec,Test to Prospects on Faire Already,ONE_TIME,COMPLETED,1700385765000.0,3033.0,2077.0,1125.0,51.0,1.0,489.65,1.0,489.65
-bmc_73e3hy38pf,Review Request | 3.26.24,ONE_TIME,COMPLETED,1711461600000.0,18.0,12.0,7.0,0.0,0.0,0.0,0.0,0.0
-bmc_ygn7rpkgsz,New to Faire - Duplicate Draft,ONE_TIME,DRAFT,,,,,,,,,
-bmc_jvzgjmcaap,Untitled campaign 1,ONE_TIME,COMPLETED,1700056800000.0,586.0,334.0,156.0,5.0,0.0,0.0,0.0,0.0

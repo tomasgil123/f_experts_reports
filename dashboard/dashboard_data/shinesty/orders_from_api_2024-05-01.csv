@@ -1,5 +1,18 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_7saxbk3kd5,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1711835296000,False,False,r_njk4avvn5h,34650,simplie STATEd,,Clothing Boutique
+bo_zjzdn95kdp,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714454732000,False,False,r_bjdtz0s3kt,32264,CK's Secrets,http://ckssecrets.mystoreextender.com/,
+bo_9k899qmr6p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713908199000,True,True,r_e0s92hjhpx,35856,Good Relations,http://www.goodrelations.com/,Clothing Boutique
+bo_s6v2rg3we6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713471194000,False,False,r_4767c2lfq5,9880,"The Classic Equestrian, LLC",http://shoptheclassicequestrian.com/,
+bo_qwfbgpaxrv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713381203000,True,True,r_fnsj9bghpt,16716,Mr. Funs Costume & Curiosity Emporium,http://www.mrfuns.com/,Kids or Toy Store
+bo_ynq6jhjyep,REPLACE_DAMAGED_OR_MISSING_ITEMS,CANCELED,CANCELED,MARKETPLACE,1713226573000,True,True,r_4ai2to97,0,J Perry Salon,http://www.jperrysalon.com/,
+bo_uhfcqq44fc,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713221176000,False,False,r_d2qhcgbgfw,17268,Big Dick's Salty Seaman Fun Shop,,Clothing Boutique
+bo_ztvt4tn54f,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713012154000,True,True,r_4767c2lfq5,12844,"The Classic Equestrian, LLC",http://shoptheclassicequestrian.com/,
+bo_45gm8gqpvv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712978554000,False,False,r_pxc711toka,16695,Walt's Market,http://www.waltsmarketnd.com,Home Decor Store
+bo_v9cnxcdg63,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712714672000,True,True,r_4ai2to97,0,J Perry Salon,http://www.jperrysalon.com/,
+bo_xydtskxrfv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712339560000,False,False,r_dmvka38vu8,57318,Big Dick's Salty Seaman LLC,,Clothing Boutique
+bo_89bx7ryh33,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712262995000,True,True,r_8dn2qctk4u,23742,In Good Company Holdings/Cold Nose Warm Heart,http://pspetstore.com/,Clothing Boutique
+bo_j5bb7c8w2h,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712108243000,True,True,r_1l3g9lngja,129846,RKPT WKNDR,http://www.rkptwkndr.com/,Clothing Boutique
+bo_sh7trmp2xa,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712099543000,True,True,r_34rdv9pwtu,12172,In Bloom Again,http://www.inbloomagain.com/,Clothing Boutique
+bo_7saxbk3kd5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711835296000,False,False,r_njk4avvn5h,34650,simplie STATEd,,Clothing Boutique
 bo_574zy65tun,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711481292000,True,True,r_njk4avvn5h,106303,simplie STATEd,,Clothing Boutique
 bo_ge8tts97v7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711403485000,True,True,r_64az6tyfly,13835,Karisma Boutique,https://www.shopkarismaboutiqueaberdeen.com/,Clothing Boutique
 bo_8ncm59z4s7,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1711321281000,False,False,r_dmvka38vu8,54587,Big Dick's Salty Seaman LLC,,Clothing Boutique

@@ -1,16 +1,45 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_xwq6653wec,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1713146254000,False,False,r_cd63575e,89508,Write For You,http://www.writeforyoudc.com/,
-bo_5mtsc79qyb,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712964154000,False,False,r_93p982fw,31375,Daylily Floral in Cascade,https://daylilyfloral.com/,Clothing Boutique
-bo_kjva3tr2r9,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1712819719000,True,True,r_baysofrcpd,310045,Fête Among the Flowers,http://www.marcsievers.com,Florist or Garden Store
-bo_48z29467su,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712793319000,False,False,r_8v4p0rtq1v,29875,Misto Lino,http://www.mistolino.com/,
-bo_mecyme8a4t,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1712786119000,False,False,r_jh6d9nhsjl,32471,GJ Rhodes Gift & Home,http://www.gjrhodes.com/,
-bo_szmssrgjpr,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1712774119000,False,False,r_ezt47vebwx,127182,"Flora & Foglia, Inc.",,Home Decor Store
-bo_v7dk6p3qvx,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1712722772000,True,True,r_utynz3abxp,106549,Skin Care For Gents,http://skincareforgents.com/,
-bo_5uayvem39z,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1712679272000,False,False,r_3nv37nmo,100708,Sophie's Shoppe,http://www.sophiesshoppe.com,Home Decor Store
-bo_3byat3fst2,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1712625010000,False,False,r_4fhpqqdlqq,80964,B Home,http://www.shopbhome.com,Home Decor Store
+bo_mwtvrg39wg,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1714497932000,False,False,r_2foyne27,41430,folly 101,https://maps.google.com/?cid=15942317730417093295,
+bo_eu3f6pa5ua,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1714489832000,False,False,r_4jzdc95d7b,57944,Elizabeth Grace Home,http://www.elizabethgracehome.com/,Home Decor Store
+bo_gpxgmcquah,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714451732000,False,False,r_fspej4avza,27029,Lulumae,http://www.lulumae.com,Gift Store
+bo_srryn2zmyq,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1714432832000,False,False,r_pyrmcc979v,42621,Lavender Restyle Market,https://www.lavenderrestylemarket.com/,Home Decor Store
+bo_sxemz5yxtb,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1714424732000,False,False,r_6gqnslk0iv,79904,Summer Vine,https://maps.google.com/?cid=6682233453883247222,Home Decor Store
+bo_7udsv3jmmp,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714413194000,False,False,r_7v02yp2l,29488,H2o Closet,https://maps.google.com/?cid=6891299322838420954,
+bo_jeyqygymf8,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714338794000,False,False,r_c3rg1gy4,29246,Splash,http://www.splashkitchens.com,
+bo_mx56wgena4,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714326494000,True,True,r_eajzpk3e7q,39125,Terra Vite North Fork Winery & Vineyard,http://www.terravitevineyard.com/,
+bo_8a77gxz6a4,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714235294000,False,False,r_egesevxx9i,26584,Marguerite's Conceits,http://margueritesconceits.weebly.com/,Gift Store
+bo_ux9dfzcxrq,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714220594000,False,False,r_9qapnlxajk,29004,thistle hill,http://www.shopthistlehill.com/,Clothing Boutique
+bo_v5gq2mfyd9,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714163894000,True,True,r_b0eucows1k,49504,Trove,http://trovebattleground.com/,Home Decor Store
+bo_5nffbn3mm4,REPLACE_DAMAGED_OR_MISSING_ITEMS,PROCESSING,UNFULFILLED,ELEVATE,1714156913000,False,False,r_ezt47vebwx,1239,"Flora & Foglia, Inc.",,Home Decor Store
+bo_69c2zuwsug,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1714152269000,False,False,r_baysofrcpd,44134,Fête Among the Flowers,http://www.marcsievers.com,Florist or Garden Store
+bo_5hjuhtwsc7,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714077242000,False,False,r_76exzilm6n,40962,White House Home,https://maps.google.com/?cid=2712829221768449752,Home Decor Store
+bo_ak253z3dkz,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714071015000,False,False,r_ggnktn4r,30456,White Flower Farmhouse,https://maps.google.com/?cid=7409977641832436688,General or Mercantile Store
+bo_g6btvr9tb8,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1714063816000,False,False,r_dj7tk890y8,35106,Pear Tree Design & Antiques,http://www.peartreedesignantiques.com/,
+bo_7tk9q4tetp,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,ELEVATE,1713811993000,True,True,r_baysofrcpd,1824,Fête Among the Flowers,http://www.marcsievers.com,Florist or Garden Store
+bo_q8d6kb9cw5,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,ELEVATE,1713806938000,True,True,r_baysofrcpd,897,Fête Among the Flowers,http://www.marcsievers.com,Florist or Garden Store
+bo_23dprq7mge,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713744008000,False,False,r_m94upj3h60,75156,ANTHEM,https://anthemsf.online/,Home Decor Store
+bo_6kv76rjhwg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713652508000,False,False,r_8ohia55vpz,34296,INDIEHOUSE modern fragrance bar,https://indiehousefragrances.com/,
+bo_877zxsv4mk,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713579908000,False,False,r_m94upj3h60,91672,ANTHEM,https://anthemsf.online/,Home Decor Store
+bo_seb4enf2bn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713515183000,False,False,r_33jdy921lb,34296,Flaura Designs,http://flauradesigns.com/,Florist or Garden Store
+bo_7sbzjf4btb,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713476783000,False,False,r_d2z7f4nq4b,48501,The Iron Gate,http://theirongateonline.net/,Home Decor Store
+bo_qyr5dq9nq2,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713472994000,False,False,r_m94upj3h60,115050,ANTHEM,https://anthemsf.online/,Home Decor Store
+bo_j7pa2d3d3b,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1713463394000,True,True,r_86hfymedbs,0,High Country Cottage,,Home Decor Store
+bo_vygqejeke3,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713445403000,False,False,r_32janeff,40872,TA Lorton,http://www.talorton.com/,
+bo_k72zmszgjk,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713389903000,False,False,r_329zbnwjxu,51316,Harney and Sons: THE STORE,http://harney.com,Gift Store
+bo_ajfzaat9bw,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713284934000,False,False,r_b353qslbmb,110337,posh,http://www.poshchicago.com/,Gift Store
+bo_t6qcbh7js8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713218176000,False,False,r_cm940srq,35437,Cultiverre LLC,http://cultiverre.com,General or Mercantile Store
+bo_xwq6653wec,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713146254000,False,False,r_cd63575e,100517,Write For You,http://www.writeforyoudc.com/,
+bo_5mtsc79qyb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712964154000,False,False,r_93p982fw,36048,Daylily Floral in Cascade,https://daylilyfloral.com/,Clothing Boutique
+bo_kjva3tr2r9,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712819719000,True,True,r_baysofrcpd,345388,Fête Among the Flowers,http://www.marcsievers.com,Florist or Garden Store
+bo_48z29467su,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712793319000,False,False,r_8v4p0rtq1v,34325,Misto Lino,http://www.mistolino.com/,
+bo_mecyme8a4t,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712786119000,False,False,r_jh6d9nhsjl,36467,GJ Rhodes Gift & Home,http://www.gjrhodes.com/,
+bo_szmssrgjpr,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712774119000,False,False,r_ezt47vebwx,141554,"Flora & Foglia, Inc.",,Home Decor Store
+bo_v7dk6p3qvx,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712722772000,True,True,r_utynz3abxp,119653,Skin Care For Gents,http://skincareforgents.com/,
+bo_5uayvem39z,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712679272000,False,False,r_3nv37nmo,100708,Sophie's Shoppe,http://www.sophiesshoppe.com,Home Decor Store
+bo_3byat3fst2,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712625010000,False,False,r_4fhpqqdlqq,80964,B Home,http://www.shopbhome.com,Home Decor Store
 bo_a5dwxtvw5x,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712614839000,False,False,r_6hg21rcxlr,31101,Cailini Coastal,http://www.cailinicoastal.com,Home Decor Store
-bo_afawjruu2z,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1712344989000,False,False,r_f4jbf0p941,199168,Napa Valley Vintage Home,http://vintagehomenapavalley.com,Home Decor Store
-bo_6fydmehegb,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1712259695000,False,False,r_6hixnh58,93218,Upstairs at Pierre Lafond,http://shopupstairs.com,Home Decor Store
+bo_afawjruu2z,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712344989000,False,False,r_f4jbf0p941,199168,Napa Valley Vintage Home,http://vintagehomenapavalley.com,Home Decor Store
+bo_6fydmehegb,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712259695000,False,False,r_6hixnh58,93218,Upstairs at Pierre Lafond,http://shopupstairs.com,Home Decor Store
 bo_j59qdfct5r,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712237711000,False,False,r_bntrd36o,55560,exit nineteen,http://www.exitnineteen.com/,Home Decor Store
 bo_6ene9schhm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712194211000,True,True,r_eo55y7h6ue,47481,Topps Bakery at Bronxville,http://toppsbronxville.com/,Cafe or Restaurant
 bo_spqrcpeb6u,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1712175311000,True,True,r_pgmw9ah7hr,0,Casal's de' Spa & Salon - Canfield,http://casalsspa.com/,Spa or Beauty Store

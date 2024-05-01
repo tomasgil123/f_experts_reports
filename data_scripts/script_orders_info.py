@@ -9,11 +9,11 @@ from cookie import (cookie_token)
 # brand_token = "b_bdz7u5jj94"
 # brand_name = "caravan"
 
-brand_token = "b_cmvrf26fxf"
-brand_name = "bon_artis"
+# brand_token = "b_cmvrf26fxf"
+# brand_name = "bon_artis"
 
-# brand_token = "b_67e3bc3f"
-# brand_name = "lothantique"
+brand_token = "b_67e3bc3f"
+brand_name = "lothantique"
 
 # brand_token = "b_9884o1r7ea"
 # brand_name = "shinesty"

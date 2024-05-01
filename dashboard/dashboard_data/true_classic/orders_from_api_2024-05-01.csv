@@ -1,9 +1,19 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_cbsqdndju5,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1712948557000,False,False,r_g9vstpjp3f,33555,The Swell Co.,http://www.theswellco.com,
+bo_2jh89cshq4,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714483832000,True,True,r_vxuqs9uxev,11801,At Ease Clothing and Co.,http://www.ateaseclothingandco.com,
+bo_cd48t7c5tb,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714268594000,True,True,r_3zpvni7irl,43573,A.L.C. Italian Grocery,http://alcitaliangrocery.com/,Grocery or Liquor Store
+bo_bzv8kmamdp,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714266494000,True,True,r_dx51g6h61y,14450,E.M.,http://www.everymanshop.com/,Clothing Boutique
+bo_rtjut6e25c,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714153565000,True,True,r_66wvgrz6de,30131,Dawn + Dusk Outpost,,General or Mercantile Store
+bo_6y52pk58zd,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714120445000,True,True,r_m6agmwugz4,15888,BVOS,http://www.bvos.org/,Fitness or Yoga Studio
+bo_7trd5j7ddr,REPLACE_DAMAGED_OR_MISSING_ITEMS,PROCESSING,FULFILLED,MARKETPLACE,1714072917000,True,True,r_iaxve2kdg9,1598,Miners & Monroe,http://www.minersandmonroe.com,Clothing Boutique
+bo_daa4n44qvv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713892299000,True,True,r_d5mqubh73e,31116,Northeast Massage Therapy,https://www.northeastmt.com/,
+bo_hzmt8gmv47,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713565808000,False,False,r_7yvpwfqpjx,24768,The Well Clinic,http://thewellclinic.co/,
+bo_cwj654h5jn,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713476183000,True,True,r_h9b8j5pnh9,30888,Modern Day Sniper Shop,https://www.moderndaysniper.shop/,
+bo_3zq9tz58eg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713330234000,True,True,r_iaxve2kdg9,130441,Miners & Monroe,http://www.minersandmonroe.com,Clothing Boutique
+bo_cbsqdndju5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712948557000,False,False,r_g9vstpjp3f,35758,The Swell Co.,http://www.theswellco.com,
 bo_n67jv5uahj,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1712259582000,True,True,r_g9vstpjp3f,8965,The Swell Co.,http://www.theswellco.com,
 bo_2d2ha9agcn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712163911000,True,True,r_9rzntzbgvo,25448,Project Angels Boutique,https://projectangelsboutique.commentsold.com/,
 bo_v23asuksyh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711835296000,True,True,r_c5o2m62a,26948,ReHome Stores,http://www.simplyrehome.com/,Home Decor Store
-bo_s5gqjdx6mj,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1711642580000,True,True,r_7yvpwfqpjx,31090,The Well Clinic,http://thewellclinic.co/,
+bo_s5gqjdx6mj,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1711642580000,True,True,r_7yvpwfqpjx,31090,The Well Clinic,http://thewellclinic.co/,
 bo_wvsbsn5q8u,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1711227614000,True,True,r_snw6jngyed,726,Sage River Market,https://www.facebook.com/Sagerivermarket/,Clothing Boutique
 bo_e6a43c6zhf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710995917000,False,False,r_g9vstpjp3f,76515,The Swell Co.,http://www.theswellco.com,
 bo_bcgq5zu5zh,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1710845405000,True,True,r_gub394mwf5,38315,Massage Green SPA,https://massagegreenspa.com/?SPA=JAX-Intracoastal,Spa or Beauty Store

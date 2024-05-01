@@ -1,6 +1,10 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_pzx2eu5fbz,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1713184054000,False,False,r_cjjk7fztoh,19229,ReFind Decor,http://www.ReFindDecorCo.com,Home Decor Store
-bo_ggnmd8t8za,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1712869835000,True,True,r_7csxkrv8ev,20538,Avery & Co,http://averyandcogifts.com/,Gift Store
+bo_bq5cjthv5t,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1714572102000,False,False,r_4jzdc95d7b,55690,Elizabeth Grace Home,http://www.elizabethgracehome.com/,Home Decor Store
+bo_ubwbrcvtjh,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,ELEVATE,1713914114000,True,True,r_8uwqegtq,10900,illo,http://www.illoshop.com,Home Decor Store
+bo_7uzgdxvezb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713885699000,False,False,r_671htvly,20890,Shake the Tree,http://www.shakethetreeboston.com/,
+bo_ftq3addnvf,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713399803000,False,False,r_ews6m54imp,60447,Nest,http://nestsf.com,
+bo_pzx2eu5fbz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713184054000,False,False,r_cjjk7fztoh,22094,ReFind Decor,http://www.ReFindDecorCo.com,Home Decor Store
+bo_ggnmd8t8za,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712869835000,True,True,r_7csxkrv8ev,20538,Avery & Co,http://averyandcogifts.com/,Gift Store
 bo_8ph9bdgn56,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712424688000,True,True,r_avkycpk19g,26142,"Wisteria Antiques & Design, Inc.",http://www.wisteriaantiques.net/,Home Decor Store
 bo_h7jyz863qj,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712108616000,False,False,r_63fdylef,144849,La Petite Maison,http://www.lapetitemaison.us/,General or Mercantile Store
 bo_m3n78cgjyq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711820296000,True,True,r_ep5qh50q0k,20751,delighted,http://delightedgiftshop.com/,Gift Store

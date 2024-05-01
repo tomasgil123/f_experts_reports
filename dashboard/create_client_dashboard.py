@@ -43,13 +43,17 @@ from dashboard.order_analytics_charts import (lifetime_performance_metrics, sale
 from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis_last_30_days, 
                                               get_email_marketing_kpis_by_month, sales_by_month)
 
-from dashboard.utils import (extract_date_from_filename, read_md_file, get_text_between_comments)
+from dashboard.utils import (extract_date_from_filename, read_md_file, get_text_between_comments, save_user_log_report)
 
 # Dashboard creation
 from dashboard.create_competitors_dashboard import (create_competitors_dashboard, create_custom_competitors_dashboard)
 
 
-def create_dashboard(selected_client, selected_report):
+def create_dashboard(selected_client, selected_report, is_admin):
+
+    # if is admin is false, we save log
+    if not is_admin:
+        save_user_log_report(selected_client, selected_report)
 
     markdown_text = read_md_file(f"./dashboard/dashboard_text/{selected_client}/texts.md")
     

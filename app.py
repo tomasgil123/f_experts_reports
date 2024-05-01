@@ -2,11 +2,12 @@ import os
 import hmac
 import streamlit as st
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
 from dashboard.create_client_dashboard import create_dashboard
 from dashboard.create_monthly_report import create_monthly_report
+from utils import save_user_log
 
 openai_api_key = st.secrets["openai_api_key"]
 
@@ -158,11 +159,14 @@ if st.session_state.get("is_admin", False):
     report_option_selected = st.sidebar.radio("Select a report", options=report_options, index=report_options.index(default_report_option), key = 2)
 
     if display_monthly_reports:
-        create_monthly_report(selected_client=client_option_selected, selected_month_string=monthly_report_option_selected)
+        create_monthly_report(selected_client=client_option_selected, selected_month_string=monthly_report_option_selected, is_admin=False)
     else:
-        create_dashboard(selected_client=client_option_selected, selected_report=report_option_selected)
+        create_dashboard(selected_client=client_option_selected, selected_report=report_option_selected, is_admin=False)
     
 else:
+
+    save_user_log(st.session_state["user_name"])
+
     df_brands_reports = pd.read_csv("./brands_monthly_reports.csv")
     # these report options depend on the files the client has
     # get all files in folder ./dahsboard/dashboard_data/{selected_client}
@@ -205,6 +209,6 @@ else:
     report_option_selected = st.sidebar.radio("Select a report", options=report_options, index=report_options.index(default_report_option), key = 2)
 
     if display_monthly_reports:
-        create_monthly_report(selected_client=st.session_state["user_name"], selected_month_string=monthly_report_option_selected)
+        create_monthly_report(selected_client=st.session_state["user_name"], selected_month_string=monthly_report_option_selected, is_admin=False)
     else:
-        create_dashboard(selected_client=st.session_state["user_name"], selected_report=report_option_selected)
+        create_dashboard(selected_client=st.session_state["user_name"], selected_report=report_option_selected, is_admin=False)

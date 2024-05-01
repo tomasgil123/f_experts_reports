@@ -1,57 +1,12 @@
-import re
-from datetime import datetime
-
 from datetime import datetime
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 import streamlit as st
 
-def read_md_file(filename):
-    with open(filename, "r", encoding="utf-8") as file:
-        return file.read()
-    
-def get_text_between_comments(text, start_comment, end_comment):
-    start_index = text.find(start_comment)
-    if start_index == -1:
-        return None  # Start comment not found
-    end_index = text.find(end_comment, start_index + len(start_comment))
-    if end_index == -1:
-        return None  # End comment not found
-    return text[start_index + len(start_comment):end_index].strip()
-
-def extract_date_from_filename(file_name):
-    """
-    Extracts the date from a file name in the format 'orders_from_api_YYYY-MM-DD'.
-    
-    Args:
-    file_name (str): The name of the file.
-    
-    Returns:
-    datetime object: The extracted date.
-    None: If date is not found in the file name.
-    """
-    # Define a regular expression pattern to match the date
-    date_pattern = r"\d{4}-\d{2}-\d{2}"
-    
-    # Use regex to find the date pattern in the file name
-    match = re.search(date_pattern, file_name)
-
-    if match:
-        # Extract the matched date string
-        date_str = match.group(0)
-
-        # Convert the date string to a datetime object
-        date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-        
-        return date_obj
-    else:
-        return None
-    
-
 # Define the scope of the application
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
-def save_user_log_report(client_name, selected_report):
+def save_user_log(client_name):
     creds_dict = {
         "type": "service_account",
         "project_id": st.secrets["project_id"],
@@ -70,7 +25,7 @@ def save_user_log_report(client_name, selected_report):
 
     # The ID of the spreadsheet to update.
     spreadsheet_id = '1rdGzjnDo8IYhQZ3sUB2N91Zx2M2FfwpkWOBn0FwWcHk'  # Please set the Spreadsheet ID.
-    range_name = 'App_logs'  # Example sheet name
+    range_name = 'Logs'  # Example sheet name
 
     # How the input data should be interpreted.
     value_input_option = 'USER_ENTERED' 
@@ -82,7 +37,7 @@ def save_user_log_report(client_name, selected_report):
 
     value_range_body = {
         "values": [
-            [client_name, current_datetime, selected_report]  # Your new row data here
+            [client_name, current_datetime]  # Your new row data here
         ]
     }
 

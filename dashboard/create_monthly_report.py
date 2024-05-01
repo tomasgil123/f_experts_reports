@@ -3,8 +3,13 @@ import glob
 import pandas as pd
 
 from dashboard.monthly_analytics import (sales_performance_metrics, get_marketing_campaign_sales, customer_acquisition_metrics)
+from dashboard.utils import (save_user_log_report)
 
-def create_monthly_report(selected_client, selected_month_string):
+def create_monthly_report(selected_client, selected_month_string, is_admin):
+
+    # if is admin is false, we save log
+    if not is_admin:
+        save_user_log_report(selected_client, "Monthly Report")
 
     st.markdown(f"""
                 # Monthly Report: {selected_month_string}

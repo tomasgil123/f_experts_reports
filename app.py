@@ -159,9 +159,9 @@ if st.session_state.get("is_admin", False):
     report_option_selected = st.sidebar.radio("Select a report", options=report_options, index=report_options.index(default_report_option), key = 2)
 
     if display_monthly_reports:
-        create_monthly_report(selected_client=client_option_selected, selected_month_string=monthly_report_option_selected, is_admin=False)
+        create_monthly_report(selected_client=client_option_selected, selected_month_string=monthly_report_option_selected, is_admin=True)
     else:
-        create_dashboard(selected_client=client_option_selected, selected_report=report_option_selected, is_admin=False)
+        create_dashboard(selected_client=client_option_selected, selected_report=report_option_selected, is_admin=True)
     
 else:
 

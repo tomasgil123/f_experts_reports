@@ -37,7 +37,7 @@ from dashboard.order_analytics_charts import (lifetime_performance_metrics, sale
                                     new_merchants_by_source, sales_by_retailer, cumulative_distribution_of_retailers,
                                     type_of_store_top_10_retailers, sales_distribution, 
                                     sales_quantiles, purchase_frequency, retailers_did_not_reorder, 
-                                    sales_by_store_type, sales_by_category)
+                                    sales_by_store_type, sales_by_category, avg_order_value_by_store_type)
 
 
 from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis_last_30_days, 
@@ -177,6 +177,8 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
 
+        date_last_update_orders = extract_date_from_filename(product_file[0])
+
         date_last_update = extract_date_from_filename(product_file[0])
 
         st.write(f"Data was last updated at: {date_last_update.date()}")
@@ -215,6 +217,8 @@ def create_dashboard(selected_client, selected_report, is_admin):
         new_merchants_by_source(df, date_last_update)
 
         sales_by_category(df, df_order_items, df_page_views)
+
+        avg_order_value_by_store_type(df, day_data_was_obtained=date_last_update_orders)
 
         # type_of_store_top_10_retailers(df, date_last_update)
 

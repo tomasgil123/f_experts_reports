@@ -770,5 +770,38 @@ def sales_by_category(df_orders, df_order_items, df_page_views):
     # Display the chart in Streamlit
     st.pyplot(fig)
 
+def avg_order_value_by_store_type(df, day_data_was_obtained):
+    # we make a copy of the dataframe 
+    df = df.copy()
+
+    # Calculate the date 12 months ago from today
+    last_12_months_date = day_data_was_obtained - timedelta(days=365)
+
+    # Filter the DataFrame for the last 12 months
+    df_last_12_months = df[df['brand_contacted_at_values'] >= last_12_months_date]
+
+    # Group by retailer_store_types and calculate the average order value for each type of store
+    avg_order_value_by_store_type = df_last_12_months.groupby('retailer_store_types')['payout_total_values'].mean()
+
+    # Sort the values in descending order
+    avg_order_value_by_store_type = avg_order_value_by_store_type.sort_values(ascending=False)
+
+    # Create a bar chart
+    # Create figure and axis
+    fig, ax = plt.subplots()
+
+    avg_order_value_by_store_type.plot(kind='bar', color='skyblue')
+
+    ax.set_title('Average Order Value by Store Type (Last 12 Months)')
+    ax.set_xlabel('Store Type')
+    ax.set_ylabel('Average Order Value')
+    ax.set_xticklabels(avg_order_value_by_store_type.index, rotation=45)
+
+    # add grid to the chart
+    ax.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # Display the chart in Streamlit
+    st.pyplot(fig)
+
 
 

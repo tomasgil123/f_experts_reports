@@ -672,22 +672,20 @@ def sales_by_store_type(df, df_order_items, df_page_views):
 
     # Sort the sales percentages in descending order and select the top 5
     top_5_sales_percentage = sales_percentage.sort_values(ascending=False).head(5)
+    others_percentage = 100 - top_5_sales_percentage.sum()
 
-    # Create a bar chart
-    # Create figure and axis
+    # Create a new Series for "Others" with the same index as the top 5 for consistency
+    others_series = pd.Series([others_percentage], index=['Others'])
+
+    # Use concat to combine the series
+    sales_percentage_with_others = pd.concat([top_5_sales_percentage, others_series])
+
+    # Create a pie chart
     fig, ax = plt.subplots()
+    sales_percentage_with_others.plot(kind='pie', autopct='%1.1f%%', startangle=90, colors=plt.cm.Pastel1.colors)
+    ax.set_ylabel('')  # Remove the y-label as it's not needed for pie charts
+    ax.set_title('Sales Percentage by Store Type (Last 12 Months)')
 
-    top_5_sales_percentage.plot(kind='bar', color='skyblue')
-    ax.set_title('Top 5 Store Types by Sales Percentage (Last 12 Months)')
-    ax.set_xlabel('Store Type')
-    ax.set_ylabel('Percentage of Sales')
-    ax.set_xticklabels(top_5_sales_percentage.index, rotation=45)
-    ax.set_ylim(0, 100)  # Set y-axis limit to 0-100%
-
-    # add grid to the chart
-    ax.grid(axis='y', linestyle='--', alpha=0.7)
-
-    # Display the chart in Streamlit
     st.pyplot(fig)
 
     # we select the top 3 store types from top_5_sales_percentage

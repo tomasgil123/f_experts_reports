@@ -10,8 +10,9 @@ from cookie import (cookie_token)
 # brand_name = "shinesty"
 # brand_name = "born_to_rally"
 # brand_name = "glimmer_wish"
-brand_name = "trek_light"
+# brand_name = "trek_light"
 # brand_name = "latico_leathers"
+brand_name = "little_hometown"
 
 data = get_page_views_for_all_months_since_date(cookie=cookie_token, starting_date="2023-01-01")
 

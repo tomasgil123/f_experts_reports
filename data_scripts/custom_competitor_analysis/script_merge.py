@@ -2,11 +2,12 @@ import pandas as pd
 from datetime import datetime
 import glob
 
-brand_owner = "Couleur Nature"
+# brand_owner = "Couleur Nature"
+brand_owner = "Little Hometown"
 
 df_brand_info = pd.read_csv("brand_info.csv")
 
-products_info = glob.glob(f"custom_products_*.csv")
+products_info = glob.glob(f"products_info.csv")
 
 df_products_info = pd.read_csv(products_info[0])
 

@@ -4,8 +4,9 @@ from datetime import datetime
 from get_product_info_custom import (get_products_info)
 
 # brand_owner = "Boredwalk"
-#brand_owner = "Glimmer Wish"
-brand_owner = "Couleur Nature"
+# brand_owner = "Glimmer Wish"
+# brand_owner = "Couleur Nature"
+brand_owner = "Little Hometown"
 
 data = get_products_info(brand_owner)
 

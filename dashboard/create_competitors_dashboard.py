@@ -150,7 +150,7 @@ def create_custom_competitors_dashboard(selected_client, markdown_text):
     st.write(f"Data was last updated at: {date_last_update.date()}")
 
     df_product_data = pd.read_csv(product_file[0])
-
+    
 
     st.markdown("""
                 # Competitors analytics

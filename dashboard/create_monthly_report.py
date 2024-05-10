@@ -35,9 +35,10 @@ def create_monthly_report(selected_client, selected_month_string, is_admin):
     sales_performance_metrics(df_orders, selected_month, selected_year, selected_month_string)
 
     st.markdown("""
-                # 
-                ### Sales generated through email marketing initiatives
-                """)
+                    # 
+                    ### Sales generated through email marketing initiatives
+                    """)
+        
 
     product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/marketing_campaign_info_*.csv")
 

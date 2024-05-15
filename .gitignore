@@ -2,3 +2,4 @@ data
 report_images
 pdf_reports
 secrets.toml
+/data_scripts/leads/

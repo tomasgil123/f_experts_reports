@@ -10,15 +10,16 @@ from cookie import (cookie_token)
 # brand_name = "couleur_nature"
 # brand_name = "caravan"
 # brand_name = "bon_artis"
-brand_name = "lothantique"
-# brand_name = "shinesty"
+# brand_name = "lothantique"
+brand_name = "shinesty"
 # brand_name = "glimmer_wish"
 # brand_name = "trek_light"
 # brand_name = "latico_leathers"
 # brand_name = "little_hometown"
 # brand_name = "be_huppy"
 
-product_views_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/page_views_info_*.csv")
+#product_views_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/page_views_info_*.csv")
+product_views_file= []
 
 if len(product_views_file) > 0:
     df_current_product_views = pd.read_csv(product_views_file[0])

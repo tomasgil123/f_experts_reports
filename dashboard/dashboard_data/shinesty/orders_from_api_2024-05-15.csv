@@ -1,5 +1,9 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_zjzdn95kdp,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714454732000,False,False,r_bjdtz0s3kt,32264,CK's Secrets,http://ckssecrets.mystoreextender.com/,
+bo_47hjhy44e5,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1715632139000,False,False,r_9immfion,73707,A & A village treasures,http://aavillagetreasures.com/,
+bo_57jrbzf5vc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715287638000,True,True,r_9lcqz71l38,13823,Condom Knowledge,https://cks-secrets.com/,
+bo_8zcm84zfax,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1715108079000,True,True,r_dtz6nwolt9,40933,The Pretty Pussycat,http://www.prettypussycat.com/,Clothing Boutique
+bo_3eafs7x3zy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715097279000,False,False,r_62i6i0hp,14830,Bridge Street Exchange,http://www.bridgestreetexchange.com,Clothing Boutique
+bo_zjzdn95kdp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714454732000,False,False,r_bjdtz0s3kt,32264,CK's Secrets,http://ckssecrets.mystoreextender.com/,
 bo_9k899qmr6p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713908199000,True,True,r_e0s92hjhpx,35856,Good Relations,http://www.goodrelations.com/,Clothing Boutique
 bo_s6v2rg3we6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713471194000,False,False,r_4767c2lfq5,9880,"The Classic Equestrian, LLC",http://shoptheclassicequestrian.com/,
 bo_qwfbgpaxrv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713381203000,True,True,r_fnsj9bghpt,16716,Mr. Funs Costume & Curiosity Emporium,http://www.mrfuns.com/,Kids or Toy Store

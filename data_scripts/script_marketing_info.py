@@ -7,11 +7,11 @@ from cookie import (cookie_token)
 # brand_token = "b_9j68t72ipo"
 # brand_name = "true_classic"
 
-brand_token = "b_cad0ccd3"
-brand_name = "couleur_nature"
+# brand_token = "b_cad0ccd3"
+# brand_name = "couleur_nature"
 
-# brand_token = "b_bdz7u5jj94"
-# brand_name = "caravan"
+brand_token = "b_bdz7u5jj94"
+brand_name = "caravan"
 
 # brand_token = "b_cmvrf26fxf"
 # brand_name = "bon_artis"

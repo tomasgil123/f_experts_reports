@@ -1,13 +1,41 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_8dptsunzf7,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714573602000,True,True,r_3he7dosy,14829,Escape and Celebrate,http://escapeandcelebrate.co,Gift Store
-bo_rzv6tx7shc,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1714346894000,False,False,r_cljs6d69nh,99519,finnesterre,http://www.finnesterre.com/,Home Decor Store
-bo_kzswf2qfyv,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714314494000,False,False,r_48c3kjccqy,23794,Dwell Home Supply,http://dwellhomesupply.com/,Home Decor Store
-bo_6fg9xvd4q2,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714261994000,True,True,r_ntv4qcxc3b,15838,"Eileen Marie Home, LLC (DBA Emptio)",http://eileenmariehome.com/,Home Decor Store
+bo_2echkxmn7f,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1715746107000,True,True,r_490ls8o69e,122209,Covet + Lou,http://covetandlou.com/,
+bo_aaan9aft5b,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1715719406000,False,False,r_4xpgnnl1da,35775,The Gardenroom,https://www.gardenroomfairhaven.com/,Gift Store
+bo_p7fvbs8m34,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1715713706000,False,False,r_b64vigmfcw,95495,Merryweather,http://www.merryweather.shop,Home Decor Store
+bo_86cvheth65,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1715643539000,True,True,r_8md23qpjfq,64442,The Bouwerie,http://www.thebouwerie.com/,Gift Store
+bo_rkcp2pg2ve,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1715575085000,True,True,r_6u1llsm0,72029,Design Lab DDG,http://designlabddg.com/,
+bo_kcw2na5vtc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715540285000,True,True,r_kfm6nbg77u,42405,Sweetfin,https://sweetfin.com/,Cafe or Restaurant
+bo_qjhh3cu67w,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715539685000,True,True,r_urhuc2zv73,28902,ShopGHF,http://shopghf.com/,
+bo_jgnnycu9nx,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1715533085000,False,False,r_dn879w4p77,49235,Groundswell Table + Provisions,http://www.groundswellcafegarden.com/,Grocery or Liquor Store
+bo_j8jzu9z43p,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1715531885000,False,False,r_asr1ttrqdl,28065,dovecote,http://www.dovecotehome.com,Home Decor Store
+bo_qbkpmzmbpt,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1715462585000,False,False,r_erqx4w8ntw,29322,River,http://www.rivershoppe.com/,General or Mercantile Store
+bo_kn8x6sjd28,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1715458685000,False,False,r_9d10zxea,31750,nest,,Gift Store
+bo_jyqj39uyc6,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1715449085000,False,False,r_drjvsnhypx,27750,Maine Street Design Co.,http://www.mainestreetdesign.com,Home Decor Store
+bo_ntguys8psq,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1715381885000,False,False,r_2wfdlbbi,48452,Essenza,http://essenza-inc.com,Gift Store
+bo_j3hxjxpbnh,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1715365741000,False,False,r_7kn67hsf,38606,Santa Maria Provisions,,Gift Store
+bo_jfryv9rj23,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1715362338000,False,False,r_52mxq65qrq,85612,Graze Garden and Home,http://www.grazeliving.com/,Florist or Garden Store
+bo_dpdqafrta5,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1715355438000,True,True,r_kcthuae39w,55017,LAVA | atelier,http://www.lavainteriors.com/atelier,Home Decor Store
+bo_74m8qzvmf6,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1715354238000,False,False,r_e0dmym6s,69386,SoLo,http://www.solocedros.com/,Home Decor Store
+bo_288eu54rbj,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1715348838000,False,False,r_2c3iogc79v,27250,Roan Iris,https://roaniris.co/,Home Decor Store
+bo_jkdewmcmzh,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1715284938000,True,True,r_c72vcs4286,57486,EYDER curated Kitchens + Home,http://eyderkitchens.com/,
+bo_tz97a8h5a6,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1715256817000,False,False,r_1oxewhxc,109755,Take Heart,https://maps.google.com/?cid=1956225487500736265,
+bo_ec7wp9nhq5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715172579000,True,True,r_a9htti8f72,42131,Domani Home,https://maps.google.com/?cid=17964107179652827399,
+bo_nz4qtgeugc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714958883000,True,True,r_k6mu322cgf,122462,Working Loose,http://workingloose.com,Home Decor Store
+bo_qzzdfjsn48,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714940883000,False,False,r_9qogilvn,29902,Fetch Mkt.,,
+bo_qdcph349xb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714748554000,False,False,r_2c3iogc79v,76834,Roan Iris,https://roaniris.co/,Home Decor Store
+bo_xuv5q2kxy6,BACKORDER,CANCELED,CANCELED,MARKETPLACE,1714748554000,False,False,r_2c3iogc79v,0,Roan Iris,https://roaniris.co/,Home Decor Store
+bo_pjdpj2nffr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714671694000,True,True,r_2mnv271tma,28389,STYLEARTIST,http://styleartist.com/,Clothing Boutique
+bo_dv9acc4svb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714663594000,False,False,r_bq44exlet6,21772,Basel's Market,https://maps.google.com/?cid=11236893220259384267,Cafe or Restaurant
+bo_7bknzhf4qn,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1714593625000,False,False,r_7cvitf4lgn,21680,Toadflax Inc Walnut St,http://www.toadflax.com/,Florist or Garden Store
+bo_8dptsunzf7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714573602000,True,True,r_3he7dosy,18329,Escape and Celebrate,http://escapeandcelebrate.co,Gift Store
+bo_rzv6tx7shc,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1714346894000,False,False,r_cljs6d69nh,99519,finnesterre,http://www.finnesterre.com/,Home Decor Store
+bo_kzswf2qfyv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714314494000,False,False,r_48c3kjccqy,23794,Dwell Home Supply,http://dwellhomesupply.com/,Home Decor Store
+bo_6fg9xvd4q2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714261994000,True,True,r_ntv4qcxc3b,15838,"Eileen Marie Home, LLC (DBA Emptio)",http://eileenmariehome.com/,General or Mercantile Store
 bo_d7rpakszr5,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714243094000,True,True,r_3ds62kwvnp,25250,Le Panier à Salade - Saladerie Marseille,https://maps.google.com/?cid=6252160907016769446,Cafe or Restaurant
 bo_wyezfs68k2,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1714076308000,False,False,r_ecki7omyhl,49818,Blanche & Mimi,http://www.blancheandmimi.com/,
 bo_yaknyq889v,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713771308000,False,False,r_rtt7gjfueb,66215,Picnic,http://www.poppijohnson.com/,Gift Store
 bo_c2hmjp7tpp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713557708000,True,True,r_4v9kncr4,16829,Grayson De Vere,http://graysondevere.com,Home Decor Store
-bo_qtj8rnqnc6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713554708000,False,False,r_dn879w4p77,139401,Groundswell Table + Provisions,http://www.groundswellcafegarden.com/,Grocery or Liquor Store
+bo_qtj8rnqnc6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713554708000,False,False,r_dn879w4p77,133536,Groundswell Table + Provisions,http://www.groundswellcafegarden.com/,Grocery or Liquor Store
 bo_tfeuyscr2p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713450203000,False,False,r_7t6twfh8vn,22064,IPA Corporate,https://www.ipacorporate.com/,
 bo_t457kmcjcm,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713295134000,False,False,r_9d10zxea,34678,nest,,Gift Store
 bo_z4mxczggng,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713218176000,True,True,r_6ng4tj9hgq,16829,Akana Home,http://akanahome.com/,Home Decor Store

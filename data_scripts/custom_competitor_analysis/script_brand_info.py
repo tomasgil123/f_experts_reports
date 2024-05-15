@@ -6,7 +6,8 @@ from get_competitors_brand_info import (get_all_competitors_brand_data)
 # brand_owner = "Glimmer Wish"
 #brand_owner = "Trek Light"
 # brand_owner = "Couleur Nature"
-brand_owner = "Little Hometown"
+#brand_owner = "Little Hometown"
+brand_owner = "Be Huppy"
 
 brands_data = get_all_competitors_brand_data(brand_owner)
 

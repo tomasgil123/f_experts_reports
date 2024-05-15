@@ -3,7 +3,8 @@ from datetime import datetime
 import glob
 
 # brand_owner = "Couleur Nature"
-brand_owner = "Little Hometown"
+# brand_owner = "Little Hometown"
+brand_owner = "Be Huppy"
 
 df_brand_info = pd.read_csv("brand_info.csv")
 

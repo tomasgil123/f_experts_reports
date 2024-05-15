@@ -113,23 +113,26 @@ def create_dashboard(selected_client, selected_report, is_admin):
         purchase_frequency(df_orders)
 
         retailers_did_not_reorder(df_orders)
-
-        st.markdown("""
-                    #
-                #### Store type campaigns
-                """)
         
-        type_store_campaigns = get_text_between_comments(markdown_text, "<!-- Email marketing: Campaign ideas type store -->", "<!")
-        if type_store_campaigns is not None:
-            st.markdown(type_store_campaigns, unsafe_allow_html=True)
-        
-        product_file_items_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/items_order_from_api_*.csv")
-        df_order_items = pd.read_csv(product_file_items_orders[0])
 
-        product_file_items_page_views = glob.glob(f"./dashboard/dashboard_data/{selected_client}/page_views_info_*.csv")
-        df_page_views = pd.read_csv(product_file_items_page_views[0])
+        # dont display this section if client is be_huppy
+        if selected_client != "be_huppy":
+            st.markdown("""
+                        #
+                    #### Store type campaigns
+                    """)
+            
+            type_store_campaigns = get_text_between_comments(markdown_text, "<!-- Email marketing: Campaign ideas type store -->", "<!")
+            if type_store_campaigns is not None:
+                st.markdown(type_store_campaigns, unsafe_allow_html=True)
+            
+            product_file_items_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/items_order_from_api_*.csv")
+            df_order_items = pd.read_csv(product_file_items_orders[0])
 
-        sales_by_store_type(df_orders, df_order_items, df_page_views)
+            product_file_items_page_views = glob.glob(f"./dashboard/dashboard_data/{selected_client}/page_views_info_*.csv")
+            df_page_views = pd.read_csv(product_file_items_page_views[0])
+
+            sales_by_store_type(df_orders, df_order_items, df_page_views)
 
     elif selected_report == "Product analytics":
 

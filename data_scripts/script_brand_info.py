@@ -11,7 +11,8 @@ df_brands = pd.read_csv('brands_competitors.csv')
 # brand_owners = df_brands['brand_owner'].unique()
 # brand_owners = ["True Classic"]
 
-brand_owners = ["Little Hometown"]
+# brand_owners = ["Little Hometown"]
+brand_owners = ["Be Huppy"]
 
 # for each brand owner we get brand data
 for brand_owner in brand_owners:

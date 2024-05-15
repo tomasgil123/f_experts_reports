@@ -3,12 +3,12 @@ from get_product_views_info import (get_page_views_for_all_months_since_date)
 from cookie import (cookie_token)
 
 # brand_name = "true_classic"
-# brand_name = "couleur_nature"
+brand_name = "couleur_nature"
 # brand_name = "caravan"
 # brand_name = "bon_artis"
 # brand_name = "lothantique"
 # brand_name = "shinesty"
-brand_name = "glimmer_wish"
+# brand_name = "glimmer_wish"
 # brand_name = "trek_light"
 # brand_name = "latico_leathers"
 # brand_name = "little_hometown"

@@ -1,14 +1,19 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_bz2unafd2s,Untitled campaign 1,ONE_TIME,DRAFT,,,,,,,,,
+bmc_r246ynjkj8,60 Day Eng + Unused Credit + Ab Cart | Pansy Collection | 5.14.24,ONE_TIME,COMPLETED,1715724603000.0,575.0,326.0,150.0,2.0,0.0,0.0,0.0,0.0
+bmc_f9aa22p2wq,Review Request | 5.13.24,ONE_TIME,COMPLETED,1715634018000.0,564.0,331.0,171.0,0.0,0.0,0.0,0.0,0.0
+bmc_dnvy4ph58g,Meadows Blue/Green Launch RESEND | 5.8.24,ONE_TIME,COMPLETED,1715222511000.0,2318.0,2189.0,308.0,18.0,0.0,0.0,0.0,0.0
+bmc_sk3myr7g86,Cold Lead Outreach Template,ONE_TIME,DRAFT,,,,,,,,,
+bmc_z6d8xgjnub,Meadows Blue/Green Launch,ONE_TIME,COMPLETED,1715049026000.0,7210.0,4300.0,1941.0,60.0,3.0,1144.0,0.0,0.0
+bmc_bz2unafd2s,Gifts for Her | 5.6.24,ONE_TIME,DRAFT,,,,,,,,,
 bmc_zn5ua5bhzh,Restaurant Segment | Aprons | 4.26.24,ONE_TIME,COMPLETED,1714158065000.0,76.0,71.0,34.0,0.0,0.0,0.0,0.0,0.0
-bmc_b986b3wr4w,60 Day Eng + Unused Credit + Abandon Cart | Wisteria Collection | 4.23.24,ONE_TIME,COMPLETED,1713924045000.0,278.0,211.0,127.0,5.0,1.0,356.0,0.0,0.0
-bmc_j3r6dzjf4m,Abandon Cart | 4.19.24,ONE_TIME,COMPLETED,1713559857000.0,32.0,23.0,12.0,0.0,2.0,910.0,0.0,0.0
-bmc_bcwe4gg2pa,Table Runners | 4.14.24,ONE_TIME,COMPLETED,1713155448000.0,787.0,538.0,302.0,7.0,6.0,1544.0,0.0,0.0
-bmc_4gq67kphzk,Best-Sellers Collection | 4.9.24,ONE_TIME,COMPLETED,1712718955000.0,294.0,221.0,155.0,6.0,1.0,385.0,0.0,0.0
+bmc_b986b3wr4w,60 Day Eng + Unused Credit + Abandon Cart | Wisteria Collection | 4.23.24,ONE_TIME,COMPLETED,1713924045000.0,278.0,211.0,128.0,5.0,1.0,356.0,0.0,0.0
+bmc_j3r6dzjf4m,Abandon Cart | 4.19.24,ONE_TIME,COMPLETED,1713559857000.0,32.0,23.0,14.0,0.0,2.0,910.0,0.0,0.0
+bmc_bcwe4gg2pa,Table Runners | 4.14.24,ONE_TIME,COMPLETED,1713155448000.0,787.0,538.0,306.0,7.0,6.0,1544.0,0.0,0.0
+bmc_4gq67kphzk,Best-Sellers Collection | 4.9.24,ONE_TIME,COMPLETED,1712718955000.0,294.0,221.0,156.0,6.0,1.0,385.0,0.0,0.0
 bmc_hsbdatwzd3,Introducing Embroidery Tablecloth,ONE_TIME,COMPLETED,1712160000000.0,568.0,342.0,203.0,8.0,4.0,2615.5,0.0,0.0
 bmc_wfv9qkq3h5,Abandon Cart: Last 30 Days | 3.29.24,ONE_TIME,COMPLETED,1711720800000.0,36.0,30.0,17.0,0.0,3.0,1189.5,0.0,0.0
-bmc_dc27y3cztq,Jardin Red/Green | 4.4.24,ONE_TIME,COMPLETED,1712370629000.0,809.0,552.0,358.0,21.0,5.0,3288.5,0.0,0.0
-bmc_rjzx5pgg5m,TOP PICK FOR SPRING 2024 (TN),ONE_TIME,COMPLETED,1711814400000.0,6329.0,3415.0,1594.0,36.0,11.0,6113.0,2.0,578.0
+bmc_dc27y3cztq,Jardin Red/Green | 4.4.24,ONE_TIME,COMPLETED,1712370629000.0,809.0,552.0,360.0,21.0,5.0,3288.5,0.0,0.0
+bmc_rjzx5pgg5m,TOP PICK FOR SPRING 2024 (TN),ONE_TIME,COMPLETED,1711814400000.0,6329.0,3415.0,1597.0,36.0,11.0,6113.0,2.0,578.0
 bmc_qy22xptgdb,Top Pick For Easter ,ONE_TIME,COMPLETED,1710518400000.0,6262.0,3231.0,1399.0,21.0,5.0,2024.5,0.0,0.0
 bmc_v6gqayrtah,Petite Fleur Multi,ONE_TIME,COMPLETED,1711123200000.0,6266.0,3031.0,1418.0,39.0,6.0,3806.5,0.0,0.0
 bmc_5dbfr7xwfs,Meadows Red & Green,ONE_TIME,COMPLETED,1709917200000.0,6261.0,3050.0,1423.0,23.0,5.0,2066.0,0.0,0.0

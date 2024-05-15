@@ -1,11 +1,14 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
+bmc_p8kxyyt2ns,Bar Soaps + Dishes | 5.9.24,ONE_TIME,COMPLETED,1715308226000.0,3022.0,1660.0,858.0,18.0,8.0,4286.3,0.0,0.0
+bmc_ec8qnmrtec,Inventory Closure/Free Shipping | 5.13.24,ONE_TIME,COMPLETED,1715608800000.0,3061.0,1592.0,775.0,23.0,8.0,3773.3,2.0,1245.0
+bmc_ndcdja3ch2,Abandon Cart | 5.6.24,ONE_TIME,COMPLETED,1715090400000.0,30.0,22.0,16.0,0.0,0.0,0.0,0.0,0.0
 bmc_zna7wrsyfc,Home Fragrance Best-Sellers | 3.29.24 (Copy 1),ONE_TIME,DRAFT,,,,,,,,,
-bmc_32ua36gc2j,"30day, 60day eng | Bath Foams & Candles | 04.29.24",ONE_TIME,COMPLETED,1714424426000.0,2772.0,1237.0,494.0,7.0,2.0,772.5,0.0,0.0
-bmc_5fv26ag4x9,"30day, 60day eng | Hand+Body Lotions | 04.23.24",ONE_TIME,COMPLETED,1713924002000.0,579.0,359.0,193.0,2.0,3.0,1591.5,0.0,0.0
-bmc_4jgw45mben,Ordered | Review Request | 4.19.24,ONE_TIME,COMPLETED,1713559660000.0,638.0,381.0,223.0,2.0,4.0,2712.2,0.0,0.0
-bmc_p98ehbbzzk,Lotantique Brand Best-Sellers Collection | 4.17.24,ONE_TIME,COMPLETED,1713382594000.0,1306.0,525.0,195.0,2.0,2.0,813.3,0.0,0.0
-bmc_zaspnnqs5q,Gifts for Her: Belle de Provence | 4.11.24,ONE_TIME,COMPLETED,1712890687000.0,2338.0,1076.0,478.0,4.0,3.0,1803.3,0.0,0.0
-bmc_bjzqgteyzp,Untitled campaign 1,ONE_TIME,COMPLETED,1712284248000.0,2196.0,1051.0,524.0,1.0,3.0,3240.8,0.0,0.0
+bmc_32ua36gc2j,"30day, 60day eng | Bath Foams & Candles | 04.29.24",ONE_TIME,COMPLETED,1714424426000.0,2772.0,1237.0,525.0,7.0,5.0,2177.6,0.0,0.0
+bmc_5fv26ag4x9,"30day, 60day eng | Hand+Body Lotions | 04.23.24",ONE_TIME,COMPLETED,1713924002000.0,579.0,359.0,193.0,2.0,5.0,2836.5,0.0,0.0
+bmc_4jgw45mben,Ordered | Review Request | 4.19.24,ONE_TIME,COMPLETED,1713559660000.0,638.0,381.0,227.0,2.0,4.0,2712.2,0.0,0.0
+bmc_p98ehbbzzk,Lotantique Brand Best-Sellers Collection | 4.17.24,ONE_TIME,COMPLETED,1713382594000.0,1306.0,525.0,199.0,2.0,2.0,813.3,0.0,0.0
+bmc_zaspnnqs5q,Gifts for Her: Belle de Provence | 4.11.24,ONE_TIME,COMPLETED,1712890687000.0,2338.0,1076.0,482.0,4.0,5.0,2432.6,0.0,0.0
+bmc_bjzqgteyzp,Untitled campaign 1,ONE_TIME,COMPLETED,1712284248000.0,2196.0,1051.0,525.0,1.0,3.0,3240.8,0.0,0.0
 bmc_6d84k7s5hx,Home Fragrance Best-Sellers | 3.29.24,ONE_TIME,COMPLETED,1711720800000.0,2092.0,859.0,410.0,1.0,2.0,1047.4,0.0,0.0
 bmc_m7ewc6vmzd,Chemin de Roses Collection,ONE_TIME,COMPLETED,1711112400000.0,2032.0,890.0,465.0,2.0,6.0,3152.73,0.0,0.0
 bmc_zyk8mq4yfs,Miller et Bertaux Top Sellers,ONE_TIME,COMPLETED,1710507600000.0,2028.0,922.0,473.0,4.0,9.0,4007.88,0.0,0.0

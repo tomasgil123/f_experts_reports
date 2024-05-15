@@ -1,5 +1,8 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_bq5cjthv5t,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1714572102000,False,False,r_4jzdc95d7b,55690,Elizabeth Grace Home,http://www.elizabethgracehome.com/,Home Decor Store
+bo_tmzadzfs7s,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1715617999000,False,False,r_288mc06j,22094,Artisan Spirit,https://www.facebook.com/Artisan-Spirit-983251831734055/,Gift Store
+bo_2pds6u8ucz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715042078000,True,True,r_78xt33je,24652,the garage studio,https://maps.google.com/?cid=8374200551219204318,
+bo_pjskxbmpmb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715006583000,True,True,r_92xmx8uph7,32333,Tilley's Pet Supplies,,Pet Store
+bo_bq5cjthv5t,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1714572102000,False,False,r_4jzdc95d7b,62540,Elizabeth Grace Home,http://www.elizabethgracehome.com/,Home Decor Store
 bo_ubwbrcvtjh,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,ELEVATE,1713914114000,True,True,r_8uwqegtq,10900,illo,http://www.illoshop.com,Home Decor Store
 bo_7uzgdxvezb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713885699000,False,False,r_671htvly,20890,Shake the Tree,http://www.shakethetreeboston.com/,
 bo_ftq3addnvf,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713399803000,False,False,r_ews6m54imp,60447,Nest,http://nestsf.com,

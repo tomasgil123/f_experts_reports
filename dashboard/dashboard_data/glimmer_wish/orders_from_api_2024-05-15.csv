@@ -1,13 +1,24 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
-bo_cze7meep4f,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714491332000,False,False,r_zp8dhxwpoh,10973,Elegant Child,http://elegantchildboca.com/,
-bo_ts6z9cw7y9,REPLACE_DAMAGED_OR_MISSING_ITEMS,PROCESSING,UNFULFILLED,MARKETPLACE,1714353751000,True,True,r_3p7x4qjnhb,703,FLYNN & COMPANY BARBERSHOP (Carsons Barber Shop),http://Flynnbarbershop.com,Spa or Beauty Store
-bo_cdgzxptps4,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714329194000,False,False,r_zp8dhxwpoh,5349,Elegant Child,http://elegantchildboca.com/,
-bo_ac2mawamv7,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1714008158000,False,False,r_zxhdvc6hws,15129,Hair Avenue,,Spa or Beauty Store
-bo_bjgrmwgfyc,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1713897699000,True,True,r_ejzbsny4qo,9239,The Big Bamboo,http://www.shopthebigbamboo.com/,
-bo_z58tvwdvr7,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1713803408000,True,True,r_7590b518,40500,funky monkey toys,http://Www.funkymonkey.toys,Kids or Toy Store
+bo_kxxtz9q6ep,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1715665739000,False,False,r_pndt5gsbed,948,Snazzy Jon,http://www.snazzyjon.org/,Clothing Boutique
+bo_zuarsqm8tg,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1715624992000,True,True,r_2cr3st5c,25131,Basically Bows & Bowties,https://www.basicallybows.com/,Clothing Boutique
+bo_8kkx85hgp6,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1715193357000,True,True,r_85zhnq8zdk,16263,Brookes beauty Bar & Co.,,
+bo_rrm8wac5sx,NEW_ORDER,PROCESSING,FULFILLED,ELEVATE,1715126379000,True,True,r_4ryph69wpr,36970,The Salon at Winter Park,http://winterparksalon.com/,Spa or Beauty Store
+bo_cjar3h6g24,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1714857483000,False,False,r_zp8dhxwpoh,16938,Elegant Child,http://elegantchildboca.com/,
+bo_ca7mm7vt8s,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714793283000,True,False,r_pndt5gsbed,3521,Snazzy Jon,http://www.snazzyjon.org/,Clothing Boutique
+bo_72fqbj9pzj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714793283000,True,False,r_pndt5gsbed,759,Snazzy Jon,http://www.snazzyjon.org/,Clothing Boutique
+bo_6hrj6e2eug,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1714787583000,True,True,r_pndt5gsbed,3309,Snazzy Jon,http://www.snazzyjon.org/,Clothing Boutique
+bo_sr3graxt95,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1714773783000,True,True,r_6uom6xzo46,23075,The Little Lane Shop,"https://maps.google.com/?q=2347+Lake+Park+Dr,+Albany,+GA+31707,+USA&ftid=0x88f27c3d0c1f3a81:0xa721f37ef039542b",Clothing Boutique
+bo_zzjftrt2kn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714721854000,True,True,r_akixzi0qzb,31026,The Shoppe Hilton Hotel,,Gift Store
+bo_st5656v5dt,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714674394000,False,False,r_mz84fyk5bc,23061,busy bees kids salon,http://www.busybeeskidssalon.com/,Spa or Beauty Store
+bo_cze7meep4f,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714491332000,False,False,r_zp8dhxwpoh,10973,Elegant Child,http://elegantchildboca.com/,
+bo_ts6z9cw7y9,REPLACE_DAMAGED_OR_MISSING_ITEMS,SHIPPED,FULFILLED,MARKETPLACE,1714353751000,True,True,r_3p7x4qjnhb,1153,FLYNN & COMPANY BARBERSHOP (Carsons Barber Shop),http://Flynnbarbershop.com,Spa or Beauty Store
+bo_cdgzxptps4,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1714329194000,False,False,r_zp8dhxwpoh,6339,Elegant Child,http://elegantchildboca.com/,
+bo_ac2mawamv7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714008158000,False,False,r_zxhdvc6hws,15129,Hair Avenue,,Spa or Beauty Store
+bo_bjgrmwgfyc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713897699000,True,True,r_ejzbsny4qo,9239,The Big Bamboo,http://www.shopthebigbamboo.com/,
+bo_z58tvwdvr7,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713803408000,True,True,r_7590b518,40500,funky monkey toys,http://Www.funkymonkey.toys,Kids or Toy Store
 bo_jkvyy6mrf6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713803108000,False,False,r_8yfbfaysam,12439,Sugar Rush Candy and Gift Boutique,https://www.sugarrushnj.com/,Kids or Toy Store
 bo_x7j34wjmar,REPLACE_DAMAGED_OR_MISSING_ITEMS,SHIPPED,FULFILLED,MARKETPLACE,1713569424000,True,True,r_zp8dhxwpoh,3223,Elegant Child,http://elegantchildboca.com/,
-bo_cnqhezufty,REPLACE_DAMAGED_OR_MISSING_ITEMS,PROCESSING,FULFILLED,MARKETPLACE,1713469047000,False,False,r_ba6t1rqqx3,9460,Happyology,,
+bo_cnqhezufty,REPLACE_DAMAGED_OR_MISSING_ITEMS,SHIPPED,FULFILLED,MARKETPLACE,1713469047000,False,False,r_ba6t1rqqx3,9460,Happyology,,
 bo_n85rpjze64,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713366503000,True,True,r_7omi2chu79,49419,Tugboat & the bird,http://www.tugboatandthebird.com/,
 bo_8pvybwz6yr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713363503000,True,True,r_3p7x4qjnhb,24317,FLYNN & COMPANY BARBERSHOP (Carsons Barber Shop),http://Flynnbarbershop.com,Spa or Beauty Store
 bo_3pscrczshd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713326034000,True,True,r_ehsp040q5e,10951,Rhinestone Rifles Boutique,https://maps.google.com/?cid=14915201023977074208,

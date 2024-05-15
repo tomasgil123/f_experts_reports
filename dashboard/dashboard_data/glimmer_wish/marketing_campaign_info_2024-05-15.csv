@@ -1,5 +1,8 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_7ackdsf6b4,Abandoned Cart | General | 4.28.24,ONE_TIME,COMPLETED,1714356034000.0,4.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0
+bmc_xnw4k4ybmk,Ordered | Review Request | May | 05.14.24,ONE_TIME,COMPLETED,1715702427000.0,71.0,52.0,14.0,0.0,0.0,0.0,0.0,0.0
+bmc_rtwdphhd3m,All | Welcome | May | 05.13.24,ONE_TIME,COMPLETED,1715639422000.0,595.0,474.0,180.0,4.0,0.0,0.0,0.0,0.0
+bmc_7h38xbq6z3,All | Shampoo/Conditioner | May | Resend,ONE_TIME,COMPLETED,1715094951000.0,80.0,54.0,6.0,0.0,0.0,0.0,0.0,0.0
+bmc_7ackdsf6b4,Abandoned Cart | General | 4.28.24,ONE_TIME,COMPLETED,1714356034000.0,4.0,3.0,1.0,0.0,1.0,240.0,0.0,0.0
 bmc_cdacxa9c2b,All | Shampoo/Conditioner | 4.22.24,ONE_TIME,COMPLETED,1713924025000.0,220.0,179.0,96.0,1.0,1.0,186.0,0.0,0.0
 bmc_k449ey6wxu,Last Eng. 60 days | Detangling Brushes/Mists | 4.18.24,ONE_TIME,COMPLETED,1713518149000.0,62.0,48.0,22.0,0.0,1.0,186.0,0.0,0.0
 bmc_q7hjpe3pw9,Untitled campaign 3,ONE_TIME,DRAFT,,,,,,,,,

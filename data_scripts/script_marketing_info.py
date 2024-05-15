@@ -25,11 +25,11 @@ from cookie import (cookie_token)
 # brand_token = "b_vsxe65ezpv"
 # brand_name = "glimmer_wish"
 
-brand_token = "b_vllag6pj"
-brand_name = "trek_light"
+# brand_token = "b_vllag6pj"
+# brand_name = "trek_light"
 
-# brand_token = "b_arceup81f2"
-# brand_name = "latico_leathers"
+brand_token = "b_arceup81f2"
+brand_name = "latico_leathers"
 
 # brand_token = "b_4vbanx86sk"
 # brand_name = "little_hometown"

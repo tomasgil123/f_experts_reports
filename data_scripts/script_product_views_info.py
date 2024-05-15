@@ -13,8 +13,8 @@ from cookie import (cookie_token)
 # brand_name = "lothantique"
 # brand_name = "shinesty"
 # brand_name = "glimmer_wish"
-brand_name = "trek_light"
-# brand_name = "latico_leathers"
+# brand_name = "trek_light"
+brand_name = "latico_leathers"
 # brand_name = "little_hometown"
 # brand_name = "be_huppy"
 

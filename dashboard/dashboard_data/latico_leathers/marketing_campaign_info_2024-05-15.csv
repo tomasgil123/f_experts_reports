@@ -1,6 +1,9 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_vz8rb5nzwu,Foil Feature,ONE_TIME,RUNNING,,,,,,,,,
-bmc_2v5cdajbqw,New Mother's Day Gift! Introducing Beck + Bondi <3,ONE_TIME,COMPLETED,1713099600000.0,3828.0,3245.0,1438.0,8.0,0.0,0.0,0.0,0.0
+bmc_8d4hagd9m3,You forgot to checkout your Latico Leathers cart! 4.25,ONE_TIME,COMPLETED,1714222800000.0,25.0,15.0,11.0,0.0,2.0,2042.0,0.0,0.0
+bmc_xf38bhvu4y,Mind Giving Us a Quick Review? (Copy 1),ONE_TIME,COMPLETED,1713906000000.0,105.0,59.0,41.0,0.0,4.0,3207.0,0.0,0.0
+bmc_3nd39z362a,This Ain't Texas ♪ ♪,ONE_TIME,COMPLETED,1713531600000.0,3832.0,3170.0,1277.0,10.0,11.0,9246.0,2.0,1819.0
+bmc_vz8rb5nzwu,Summer Shimmer,ONE_TIME,COMPLETED,1715173200000.0,3826.0,3050.0,1275.0,23.0,14.0,9209.0,1.0,317.0
+bmc_2v5cdajbqw,New Mother's Day Gift! Introducing Beck + Bondi <3,ONE_TIME,COMPLETED,1713099600000.0,3828.0,3245.0,1552.0,11.0,10.0,6285.0,0.0,0.0
 bmc_ceux8533nh,Got Hats?,ONE_TIME,DRAFT,,,,,,,,,
 bmc_7xnpf8pdhz,You forgot to checkout your Latico Leathers cart! 3.27,ONE_TIME,COMPLETED,1711630800000.0,21.0,12.0,5.0,0.0,0.0,0.0,0.0,0.0
 bmc_cfmnk83z4f,Mind Giving Us a Quick Review?,ONE_TIME,COMPLETED,1710334800000.0,97.0,71.0,45.0,2.0,7.0,4631.0,0.0,0.0

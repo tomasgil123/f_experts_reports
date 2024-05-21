@@ -27,14 +27,17 @@ from cookie import (cookie_token)
 # brand_token = "b_9j68t72ipo"
 # brand_name = "true_classic"
 
-brand_token = "b_arceup81f2"
-brand_name = "latico_leathers"
+# brand_token = "b_arceup81f2"
+# brand_name = "latico_leathers"
 
 # brand_token = "b_4vbanx86sk"
 # brand_name = "little_hometown"
 
 # brand_token = "b_f65wemh3b7"
 # brand_name = "be_huppy"
+
+brand_token = "b_2j1b52vu"
+brand_name = "grab2art"
 
 # we check if there is data already downloaded
 orders_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/orders_from_api_*.csv")

@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import numpy as np
 
-from dashboard.utils import get_leads_for_brand
+from dashboard.utils import get_data_from_google_spreadsheet
 
 def lifetime_performance_metrics(df, day_data_was_obtained):
     df = df.copy()
@@ -804,7 +804,25 @@ def avg_order_value_by_store_type(df, day_data_was_obtained):
     st.pyplot(fig)
 
 def get_cold_outreach_lead_sales(df_orders, selected_client):
-    df_leads = get_leads_for_brand()
+    # The ID of the spreadsheet to update.
+    spreadsheet_id = '1lMKl4HHkPZDMDgFnQsQ2SGLtbiOo-4sOQWXWr_XcJa0'  # Please set the Spreadsheet ID.
+    range_name = 'ID'  # Example sheet name
+    # lost & found
+    df_leads = get_data_from_google_spreadsheet(spreadsheet_id, range_name)
+
+    range_name_thumbnail = 'Thumbnail'  # Example sheet name
+
+    df_leads_thumbnail = get_data_from_google_spreadsheet(spreadsheet_id, range_name_thumbnail)
+
+    # we keep only column "Lead" nad "name"
+    df_leads = df_leads[['Lead', 'name']]
+    df_leads_thumbnail = df_leads_thumbnail[['By Brand', 'Name']]
+    # we change name columns to Lead and name
+    df_leads_thumbnail.rename(columns={"By Brand": "Lead", "Name": "name"}, inplace=True)
+
+    df_leads = pd.concat([df_leads, df_leads_thumbnail])
+    # we drop duplicates
+    df_leads.drop_duplicates(subset=['name'], inplace=True)
 
     if selected_client == "Caravan":
         selected_client = "Caravan Home"
@@ -814,23 +832,23 @@ def get_cold_outreach_lead_sales(df_orders, selected_client):
         st.write("No leads found for this client")
         return
     
-    df_leads_selected_client = df_leads[df_leads['By Brand'] == selected_client]
+    df_leads_selected_client = df_leads[df_leads['Lead'] == selected_client]
 
     # convert column "Name" to lower case
-    df_leads_selected_client['Name'] = df_leads_selected_client['Name'].str.lower()
+    df_leads_selected_client['name'] = df_leads_selected_client['name'].str.lower()
 
     # convert column "retailer_names" to lower case
     df_orders['retailer_names'] = df_orders['retailer_names'].str.lower()
 
     # we do a left join of leads and orders using column "Name" and "retailer_names"
-    df_leads_orders = pd.merge(df_leads_selected_client, df_orders, left_on='Name', right_on='retailer_names', how='left')
+    df_leads_orders = pd.merge(df_leads_selected_client, df_orders, left_on='name', right_on='retailer_names', how='left')
 
     # filter rows where "retailer_names" is not null
     df_leads_orders = df_leads_orders[df_leads_orders['retailer_names'].notnull()]
 
     # just display columns "Name" and "brand_contacted_at_values"
 
-    df_leads_orders_summary = df_leads_orders[['Name', 'brand_contacted_at_values', "payout_total_values"]]
+    df_leads_orders_summary = df_leads_orders[['name', 'brand_contacted_at_values', "payout_total_values"]]
 
     # change "brand_contacted_at_values" to "Date of purchase"
     df_leads_orders_summary.rename(columns={"brand_contacted_at_values": "Date of purchase", "payout_total_values": "Amount"}, inplace=True)

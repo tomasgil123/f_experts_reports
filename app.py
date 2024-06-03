@@ -125,7 +125,8 @@ if st.session_state.get("is_admin", False):
 
     files = get_all_files_in_directory(f"./dashboard/dashboard_data/{client_option_selected}")
 
-    report_options = []
+    report_options = ['SEO']
+    #report_options = []
 
     if any("marketing_campaign_info" in file for file in files):
         report_options.append("Email marketing analytics")
@@ -191,8 +192,10 @@ else:
         report_options.append("Custom Competitors analytics")
 
     default_report_option = report_options[0]
-
-    st.sidebar.title(convert_string(st.session_state['user_name']))
+    if st.session_state['user_name'] == 'latico_leathers':
+        st.sidebar.title("----- -----")
+    else:
+        st.sidebar.title(convert_string(st.session_state['user_name']))
 
     # we check starting_date of the brand
     starting_date = df_brands_reports[df_brands_reports["brand"] == st.session_state["user_name"]]["starting_date"].values[0]

@@ -1,5 +1,5 @@
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 import pandas as pd
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
@@ -91,7 +91,7 @@ def save_user_log_report(client_name, selected_report):
 
     print(response)
 
-def get_leads_for_brand():
+def get_data_from_google_spreadsheet(spreadsheet_id, range_name):
 
     creds_dict = {
         "type": "service_account",
@@ -109,14 +109,14 @@ def get_leads_for_brand():
     creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
     service = build('sheets', 'v4', credentials=creds)
 
-    # The ID of the spreadsheet to update.
-    spreadsheet_id = '1lMKl4HHkPZDMDgFnQsQ2SGLtbiOo-4sOQWXWr_XcJa0'  # Please set the Spreadsheet ID.
-    range_name = 'Thumbnail'  # Example sheet name
-
     # Use the Sheets API to get the data
     sheet = service.spreadsheets()
     result = sheet.values().get(spreadsheetId=spreadsheet_id, range=range_name).execute()
     values = result.get('values', [])
+
+    print("values", len(values[0]))
+    print(values[0])
+    print("values 1", len(values[1]))
 
     # Check if data was retrieved successfully
     if not values:
@@ -125,3 +125,11 @@ def get_leads_for_brand():
         # Create a DataFrame
         df = pd.DataFrame(values[1:], columns=values[0])
         return df
+    
+
+def snake_to_title(snake_str):
+    # Split the string by underscores
+    components = snake_str.split('_')
+    # Capitalize the first letter of each component and join them with a space
+    title_str = ' '.join(x.capitalize() for x in components)
+    return title_str

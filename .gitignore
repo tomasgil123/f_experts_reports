@@ -3,3 +3,5 @@ report_images
 pdf_reports
 secrets.toml
 /data_scripts/leads/
+.env
+/data_scripts_seo/data/

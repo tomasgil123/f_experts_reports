@@ -1,17 +1,30 @@
 
-import pandas as pd
-from get_customers_crm import get_customer_crm
+from get_customers_crm import get_customers
 from cookie import (cookie_token)
 
+# brand_token = "b_vllag6pj"
+# brand_token = "b_9884o1r7ea"
+# brand_name = "shinesty"
+
+# brand_token = "b_cad0ccd3"
+# brand_name = "Couleur_nature"
+
+# brand_token = "b_bdz7u5jj94"
+# brand_name = "caravan"
+
+# brand_token = "b_cmvrf26fxf"
+# brand_name = "bon_artis"
+
+# brand_token = "b_9j68t72ipo"
+# brand_name = "true_classic"
+
+# brand_token = "b_vsxe65ezpv"
+# brand_name = "glimmer_wish"
+
 brand_token = "b_vllag6pj"
+brand_name = "trek_light"
 
-data = get_customer_crm(brand_token, cookie=cookie_token, page_number=30)
-
-# # download to csv
-
-
-df = pd.DataFrame(data)
-df.to_csv("customer_data.csv", index=False)
+get_customers(brand_token, cookie=cookie_token, page_number=1, brand_name=brand_name)
 
 # import os
 

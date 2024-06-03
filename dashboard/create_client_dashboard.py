@@ -43,7 +43,10 @@ from dashboard.order_analytics_charts import (lifetime_performance_metrics, sale
 from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis_last_30_days, 
                                               get_email_marketing_kpis_by_month, sales_by_month)
 
-from dashboard.utils import (extract_date_from_filename, read_md_file, get_text_between_comments, save_user_log_report)
+from dashboard.utils import (extract_date_from_filename, read_md_file, get_text_between_comments,
+                              save_user_log_report, get_data_from_google_spreadsheet, snake_to_title)
+
+from dashboard.seo_analytics_charts import (get_brands_with_most_products_in_top_100, get_evolution_rankings_products_given_query)
 
 # Dashboard creation
 from dashboard.create_competitors_dashboard import (create_competitors_dashboard, create_custom_competitors_dashboard)
@@ -56,6 +59,27 @@ def create_dashboard(selected_client, selected_report, is_admin):
         save_user_log_report(selected_client, selected_report)
 
     markdown_text = read_md_file(f"./dashboard/dashboard_text/{selected_client}/texts.md")
+
+    if selected_report == "SEO":
+        st.markdown("""
+                # SEO
+                ### SEO performance review
+                """)
+        spreadsheet_id = '1yN0KXGaGTBIjx9VwRAc-ce9WS6dBgwSel1Jf7qWiInA'  # Please set the Spreadsheet ID.
+        range_name = 'Main'  # Example sheet name
+        df_queries = get_data_from_google_spreadsheet(spreadsheet_id, range_name)
+
+        df_queries_brand = df_queries[df_queries['Brand'] == snake_to_title(selected_client)]
+
+        query_selected = st.selectbox('Select a query', df_queries_brand['Query'].unique())
+
+        # we load seo_rankings csv file data
+        df_seo = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/seo_rankings.csv")
+        df_seo_top_10 = pd.read_csv(f"./dashboard/dashboard_data/{selected_client}/seo_rankings_top_10.csv")
+
+        get_evolution_rankings_products_given_query(df=df_seo, query=query_selected)
+
+        get_evolution_rankings_products_given_query(df=df_seo_top_10, query=query_selected)
     
     if selected_report == "Email marketing analytics":
 

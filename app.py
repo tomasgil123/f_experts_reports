@@ -84,7 +84,7 @@ def check_password():
         return True
 
     # Show inputs for username + password.
-    st.title("Login to FaireExperts analytics dashboard")
+    st.title("Login to Brand Caffeine analytics dashboard")
     login_form()
     if "password_correct" in st.session_state:
         st.error("😕 User not known or password incorrect")

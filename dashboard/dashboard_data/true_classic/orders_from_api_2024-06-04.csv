@@ -1,0 +1,48 @@
+tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
+bo_h367kxbj4s,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1717456628000,True,True,r_6csbesu3,18520,Village Child,http://www.shopvillagechild.com,
+bo_67gqnbsz2x,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1717193840000,True,True,r_tcprrk64jb,12989,e-jae's boutique,http://www.ejaesboutique.com,Clothing Boutique
+bo_ubetm78mhb,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1717177940000,True,True,r_j7373ybfxd,39294,Specialty Goods,,Gift Store
+bo_8qv78nkeq6,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1716837703000,False,False,r_3pc6crr12h,150949,La De Da Inc,http://www.ladeda.net,Clothing Boutique
+bo_ss2x4dy35w,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1716638313000,False,False,r_3zpvni7irl,17199,A.L.C. Italian Grocery,http://alcitaliangrocery.com/,Grocery or Liquor Store
+bo_m2ehdfa8h9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1716570550000,False,False,r_6zr4amusw3,41169,PIETRA,http://www.pietrastudio.com/,
+bo_vuthm94hhm,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1716567850000,True,True,r_gt5xmttrvz,36014,Fitness Impact Training,http://www.fitcenterpensacola.com/,Fitness or Yoga Studio
+bo_5rxmbtv6cv,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1716567550000,True,True,r_tvstcv72rh,16184,24 Golf,https://the24golf.com/,
+bo_cychuvbg57,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1716326575000,True,True,r_6zr4amusw3,34480,PIETRA,http://www.pietrastudio.com/,
+bo_yayy7dg6pf,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1716138353000,True,True,r_tfjuyru677,54400,Ever + Wilde Boutique,http://www.everwildeboutique.com,Kids or Toy Store
+bo_tscks8476b,NEW_ORDER,CANCELED,CANCELED,ELEVATE,1715955890000,True,True,r_kppqxb3y2t,14774,Future History Management,"http://sleep-token.com,casketsband.com,holdingabsence.com,invisionsofficial.co.uk,thornhill.world",Clothing Boutique
+bo_eyd6qfpsse,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715901877000,True,False,r_7qxcerifer,130075,Timber & Tonic,http://www.timberandtonic.com,Clothing Boutique
+bo_pg4dzd5m58,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715874026000,True,True,r_7qxcerifer,118479,Timber & Tonic,http://www.timberandtonic.com,Clothing Boutique
+bo_sfqv3ek5hg,NEW_ORDER,CANCELED,CANCELED,ELEVATE,1715847626000,True,True,r_tfjuyru677,43124,Ever + Wilde Boutique,http://www.everwildeboutique.com,Kids or Toy Store
+bo_uw94p65p83,REPLACE_DAMAGED_OR_MISSING_ITEMS,SHIPPED,FULFILLED,MARKETPLACE,1715798449000,True,True,r_1e0yki83cg,111093,Southern Cove,http://www.shopwhatadeal.com/,Gift Store
+bo_xvs79bcvmp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715588285000,True,True,r_nhm7k8rpen,608097,Rust & Refined,http://Rustandrefined.com,Clothing Boutique
+bo_b2atscphzd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715541785000,True,True,r_3pc6crr12h,16691,La De Da Inc,http://www.ladeda.net,Clothing Boutique
+bo_praujwk6ke,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715046303000,False,False,r_vxuqs9uxev,86242,At Ease Clothing and Co.,http://www.ateaseclothingandco.com,
+bo_mdjn86mf2r,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714883583000,False,False,r_g9vstpjp3f,26562,The Swell Co.,http://www.theswellco.com,
+bo_v4s8gxrgw4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714837683000,True,True,r_ppng4vc72m,15853,Tomasso Black,http://tomassoblack.com/,Clothing Boutique
+bo_4zk5z7h5da,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714684954000,True,True,r_1e0yki83cg,133578,Southern Cove,http://www.shopwhatadeal.com/,Gift Store
+bo_2jh89cshq4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714483832000,True,True,r_vxuqs9uxev,13852,At Ease Clothing and Co.,http://www.ateaseclothingandco.com,
+bo_cd48t7c5tb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714268594000,True,True,r_3zpvni7irl,43573,A.L.C. Italian Grocery,http://alcitaliangrocery.com/,Grocery or Liquor Store
+bo_bzv8kmamdp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714266494000,True,True,r_dx51g6h61y,14450,E.M.,http://www.everymanshop.com/,Clothing Boutique
+bo_rtjut6e25c,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714153565000,True,True,r_66wvgrz6de,30131,Dawn + Dusk Outpost,,General or Mercantile Store
+bo_6y52pk58zd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714120445000,True,True,r_m6agmwugz4,15888,BVOS,http://www.bvos.org/,Fitness or Yoga Studio
+bo_7trd5j7ddr,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1714072917000,True,True,r_iaxve2kdg9,1598,Miners & Monroe,http://www.minersandmonroe.com,Clothing Boutique
+bo_daa4n44qvv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713892299000,True,True,r_d5mqubh73e,31116,Northeast Massage Therapy,https://www.northeastmt.com/,
+bo_hzmt8gmv47,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713565808000,False,False,r_7yvpwfqpjx,24768,The Well Clinic,http://thewellclinic.co/,
+bo_cwj654h5jn,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713476183000,True,True,r_h9b8j5pnh9,30888,Modern Day Sniper Shop,https://www.moderndaysniper.shop/,
+bo_3zq9tz58eg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713330234000,True,True,r_iaxve2kdg9,130441,Miners & Monroe,http://www.minersandmonroe.com,Clothing Boutique
+bo_cbsqdndju5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712948557000,False,False,r_g9vstpjp3f,35758,The Swell Co.,http://www.theswellco.com,
+bo_n67jv5uahj,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1712259582000,True,True,r_g9vstpjp3f,8965,The Swell Co.,http://www.theswellco.com,
+bo_2d2ha9agcn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712163911000,True,True,r_9rzntzbgvo,25448,Project Angels Boutique,https://projectangelsboutique.commentsold.com/,
+bo_v23asuksyh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711835296000,True,True,r_c5o2m62a,26948,ReHome Stores,http://www.simplyrehome.com/,Home Decor Store
+bo_s5gqjdx6mj,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1711642580000,True,True,r_7yvpwfqpjx,31090,The Well Clinic,http://thewellclinic.co/,
+bo_wvsbsn5q8u,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1711227614000,True,True,r_snw6jngyed,726,Sage River Market,https://www.facebook.com/Sagerivermarket/,Clothing Boutique
+bo_e6a43c6zhf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710995917000,False,False,r_g9vstpjp3f,76515,The Swell Co.,http://www.theswellco.com,
+bo_bcgq5zu5zh,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1710845405000,True,True,r_gub394mwf5,38315,Massage Green SPA,https://massagegreenspa.com/?SPA=JAX-Intracoastal,Spa or Beauty Store
+bo_m488yabfyc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710813005000,False,False,r_e1wmiswc,22911,The  Leesburg Country Store,https://www.facebook.com/The-Leesburg-Country-Store-1583151251939349,Clothing Boutique
+bo_vdrhg3pxsc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710542912000,True,True,r_vkd7y7ftba,26157,Elite Sports Nutrition,https://elitesportsnutritionroselle.com/,Clothing Boutique
+bo_gb7cga798u,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710346017000,True,True,r_10v7cah8gc,32202,Lock 31 Outfitters,http://www.lock31.com/,Clothing Boutique
+bo_wubeg79b26,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710286617000,True,True,r_snw6jngyed,40984,Sage River Market,https://www.facebook.com/Sagerivermarket/,Clothing Boutique
+bo_r2cutmndu4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710132127000,True,True,r_g9vstpjp3f,87460,The Swell Co.,http://www.theswellco.com,
+bo_u5x4qws4ct,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1710104227000,True,True,r_g9vstpjp3f,90503,The Swell Co.,http://www.theswellco.com,
+bo_7wpmasgxbd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709965327000,True,True,r_e1wmiswc,26827,The  Leesburg Country Store,https://www.facebook.com/The-Leesburg-Country-Store-1583151251939349,Clothing Boutique
+bo_ubcm38y799,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709575616000,True,True,r_850g8izm54,202856,Bronco Off Roadeo,http://www.broncooffroadeo.com/,Gift Store

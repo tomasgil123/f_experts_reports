@@ -168,6 +168,14 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         data = pd.read_csv(product_file[0])
 
+        def preprocess_date(date):
+            if ' ' in date:
+                return datetime.strptime(date, '%Y-%m-%d %H:%M:%S').strftime('%Y/%m/%d')
+            else:
+                return datetime.strptime(date, '%Y-%m-%d').strftime('%Y/%m/%d')
+
+        data['date'] = data['date'].apply(preprocess_date)
+
         data['date'] = pd.to_datetime(data['date'])
 
         st.markdown(f"# Product Analytics")

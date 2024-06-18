@@ -180,13 +180,14 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         st.markdown(f"# Product Analytics")
 
-        generate_page_views_chart_by_category_last_12_months(data, date_last_update)
-
-        generate_page_views_evolution_last_12_months_by_category(data)
-
         page_views_by_category_analysis = get_text_between_comments(markdown_text, "<!-- Product: page views by category last 12 months -->", "<!")
         if page_views_by_category_analysis is not None:
             st.markdown(page_views_by_category_analysis, unsafe_allow_html=True)
+
+        generate_page_views_chart_by_category_last_12_months(data, date_last_update)
+
+        generate_page_views_evolution_last_12_months_by_category(data)
+        
 
         # generate_page_views_chart_by_product_last_12_months(data, date_last_update)
             

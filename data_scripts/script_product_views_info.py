@@ -5,25 +5,36 @@ import glob
 from get_product_views_info import (get_page_views_for_all_months_since_date)
 from cookie import (cookie_token)
 
-
-# brand_name = "true_classic"
 # brand_name = "couleur_nature"
 # brand_name = "caravan"
 # brand_name = "bon_artis"
 # brand_name = "lothantique"
-# brand_name = "shinesty"
 # brand_name = "glimmer_wish"
+# brand_name = "little_hometown"
+
+# ==============
+
+# brand_name = "be_huppy"
+# brand_name = "grab2art"
+# brand_name = "true_classic"
+brand_name = "shinesty"
 # brand_name = "trek_light"
 # brand_name = "latico_leathers"
-# brand_name = "little_hometown"
-brand_name = "be_huppy"
-# brand_name = "grab2art"
+# brand_name = "cheese_brothers"
 
 product_views_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/page_views_info_*.csv")
 #product_views_file= []
 
 if len(product_views_file) > 0:
     df_current_product_views = pd.read_csv(product_views_file[0])
+
+    def preprocess_date(date):
+            if ' ' in date:
+                return datetime.strptime(date, '%Y-%m-%d %H:%M:%S').strftime('%Y/%m/%d')
+            else:
+                return datetime.strptime(date, '%Y-%m-%d').strftime('%Y/%m/%d')
+
+    df_current_product_views['date'] = df_current_product_views['date'].apply(preprocess_date)
 
     # Parse the date column
     df_current_product_views['date'] = pd.to_datetime(df_current_product_views['date'])

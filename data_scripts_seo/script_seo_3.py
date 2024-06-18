@@ -15,7 +15,7 @@ brands = [
 #    "Glimmer Wish",
    "Latico Leathers",
 #   "Little Hometown",
-#    "Lothantique",
+    "Lothantique",
 #    "Shinesty",
 #    "Trek Light",
 #    "True Classic"

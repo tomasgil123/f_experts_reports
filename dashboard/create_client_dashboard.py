@@ -44,7 +44,7 @@ from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis
                                               get_email_marketing_kpis_by_month, sales_by_month)
 
 from dashboard.utils import (extract_date_from_filename, read_md_file, get_text_between_comments,
-                              save_user_log_report, get_data_from_google_spreadsheet, snake_to_title)
+                              save_user_log_report, get_data_from_google_spreadsheet, snake_to_title, get_orders_teleties, get_orders_items_teleties)
 
 from dashboard.seo_analytics_charts import (get_brands_with_most_products_in_top_100, get_evolution_rankings_products_given_query)
 
@@ -106,9 +106,15 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         product_file_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
 
-        date_last_update_orders = extract_date_from_filename(product_file_orders[0])
+        
 
-        df_orders = pd.read_csv(product_file_orders[0])
+        if selected_client == 'teleties':
+            df_orders = get_orders_teleties()
+            date_last_update_orders = "2024-06-20"
+            date_last_update_orders = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
+        else:
+            df_orders = pd.read_csv(product_file_orders[0])
+            date_last_update_orders = extract_date_from_filename(product_file_orders[0])
 
         df_orders['payout_total_values'] = df_orders['payout_total_values']/100
 
@@ -152,7 +158,11 @@ def create_dashboard(selected_client, selected_report, is_admin):
                 st.markdown(type_store_campaigns, unsafe_allow_html=True)
             
             product_file_items_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/items_order_from_api_*.csv")
-            df_order_items = pd.read_csv(product_file_items_orders[0])
+
+            if selected_client == 'teleties':
+                df_order_items = get_orders_items_teleties()
+            else:
+                df_order_items = pd.read_csv(product_file_items_orders[0])
 
             product_file_items_page_views = glob.glob(f"./dashboard/dashboard_data/{selected_client}/page_views_info_*.csv")
             df_page_views = pd.read_csv(product_file_items_page_views[0])
@@ -214,7 +224,11 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
 
-        date_last_update_orders = extract_date_from_filename(product_file[0])
+        if selected_client == 'teleties':
+            date_last_update_orders = "2024-06-20"
+            date_last_update_orders = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
+        else:
+            date_last_update_orders = extract_date_from_filename(product_file[0])
 
         date_last_update = extract_date_from_filename(product_file[0])
 
@@ -236,7 +250,11 @@ def create_dashboard(selected_client, selected_report, is_admin):
         df = df[(df['creation_reasons'] == 'NEW_ORDER') & ((df['states'] == 'SHIPPED') | (df['states'] == 'DELIVERED'))]
 
         product_file_items_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/items_order_from_api_*.csv")
-        df_order_items = pd.read_csv(product_file_items_orders[0])
+        
+        if selected_client == 'teleties':
+            df_orders_items = get_orders_items_teleties()
+        else:
+            df_order_items = pd.read_csv(product_file_items_orders[0])
 
         product_file_page_views = glob.glob(f"./dashboard/dashboard_data/{selected_client}/page_views_info_*.csv")
         df_page_views = pd.read_csv(product_file_page_views[0])

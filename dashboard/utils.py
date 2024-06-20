@@ -160,6 +160,9 @@ def get_orders_items_teleties():
 
     df_orders = download_csv_from_cloud_storage(bucket_name, source_blob_name)
 
+    print("=============================")
+    print(len(df_orders))
+
     # df_marketing_info is None we return an empty dataframe
     if df_orders is None:
         return pd.DataFrame()

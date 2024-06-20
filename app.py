@@ -134,11 +134,8 @@ if st.session_state.get("is_admin", False):
     if any("page_views_info" in file for file in files):
         report_options.append("Product analytics")
 
-    if any("orders_from_api" in file for file in files):
-        report_options.append("Order analytics")
-
-    if st.session_state["user_name"] == 'teleties':
-         report_options.append("Order analytics")
+    #if any("orders_from_api" in file for file in files):
+    report_options.append("Order analytics")
 
     if any("competitors_data/product" in file for file in files) and any("competitors_data/reviews" in file for file in files):
         report_options.append("Competitors analytics")

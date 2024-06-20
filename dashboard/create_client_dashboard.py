@@ -225,21 +225,22 @@ def create_dashboard(selected_client, selected_report, is_admin):
         product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
 
         if selected_client == 'teleties':
+            df = get_orders_teleties()
             date_last_update_orders = "2024-06-20"
-            date_last_update_orders = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
+            date_last_update = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
+            st.write(f"Data was last updated at: {date_last_update.date()}")
         else:
-            date_last_update_orders = extract_date_from_filename(product_file[0])
+            date_last_update = extract_date_from_filename(product_file[0])
+            st.write(f"Data was last updated at: {date_last_update.date()}")
+            df = pd.read_csv(product_file[0])
 
-        date_last_update = extract_date_from_filename(product_file[0])
-
-        st.write(f"Data was last updated at: {date_last_update.date()}")
+        
 
         st.markdown("""
                     # Order Analytics
                     ### Total sales, average order value and orders
                     Only orders with status 'Delivered' or 'Shipped' and type 'New Order' were considered.
                     """)
-        df = pd.read_csv(product_file[0])
 
         df['payout_total_values'] = df['payout_total_values']/100
 
@@ -252,7 +253,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
         product_file_items_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/items_order_from_api_*.csv")
         
         if selected_client == 'teleties':
-            df_orders_items = get_orders_items_teleties()
+            df_order_items = get_orders_items_teleties()
         else:
             df_order_items = pd.read_csv(product_file_items_orders[0])
 

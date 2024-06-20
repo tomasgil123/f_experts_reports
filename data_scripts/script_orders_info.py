@@ -32,8 +32,8 @@ from cookie import (cookie_token)
 # brand_token = "b_2j1b52vu"
 # brand_name = "grab2art"
 
-brand_token = "b_9884o1r7ea"
-brand_name = "shinesty"
+# brand_token = "b_9884o1r7ea"
+# brand_name = "shinesty"
 
 # brand_token = "b_vllag6pj"
 # brand_name = "trek_light"
@@ -43,6 +43,9 @@ brand_name = "shinesty"
 
 # brand_token = "b_2dvofcgxz7"
 # brand_name = "cheese_brothers"
+
+brand_token = "b_12tpkawx"
+brand_name = "teleties"
 
 
 

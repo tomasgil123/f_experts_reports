@@ -35,8 +35,8 @@ from cookie import (cookie_token)
 # brand_token = "b_9j68t72ipo"
 # brand_name = "true_classic"
 
-brand_token = "b_9884o1r7ea"
-brand_name = "shinesty"
+# brand_token = "b_9884o1r7ea"
+# brand_name = "shinesty"
 
 # brand_token = "b_f65wemh3b7"
 # brand_name = "be_huppy"
@@ -46,6 +46,9 @@ brand_name = "shinesty"
 
 # brand_token = "b_2dvofcgxz7"
 # brand_name = "cheese_brothers"
+
+brand_token = "b_12tpkawx"
+brand_name = "teleties"
 
 # # we check if there is data already downloaded
 product_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/marketing_campaign_info_*.csv")

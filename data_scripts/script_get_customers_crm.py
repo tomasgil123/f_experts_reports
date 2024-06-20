@@ -21,8 +21,11 @@ from cookie import (cookie_token)
 # brand_token = "b_vsxe65ezpv"
 # brand_name = "glimmer_wish"
 
-brand_token = "b_vllag6pj"
-brand_name = "trek_light"
+# brand_token = "b_vllag6pj"
+# brand_name = "trek_light"
+
+brand_token = "b_12tpkawx"
+brand_name = "teleties"
 
 get_customers(brand_token, cookie=cookie_token, page_number=1, brand_name=brand_name)
 

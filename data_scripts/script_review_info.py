@@ -16,7 +16,8 @@ df_brands = pd.read_csv('brands_competitors.csv')
 # brand_owners = ["Little Hometown"]
 # brand_owners = ["Be Huppy"]
 # brand_owners = ["grab2art"]
-brand_owners = ['Cheese Brothers']
+# brand_owners = ['Cheese Brothers']
+brand_owners = ['Teleties']
 
 # we iterate over the brand_owners
 for brand_owner in brand_owners:
@@ -36,7 +37,7 @@ for brand_owner in brand_owners:
         df = pd.DataFrame(reviews_info)
         df['brand'] = brand["name"]
         merged_data = pd.concat([merged_data, df], ignore_index=True)
-        time.sleep(10)
+        time.sleep(20)
 
     # create csv based on the merged data
     merged_data.to_csv(f"../dashboard/dashboard_data/{brand_owners[0].lower().replace(' ', '_')}/competitors_data/reviews.csv", index=False)

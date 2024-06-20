@@ -129,7 +129,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
             st.markdown(reengagement_campaigns, unsafe_allow_html=True)
         
         cumulative_distribution_of_retailers(df_orders, day_data_was_obtained=date_last_update_orders)
-
+        
         sales_by_retailer(df_orders, day_data_was_obtained=date_last_update_orders)
 
         sales_quantiles(df_orders, day_data_was_obtained=date_last_update_orders)
@@ -145,6 +145,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
                         #
                     #### Store type campaigns
                     """)
+            
             
             type_store_campaigns = get_text_between_comments(markdown_text, "<!-- Email marketing: Campaign ideas type store -->", "<!")
             if type_store_campaigns is not None:

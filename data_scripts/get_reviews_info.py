@@ -3,10 +3,19 @@ import time
 
 def get_reviews_data_for_page(brand_token, page_number):
     # Define the API endpoint URL
+    #endpoint_url = f"https://www.faire.com/api/brand/reviews/{brand_token}?page={page_number}&pageSize=30&viewAsRetailer=true"
     endpoint_url = f"https://www.faire.com/api/brand/reviews/{brand_token}?page={page_number}&pageSize=50&viewAsRetailer=true"
+
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'X-Originating-IP': '127.0.0.1',
+        'X-Forwarded-For': '127.0.0.1',
+        'X-Remote-IP': '127.0.0.1',
+        'X-Remote-Addr': '127.0.0.1',
+        'X-Client-IP': '127.0.0.1',
+        'X-Host': '127.0.0.1',
+        'X-Forwarded-Host': '127.0.0.1'
     }
 
     # Initialize lists to store the specific product attributes
@@ -50,7 +59,7 @@ def get_reviews_data_for_page(brand_token, page_number):
                 break  # Successful request, exit the loop
             elif response.status_code == 429:
                 print(f"Rate limit exceeded. Retrying in 30 seconds (Retry {retry_count + 1}/{max_retries})")
-                time.sleep(30)  # Wait for 30 seconds before retrying
+                time.sleep(40)  # Wait for 30 seconds before retrying
                 retry_count += 1
             else:
                 print(f"Request failed with status code {response.status_code}")
@@ -75,6 +84,7 @@ def get_reviews_info(brand_token):
     # we loop over the different pages and get the reviews info
     page_number = 1
     tokens_page, publish_at_values_page, created_at_values_page, titles_page, ratings_page, page_count = get_reviews_data_for_page(brand_token, page_number)
+    time.sleep(20)
     tokens.extend(tokens_page)
     publish_at_values.extend(publish_at_values_page)
     created_at_values.extend(created_at_values_page)
@@ -93,7 +103,7 @@ def get_reviews_info(brand_token):
                 #metrics_data.extend(metrics_data_page)
                 titles.extend(titles_page)
                 ratings.extend(ratings_page)
-                time.sleep(10)  # Sleep for 30 second between requests
+                time.sleep(20)  # Sleep for 30 second between requests
 
     data = {
         "tokens": tokens,

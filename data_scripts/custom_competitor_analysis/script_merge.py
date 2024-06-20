@@ -6,7 +6,8 @@ import glob
 # brand_owner = "Little Hometown"
 # brand_owner = "Be Huppy"
 # brand_owner = "Grab2art"
-brand_owner = "Cheese Brothers"
+# brand_owner = "Cheese Brothers"
+brand_owner = "Teleties"
 
 df_brand_info = pd.read_csv("brand_info.csv")
 
@@ -20,7 +21,7 @@ df_products_info = df_products_info.merge(df_brand_info[["Brand Token", "Brand N
 # we rename "Brand Name" column to "brand"
 df_products_info.rename(columns={"Brand Name": "brand"}, inplace=True)
 
-# we donwload it as a csv
+# we download it as a csv
 #df_products_info.to_csv("products_info.csv", index=False)
 
 # Get the current date in yyyy/mm/dd format

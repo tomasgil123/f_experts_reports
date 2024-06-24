@@ -91,83 +91,94 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         data = pd.read_csv(product_file[0])
 
-        st.markdown("""
-                # Email Marketing Analytics
-                ### Email performance review
-                Last 30 days:
-                """)
+        df_marketing_campaigns_completed = data[data['states'] == 'COMPLETED']
 
-        get_email_marketing_kpis_last_30_days(data, date_last_update)
+        # if dataframe is empty
 
-        get_email_marketing_kpis_by_month(data)
-
-        sales_by_month(data, 'open_based_total_order_value', 'Total Sales Open emails (12 months)', date_last_update)
-        sales_by_month(data, 'click_based_total_order_value', 'Total Sales Click emails (12 months)', date_last_update)
-
-        product_file_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
-
-        
-
-        if selected_client == 'teleties':
-            df_orders = get_orders_teleties()
-            date_last_update_orders = "2024-06-20"
-            date_last_update_orders = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
-        else:
-            df_orders = pd.read_csv(product_file_orders[0])
-            date_last_update_orders = extract_date_from_filename(product_file_orders[0])
-
-        df_orders['payout_total_values'] = df_orders['payout_total_values']/100
-
-        # Convert 'brand_contacted_at_values' to datetime
-        df_orders['brand_contacted_at_values'] = pd.to_datetime(df_orders['brand_contacted_at_values'], unit='ms')
-
-        # Filter orders where creation_reasons is equal to NEW_ORDER
-        df_orders = df_orders[(df_orders['creation_reasons'] == 'NEW_ORDER') & ((df_orders['states'] == 'SHIPPED') | (df_orders['states'] == 'DELIVERED'))]
-
-        st.markdown("""
-                    #
-                ### Campaign ideas
-                #### Re-engagement campaigns
-                """)
-        
-        reengagement_campaigns = get_text_between_comments(markdown_text, "<!-- Email marketing: Campaign ideas -->", "<!")
-        if reengagement_campaigns is not None:
-            st.markdown(reengagement_campaigns, unsafe_allow_html=True)
-        
-        cumulative_distribution_of_retailers(df_orders, day_data_was_obtained=date_last_update_orders)
-        
-        sales_by_retailer(df_orders, day_data_was_obtained=date_last_update_orders)
-
-        sales_quantiles(df_orders, day_data_was_obtained=date_last_update_orders)
-
-        purchase_frequency(df_orders)
-
-        retailers_did_not_reorder(df_orders)
-        
-
-        # dont display this section if client is be_huppy
-        if selected_client != "be_huppy":
+        if df_marketing_campaigns_completed.empty:
             st.markdown("""
-                        #
-                    #### Store type campaigns
+                # Email Marketing Analytics
+                There is no email marketing data available. No email campaigns have been marked as 'completed'.
+                """)
+        else:
+
+            st.markdown("""
+                    # Email Marketing Analytics
+                    ### Email performance review
+                    Last 30 days:
                     """)
+
+            get_email_marketing_kpis_last_30_days(data, date_last_update)
+
+            get_email_marketing_kpis_by_month(data)
+
+            sales_by_month(data, 'open_based_total_order_value', 'Total Sales Open emails (12 months)', date_last_update)
+            sales_by_month(data, 'click_based_total_order_value', 'Total Sales Click emails (12 months)', date_last_update)
+
+            product_file_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
+
             
-            
-            type_store_campaigns = get_text_between_comments(markdown_text, "<!-- Email marketing: Campaign ideas type store -->", "<!")
-            if type_store_campaigns is not None:
-                st.markdown(type_store_campaigns, unsafe_allow_html=True)
-            
-            product_file_items_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/items_order_from_api_*.csv")
 
             if selected_client == 'teleties':
-                df_order_items = get_orders_items_teleties()
+                df_orders = get_orders_teleties()
+                date_last_update_orders = "2024-06-20"
+                date_last_update_orders = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
             else:
-                df_order_items = pd.read_csv(product_file_items_orders[0])
+                df_orders = pd.read_csv(product_file_orders[0])
+                date_last_update_orders = extract_date_from_filename(product_file_orders[0])
 
-            product_file_items_page_views = glob.glob(f"./dashboard/dashboard_data/{selected_client}/page_views_info_*.csv")
-            df_page_views = pd.read_csv(product_file_items_page_views[0])
+            df_orders['payout_total_values'] = df_orders['payout_total_values']/100
 
-            sales_by_store_type(df_orders, df_order_items, df_page_views)
+            # Convert 'brand_contacted_at_values' to datetime
+            df_orders['brand_contacted_at_values'] = pd.to_datetime(df_orders['brand_contacted_at_values'], unit='ms')
+
+            # Filter orders where creation_reasons is equal to NEW_ORDER
+            df_orders = df_orders[(df_orders['creation_reasons'] == 'NEW_ORDER') & ((df_orders['states'] == 'SHIPPED') | (df_orders['states'] == 'DELIVERED'))]
+
+            st.markdown("""
+                        #
+                    ### Campaign ideas
+                    #### Re-engagement campaigns
+                    """)
+            
+            reengagement_campaigns = get_text_between_comments(markdown_text, "<!-- Email marketing: Campaign ideas -->", "<!")
+            if reengagement_campaigns is not None:
+                st.markdown(reengagement_campaigns, unsafe_allow_html=True)
+            
+            cumulative_distribution_of_retailers(df_orders, day_data_was_obtained=date_last_update_orders)
+            
+            sales_by_retailer(df_orders, day_data_was_obtained=date_last_update_orders)
+
+            sales_quantiles(df_orders, day_data_was_obtained=date_last_update_orders)
+
+            purchase_frequency(df_orders)
+
+            retailers_did_not_reorder(df_orders)
+            
+
+            # dont display this section if client is be_huppy
+            if selected_client != "be_huppy":
+                st.markdown("""
+                            #
+                        #### Store type campaigns
+                        """)
+                
+                
+                type_store_campaigns = get_text_between_comments(markdown_text, "<!-- Email marketing: Campaign ideas type store -->", "<!")
+                if type_store_campaigns is not None:
+                    st.markdown(type_store_campaigns, unsafe_allow_html=True)
+                
+                product_file_items_orders = glob.glob(f"./dashboard/dashboard_data/{selected_client}/items_order_from_api_*.csv")
+
+                if selected_client == 'teleties':
+                    df_order_items = get_orders_items_teleties()
+                else:
+                    df_order_items = pd.read_csv(product_file_items_orders[0])
+
+                product_file_items_page_views = glob.glob(f"./dashboard/dashboard_data/{selected_client}/page_views_info_*.csv")
+                df_page_views = pd.read_csv(product_file_items_page_views[0])
+
+                sales_by_store_type(df_orders, df_order_items, df_page_views)
 
     elif selected_report == "Product analytics":
 
@@ -198,23 +209,26 @@ def create_dashboard(selected_client, selected_report, is_admin):
         generate_page_views_chart_by_category_last_12_months(data, date_last_update)
 
         generate_page_views_evolution_last_12_months_by_category(data)
-        
 
         # generate_page_views_chart_by_product_last_12_months(data, date_last_update)
             
         # generates_sales_chart_by_category_last_12_months(data, date_last_update)
 
-        generate_conversion_rate_chart_by_category(data, date_last_update)
+        # if columns sales_count and orders_count sum cero, don't display the following charts
+        if data['sales_count'].sum() != 0 and data['orders_count'].sum() != 0:
 
-        conversion_category_analysis = get_text_between_comments(markdown_text, "<!-- Product: conversion by category -->", "<!")
-        if conversion_category_analysis is not None:
-            st.markdown(conversion_category_analysis, unsafe_allow_html=True)
+            generate_conversion_rate_chart_by_category(data, date_last_update)
 
-        generate_pageviews_orders_ratio_chart(data, date_last_update)
+            conversion_category_analysis = get_text_between_comments(markdown_text, "<!-- Product: conversion by category -->", "<!")
+            if conversion_category_analysis is not None:
+                st.markdown(conversion_category_analysis, unsafe_allow_html=True)
 
-        conversion_product_analysis = get_text_between_comments(markdown_text, "<!-- Product: conversion by product -->", "<!")
-        if conversion_product_analysis is not None:
-            st.markdown(conversion_product_analysis, unsafe_allow_html=True)
+            generate_pageviews_orders_ratio_chart(data, date_last_update)
+
+            conversion_product_analysis = get_text_between_comments(markdown_text, "<!-- Product: conversion by product -->", "<!")
+            if conversion_product_analysis is not None:
+                st.markdown(conversion_product_analysis, unsafe_allow_html=True)
+            
 
         generate_page_views_and_ratio_by_category_with_selector(data)
 
@@ -233,15 +247,20 @@ def create_dashboard(selected_client, selected_report, is_admin):
             date_last_update = extract_date_from_filename(product_file[0])
             st.write(f"Data was last updated at: {date_last_update.date()}")
             df = pd.read_csv(product_file[0])
-
         
-
+        if df.empty:
+            st.markdown("""
+                    # Order Analytics
+                    There is no orders data available.
+                    """)
+            return
+        
         st.markdown("""
                     # Order Analytics
                     ### Total sales, average order value and orders
                     Only orders with status 'Delivered' or 'Shipped' and type 'New Order' were considered.
                     """)
-
+        
         df['payout_total_values'] = df['payout_total_values']/100
 
         # Convert 'brand_contacted_at_values' to datetime

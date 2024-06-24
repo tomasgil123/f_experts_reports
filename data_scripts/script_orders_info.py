@@ -47,8 +47,11 @@ from cookie import (cookie_token)
 # brand_token = "b_12tpkawx"
 # brand_name = "teleties"
 
-brand_token = "b_fg3z6jazys"
-brand_name = "medify"
+# brand_token = "b_fg3z6jazys"
+# brand_name = "medify"
+
+brand_token = "b_4v6l6ww3o7"
+brand_name = "tushy"
 
 
 # we check if there is data already downloaded

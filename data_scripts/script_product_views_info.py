@@ -21,7 +21,8 @@ from cookie import (cookie_token)
 # brand_name = "trek_light"
 # brand_name = "latico_leathers"
 # brand_name = "cheese_brothers"
-brand_name = "teleties"
+# brand_name = "teleties"
+brand_name = "medify"
 
 product_views_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/page_views_info_*.csv")
 #product_views_file= []

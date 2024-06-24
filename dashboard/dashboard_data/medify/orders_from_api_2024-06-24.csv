@@ -1,0 +1,3 @@
+tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types
+bo_yzbvhww88e,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1716978313000,True,True,r_kjuke3v6ky,0,Hundeliebe Amrum,http://www.hundeliebe-amrum.de/,Pet Store
+bo_dvcuuc4npf,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1716746313000,True,True,r_5cg8a7zrrn,0,The Yuppy Puppy Pet Spa And Boutique,https://www.theyuppypuppypetspa.com/,Pet Store

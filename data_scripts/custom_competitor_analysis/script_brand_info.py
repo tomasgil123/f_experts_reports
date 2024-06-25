@@ -10,8 +10,9 @@ from get_competitors_brand_info import (get_all_competitors_brand_data)
 # brand_owner = "Be Huppy"
 # brand_owner = "Grab2art"
 # brand_owner = "Cheese Brothers"
-brand_owner = "Teleties"
+# brand_owner = "Teleties"
 # brand_owner = "Tushy"
+brand_owner = "Medify"
 
 brands_data = get_all_competitors_brand_data(brand_owner)
 

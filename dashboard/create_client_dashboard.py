@@ -154,7 +154,6 @@ def create_dashboard(selected_client, selected_report, is_admin):
             purchase_frequency(df_orders)
 
             retailers_did_not_reorder(df_orders)
-            
 
             # dont display this section if client is be_huppy
             if selected_client != "be_huppy":

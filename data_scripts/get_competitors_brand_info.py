@@ -57,8 +57,8 @@ def get_competitors_brand_data(brand_ids):
         organic.append(brand["organic"])
         women_owned.append(brand["women_owned"])
         small_batch.append(brand["small_batch"])
-        upper_bound_lead_time_days.append(brand["upper_bound_lead_time_days"])
-        lower_bound_lead_time_days.append(brand["lower_bound_lead_time_days"])
+        upper_bound_lead_time_days.append(brand.get("upper_bound_lead_time_days", None))
+        lower_bound_lead_time_days.append(brand.get("lower_bound_lead_time_days", None))
 
     # Create a DataFrame using the extracted information
     data = {

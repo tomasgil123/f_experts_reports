@@ -7,8 +7,8 @@ import glob
 # brand_owner = "Be Huppy"
 # brand_owner = "Grab2art"
 # brand_owner = "Cheese Brothers"
-# brand_owner = "Teleties"
-brand_owner = "Tushy"
+brand_owner = "Teleties"
+# brand_owner = "Tushy"
 
 df_brand_info = pd.read_csv("brand_info.csv")
 

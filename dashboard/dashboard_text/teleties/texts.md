@@ -1,7 +1,7 @@
 
 <!-- Competitors: Review analysis -->
 #
-__General Trends:__ The number of reviews among competitors varies significantly. The brand with the most reviews, NAT + NOOR, has over 500 reviews, whereas the brand with the fewest reviews, TheDivaSoap, has fewer than 100. Brands generally experience an increase in reviews during the summer and a decrease during the autumn and winter months.
+__General Trends:__ The number of reviews among competitors varies significantly. The brand with the most reviews, Kitsch, has over 1600 reviews, whereas the brand with the fewest reviews, TheDivaSoap, has fewer than 100. Brands generally experience an increase in reviews during the summer and a decrease during the autumn and winter months.
 
 __Rating Overview:__ All competitors maintain high ratings, averaging above 4.7 stars.
 
@@ -37,8 +37,15 @@ __LoveLina:__
 - The brand's product names often include descriptive elements about the design or material, such as "Jumbo 4 Inch Acetate Checkered Hair Claw" and "Mini Cat Hair Clips," suggesting a strategy to appeal to specific customer interests and preferences.
 - LoveLina offers assorted sets and collections, like "5 Matte Jumbo Clips in A Box - Betty Assorted Box" and "4-Pack Assorted Hair Clips - Sasha," highlighting a marketing approach that encourages bulk purchases and offers value through variety.
 
+__KITSCH:__ 
+- A significant portion of KITSCH's product lineup emphasizes eco-friendliness and the use of recycled materials.
+- Sizes range from "Mini" to "Jumbo" and "Oversized," indicating a diverse product range.
+- The brand has several collaborations and themed collections, as seen in product names involving "Hello Kitty," "Barbie," "Wonder Woman," and "BT21."
+- Product names frequently mention specific colors (e.g., "Rosewood," "Eucalyptus," "Blonde," "Brunette") and finishes (e.g., "Ultra Glossy," "Matte," "Metal," "Satin").
+- Several products highlight specific functional features in their names, such as "No Slip," "Flat Lay," "Creaseless," and "Chain".
+
 __Recommendations:__
-- TELETIES could consider expanding their eco-friendly product line, taking inspiration from Adorro's emphasis on sustainability and unique, themed designs. Incorporating more eco-conscious materials and creative, nature-inspired designs could appeal to environmentally aware consumers
+- TELETIES could consider expanding their eco-friendly product line, taking inspiration from Adorro's and Kitsch emphasis on sustainability and unique, themed designs. Incorporating more eco-conscious materials and creative, nature-inspired designs could appeal to environmentally aware consumers
 - Introducing more themed collections or sets, similar to LoveLina's approach, could also attract customers looking for value and variety. This could include limited edition sets based on seasons, holidays, or popular culture themes
 
 

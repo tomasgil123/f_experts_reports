@@ -134,6 +134,7 @@ def get_brands_data(brand_ids):
     return data
 
 def get_all_competitors_brand_data(brand_owner):
+    print("brand_owner", brand_owner)
     # we create a dataframe using the brands_competitors csv
     df_brands = pd.read_csv('brands_competitors.csv')
 

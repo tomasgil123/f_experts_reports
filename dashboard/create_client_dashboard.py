@@ -214,7 +214,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
         # generates_sales_chart_by_category_last_12_months(data, date_last_update)
 
         # if columns sales_count and orders_count sum cero, don't display the following charts
-        if data['sales_count'].sum() != 0 and data['orders_count'].sum() != 0:
+        if data['sales_count'].sum() != 0 and data['order_count'].sum() != 0:
 
             generate_conversion_rate_chart_by_category(data, date_last_update)
 
@@ -239,7 +239,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         if selected_client == 'teleties':
             df = get_orders_teleties()
-            date_last_update_orders = "2024-06-20"
+            date_last_update_orders = "2024-07-02"
             date_last_update = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
             st.write(f"Data was last updated at: {date_last_update.date()}")
         else:
@@ -292,7 +292,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         sales_by_category(df, df_order_items, df_page_views)
 
-        avg_order_value_by_store_type(df, day_data_was_obtained=date_last_update_orders)
+        avg_order_value_by_store_type(df, day_data_was_obtained=date_last_update)
 
         # type_of_store_top_10_retailers(df, date_last_update)
         

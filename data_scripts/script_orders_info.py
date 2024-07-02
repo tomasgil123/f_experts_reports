@@ -3,6 +3,8 @@ import pandas as pd
 from get_orders_brand_info import (get_orders_info)
 from cookie import (cookie_token)
 
+from utils import (get_orders_teleties, get_orders_items_teleties)
+
 # brand_token = "b_cad0ccd3"
 # brand_name = "couleur_nature"
 
@@ -26,6 +28,9 @@ from cookie import (cookie_token)
 
 # ====================
 
+# brand_token = "b_vllag6pj"
+# brand_name = "trek_light"
+
 # brand_token = "b_f65wemh3b7"
 # brand_name = "be_huppy"
 
@@ -35,41 +40,30 @@ from cookie import (cookie_token)
 # brand_token = "b_9884o1r7ea"
 # brand_name = "shinesty"
 
-# brand_token = "b_vllag6pj"
-# brand_name = "trek_light"
-
 # brand_token = "b_9j68t72ipo"
 # brand_name = "true_classic"
 
-# brand_token = "b_2dvofcgxz7"
-# brand_name = "cheese_brothers"
-
-# brand_token = "b_12tpkawx"
-# brand_name = "teleties"
+brand_token = "b_12tpkawx"
+brand_name = "teleties"
 
 # brand_token = "b_fg3z6jazys"
 # brand_name = "medify"
 
-brand_token = "b_4v6l6ww3o7"
-brand_name = "tushy"
 
 
-# we check if there is data already downloaded
-orders_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/orders_from_api_*.csv")
-items_order_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/items_order_from_api_*.csv")
+# brand_token = "b_2dvofcgxz7"
+# brand_name = "cheese_brothers"
 
-# create variable time_most_recent_campaign using default Unix epoch timestamp
-time_most_recent_campaign = 0
+# brand_token = "b_4v6l6ww3o7"
+# brand_name = "tushy"
 
-# df_current_marketing_campaign_info is an empty dataframe
+ # df_current_marketing_campaign_info is an empty dataframe
 df_current_orders = pd.DataFrame()
 df_current_items_order = pd.DataFrame()
 
-if len(orders_file) > 0:
-    df_current_orders = pd.read_csv(orders_file[0])
-
-    if len(items_order_file) > 0:
-        df_current_items_order = pd.read_csv(items_order_file[0])
+if brand_name == "teleties":
+    df_current_orders = get_orders_teleties()
+    df_current_items_order = get_orders_items_teleties()
 
     # identify campaign with the most recent brand_contacted_at_value date
     time_most_recent_campaign = df_current_orders['brand_contacted_at_values'].max()
@@ -77,6 +71,27 @@ if len(orders_file) > 0:
     # we substract a month to the time_most_recent_campaign
     # we do this because some orders attributes could have been updated. We assume older orders don't get updated anymore
     time_most_recent_campaign = time_most_recent_campaign - 2630304000
+    
+else:
+    # we check if there is data already downloaded
+    orders_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/orders_from_api_*.csv")
+    items_order_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/items_order_from_api_*.csv")
+
+    # create variable time_most_recent_campaign using default Unix epoch timestamp
+    time_most_recent_campaign = 0
+
+    if len(orders_file) > 0:
+        df_current_orders = pd.read_csv(orders_file[0])
+
+        if len(items_order_file) > 0:
+            df_current_items_order = pd.read_csv(items_order_file[0])
+
+        # identify campaign with the most recent brand_contacted_at_value date
+        time_most_recent_campaign = df_current_orders['brand_contacted_at_values'].max()
+
+        # we substract a month to the time_most_recent_campaign
+        # we do this because some orders attributes could have been updated. We assume older orders don't get updated anymore
+        time_most_recent_campaign = time_most_recent_campaign - 2630304000
 
 
 orders, items_order = get_orders_info(brand_token, cookie=cookie_token, time_most_recent_campaign=time_most_recent_campaign)

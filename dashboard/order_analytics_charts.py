@@ -826,12 +826,18 @@ def get_cold_outreach_lead_sales(df_orders, selected_client):
 
     if selected_client == "Caravan":
         selected_client = "Caravan Home"
+    
+    if selected_client == "Be Huppy":
+        selected_client = "Huppy"
+
+    if selected_client == "Grab2Art":
+        selected_client = "garb2ART"
 
     # if df_leads is empty, we display a message telling "No leads found"
     if df_leads.empty:
         st.write("No leads found for this client")
         return
-    
+
     df_leads_selected_client = df_leads[df_leads['Lead'] == selected_client]
 
     # convert column "Name" to lower case

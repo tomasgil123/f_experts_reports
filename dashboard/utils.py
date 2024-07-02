@@ -118,6 +118,39 @@ def get_data_from_google_spreadsheet(spreadsheet_id, range_name):
     result = sheet.values().get(spreadsheetId=spreadsheet_id, range=range_name).execute()
     values = result.get('values', [])
 
+    column_names = values[0]
+
+    if range_name == "ID":
+        column_names = [
+            "empty",
+            "Date", 
+            "Lead",
+            "id", 
+            "name", 
+            "Address", 
+            "Phone", 
+            "Website", 
+            "Category", 
+            "Latitude", 
+            "Longitude", 
+            "Rating", 
+            "Reviews", 
+            "Image URL", 
+            "Additional Info 1", 
+            "Additional Info 2", 
+            "Code", 
+            "Email", 
+            "Feedback 1", 
+            "Feedback 2", 
+            "Is Member", 
+            "Newsletter Subscription", 
+            "Additional Info 3", 
+            "Timestamp", 
+            "Verified", 
+            "City", 
+            "State"
+        ]
+
     print("values", len(values[0]))
     print(values[0])
     print("values 1", len(values[1]))
@@ -127,7 +160,7 @@ def get_data_from_google_spreadsheet(spreadsheet_id, range_name):
         return pd.DataFrame()
     else:
         # Create a DataFrame
-        df = pd.DataFrame(values[1:], columns=values[0])
+        df = pd.DataFrame(values[1:], columns=column_names)
         return df
     
 
@@ -142,7 +175,7 @@ def get_orders_teleties():
 
     # Get the data from the Google Cloud Storage bucket
     bucket_name = "faire_reports_old"
-    source_blob_name = "orders_from_api_2024-06-20"
+    source_blob_name = "orders_from_api_2024-07-02"
 
     df_orders = download_csv_from_cloud_storage(bucket_name, source_blob_name)
 
@@ -156,7 +189,7 @@ def get_orders_items_teleties():
 
     # Get the data from the Google Cloud Storage bucket
     bucket_name = "faire_reports_old"
-    source_blob_name = "items_order_from_api_2024-06-20"
+    source_blob_name = "items_order_from_api_2024-07-02"
 
     df_orders = download_csv_from_cloud_storage(bucket_name, source_blob_name)
 

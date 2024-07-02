@@ -63,7 +63,7 @@ def sales_performance_metrics(df, selected_month, selected_year, selected_month_
         <div class="card">
             <div class="card-body">
             <h5 class="card-title">{card_data[0]["title"]}</h5>
-            <p class="card-text">Value: {card_data[0]["value"]}</p>
+            <p class="card-text">{card_data[0]["value"]}</p>
             <div class="divider-line" ></div>
             <div style="display: {'block' if display_previous_month else 'none'}">vs previous month: <span style="color: {'green' if card_data[3]['trend'] == 'up' else 'red'}" >{card_data[3]["value"]}</span></div>
             <div style="display: {'block' if display_previous_year else 'none'}" >vs same month last year: <span style="color: {'green' if card_data[6]['trend'] == 'up' else 'red'}" >{card_data[6]["value"]}</span></div>
@@ -74,7 +74,7 @@ def sales_performance_metrics(df, selected_month, selected_year, selected_month_
         <div class="card">
             <div class="card-body">
             <h5 class="card-title">{card_data[1]["title"]}</h5>
-            <p class="card-text">Value: {card_data[1]["value"]}</p>
+            <p class="card-text">{card_data[1]["value"]}</p>
             <div class="divider-line" ></div>
             <div style="display: {'block' if display_previous_month else 'none'}">vs previous month: <span style="color: {'green' if card_data[4]['trend'] == 'up' else 'red'}" >{card_data[4]["value"]}</span></div>
             <div style="display: {'block' if display_previous_year else 'none'}" >vs same month last year: <span style="color: {'green' if card_data[7]['trend'] == 'up' else 'red'}" >{card_data[7]["value"]}</span></div>
@@ -85,7 +85,7 @@ def sales_performance_metrics(df, selected_month, selected_year, selected_month_
         <div class="card">
             <div class="card-body">
             <h5 class="card-title">{card_data[2]["title"]}</h5>
-            <p class="card-text">Value: {card_data[2]["value"]}</p>
+            <p class="card-text">{card_data[2]["value"]}</p>
             <div class="divider-line" ></div>
             <div style="display: {'block' if display_previous_month else 'none'}">vs previous month: <span style="color: {'green' if card_data[5]['trend'] == 'up' else 'red'}" >{card_data[5]["value"]}</span></div>
             <div style="display: {'block' if display_previous_year else 'none'}" >vs same month last year: <span style="color: {'green' if card_data[8]['trend'] == 'up' else 'red'}" >{card_data[8]["value"]}</span></div>
@@ -155,7 +155,7 @@ def customer_acquisition_metrics(df, selected_month, selected_year, selected_mon
         <div class="card">
             <div class="card-body">
             <h5 class="card-title">{card_data[0]["title"]}</h5>
-            <p class="card-text">Value: {card_data[0]["value"]}</p>
+            <p class="card-text">{card_data[0]["value"]}</p>
             <div class="divider-line" ></div>
             <div style="display: {'block' if display_previous_month else 'none'}">vs previous month: <span style="color: {'green' if card_data[2]['trend'] == 'up' else 'red'}" >{card_data[2]["value"]}</span></div>
             <div style="display: {'block' if display_previous_year else 'none'}" >vs same month last year: <span style="color: {'green' if card_data[4]['trend'] == 'up' else 'red'}" >{card_data[4]["value"]}</span></div>
@@ -166,7 +166,7 @@ def customer_acquisition_metrics(df, selected_month, selected_year, selected_mon
         <div class="card">
             <div class="card-body">
             <h5 class="card-title">{card_data[1]["title"]}</h5>
-            <p class="card-text">Value: {card_data[1]["value"]}</p>
+            <p class="card-text">{card_data[1]["value"]}</p>
             <div class="divider-line" ></div>
             <div style="display: {'block' if display_previous_month else 'none'}">vs previous month: <span style="color: {'green' if card_data[3]['trend'] == 'up' else 'red'}" >{card_data[3]["value"]}</span></div>
             <div style="display: {'block' if display_previous_year else 'none'}" >vs same month last year: <span style="color: {'green' if card_data[5]['trend'] == 'up' else 'red'}" >{card_data[5]["value"]}</span></div>
@@ -227,7 +227,7 @@ def get_marketing_campaign_sales(df, selected_month, selected_year):
         <div class="card">
             <div class="card-body">
             <h5 class="card-title">{card_data[0]["title"]}</h5>
-            <p class="card-text">Value: {card_data[0]["value"]}</p>
+            <p class="card-text">{card_data[0]["value"]}</p>
             <div class="divider-line" ></div>
             <div style="display: {'block' if display_previous_month_open else 'none'}">vs previous month: <span style="color: {'green' if card_data[2]['trend'] == 'up' else 'red'}" >{card_data[2]["value"]}</span></div>
             <div style="display: {'block' if display_previous_year_open else 'none'}" >vs same month last year: <span style="color: {'green' if card_data[4]['trend'] == 'up' else 'red'}" >{card_data[4]["value"]}</span></div>
@@ -238,7 +238,7 @@ def get_marketing_campaign_sales(df, selected_month, selected_year):
         <div class="card">
             <div class="card-body">
             <h5 class="card-title">{card_data[1]["title"]}</h5>
-            <p class="card-text">Value: {card_data[1]["value"]}</p>
+            <p class="card-text">{card_data[1]["value"]}</p>
             <div class="divider-line" ></div>
             <div style="display: {'block' if display_previous_month_click else 'none'}">vs previous month: <span style="color: {'green' if card_data[3]['trend'] == 'up' else 'red'}" >{card_data[3]["value"]}</span></div>
             <div style="display: {'block' if display_previous_year_click else 'none'}" >vs same month last year: <span style="color: {'green' if card_data[5]['trend'] == 'up' else 'red'}" >{card_data[5]["value"]}</span></div>

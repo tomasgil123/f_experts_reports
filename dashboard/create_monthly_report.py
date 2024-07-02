@@ -3,7 +3,7 @@ import glob
 import pandas as pd
 
 from dashboard.monthly_analytics import (sales_performance_metrics, get_marketing_campaign_sales, customer_acquisition_metrics)
-from dashboard.utils import (save_user_log_report)
+from dashboard.utils import (save_user_log_report, get_orders_teleties)
 
 def create_monthly_report(selected_client, selected_month_string, is_admin):
 
@@ -16,13 +16,18 @@ def create_monthly_report(selected_client, selected_month_string, is_admin):
                 ### Total sales, average order value and orders
                 Only orders with status 'Delivered' or 'Shipped' and type 'New Order' were considered.
                 """)
-    product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
-
+    
     selected_month_date = pd.to_datetime(selected_month_string)
     selected_month = selected_month_date.month
     selected_year = selected_month_date.year
+    
+    if selected_client == "teleties":
+        df_orders = get_orders_teleties()
+    else:
 
-    df_orders = pd.read_csv(product_file[0])
+        product_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
+
+        df_orders = pd.read_csv(product_file[0])
 
     df_orders['payout_total_values'] = df_orders['payout_total_values']/100
 

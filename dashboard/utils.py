@@ -95,6 +95,7 @@ def save_user_log_report(client_name, selected_report):
 
     print(response)
 
+@st.cache_data(ttl=36000)  # Cache data for 1 hour (3600 seconds)
 def get_data_from_google_spreadsheet(spreadsheet_id, range_name):
 
     creds_dict = {

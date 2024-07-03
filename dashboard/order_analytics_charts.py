@@ -4,6 +4,7 @@ import matplotlib.ticker as mtick
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import numpy as np
+from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
 
 from dashboard.utils import get_data_from_google_spreadsheet
 
@@ -871,3 +872,61 @@ def get_cold_outreach_lead_sales(df_orders, selected_client):
         st.write("Note: These orders appear to have been placed before we began working with this client.")
         return
 
+def display_insider_info(df):
+
+    result = df.groupby('retailer_tokens').agg(
+        total_orders=('tokens', 'count'),
+        total_spent=('payout_total_values', 'sum'),
+        last_order_date=('brand_contacted_at_values', 'max')
+    ).reset_index()
+    # we filter dataframe by is_insider equal to true
+    df_insider = df[df['is_insider'] == True]
+
+    # we get unique retailers
+    unique_insiders = df_insider[['retailer_names', 'retailer_tokens']].drop_duplicates()
+
+    # percentage of customers that are insiders
+    percentage_insiders = "{:.2%}".format(len(unique_insiders)/len(df['retailer_names'].unique()))
+    st.write(f"Percentage of customers that are insiders: {percentage_insiders}")
+    st.write(f"Number of customers that are insiders: {len(unique_insiders)}")
+
+    on = st.toggle("Display full list of insiders")
+
+    if on:
+        # we do a left join of unique_insiders with results using column "retailer_tokens"
+        insiders = pd.merge(unique_insiders, result, on='retailer_tokens', how='left')
+
+        insiders['retailer_tokens'] = insiders['retailer_tokens'].apply(lambda x: f"https://www.faire.com/brand-portal/messages/{x}")
+
+        insiders['retailer_tokens'] = insiders['retailer_tokens'].apply(lambda x: f'<a href="{x}" target="_blank">Send a DM</a>')
+
+        # change the name of the columns
+        insiders.columns = ['Retailer', 'Send a DM', 'Total Orders', 'Total Spent', 'Last Order Date']
+
+        # change the order of the columns, put send a dm last
+        insiders = insiders[['Retailer', 'Total Orders', 'Total Spent', 'Last Order Date', 'Send a DM']]
+
+        # Define a custom JavaScript code to render HTML
+        cell_renderer = JsCode('''
+            class HtmlRenderer {
+                init(params) {
+                    this.eGui = document.createElement('div');
+                    this.eGui.innerHTML = params.value;
+                }
+
+                getGui() {
+                    return this.eGui;
+                }
+            }
+        ''')
+
+        # Configure AgGrid options
+        gb = GridOptionsBuilder.from_dataframe(insiders)
+        gb.configure_default_column(sortable=True, resizable=True, filter=True)
+        gb.configure_column('Send a DM', cellRenderer=cell_renderer)
+        gridOptions = gb.build()
+
+        # Display the AgGrid table
+        AgGrid(insiders, gridOptions=gridOptions, enable_enterprise_modules=True, allow_unsafe_jscode=True)
+
+        st.write("Note: if no table is visible please try toggling the 'Display full list of insiders' button")

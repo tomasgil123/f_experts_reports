@@ -31,8 +31,8 @@ from utils import (get_orders_teleties, get_orders_items_teleties)
 # brand_token = "b_vllag6pj"
 # brand_name = "trek_light"
 
-# brand_token = "b_f65wemh3b7"
-# brand_name = "be_huppy"
+brand_token = "b_f65wemh3b7"
+brand_name = "be_huppy"
 
 # brand_token = "b_2j1b52vu"
 # brand_name = "grab2art"
@@ -43,8 +43,8 @@ from utils import (get_orders_teleties, get_orders_items_teleties)
 # brand_token = "b_9j68t72ipo"
 # brand_name = "true_classic"
 
-brand_token = "b_12tpkawx"
-brand_name = "teleties"
+# brand_token = "b_12tpkawx"
+# brand_name = "teleties"
 
 # brand_token = "b_fg3z6jazys"
 # brand_name = "medify"

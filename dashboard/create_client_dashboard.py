@@ -37,7 +37,8 @@ from dashboard.order_analytics_charts import (lifetime_performance_metrics, sale
                                     new_merchants_by_source, sales_by_retailer, cumulative_distribution_of_retailers,
                                     type_of_store_top_10_retailers, sales_distribution, 
                                     sales_quantiles, purchase_frequency, retailers_did_not_reorder, 
-                                    sales_by_store_type, sales_by_category, avg_order_value_by_store_type, get_cold_outreach_lead_sales)
+                                    sales_by_store_type, sales_by_category, avg_order_value_by_store_type, get_cold_outreach_lead_sales,
+                                    display_insider_info)
 
 
 from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis_last_30_days, 
@@ -295,7 +296,14 @@ def create_dashboard(selected_client, selected_report, is_admin):
         avg_order_value_by_store_type(df, day_data_was_obtained=date_last_update)
 
         # type_of_store_top_10_retailers(df, date_last_update)
-        
+
+        # if dataframe includes colum "is_insider" we display the following charts
+        if 'is_insider' in df.columns:
+            st.markdown("""
+                        ### Insider customers
+                        """)
+            display_insider_info(df)
+                    
         # sales_distribution(df, date_last_update)
         if is_admin:
             st.markdown("""

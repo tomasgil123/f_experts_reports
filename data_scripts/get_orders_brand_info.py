@@ -40,6 +40,7 @@ def get_orders_info_page(page_number, brand_token, cookie):
     retailer_names = []
     retailer_website_urls = []
     retailer_store_types = []
+    is_insider = []
 
     items_order = {}
 
@@ -89,6 +90,12 @@ def get_orders_info_page(page_number, brand_token, cookie):
                         retailer_store_types.append(retailer_details["store_type"])
                     else:
                         retailer_store_types.append(None)
+
+                    # we check if order has key "free_shipping_reason"
+                    if "free_shipping_reason" in order:
+                        is_insider.append(True)
+                    else:
+                        is_insider.append(False)
                     
                     # we add items order data to the dataframe
                     order_items = order["order_items"]
@@ -121,7 +128,8 @@ def get_orders_info_page(page_number, brand_token, cookie):
         "payout_total_values": payout_total_values,
         "retailer_names": retailer_names,
         "retailer_website_urls": retailer_website_urls,
-        "retailer_store_types": retailer_store_types
+        "retailer_store_types": retailer_store_types,
+        "is_insider": is_insider
     }
 
     return data, items_order, page_count
@@ -155,6 +163,7 @@ def get_orders_info(brand_token, cookie, time_most_recent_campaign):
     retailer_names = []
     retailer_website_urls = []
     retailer_store_types = []
+    is_insider = []
 
     items_order = {}
 
@@ -179,6 +188,7 @@ def get_orders_info(brand_token, cookie, time_most_recent_campaign):
         retailer_names.extend(data_orders["retailer_names"])
         retailer_website_urls.extend(data_orders["retailer_website_urls"])
         retailer_store_types.extend(data_orders["retailer_store_types"])
+        is_insider.extend(data_orders["is_insider"])
         # we append the items order data to the dataframe
         combine_order_items_info(items_order, items_order_page)
     else:
@@ -195,6 +205,7 @@ def get_orders_info(brand_token, cookie, time_most_recent_campaign):
         retailer_names.extend(data_orders["retailer_names"][:first_older_date_index])
         retailer_website_urls.extend(data_orders["retailer_website_urls"][:first_older_date_index])
         retailer_store_types.extend(data_orders["retailer_store_types"][:first_older_date_index])
+        is_insider.extend(data_orders["is_insider"][:first_older_date_index])
         # we append the items order data to the dataframe
         combine_order_items_info(items_order, items_order_page)
 
@@ -220,6 +231,7 @@ def get_orders_info(brand_token, cookie, time_most_recent_campaign):
                 retailer_names.extend(data_orders["retailer_names"])
                 retailer_website_urls.extend(data_orders["retailer_website_urls"])
                 retailer_store_types.extend(data_orders["retailer_store_types"])
+                is_insider.extend(data_orders["is_insider"])
                 # we append the items order data to the dataframe
                 combine_order_items_info(items_order, items_order_page)
             else:
@@ -236,6 +248,7 @@ def get_orders_info(brand_token, cookie, time_most_recent_campaign):
                 retailer_names.extend(data_orders["retailer_names"][:first_older_date_index])
                 retailer_website_urls.extend(data_orders["retailer_website_urls"][:first_older_date_index])
                 retailer_store_types.extend(data_orders["retailer_store_types"][:first_older_date_index])
+                is_insider.extend(data_orders["is_insider"][:first_older_date_index])
                 # we append the items order data to the dataframe
                 combine_order_items_info(items_order, items_order_page)
                 break
@@ -253,7 +266,8 @@ def get_orders_info(brand_token, cookie, time_most_recent_campaign):
         "payout_total_values": payout_total_values,
         "retailer_names": retailer_names,
         "retailer_website_urls": retailer_website_urls,
-        "retailer_store_types": retailer_store_types
+        "retailer_store_types": retailer_store_types,
+        "is_insider": is_insider
     }
 
     return data, items_order

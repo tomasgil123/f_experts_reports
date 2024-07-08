@@ -5,7 +5,6 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import numpy as np
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
-import plotly.graph_objects as go
 
 from dashboard.utils import get_data_from_google_spreadsheet
 

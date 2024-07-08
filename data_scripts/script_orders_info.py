@@ -28,11 +28,11 @@ from utils import (get_orders_teleties, get_orders_items_teleties)
 
 # ====================
 
-# brand_token = "b_vllag6pj"
-# brand_name = "trek_light"
+brand_token = "b_vllag6pj"
+brand_name = "trek_light"
 
-brand_token = "b_f65wemh3b7"
-brand_name = "be_huppy"
+# brand_token = "b_f65wemh3b7"
+# brand_name = "be_huppy"
 
 # brand_token = "b_2j1b52vu"
 # brand_name = "grab2art"
@@ -61,7 +61,7 @@ brand_name = "be_huppy"
 df_current_orders = pd.DataFrame()
 df_current_items_order = pd.DataFrame()
 
-if brand_name == "teleties":
+if brand_name == "teleties-":
     df_current_orders = get_orders_teleties()
     df_current_items_order = get_orders_items_teleties()
 

@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import numpy as np
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
+import plotly.graph_objects as go
 
 from dashboard.utils import get_data_from_google_spreadsheet
 
@@ -890,43 +891,42 @@ def display_insider_info(df):
     st.write(f"Percentage of customers that are insiders: {percentage_insiders}")
     st.write(f"Number of customers that are insiders: {len(unique_insiders)}")
 
-    on = st.toggle("Display full list of insiders")
+    
+    # we do a left join of unique_insiders with results using column "retailer_tokens"
+    insiders = pd.merge(unique_insiders, result, on='retailer_tokens', how='left')
 
-    if on:
-        # we do a left join of unique_insiders with results using column "retailer_tokens"
-        insiders = pd.merge(unique_insiders, result, on='retailer_tokens', how='left')
+    insiders['retailer_tokens'] = insiders['retailer_tokens'].apply(lambda x: f"https://www.faire.com/brand-portal/messages/{x}")
 
-        insiders['retailer_tokens'] = insiders['retailer_tokens'].apply(lambda x: f"https://www.faire.com/brand-portal/messages/{x}")
+    insiders['retailer_tokens'] = insiders['retailer_tokens'].apply(lambda x: f'<a href="{x}" target="_blank">Send a DM</a>')
 
-        insiders['retailer_tokens'] = insiders['retailer_tokens'].apply(lambda x: f'<a href="{x}" target="_blank">Send a DM</a>')
+    # change the name of the columns
+    insiders.columns = ['Retailer', 'Send a DM', 'Total Orders', 'Total Spent', 'Last Order Date']
 
-        # change the name of the columns
-        insiders.columns = ['Retailer', 'Send a DM', 'Total Orders', 'Total Spent', 'Last Order Date']
+    # change the order of the columns, put send a dm last
+    insiders = insiders[['Retailer', 'Total Orders', 'Total Spent', 'Last Order Date', 'Send a DM']]
 
-        # change the order of the columns, put send a dm last
-        insiders = insiders[['Retailer', 'Total Orders', 'Total Spent', 'Last Order Date', 'Send a DM']]
+    # Convert DataFrame to HTML
+    html_table = insiders.to_html(escape=False, index=False, table_id="myTable")
 
-        # Define a custom JavaScript code to render HTML
-        cell_renderer = JsCode('''
-            class HtmlRenderer {
-                init(params) {
-                    this.eGui = document.createElement('div');
-                    this.eGui.innerHTML = params.value;
-                }
+    # HTML template with DataTables integration
+    html = f"""  
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+        <script>
+            $(document).ready(function() {{
+                $('#myTable').DataTable();
+            }});
+        </script>
+    </head>
+    <body>
+        {html_table}
+    </body>
+    </html>
+    """
 
-                getGui() {
-                    return this.eGui;
-                }
-            }
-        ''')
-
-        # Configure AgGrid options
-        gb = GridOptionsBuilder.from_dataframe(insiders)
-        gb.configure_default_column(sortable=True, resizable=True, filter=True)
-        gb.configure_column('Send a DM', cellRenderer=cell_renderer)
-        gridOptions = gb.build()
-
-        # Display the AgGrid table
-        AgGrid(insiders, gridOptions=gridOptions, enable_enterprise_modules=True, allow_unsafe_jscode=True)
-
-        st.write("Note: if no table is visible please try toggling the 'Display full list of insiders' button")
+    # Render the HTML table with DataTables
+    st.components.v1.html(html, height=400, scrolling=True)

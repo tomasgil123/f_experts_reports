@@ -1,0 +1,109 @@
+tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
+bo_42pqh4przm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719241670000,False,False,r_f68nesj8ta,10262,Astute Counseling Services,http://www.astutecounseling.com/,,False
+bo_3rtcn9ywe3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718756762000,False,False,r_8qkt5wmlpy,9764,jamaica africa yay area,http://www.veganfolife.com,,False
+bo_x3weaus3qp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718746562000,False,False,r_9tguvph5ta,17745,Nature's Cleanse,,,False
+bo_qpnxdax6wq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718660262000,True,True,r_3r4hg4ejnp,31830,Treat,http://www.treat.com/,,True
+bo_w22dxdcsxh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717433240000,False,False,r_kw28yusq76,24491,Durango Natural Foods Co-op,http://durangonaturalfoods.coop/,,True
+bo_yw5fxq78jn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717198040000,False,False,r_ez4xv2x0b4,11934,Scisters Salon & Apothecary,http://www.scisters.com/,,True
+bo_7vs8ufthbk,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717014501000,False,False,r_72pw8hq5m3,53903,Living Foods,http://www.livingfoodshawaii.com/,,False
+bo_jj487ym3gg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1716773617000,False,False,r_a7crftyymb,14673,Rx City Pharmacy,http://rxcitypharmacy.com/,,False
+bo_fturvpq796,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715654339000,False,False,r_w7tzrvkh9u,14388,Ramel Family Farms,http://www.ramelfamilyfarms.com/,General or Mercantile Store,True
+bo_s94q24ffhn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714510002000,False,False,r_30q66jpfdg,40350,The Karma Korner,https://the-karma-korner.business.site/,Gift Store,True
+bo_eg2suw2eyp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714438832000,True,True,r_g9mcburcmv,27465,Yough,,General or Mercantile Store,False
+bo_9rsdn352bu,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1714158965000,False,False,r_8wc3hmegye,18886,Boggs Chiropractic,http://boggschiropractic.com/,,True
+bo_4rcjv974hv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714079942000,False,False,r_cl8qnf40h9,14834,Beauty Ethics,http://beautyethics.com,Spa or Beauty Store,True
+bo_6yqgkx7276,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714057658000,True,True,r_ggzdthu2dn,69981,Neighborhood Grocery,http://www.neighborhood-grocery.com/,Grocery or Liquor Store,False
+bo_qgnhevqr28,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713213076000,False,False,r_8qkt5wmlpy,10474,jamaica africa yay area,http://www.veganfolife.com,,False
+bo_dusmrtjjqz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712862035000,False,False,r_3gktxy4e21,27571,Pinkhill Organics,http://www.pinkhillorganics.ecwid.com,,True
+bo_n7m45a7bmu,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1712677772000,True,True,r_7us736hbwm,0,Adoro,,,False
+bo_ctxcqe4rmt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712597439000,False,False,r_kw28yusq76,24536,Durango Natural Foods Co-op,http://durangonaturalfoods.coop/,,True
+bo_djv9mcgmq7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712435488000,True,True,r_aj7sagkeng,80866,Down Home ROOTS Herbal,https://www.facebook.com/profile.php?id=100087296886042&mibextid=ZbWKwL,,False
+bo_jfwumzx6ku,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1711994855000,True,True,r_8wc3hmegye,18761,Boggs Chiropractic,http://boggschiropractic.com/,,True
+bo_pqdydxjbv9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711572192000,False,False,r_8qkt5wmlpy,10474,jamaica africa yay area,http://www.veganfolife.com,,False
+bo_vsgcgrv5nj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710437895000,False,False,r_dfr9lsi5uj,13612,Naturally on Main at Forest City Chiropractic.,,Spa or Beauty Store,False
+bo_mufkn8d3vd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710188465000,True,True,r_cl8qnf40h9,13834,Beauty Ethics,http://beautyethics.com,Spa or Beauty Store,True
+bo_j8nubnhe92,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709152629000,True,True,r_wq9gcem59n,25555,ROOTS ORGANIC STORE,,,True
+bo_3cmadwubnv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709123628000,True,True,r_pdr2yamvwd,17684,The Safari Collective,https://thesafaricollective.com/,Gift Store,True
+bo_f2txyacjrt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708990931000,False,False,r_30q66jpfdg,62047,The Karma Korner,https://the-karma-korner.business.site/,Gift Store,True
+bo_xrh7cjm6yw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708626755000,True,True,r_ez4xv2x0b4,38815,Scisters Salon & Apothecary,http://www.scisters.com/,,True
+bo_tvvdebw2k6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708112006000,False,False,r_kw28yusq76,62519,Durango Natural Foods Co-op,http://durangonaturalfoods.coop/,,True
+bo_fupz84tfag,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1707836578000,True,True,r_cd7s2k9xr6,27287,VERDES,http://www.eatdrinkverdes.com/,Cafe or Restaurant,False
+bo_bchacegmnx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1707715757000,False,False,r_6nat6ac6fh,65323,"Merlins Dream Smoke Shop (MEGA STORE FOR KRATOMS, CBDS/DELTA THCs, PIPES, HOOKAHS, CIGARS, ECIGS, E-JUICES AND NOVELTIES!)",http://www.merlinsdream.com/,Grocery or Liquor Store,True
+bo_khfa59rgax,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1707405757000,False,False,r_rj3v4v5xfp,23385,Vintage Coffee & Clutter,,,True
+bo_sfhdexux5v,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1707328357000,False,False,r_3gktxy4e21,15066,Pinkhill Organics,http://www.pinkhillorganics.ecwid.com,,True
+bo_jcpen5a7k6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706822169000,True,True,r_6izo0j7waw,11024,Health Nut NUtrition,http://www.healthnutnutrition.com/,Grocery or Liquor Store,True
+bo_dq575sxr46,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706777920000,False,False,r_72pw8hq5m3,65830,Living Foods,http://www.livingfoodshawaii.com/,,False
+bo_khc2trccz7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706568723000,False,False,r_30q66jpfdg,17952,The Karma Korner,https://the-karma-korner.business.site/,Gift Store,True
+bo_4vc3v8sdhx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706219073000,False,False,r_8qkt5wmlpy,17385,jamaica africa yay area,http://www.veganfolife.com,,False
+bo_s5gadet9sa,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705533394000,False,False,r_30q66jpfdg,44117,The Karma Korner,https://the-karma-korner.business.site/,Gift Store,True
+bo_27ymrkg4gu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704540931000,True,True,r_a7crftyymb,67347,Rx City Pharmacy,http://rxcitypharmacy.com/,,False
+bo_tu8x93sxah,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704432400000,False,False,r_bmnrqgzd56,20944,The Sweetest Little Life,http://www.thesweetestlittlelife.com/,Spa or Beauty Store,True
+bo_p983rdukuh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704213911000,False,False,r_dfr9lsi5uj,27550,Naturally on Main at Forest City Chiropractic.,,Spa or Beauty Store,True
+bo_jkrg96jxe5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1703025116000,False,False,r_mwfb766vdf,28271,Harvey Easton Cafe,http://eastongymco.com/,Cafe or Restaurant,False
+bo_8jxqszdk6e,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702510135000,True,True,r_9tguvph5ta,268223,Nature's Cleanse,,,False
+bo_fmphp8juue,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702320657000,False,False,r_30q66jpfdg,9438,The Karma Korner,https://the-karma-korner.business.site/,Gift Store,True
+bo_2u2q4r2zqj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702290103000,False,False,r_72pw8hq5m3,21080,Living Foods,http://www.livingfoodshawaii.com/,,False
+bo_me82em4vgh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701496601000,True,True,r_tw5l3pv0hu,52189,Shannon Mattox,http://www.louisvillebeautyandwellness.com/,Spa or Beauty Store,False
+bo_x25y4bdfre,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701308074000,False,False,r_30q66jpfdg,41455,The Karma Korner,https://the-karma-korner.business.site/,Gift Store,True
+bo_upzrcunhqq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700396698000,True,False,r_dfr9lsi5uj,19143,Naturally on Main at Forest City Chiropractic.,,Spa or Beauty Store,False
+bo_zwfuvsd5wc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700310898000,True,True,r_dfr9lsi5uj,36495,Naturally on Main at Forest City Chiropractic.,,Spa or Beauty Store,False
+bo_y6cj2ayyud,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700244051000,False,False,r_qdusk6fjaa,138018,Margo’s Market,http://margosmarket.org/,,False
+bo_7cpbm3g699,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700008249000,False,False,r_mwfb766vdf,26787,Harvey Easton Cafe,http://eastongymco.com/,Cafe or Restaurant,False
+bo_vjk8w9fm2z,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699893175000,True,True,r_6ve465s4dc,26237,Jamil Stanekzai,http://mypharmacyllc.com,,False
+bo_aj5mf2v4kt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699759675000,True,True,r_w7tzrvkh9u,44956,Ramel Family Farms,http://www.ramelfamilyfarms.com/,General or Mercantile Store,True
+bo_bncgyzrhv7,ADMIN_CREATE_FAKE_REPLACEMENT_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699554470000,False,False,r_4wuzmbhgjh,14342,Ultimate Vitamins plus,http://ultimatevitaminsplus.com,,True
+bo_bcsy7jzuqv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699491940000,True,True,r_grsdh4na3h,16429,A Better Tomorrow Health and Wellness,http://abettertomorrowllc.org/,,False
+bo_52xb2ut5pq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699378650000,True,True,r_fb9v4vekpy,27271,Pearson’s Market & Cafe,http://www.ilovepearsons.com,Cafe or Restaurant,True
+bo_tm6dfbfgah,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699145207000,True,True,r_wmyazn7eqx,29785,The Regular,https://www.theregulardenver.com/,,False
+bo_v65w5shfcq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699039820000,False,False,r_8qkt5wmlpy,19843,jamaica africa yay area,http://www.veganfolife.com,,False
+bo_94jagy3kef,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1698884451000,False,False,r_mwfb766vdf,28091,Harvey Easton Cafe,http://eastongymco.com/,Cafe or Restaurant,False
+bo_2k4qsnvy9j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1698268953000,True,True,r_30q66jpfdg,34098,The Karma Korner,https://the-karma-korner.business.site/,Gift Store,True
+bo_hn4r6ryr3x,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697583795000,False,False,r_mwfb766vdf,28091,Harvey Easton Cafe,http://eastongymco.com/,Cafe or Restaurant,False
+bo_k25f9u43nu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697480895000,True,True,r_qdusk6fjaa,45100,Margo’s Market,http://margosmarket.org/,,False
+bo_jmd4bcbyzv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697476695000,True,True,r_kw28yusq76,225176,Durango Natural Foods Co-op,http://durangonaturalfoods.coop/,,False
+bo_mgvffad78m,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697242995000,True,True,r_xkt6q9uenu,11360,Greenwood Natural Markets,http://Www.greenwoodnaturalmarket.Com,,False
+bo_y9aqhm27w3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1697067277000,True,True,r_auhbead5t2,9192,TIGERBOX Beauty,http://www.tigerboxbeauty.com/,Spa or Beauty Store,False
+bo_rcrbvqt9pu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1696023880000,True,True,r_4k0cn7twz3,24599,Simply Holistic LLC,http://www.simply-holistic.net,,False
+bo_th86879xpg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695953571000,False,False,r_6nat6ac6fh,54282,"Merlins Dream Smoke Shop (MEGA STORE FOR KRATOMS, CBDS/DELTA THCs, PIPES, HOOKAHS, CIGARS, ECIGS, E-JUICES AND NOVELTIES!)",http://www.merlinsdream.com/,Grocery or Liquor Store,False
+bo_rsz362phap,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695833377000,False,False,r_3gktxy4e21,40936,Pinkhill Organics,http://www.pinkhillorganics.ecwid.com,,True
+bo_xaqgthdgt7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695753473000,False,False,r_mwfb766vdf,28091,Harvey Easton Cafe,http://eastongymco.com/,Cafe or Restaurant,False
+bo_2f4cfmcyc3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695693336000,False,False,r_4wuzmbhgjh,15794,Ultimate Vitamins plus,http://ultimatevitaminsplus.com,,False
+bo_2un4cby6w6,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1695350458000,True,True,r_72pw8hq5m3,165461,Living Foods,http://www.livingfoodshawaii.com/,,False
+bo_zknfjtcsha,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1695128931000,True,True,r_4wuzmbhgjh,10129,Ultimate Vitamins plus,http://ultimatevitaminsplus.com,,False
+bo_ysdvb4mvks,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1694198103000,True,True,r_a8gg5uegmn,13609,Herbal Plants Wellness,,,False
+bo_2mnw3wkgav,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1693585677000,False,False,r_mwfb766vdf,29557,Harvey Easton Cafe,http://eastongymco.com/,Cafe or Restaurant,False
+bo_stwhcmv7y7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1691361312000,False,False,r_mwfb766vdf,55940,Harvey Easton Cafe,http://eastongymco.com/,Cafe or Restaurant,False
+bo_xa6cwq6e5e,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1690249099000,True,True,r_6nat6ac6fh,137586,"Merlins Dream Smoke Shop (MEGA STORE FOR KRATOMS, CBDS/DELTA THCs, PIPES, HOOKAHS, CIGARS, ECIGS, E-JUICES AND NOVELTIES!)",http://www.merlinsdream.com/,Grocery or Liquor Store,False
+bo_2j33zf6xsn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689797717000,False,False,r_mwfb766vdf,29557,Harvey Easton Cafe,http://eastongymco.com/,Cafe or Restaurant,False
+bo_k6nfs7rnst,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689713463000,False,False,r_8qkt5wmlpy,11103,jamaica africa yay area,http://www.veganfolife.com,,False
+bo_x9qbsjv2kt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689401770000,False,False,r_bmnrqgzd56,10508,The Sweetest Little Life,http://www.thesweetestlittlelife.com/,Spa or Beauty Store,True
+bo_fjf7wryvat,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1689291846000,True,True,r_uywhys9yag,25140,Matrix Wellness,http://matrixwellness.com/,,False
+bo_8zbt4r298p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1688478434000,False,False,r_8qkt5wmlpy,39092,jamaica africa yay area,http://www.veganfolife.com,,False
+bo_7w6sjcncq4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1687942211000,True,True,r_ehz8rmcrm8,42176,Cashmere Moon,http://shopcashmeremoon.com/,,False
+bo_s5j2y5m73j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1687898711000,False,False,r_3gktxy4e21,28349,Pinkhill Organics,http://www.pinkhillorganics.ecwid.com,,True
+bo_e92vsuhq98,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1687833468000,True,True,r_mwfb766vdf,27594,Harvey Easton Cafe,http://eastongymco.com/,Cafe or Restaurant,False
+bo_dfe326hy5q,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1687411424000,True,True,r_6gwv3ajv22,29081,Mahaly Spa,http://www.mahaly-spa.com/,Spa or Beauty Store,False
+bo_ss4qbfjcfv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1681341410000,True,True,r_5jmc7qpqec,56337,Tristate Pharmacy,https://maps.google.com/?cid=7136981304523723783,,False
+bo_2ghykrg2wy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1681214188000,False,False,r_5jnfzs72xt,11482,Four Home & Wellbeing,http://www.fourhomeandwellbeing.com,Home Decor Store,False
+bo_cszsmc8r3x,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1680654288000,True,True,r_sr2rkuafc2,14984,White Phoenix Acupuncture,http://www.whitephoenix.org/,,False
+bo_nf6dhd77ay,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1680491075000,True,True,r_vw32cc6ns2,27594,Nosta Sauna Lounge,http://Www.Nostasauna.com,Spa or Beauty Store,False
+bo_j6pne74w82,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1679699061000,True,True,r_7yhyrvyc6j,28463,Relish Market,https://relishmarket.com/,Grocery or Liquor Store,False
+bo_zj6ney3njq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1679503807000,False,False,r_udad3tw9tc,31444,Right at Home Fitness,,Fitness or Yoga Studio,True
+bo_cjnacyadqf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1679172255000,False,False,r_3gktxy4e21,14018,Pinkhill Organics,http://www.pinkhillorganics.ecwid.com,,True
+bo_76q637jtfu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1678464800000,True,True,r_vrmr6tdsqa,9781,Uncle Willie's Grocery Store,http://www.uncle-willies.com/,Grocery or Liquor Store,False
+bo_tbbgyr5fah,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1678454300000,True,True,r_8qkt5wmlpy,24207,jamaica africa yay area,http://www.veganfolife.com,,False
+bo_t53u54f5mr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1678319271000,True,True,r_dmitco9qfu,9458,Radi8 Float Studio,http://www.radi8float.com/,Spa or Beauty Store,True
+bo_qqu5q4gad2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1677198265000,True,True,r_8qsmk2a6ls,61950,Sunday's Company,http://sundayscompany.com/,,False
+bo_t446j47bgh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1676850049000,True,True,r_5jnfzs72xt,20457,Four Home & Wellbeing,http://www.fourhomeandwellbeing.com,Home Decor Store,False
+bo_qqmh2tkyxx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1676306450000,True,True,r_udad3tw9tc,27283,Right at Home Fitness,,Fitness or Yoga Studio,False
+bo_zz2tfrwp2d,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1676243750000,True,True,r_dvsd7tdltd,12510,Marfa Book Co,,General or Mercantile Store,True
+bo_u6y6m3scuj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1675719434000,True,True,r_e3ztew9pnn,9810,Wüm,,General or Mercantile Store,False
+bo_qn6f4y3mph,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1675460152000,True,True,r_rj3v4v5xfp,9458,Vintage Coffee & Clutter,,,True
+bo_udkea5u6zz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1674787921000,False,False,r_8x2yg6ccdj,10946,LB Kitchen,http://www.lbkitchenportlandme.com/,,False
+bo_3wbcs97pm2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1674679139000,True,True,r_f68nesj8ta,9558,Astute Counseling Services,http://www.astutecounseling.com/,,False
+bo_h99ppf3vbz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1673316928000,True,True,r_8x2yg6ccdj,9538,LB Kitchen,http://www.lbkitchenportlandme.com/,,False
+bo_n6vbhw8k7e,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1671907105000,True,True,r_bmnrqgzd56,9538,The Sweetest Little Life,http://www.thesweetestlittlelife.com/,Spa or Beauty Store,True
+bo_vd5akcmx7g,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1671302705000,False,False,r_3a3txaqjo4,13970,Pillar and Pride,http://www.pillarandpride.com/,General or Mercantile Store,True
+bo_g2x7va93mx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1670368426000,True,True,r_3gktxy4e21,23824,Pinkhill Organics,http://www.pinkhillorganics.ecwid.com,,True
+bo_cf7a5f8n3q,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1669128949000,True,True,r_d5pbtp4hkm,34966,Pillar Holistic Living,Https://pillarholistic.com,Fitness or Yoga Studio,False
+bo_rgfwy5yah3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1666468458000,True,True,r_3a3txaqjo4,14183,Pillar and Pride,http://www.pillarandpride.com/,General or Mercantile Store,True

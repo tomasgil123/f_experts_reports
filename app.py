@@ -9,6 +9,34 @@ from dashboard.create_client_dashboard import create_dashboard
 from dashboard.create_monthly_report import create_monthly_report
 from utils import save_user_log
 
+
+latico_leathers = "la44tico!"
+tenzo_tea = "tenz44o!"
+admin = "admin44!"
+free_planet = "free44planet!"
+the_perfect_jeans = "the77perfect!"
+couleur_nature = "couleur22nature!"
+caravan = "ca11ravan!"
+bon_artis = "bon99artis!"
+shinesty = "shi55nesty!"
+lothantique = "22lothantique!"
+boredwalk = "bo33redwalk!"
+born_to_rally = "bo22rn_to_rally!"
+true_classic = "true00classic!"
+glimmer_wish = "glim22mer_wish!"
+trek_light = "trek44light!"
+little_hometown = "little44hometown!"
+be_huppy = "be11huppy!"
+grab2art = "grab22art!"
+cheese_brothers = "cheese11bros!"
+teleties = "tele99ties!"
+medify = "medi00fy!"
+tushy = "tushy88!"
+future_kind = "future44kind!"
+jack_archer = "jack22archer!"
+
+inactive_clients = ['tenzo_tea', 'free_planet', 'the_perfect_jeans', 'couleur_nature', 'caravan', 'bon_artis', 'lothantique', 'boredwalk', 'born_to_rally', 'true_classic', 'glimmer_wish', 'little_hometown']
+
 openai_api_key = st.secrets["openai_api_key"]
 
 if openai_api_key != "":
@@ -117,6 +145,10 @@ if st.session_state.get("is_admin", False):
     df_brands_reports = pd.read_csv("./brands_monthly_reports.csv")
 
     client_options = [key for key in st.secrets["passwords"] if key != "admin"]
+    
+
+    # we filter clients that are inactive
+    client_options = [client for client in client_options if client not in inactive_clients]
     sorted_client_options = sorted(client_options)
 
     default_client_option = sorted_client_options[0]

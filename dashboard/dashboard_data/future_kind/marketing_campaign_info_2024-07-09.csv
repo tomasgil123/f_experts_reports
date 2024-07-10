@@ -1,0 +1,4 @@
+tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
+bmc_yh44mgqn62,Untitled campaign 1,ONE_TIME,DRAFT,,,,,,,,,
+bmc_4hqwwsjc74,January New Year Quick Sale,ONE_TIME,DRAFT,,,,,,,,,
+bmc_pf9nhay9yt,Untitled campaign,ONE_TIME,COMPLETED,1695949244000.0,27.0,23.0,11.0,0.0,0.0,0.0,0.0,0.0

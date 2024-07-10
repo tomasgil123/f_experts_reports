@@ -12,7 +12,9 @@ from get_competitors_brand_info import (get_all_competitors_brand_data)
 # brand_owner = "Cheese Brothers"
 # brand_owner = "Teleties"
 # brand_owner = "Tushy"
-brand_owner = "Medify"
+# brand_owner = "Medify"
+#brand_owner = "Future Kind"
+brand_owner = "Jack Archer"
 
 brands_data = get_all_competitors_brand_data(brand_owner)
 

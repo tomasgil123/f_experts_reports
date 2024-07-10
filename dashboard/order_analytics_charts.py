@@ -929,3 +929,37 @@ def display_insider_info(df):
 
     # Render the HTML table with DataTables
     st.components.v1.html(html, height=400, scrolling=True)
+
+def get_top_products(df_items_orders, df_orders):
+
+    # Merge the dataframes on 'brand_order_token'
+    df_merged = pd.merge(df_items_orders, df_orders[['tokens', 'brand_contacted_at_values']], left_on='brand_order_token', right_on='tokens', how='left')
+
+    # Convert 'brand_contacted_at_values' to datetime
+    df_merged['brand_contacted_at'] = pd.to_datetime(df_merged['brand_contacted_at_values'], unit='ms')
+
+    # Calculate the date 12 months ago from today
+    twelve_months_ago = datetime.now() - timedelta(days=365)
+
+    # Filter the dataframe to keep only rows within the last 12 months
+    df_filtered = df_merged[df_merged['brand_contacted_at'] >= twelve_months_ago]
+
+    # Group by product name and sum the total retailer price
+    product_revenue = df_filtered.groupby('product_name')['total_retailer_price'].sum().sort_values(ascending=False)
+
+    # Get the top 5 products and sum the rest as 'Other'
+    top_5 = product_revenue.head(5)
+    other = pd.Series({'Other': product_revenue.iloc[5:].sum()})
+    final_data = pd.concat([top_5, other])
+
+    # Calculate percentages
+    total_revenue = final_data.sum()
+    percentages = final_data / total_revenue * 100
+
+    fig, ax = plt.subplots()
+    ax.pie(percentages, labels=percentages.index, autopct='%1.1f%%', startangle=90)
+    ax.set_title('Top 5 Products Revenue Share')
+    ax.axis('equal')
+
+    # Display the chart using Streamlit
+    st.pyplot(fig)

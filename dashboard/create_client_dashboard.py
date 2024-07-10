@@ -38,7 +38,7 @@ from dashboard.order_analytics_charts import (lifetime_performance_metrics, sale
                                     type_of_store_top_10_retailers, sales_distribution, 
                                     sales_quantiles, purchase_frequency, retailers_did_not_reorder, 
                                     sales_by_store_type, sales_by_category, avg_order_value_by_store_type, get_cold_outreach_lead_sales,
-                                    display_insider_info)
+                                    display_insider_info, get_top_products)
 
 
 from dashboard.email_marketing_analytics_charts import (get_email_marketing_kpis_last_30_days, 
@@ -206,6 +206,9 @@ def create_dashboard(selected_client, selected_report, is_admin):
         if page_views_by_category_analysis is not None:
             st.markdown(page_views_by_category_analysis, unsafe_allow_html=True)
 
+        if selected_client == "jack_archer":
+            return
+
         generate_page_views_chart_by_category_last_12_months(data, date_last_update)
 
         generate_page_views_evolution_last_12_months_by_category(data)
@@ -292,6 +295,8 @@ def create_dashboard(selected_client, selected_report, is_admin):
         new_merchants_by_source(df, date_last_update)
 
         sales_by_category(df, df_order_items, df_page_views)
+
+        get_top_products(df_order_items, df)
 
         avg_order_value_by_store_type(df, day_data_was_obtained=date_last_update)
 

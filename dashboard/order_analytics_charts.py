@@ -912,12 +912,49 @@ def display_insider_info(df):
     <!DOCTYPE html>
     <html>
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
         <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+        <style>
+            body {{
+                font-family: 'Source Sans Pro', sans-serif;
+            }}
+            #myTable {{
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }}
+            #myTable th, #myTable td {{
+                padding: 12px;
+                border: 1px solid #ddd;
+            }}
+            #myTable th {{
+                background-color: #f2f2f2;
+                font-weight: 600;
+                text-align: left;
+            }}
+            #myTable tr:nth-child(even) {{
+                background-color: #f8f8f8;
+            }}
+            #myTable tr:hover {{
+                background-color: #e8e8e8;
+            }}
+            .dataTables_wrapper .dataTables_length, 
+            .dataTables_wrapper .dataTables_filter, 
+            .dataTables_wrapper .dataTables_info, 
+            .dataTables_wrapper .dataTables_processing, 
+            .dataTables_wrapper .dataTables_paginate {{
+                margin-bottom: 10px;
+                font-family: 'Source Sans Pro', sans-serif;
+            }}
+        </style>
         <script>
             $(document).ready(function() {{
-                $('#myTable').DataTable();
+                $('#myTable').DataTable({{
+                    "pageLength": 25,
+                    "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
+                }});
             }});
         </script>
     </head>

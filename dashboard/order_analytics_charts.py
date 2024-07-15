@@ -289,10 +289,10 @@ def sales_by_source(df, day_data_was_obtained):
     plt.tight_layout()
 
     # Custom legend with desired names
-    legend_labels = ['Faire Direct', 'Marketplace', 'Source 3', 'Source 4', 'Source 5']
+    legend_labels = ['Faire Direct', 'Marketplace', 'Marketplace Paid', 'Source 4', 'Source 5']
     plt.legend(legend_labels)
 
-    plt.title('Faire Direct sales vs Marketplace sales month over month', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
+    plt.title('Sales by source month over month', fontsize=13, loc='left', pad=12, fontweight=500, color="#31333f", fontfamily="Microsoft Sans Serif")
 
     # Add % symbol to y-axis tick labels
     fmt = '%.0f%%'  # Format as percentage with no decimal places
@@ -320,22 +320,23 @@ def new_merchants_by_source(df, day_data_was_obtained):
 
     # Set the width of the bars
     bar_width = 0.35
+    group_gap = 0.3
 
-    # Generate positions for bars
-    bar_positions = range(len(pivot_data))
+    num_sources = len(pivot_data.columns)
+    group_positions = np.arange(len(pivot_data)) * (num_sources * bar_width + group_gap)
 
     # Plot bars for each source
     for i, (source, data) in enumerate(pivot_data.items()):
-        ax.bar([pos + i * bar_width for pos in bar_positions], data, bar_width, label=source)
+        ax.bar(group_positions + i * bar_width, data, bar_width, label=source)
 
     # Set labels and title
     ax.set_xlabel('Month')
     ax.set_ylabel('Number of New Merchants')
-    ax.set_xticks(bar_positions)
+    ax.set_xticks(group_positions + (num_sources - 1) * bar_width / 2)
     ax.set_xticklabels(pivot_data.index.strftime('%Y-%m'), rotation=45)
     ax.grid(axis='y', linestyle='--', alpha=0.7)
     # Custom legend with desired names
-    legend_labels = ['Faire Direct', 'Marketplace', 'Source 3', 'Source 4', 'Source 5']
+    legend_labels = ['Faire Direct', 'Marketplace', 'Marketplace Paid', 'Source 4', 'Source 5']
     plt.legend(legend_labels)
 
     # Show plot

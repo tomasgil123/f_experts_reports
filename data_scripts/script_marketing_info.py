@@ -44,8 +44,8 @@ from cookie import (cookie_token)
 # brand_token = "b_2j1b52vu"
 # brand_name = "grab2art"
 
-# brand_token = "b_12tpkawx"
-# brand_name = "teleties"
+brand_token = "b_12tpkawx"
+brand_name = "teleties"
 
 # brand_token = "b_fg3z6jazys"
 # brand_name = "medify"
@@ -61,8 +61,8 @@ from cookie import (cookie_token)
 # brand_token = "b_ewdnueckng"
 # brand_name = "future_kind"
 
-brand_token = "b_ekmpt42px"
-brand_name = "jack_archer"
+# brand_token = "b_ekmpt42px"
+# brand_name = "jack_archer"
 
 # # we check if there is data already downloaded
 product_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/marketing_campaign_info_*.csv")

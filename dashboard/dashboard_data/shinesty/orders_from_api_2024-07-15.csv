@@ -1,0 +1,117 @@
+tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
+bo_vtq66hz4zh,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1720819469000,True,True,r_1d2l17a2,28644,Ecology Sports,http://www.ecologysports.com/,Clothing Boutique,False
+bo_n8vewwtw9r,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1720725888000,True,True,r_tfhpxhe7uz,19771,Lucy Lane,http://lucylanelooks.shopify.com/,Clothing Boutique,False
+bo_k7vz23ptau,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1720725588000,True,True,r_5ggpmjjf,19771,All About You Boutique,https://www.allabout-you.org/,Clothing Boutique,False
+bo_stjnshqqgg,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720146515000,False,False,r_amkvzx3d,133392,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
+bo_zf4q6hcwha,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720126715000,False,False,r_d2qhcgbgfw,68241,Big Dick's Salty Seaman Fun Shop,,Clothing Boutique,False
+bo_rvennrz85y,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720025896000,True,True,r_49qjvhxvba,17721,Captain's Landing,http://www.captainslanding.com/,,False
+bo_6645avbh4z,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719898243000,True,True,r_hgp6ej6zj3,11848,Sincerely Whitney Aesthetic’s,https://mysite.vagaro.com/sincerelywhitneyaesthetics,Spa or Beauty Store,False
+bo_qy5qrc4we6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719577366000,True,True,r_3ek55wc9zw,20432,Sunsations,https://www.sunsationsseaisle.com/,Clothing Boutique,False
+bo_xb2x3dvuhk,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1719352732000,True,True,r_zzfheqp374,466,Adult Video Warehouse,https://adultsatplay.net/,,True
+bo_nvq8fncmaf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719168170000,False,False,r_465flmrwjl,24485,St. Michael's Mens Apparel,http://StMichaelsMensApparel.com,Clothing Boutique,True
+bo_5u63vugcf8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718484958000,True,True,r_zzfheqp374,45026,Adult Video Warehouse,https://adultsatplay.net/,,False
+bo_uu5p4q2ya5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718405758000,False,False,r_465flmrwjl,41725,St. Michael's Mens Apparel,http://StMichaelsMensApparel.com,Clothing Boutique,True
+bo_q25znr3wsk,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718046092000,True,True,r_ago46e4xst,15148,Out West,http://Outwest-USA.com,Clothing Boutique,True
+bo_su5hy97x4j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718043692000,True,True,r_fmj2a8apuz,24155,The Refinery,http://www.Facebook.com/theredinery,Clothing Boutique,False
+bo_2gq8mghyqf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717869689000,False,False,r_ediobvjt4z,16727,Flea Market Chic,http://www.fleamarketchic.net/contact-us.html,Home Decor Store,True
+bo_wyggz9u7zu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717781189000,True,True,r_ejg0qe1t3v,53451,J. Longs,http://www.jlongs.com/,Clothing Boutique,True
+bo_4hyg3r268n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717773985000,False,False,r_y6c83xbg6k,16727,coastal roots clothing co,https://shopcoastalrootsms.com/,Clothing Boutique,True
+bo_nzzxqf4pam,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1717701386000,True,True,r_2adklap7,13624,Rhinestone Divaz,http://www.Rhinestonedivaz.com,,False
+bo_3uyxm69kux,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717441340000,True,True,r_m7jqk4g9c4,19771,Rushmore Candy Company,https://rushmorecandycompany.com/,Kids or Toy Store,False
+bo_g8tt3kj5kq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717325540000,True,True,r_ediobvjt4z,15727,Flea Market Chic,http://www.fleamarketchic.net/contact-us.html,Home Decor Store,True
+bo_y7vbrfvh2x,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717194440000,True,True,r_vshwjsjx3g,13010,Cochran & Co. LLC,http://www.shopcochranandco.com,Clothing Boutique,False
+bo_s3np8e6cbv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1717174640000,True,True,r_7ye6q6qmnb,146070,Martin Boot Company,http://martinboot.com,Clothing Boutique,False
+bo_qhxqa4bw72,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717039701000,True,True,r_y6c83xbg6k,26704,coastal roots clothing co,https://shopcoastalrootsms.com/,Clothing Boutique,True
+bo_mc4zm9grw6,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1717011801000,False,False,r_d2qhcgbgfw,159293,Big Dick's Salty Seaman Fun Shop,,Clothing Boutique,False
+bo_sdfnfkt3tg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1717009101000,False,False,r_bc8kxshzsn,11525,"Body By Design Fitness, LLC",http://bodybydesignfitnessllc.com/,Clothing Boutique,True
+bo_rp9fxrmvqr,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1716489076000,True,True,r_4hvgxnr0bx,20459,The Southern,http://thesouthernonline.com,Clothing Boutique,False
+bo_vjtskqbgen,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1716478576000,True,True,r_bc8kxshzsn,12179,"Body By Design Fitness, LLC",http://bodybydesignfitnessllc.com/,Clothing Boutique,True
+bo_stwcghe8w6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1716313897000,True,True,r_j8ztn2tudq,22129,Terry Family Funeral Home,http://www.terryfamilyfuneralhome.com/,,True
+bo_34p5pacnn7,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1716225353000,False,False,r_dmvka38vu8,28644,Big Dick's Salty Seaman LLC,,Clothing Boutique,False
+bo_47hjhy44e5,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1715632139000,False,False,r_9immfion,83265,A & A village treasures,http://aavillagetreasures.com/,,False
+bo_57jrbzf5vc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715287638000,True,True,r_9lcqz71l38,13823,Condom Knowledge,https://cks-secrets.com/,,True
+bo_8zcm84zfax,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1715108079000,True,True,r_dtz6nwolt9,40933,The Pretty Pussycat,http://www.prettypussycat.com/,Clothing Boutique,False
+bo_3eafs7x3zy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1715097279000,False,False,r_62i6i0hp,14830,Bridge Street Exchange,http://www.bridgestreetexchange.com,Clothing Boutique,True
+bo_zjzdn95kdp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1714454732000,False,False,r_bjdtz0s3kt,32264,CK's Secrets,http://ckssecrets.mystoreextender.com/,,True
+bo_9k899qmr6p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713908199000,True,True,r_e0s92hjhpx,35856,Good Relations,http://www.goodrelations.com/,Clothing Boutique,True
+bo_s6v2rg3we6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713471194000,False,False,r_4767c2lfq5,9880,"The Classic Equestrian, LLC",http://shoptheclassicequestrian.com/,,True
+bo_qwfbgpaxrv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713381203000,True,True,r_fnsj9bghpt,16716,Mr. Funs Costume & Curiosity Emporium,http://www.mrfuns.com/,Kids or Toy Store,False
+bo_ynq6jhjyep,REPLACE_DAMAGED_OR_MISSING_ITEMS,CANCELED,CANCELED,MARKETPLACE,1713226573000,True,True,r_4ai2to97,0,J Perry Salon,http://www.jperrysalon.com/,,True
+bo_uhfcqq44fc,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1713221176000,False,False,r_d2qhcgbgfw,17268,Big Dick's Salty Seaman Fun Shop,,Clothing Boutique,False
+bo_ztvt4tn54f,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1713012154000,True,True,r_4767c2lfq5,12844,"The Classic Equestrian, LLC",http://shoptheclassicequestrian.com/,,True
+bo_45gm8gqpvv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712978554000,False,False,r_pxc711toka,16695,Walt's Market,http://www.waltsmarketnd.com,Home Decor Store,True
+bo_v9cnxcdg63,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712714672000,True,True,r_4ai2to97,0,J Perry Salon,http://www.jperrysalon.com/,,True
+bo_xydtskxrfv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1712339560000,False,False,r_dmvka38vu8,57318,Big Dick's Salty Seaman LLC,,Clothing Boutique,True
+bo_89bx7ryh33,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712262995000,True,True,r_8dn2qctk4u,23742,In Good Company Holdings,http://pspetstore.com/,Gift Store,True
+bo_j5bb7c8w2h,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712108243000,True,True,r_1l3g9lngja,129846,RKPT WKNDR,http://www.rkptwkndr.com/,Clothing Boutique,True
+bo_sh7trmp2xa,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1712099543000,True,True,r_34rdv9pwtu,12172,In Bloom Again,http://www.inbloomagain.com/,Clothing Boutique,False
+bo_7saxbk3kd5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711835296000,False,False,r_njk4avvn5h,34650,simplie STATEd,,Clothing Boutique,True
+bo_574zy65tun,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711481292000,True,True,r_njk4avvn5h,106303,simplie STATEd,,Clothing Boutique,True
+bo_ge8tts97v7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711403485000,True,True,r_64az6tyfly,13835,Karisma Boutique,https://www.shopkarismaboutiqueaberdeen.com/,Clothing Boutique,True
+bo_8ncm59z4s7,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1711321281000,False,False,r_dmvka38vu8,54587,Big Dick's Salty Seaman LLC,,Clothing Boutique,True
+bo_6jbvp6dfuj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1711211481000,True,True,r_f3wpc3c0ex,34466,Miss Behaven,https://www.missbehavengeorgetownky.com/,Gift Store,True
+bo_t2974mtnv3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710864605000,True,True,r_bjdtz0s3kt,12842,CK's Secrets,http://ckssecrets.mystoreextender.com/,,True
+bo_epxy2jxs5h,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710767312000,True,True,r_c2k3go3voo,24565,Frivolous Boutique,http://www.frivolousgal.com/,Clothing Boutique,True
+bo_cqta4safmj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710605312000,True,True,r_867qkgx2fr,12179,M & T Country Store,https://maps.google.com/?cid=7329979038450638087,Clothing Boutique,False
+bo_ztkhhfh7t4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1710362193000,True,True,r_9p84h6buyp,125,The valley mercantile,http://www.thevalleygifts.com,Clothing Boutique,False
+bo_py4w9eejsr,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1710022327000,False,False,r_d2qhcgbgfw,88723,Big Dick's Salty Seaman Fun Shop,,Clothing Boutique,False
+bo_73byuya4pd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1709088922000,True,True,r_9679fmuiyf,35949,CrossRail Apparel,http://crossrailtack.com/,,False
+bo_nxja27y8kn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708454859000,False,False,r_2d33b7kr,13837,Not so Shabby Gifts,,Clothing Boutique,True
+bo_d8c639szgk,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1708268606000,True,True,r_d2qhcgbgfw,83261,Big Dick's Salty Seaman Fun Shop,,Clothing Boutique,False
+bo_b7daf72czr,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1708216406000,False,False,r_dmvka38vu8,54991,Big Dick's Salty Seaman LLC,,Clothing Boutique,False
+bo_3aw8ceuhkh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708091569000,False,False,r_f3xwm2hqer,14012,Glitz Glam and Rebellion,http://glitzglamandrebellion.com/,Clothing Boutique,False
+bo_6eyejcwbaz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1708022269000,True,True,r_veh0mwgrco,12186,Modernly Vintage Boutique,https://maps.google.com/?cid=2256717035730319353,Clothing Boutique,False
+bo_xk9hgba5xf,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1707830878000,False,False,r_ejbz7uxtaq,121493,Big Dick's Salty Seaman,"https://maps.google.com/?q=318+Old+San+Carlos+Blvd,+Fort+Myers+Beach,+FL+33931,+USA&ftid=0x88db3bf50be61c79:0x9c27052b64dd6b9",Clothing Boutique,True
+bo_natrduqtkc,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1707771478000,False,False,r_dmvka38vu8,24548,Big Dick's Salty Seaman LLC,,Clothing Boutique,False
+bo_65tzdr9ze3,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1707577457000,False,False,r_dmvka38vu8,42298,Big Dick's Salty Seaman LLC,,Clothing Boutique,False
+bo_8jb4w9qmmt,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1706548473000,True,True,r_ovvl42fxrh,0,Fugates Inc,,Clothing Boutique,False
+bo_yhp38ffg2t,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706278773000,True,True,r_yzwad5fb3v,20810,Tux & Stuff,https://tuxandstuff727.wixsite.com/tuxandstuff,Clothing Boutique,False
+bo_jmht3um575,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706202923000,True,True,r_g757an2p2c,15323,Emily Kaye Bridal,http://emilykayebridal.com/,Clothing Boutique,False
+bo_ywf6ucfm6v,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706069974000,True,True,r_24j4xxggrs,11450,Littles,,Kids or Toy Store,False
+bo_hsa6fdjjmc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706043946000,False,False,r_2d33b7kr,12450,Not so Shabby Gifts,,Clothing Boutique,True
+bo_qzbf3u55gw,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1706037182000,False,False,r_amkvzx3d,41335,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
+bo_exjztxgqmj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1706033582000,False,False,r_c6j2c3jcnj,32209,Dd's Closet,https://maps.google.com/?cid=4678647216065722985,Clothing Boutique,False
+bo_39jmmvhy47,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705932787000,True,True,r_wc6rnymjgn,11450,MAD Styles,https://www.themadstyles.com/,Clothing Boutique,False
+bo_93vz4gpg5c,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1705903687000,True,True,r_9immfion,59741,A & A village treasures,http://aavillagetreasures.com/,,False
+bo_ped7bge9jc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705812787000,True,True,r_465flmrwjl,12837,St. Michael's Mens Apparel,http://StMichaelsMensApparel.com,Clothing Boutique,False
+bo_56sg6h6peb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705549294000,True,True,r_c6j2c3jcnj,33637,Dd's Closet,https://maps.google.com/?cid=4678647216065722985,Clothing Boutique,False
+bo_dh5dhs8y4x,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1705447160000,False,False,r_dmvka38vu8,81895,Big Dick's Salty Seaman LLC,,Clothing Boutique,False
+bo_mvyedacqdy,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1705423180000,True,True,r_g757an2p2c,0,Emily Kaye Bridal,http://emilykayebridal.com/,Clothing Boutique,False
+bo_aq6znu329y,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1705189791000,True,True,r_rdveq4kcfc,17459,Troutman's Dry Goods Store,http://troutmansdrygoods.com/,,False
+bo_9dg3m78khy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704990755000,True,True,r_bjh8mb84ue,12837,The Stitching Heifers,http://www.facebook.com/thestitchingheifers,Clothing Boutique,False
+bo_hxdmxwmc3f,REPLACE_DAMAGED_OR_MISSING_ITEMS,CANCELED,CANCELED,MARKETPLACE,1704913997000,False,False,r_1g6zjos83y,0,Amazing Lace,,,True
+bo_mekxfufqcm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1704413200000,True,True,r_zgry3x8fzz,12837,Jasper County Lumber Co.,https://maps.google.com/?cid=14419473912292850571,Clothing Boutique,False
+bo_dfgrv9mzxe,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1703964611000,True,True,r_dmvka38vu8,45029,Big Dick's Salty Seaman LLC,,Clothing Boutique,False
+bo_4cwenh6qw8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1703173666000,False,False,r_1g6zjos83y,25551,Amazing Lace,,,True
+bo_8w4vccjdtr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702598899000,True,True,r_8n1d2bbo0g,19406,Better With Bubbli,http://betterwithbubbli.com/,Clothing Boutique,False
+bo_rtbtkrzmap,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702583299000,False,False,r_1g6zjos83y,38361,Amazing Lace,,,True
+bo_gvxacgcufm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702579099000,True,True,r_vu1kr4sqfi,19406,Marlowe Boutique,https://www.instagram.com/shopmarloweboutique/?hl=en,Clothing Boutique,False
+bo_m8h33pmj3c,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702503236000,False,False,r_1iceu5ajuf,77556,Charisma,,Clothing Boutique,False
+bo_u5p2jrvcaj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1702064956000,True,True,r_f3xwm2hqer,17142,Glitz Glam and Rebellion,http://glitzglamandrebellion.com/,Clothing Boutique,False
+bo_gdgxs7jwqt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701714833000,False,False,r_1g6zjos83y,27218,Amazing Lace,,,True
+bo_z3uvztjt4y,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701534401000,False,False,r_62i6i0hp,15659,Bridge Street Exchange,http://www.bridgestreetexchange.com,Clothing Boutique,False
+bo_tpskpng3e5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701353294000,True,True,r_pxc711toka,25599,Walt's Market,http://www.waltsmarketnd.com,Home Decor Store,False
+bo_rgbktxv6gd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701310774000,True,True,r_5rjrtur07d,32481,Rose Ink Boutique,https://roseinkboutique.com,Clothing Boutique,False
+bo_y9sev8dbcj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701267951000,True,True,r_72ezhkm3pw,11773,Pinup Pixie Boutique,http://www.pinuppixieboutique.com/,Clothing Boutique,False
+bo_j2ntg9whck,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701185427000,True,True,r_58vw7f0gux,14250,Brown's Accents,http://www.brownsaccentscandles.com,Clothing Boutique,False
+bo_78tpbamgq3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701028158000,True,True,r_1iceu5ajuf,46116,Charisma,,Clothing Boutique,False
+bo_wkqqgyx6qv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1701013758000,True,True,r_62i6i0hp,26216,Bridge Street Exchange,http://www.bridgestreetexchange.com,Clothing Boutique,False
+bo_crdadbzk55,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700960958000,True,True,r_atdwjddxrt,11685,1809 Evergreen,,Clothing Boutique,False
+bo_4mccm6h5bf,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1700947758000,True,True,r_12eedtcy61,39677,Dolores Outfitters,http://www.doloresoutfitters.com,,False
+bo_hj9mss5snc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700935458000,True,True,r_e8xspbr4sg,45201,Neesh,http://neesh-wear.com,Clothing Boutique,False
+bo_deyhyske8f,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1700804158000,True,True,r_a8kabiyn,25191,"Savvy Parke Purcell,Ok",,Gift Store,False
+bo_x2maepfnzt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700444098000,True,True,r_6ybqhqee,18789,Frock Boutique,http://www.frockboutique.com/,Clothing Boutique,True
+bo_wpvhn4xucu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700434198000,True,True,r_1g6zjos83y,88761,Amazing Lace,,,True
+bo_n8zgnrcgbs,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700416198000,True,True,r_cr3fxxms9z,15486,Buttermuffin Smoke Shop,https://www.instagram.com/buttermuffinsmokeshop/?hl=en,Clothing Boutique,True
+bo_79m4t2dfzp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1700398198000,True,True,r_amkvzx3d,47760,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
+bo_pwvz9974dw,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1700167664000,True,True,r_ejbz7uxtaq,92819,Big Dick's Salty Seaman,"https://maps.google.com/?q=318+Old+San+Carlos+Blvd,+Fort+Myers+Beach,+FL+33931,+USA&ftid=0x88db3bf50be61c79:0x9c27052b64dd6b9",Clothing Boutique,True
+bo_t2he6fpqbh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700166164000,True,True,r_6psbenp30a,12837,SERENDIPITY STUDIOS LLC,http://Www.theserendipitystores.com,Spa or Beauty Store,False
+bo_p83vjn3mbh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1700054449000,True,True,r_1kz84x6xh5,66270,Frankie’s Apparel,http://frankiesapparel.com/,Clothing Boutique,False
+bo_s67x49z8cq,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1700054449000,True,False,r_1kz84x6xh5,0,Frankie’s Apparel,http://frankiesapparel.com/,Clothing Boutique,False
+bo_qagcmz3h9a,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699912260000,False,False,r_56e6tj1o,9047,Rebel Supply Co.,http://rebelsupplyap.com/,Gift Store,True
+bo_577xzadxd2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699911060000,True,True,r_2d33b7kr,12837,Not so Shabby Gifts,,Clothing Boutique,True
+bo_zxhaz7dwkj,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1699901875000,True,True,r_pbqs8ak8j5,0,"Shinesty, Inc.",http://shinesty.com/,Clothing Boutique,False
+bo_n3fkz2w8hv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699898575000,True,True,r_equb9rm0,21272,Heartbreak Boutique,http://www.heartbreakboutique.com/,Clothing Boutique,False
+bo_b4kt4e6hcu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699840675000,True,True,r_8d382cga,11360,S. Murphy's Clothing Shoppe,http://www.smurphysshoppe.com,Clothing Boutique,False
+bo_twx27eru6c,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699761775000,True,True,r_4d9cu243fb,50818,Rustic Boutique,http://www.rusticbshop.com/,Clothing Boutique,False
+bo_w4gvmg3p8a,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1699470340000,True,True,r_56e6tj1o,36940,Rebel Supply Co.,http://rebelsupplyap.com/,Gift Store,True

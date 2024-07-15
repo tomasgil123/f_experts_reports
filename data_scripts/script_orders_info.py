@@ -43,8 +43,8 @@ from utils import (get_orders_teleties, get_orders_items_teleties)
 # brand_token = "b_9j68t72ipo"
 # brand_name = "true_classic"
 
-# brand_token = "b_12tpkawx"
-# brand_name = "teleties"
+brand_token = "b_12tpkawx"
+brand_name = "teleties"
 
 # brand_token = "b_fg3z6jazys"
 # brand_name = "medify"
@@ -60,8 +60,8 @@ from utils import (get_orders_teleties, get_orders_items_teleties)
 # brand_token = "b_ewdnueckng"
 # brand_name = "future_kind"
 
-brand_token = "b_ekmpt42px"
-brand_name = "jack_archer"
+# brand_token = "b_ekmpt42px"
+# brand_name = "jack_archer"
 
  # df_current_marketing_campaign_info is an empty dataframe
 df_current_orders = pd.DataFrame()

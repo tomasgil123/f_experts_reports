@@ -1,0 +1,8 @@
+token,order_token,product_token,brand_order_token,product_name,product_option_name,suggested_retail_price,retailer_price,retailer_original_price,quantity,total_retailer_price,retailer_total,discount_percentage,localized_brand_order_number,product_variations
+oi_5k8s9rvejd,o_nbfghr4us3,p_zh8u8fdpv4,bo_yzbvhww88e,MA-40 Air Purifier,Single / Black / UV LIGHT + TRUE HEPA H14,22983,3447,3447,1,3447,3447,0,#YZBVHWW88E,
+oi_7yx6wa2adb,o_nbfghr4us3,p_zh8u8fdpv4,bo_yzbvhww88e,MA-40 Air Purifier,Single / White / UV LIGHT + TRUE HEPA H14,22983,3447,3447,1,3447,3447,0,#YZBVHWW88E,
+oi_pqv73drbks,o_nbfghr4us3,p_zthjyt6gqz,bo_yzbvhww88e,MA-40 Replacement Air Filter,Four-Pack / True HEPA H13,16639,2495,2495,1,2495,2495,0,#YZBVHWW88E,
+oi_ajmy753ame,o_83qcvjc32e,p_8yyx3nhw29,bo_dvcuuc4npf,MA-112 Air Purifier,1-Pack / White / UV LIGHT + TRUE HEPA H14,69499,10424,10424,1,10424,10424,0,#DVCUUC4NPF,
+oi_fy8wht2fah,o_83qcvjc32e,p_yz9tv3h4gx,bo_dvcuuc4npf,MA-112 Replacement Air Filter Set,Two-Pack / True HEPA H13,26999,4049,4049,1,4049,4049,0,#DVCUUC4NPF,
+oi_ps6mx4jjzc,o_83qcvjc32e,p_9zzsnxfgg7,bo_dvcuuc4npf,MA-15 Air Purifier,Two-Pack / Silver / Regular,17799,2669,2669,4,10676,10676,0,#DVCUUC4NPF,
+oi_u83exg8zzz,o_83qcvjc32e,p_5g6mphz6za,bo_dvcuuc4npf,MA-15 Replacement Air Filter Set,Two Pack,5499,824,824,3,2472,2472,0,#DVCUUC4NPF,

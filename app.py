@@ -35,7 +35,7 @@ tushy = "tushy88!"
 future_kind = "future44kind!"
 jack_archer = "jack22archer!"
 
-inactive_clients = ['tenzo_tea', 'free_planet', 'the_perfect_jeans', 'couleur_nature', 'caravan', 'bon_artis', 'lothantique', 'boredwalk', 'born_to_rally', 'true_classic', 'glimmer_wish', 'little_hometown']
+inactive_clients = ['tenzo_tea', 'free_planet', 'the_perfect_jeans', 'couleur_nature', 'caravan', 'bon_artis', 'lothantique', 'boredwalk', 'born_to_rally', 'glimmer_wish', 'little_hometown']
 
 openai_api_key = st.secrets["openai_api_key"]
 

@@ -15,7 +15,8 @@ from get_product_info_custom import (get_products_info)
 # brand_owner = "Medify"
 # brand_owner = "Latico Leathers"
 # brand_owner = "Future Kind"
-brand_owner = "Jack Archer"
+# brand_owner = "Jack Archer"
+brand_owner = "Dolan Geiman"
 
 data = get_products_info(brand_owner)
 

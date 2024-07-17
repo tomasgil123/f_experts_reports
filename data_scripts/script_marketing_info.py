@@ -4,8 +4,6 @@ import glob
 from get_marketing_campaigns_info import (get_marketing_campaigns_info)
 from cookie import (cookie_token)
 
-
-
 # brand_token = "b_cad0ccd3"
 # brand_name = "couleur_nature"
 
@@ -27,13 +25,14 @@ from cookie import (cookie_token)
 # brand_token = "b_4vbanx86sk"
 # brand_name = "little_hometown"
 
-# ===================
-
 # brand_token = "b_vllag6pj"
 # brand_name = "trek_light"
 
 # brand_token = "b_9j68t72ipo"
 # brand_name = "true_classic"
+
+# ===================
+
 
 # brand_token = "b_9884o1r7ea"
 # brand_name = "shinesty"
@@ -44,12 +43,17 @@ from cookie import (cookie_token)
 # brand_token = "b_2j1b52vu"
 # brand_name = "grab2art"
 
-brand_token = "b_12tpkawx"
-brand_name = "teleties"
+# brand_token = "b_12tpkawx"
+# brand_name = "teleties"
 
 # brand_token = "b_fg3z6jazys"
 # brand_name = "medify"
 
+# brand_token = "b_1c6eqlam"
+# brand_name = "dolan_geiman"
+
+brand_token = ""
+brand_name = "viori"
 
 
 # brand_token = "b_2dvofcgxz7"

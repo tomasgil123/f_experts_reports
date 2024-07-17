@@ -11,18 +11,21 @@ from cookie import (cookie_token)
 # brand_name = "lothantique"
 # brand_name = "glimmer_wish"
 # brand_name = "little_hometown"
+# brand_name = "trek_light"
+# brand_name = "true_classic"
 
 # ==============
 
 # brand_name = "be_huppy"
 # brand_name = "grab2art"
-# brand_name = "true_classic"
 # brand_name = "shinesty"
-# brand_name = "trek_light"
 # brand_name = "latico_leathers"
 
-brand_name = "teleties"
+# brand_name = "teleties"
 # brand_name = "medify"
+
+# brand_name = "dolan_geiman"
+brand_name = "viori"
 
 # brand_name = "tushy"
 # brand_name = "cheese_brothers"

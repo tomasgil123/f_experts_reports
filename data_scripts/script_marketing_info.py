@@ -52,7 +52,7 @@ from cookie import (cookie_token)
 # brand_token = "b_1c6eqlam"
 # brand_name = "dolan_geiman"
 
-brand_token = ""
+brand_token = "b_aqaeteuq89"
 brand_name = "viori"
 
 

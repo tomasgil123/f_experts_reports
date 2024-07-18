@@ -1,0 +1,58 @@
+tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
+bmc_a3qbmnmh82,Hi ,ONE_TIME,DRAFT,,,,,,,,,
+bmc_bkbz9ys3se,Untitled campaign 31,ONE_TIME,DRAFT,,,,,,,,,
+bmc_wbprv273ve,Untitled campaign 30,ONE_TIME,COMPLETED,1718724108000.0,26107.0,20601.0,3131.0,134.0,3.0,1838.5,1.0,298.5
+bmc_wcegj2tzs3,Untitled campaign 29,ONE_TIME,DRAFT,,,,,,,,,
+bmc_xz7pv8y84b,Untitled campaign 28,ONE_TIME,DRAFT,,,,,,,,,
+bmc_rduwvfx2f2,Credit Expiring 1,ONE_TIME,COMPLETED,1716909485000.0,4.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0
+bmc_26x34wmk7y,Credit Expiring ,ONE_TIME,COMPLETED,1715704393000.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0
+bmc_mv7nnxer6x,Mother's Day Sale,ONE_TIME,COMPLETED,1714168456000.0,2760.0,1876.0,112.0,1.0,1.0,122.0,0.0,0.0
+bmc_t2b3b98m37,Credit Ending Soon,ONE_TIME,COMPLETED,1712339942000.0,5.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0
+bmc_hdnqtmmyhe,Untitled campaign 27,ONE_TIME,DRAFT,,,,,,,,,
+bmc_xx9q6x379w,Untitled campaign 26,ONE_TIME,DRAFT,,,,,,,,,
+bmc_6qemj7xfrn,Untitled campaign 25,ONE_TIME,COMPLETED,1710797443000.0,2672.0,1818.0,107.0,0.0,1.0,150.0,0.0,0.0
+bmc_q39k3w3sju,Untitled campaign 24,ONE_TIME,DRAFT,,,,,,,,,
+bmc_8ntyrmwy3p,March Free Shipping,ONE_TIME,DRAFT,,,,,,,,,
+bmc_q7bq8rha53,Untitled campaign 23,ONE_TIME,COMPLETED,1710191144000.0,2655.0,1816.0,124.0,0.0,1.0,303.0,0.0,0.0
+bmc_dyjm62rz7v,SugarScrub&Sale,ONE_TIME,COMPLETED,1708728850000.0,2610.0,1652.0,115.0,2.0,2.0,375.0,0.0,0.0
+bmc_zdjvdkjxgv,Discovery Bundle & Body Bars,ONE_TIME,COMPLETED,1707430672000.0,2580.0,1760.0,122.0,5.0,2.0,950.0,0.0,0.0
+bmc_g7u8wagymn,Untitled campaign 22,ONE_TIME,COMPLETED,1705937892000.0,2529.0,1724.0,770.0,12.0,19.0,3533.5,2.0,366.0
+bmc_32zmstzx7j,Inner Packs are Here,ONE_TIME,COMPLETED,1704820412000.0,2504.0,1718.0,630.0,32.0,10.0,1416.5,2.0,212.0
+bmc_5mckcuvcet,Untitled campaign 21,ONE_TIME,DRAFT,,,,,,,,,
+bmc_yvugmuqnq5,Untitled campaign 20,ONE_TIME,COMPLETED,1703096405000.0,20.0,15.0,1.0,0.0,0.0,0.0,0.0,0.0
+bmc_5z28zkacj3,Untitled campaign 19,ONE_TIME,COMPLETED,1702597790000.0,29070.0,21585.0,3734.0,142.0,5.0,1093.0,0.0,0.0
+bmc_uhz4unsqdp,Peach Hibiscus Travel Bars,ONE_TIME,COMPLETED,1702315982000.0,2455.0,1717.0,776.0,19.0,3.0,234.5,1.0,105.5
+bmc_fxt3zhx93f,In Time for Christmas,ONE_TIME,COMPLETED,1702059320000.0,184.0,146.0,67.0,6.0,2.0,723.5,1.0,123.0
+bmc_butwfknj5p,Christmas Box Sampler ,ONE_TIME,COMPLETED,1701975935000.0,2449.0,1708.0,709.0,16.0,11.0,1201.5,4.0,456.5
+bmc_kqme53hdhe,Untitled campaign 18,ONE_TIME,DRAFT,,,,,,,,,
+bmc_g9d9gp8udc,Untitled campaign 17,ONE_TIME,DRAFT,,,,,,,,,
+bmc_ta2ef87dch,Untitled campaign 16,ONE_TIME,DRAFT,,,,,,,,,
+bmc_uk9h3u8spz,Chamomile Rose Launch,ONE_TIME,COMPLETED,1700086980000.0,2416.0,1677.0,568.0,11.0,10.0,1347.5,3.0,481.5
+bmc_3abe79ve7e,Citrus Zest Announcement 10% off! ,ONE_TIME,COMPLETED,1699636792000.0,381.0,299.0,107.0,4.0,6.0,826.5,4.0,610.0
+bmc_7mep3xkemj,Untitled campaign 15,ONE_TIME,COMPLETED,1698896256000.0,2373.0,1898.0,818.0,16.0,5.0,839.0,1.0,219.0
+bmc_uhcan7sfnh,Untitled campaign 14,ONE_TIME,COMPLETED,1698895460000.0,26640.0,25922.0,3464.0,208.0,1.0,113.0,1.0,113.0
+bmc_dsg58s4s9r,Untitled campaign 13,ONE_TIME,COMPLETED,1698441928000.0,2361.0,1875.0,744.0,8.0,8.0,1114.0,2.0,207.0
+bmc_vapucvtt6a,Untitled campaign 12,ONE_TIME,COMPLETED,1697561569000.0,2341.0,1875.0,742.0,10.0,8.0,1819.5,2.0,553.5
+bmc_kfz43chfzx,Untitled campaign 11,ONE_TIME,DRAFT,,,,,,,,,
+bmc_ch7jauzzcg,Untitled campaign 10,ONE_TIME,COMPLETED,1697066410000.0,2329.0,1871.0,766.0,18.0,10.0,2207.0,2.0,214.0
+bmc_w5yubhewqx,Untitled campaign 9,ONE_TIME,DRAFT,,,,,,,,,
+bmc_rdbgg72qbz,Untitled campaign 8,ONE_TIME,COMPLETED,1696268205000.0,38.0,37.0,11.0,1.0,0.0,0.0,0.0,0.0
+bmc_g89ujs7amq,Untitled campaign 7,ONE_TIME,COMPLETED,1694623787000.0,2258.0,1830.0,728.0,21.0,9.0,1459.0,1.0,227.0
+bmc_mh8pvnfz44,Untitled campaign 6,ONE_TIME,DRAFT,,,,,,,,,
+bmc_xdfnxkyy5g,Untitled campaign 5,ONE_TIME,COMPLETED,1692809175000.0,2212.0,1801.0,563.0,12.0,3.0,1100.5,0.0,0.0
+bmc_6jwsfc3hv9,August Special ,ONE_TIME,COMPLETED,1692198000000.0,2235.0,1831.0,505.0,13.0,3.0,1163.5,0.0,0.0
+bmc_59azbxjcwr,8/4 Product in Cart,ONE_TIME,COMPLETED,1691175825000.0,34.0,31.0,14.0,1.0,3.0,364.0,1.0,155.0
+bmc_fxa33p8ds7,8/3 Magnolia Peony Campaign ,ONE_TIME,COMPLETED,1691096645000.0,2160.0,1766.0,482.0,16.0,11.0,1503.0,1.0,100.0
+bmc_nwqcztv54k,Untitled campaign 4,ONE_TIME,COMPLETED,1690565882000.0,28856.0,28018.0,3999.0,222.0,0.0,0.0,0.0,0.0
+bmc_nb3cxqhxes,Faire Market Day 1,ONE_TIME,COMPLETED,1689692400000.0,2187.0,1820.0,706.0,19.0,7.0,858.5,3.0,265.5
+bmc_465mxsd4kb,Faire Market Friday Campaign ,ONE_TIME,COMPLETED,1689373792000.0,2177.0,1832.0,772.0,34.0,6.0,711.5,2.0,114.0
+bmc_ruyzcbskyr,Untitled campaign 3,ONE_TIME,COMPLETED,1688755886000.0,86.0,73.0,40.0,3.0,1.0,396.0,0.0,0.0
+bmc_yftjjw6n3p,Untitled campaign 2,ONE_TIME,COMPLETED,1688593113000.0,2091.0,1765.0,818.0,31.0,3.0,697.0,0.0,0.0
+bmc_fdxte77wcg,Untitled campaign 1,ONE_TIME,COMPLETED,1688412116000.0,85.0,73.0,35.0,1.0,1.0,117.0,1.0,117.0
+bmc_wfet798htn,Invitation 3,ONE_TIME,COMPLETED,1686687887000.0,2059.0,1729.0,653.0,37.0,2.0,303.0,2.0,303.0
+bmc_hfakutqy72,Invitation 2,ONE_TIME,COMPLETED,1685991332000.0,136.0,128.0,67.0,5.0,2.0,209.5,1.0,108.0
+bmc_cg5m6cu7bu,Review campaign 2,ONE_TIME,COMPLETED,1685067264000.0,42.0,36.0,24.0,1.0,0.0,0.0,0.0,0.0
+bmc_d89z2pg8p3,Untitled campaign,ONE_TIME,COMPLETED,1684950931000.0,135.0,127.0,62.0,3.0,0.0,0.0,0.0,0.0
+bmc_waacsk8mb5,Invitation,ONE_TIME,COMPLETED,1684451539000.0,138.0,128.0,67.0,1.0,1.0,225.0,1.0,245.0
+bmc_tpvhcrqwhm,Review campaign ,ONE_TIME,COMPLETED,1683577838000.0,18.0,15.0,10.0,2.0,2.0,360.5,1.0,257.0
+bmc_zhh3smez7s,Purple Shampoo,ONE_TIME,COMPLETED,1684249214000.0,166.0,149.0,91.0,4.0,5.0,1400.25,1.0,108.0

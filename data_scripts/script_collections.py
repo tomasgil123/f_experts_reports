@@ -24,7 +24,8 @@ df_brands = pd.read_csv('brands_competitors.csv')
 # brand_owners = ['Medify']
 # brand_owners = ['Future Kind']
 # brand_owners = ['Jack Archer']
-brand_owners = ['Dolan Geiman']
+#brand_owners = ['Dolan Geiman']
+brand_owners = ['Viori']
 
 
 

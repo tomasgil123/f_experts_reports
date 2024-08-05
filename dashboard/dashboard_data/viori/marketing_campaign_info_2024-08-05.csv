@@ -1,10 +1,18 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_a3qbmnmh82,Hi ,ONE_TIME,DRAFT,,,,,,,,,
-bmc_bkbz9ys3se,Untitled campaign 31,ONE_TIME,DRAFT,,,,,,,,,
-bmc_wbprv273ve,Untitled campaign 30,ONE_TIME,COMPLETED,1718724108000.0,26107.0,20601.0,3131.0,134.0,3.0,1838.5,1.0,298.5
+bmc_a4f3u56vsp,LAST DAY: 10% Off Sale | 8.11.24,ONE_TIME,RUNNING,,,,,,,,,
+bmc_27dxuqx6t3,10% Off Sale | 8.6.24,ONE_TIME,RUNNING,,,,,,,,,
+bmc_v7xu49spms,RESND: 10% Off Sale Non-Openers | 8.2.24,ONE_TIME,COMPLETED,1722626153000.0,16856.0,14577.0,1244.0,30.0,0.0,0.0,0.0,0.0
+bmc_zq5f5k5zuw,LAUNCH: 10% Off Sale | 7.30.24,ONE_TIME,COMPLETED,1722374148000.0,29351.0,19605.0,5092.0,87.0,0.0,0.0,0.0,0.0
+bmc_mxpdxxstz2,Faire Market Last Day | 7.25.24,ONE_TIME,COMPLETED,1721956762000.0,29346.0,19691.0,3648.0,110.0,1.0,249.5,0.0,0.0
+bmc_2w3eygm7g9,Faire Market Reminder | 7.24.24,ONE_TIME,COMPLETED,1721849713000.0,29340.0,19774.0,4895.0,88.0,2.0,644.0,0.0,0.0
+bmc_vy96kq75sj,Faire Market Launch | 7.23.24,ONE_TIME,COMPLETED,1721748769000.0,29334.0,19446.0,4791.0,108.0,5.0,943.0,0.0,0.0
+bmc_5h82gs8m4e,Faire Market Insider Day | 7.22.24,ONE_TIME,COMPLETED,1721654162000.0,29331.0,19933.0,6182.0,174.0,5.0,1971.0,0.0,0.0
+bmc_bkbz9ys3se,Faire Market Teaser | 7.19.24,ONE_TIME,COMPLETED,1721419188000.0,29325.0,20232.0,4664.0,138.0,6.0,3121.0,0.0,0.0
+bmc_wbprv273ve,Untitled campaign 30,ONE_TIME,COMPLETED,1718724108000.0,26107.0,20601.0,3139.0,134.0,3.0,1838.5,1.0,298.5
 bmc_wcegj2tzs3,Untitled campaign 29,ONE_TIME,DRAFT,,,,,,,,,
 bmc_xz7pv8y84b,Untitled campaign 28,ONE_TIME,DRAFT,,,,,,,,,
 bmc_rduwvfx2f2,Credit Expiring 1,ONE_TIME,COMPLETED,1716909485000.0,4.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0
+bmc_a3qbmnmh82,Hi ,ONE_TIME,DRAFT,,,,,,,,,
 bmc_26x34wmk7y,Credit Expiring ,ONE_TIME,COMPLETED,1715704393000.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0
 bmc_mv7nnxer6x,Mother's Day Sale,ONE_TIME,COMPLETED,1714168456000.0,2760.0,1876.0,112.0,1.0,1.0,122.0,0.0,0.0
 bmc_t2b3b98m37,Credit Ending Soon,ONE_TIME,COMPLETED,1712339942000.0,5.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0

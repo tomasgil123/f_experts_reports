@@ -1,86 +1,331 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
-bo_d9vqffe4nt,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1721047469000,False,False,r_3vclvxye1c,8120,Appalachian Root Works,,Fitness or Yoga Studio,False
-bo_w2mts39az4,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1721034269000,True,True,r_fsmjp5s7hv,44203,Clean Collective Refillery,http://cleancollectiverefillery.com/,,True
-bo_wyte64gykh,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1721006369000,False,False,r_hfvg70by39,8935,"Refill Mercantile, LLC",http://www.refillmercantile.com,General or Mercantile Store,True
-bo_vrtytegfd4,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1720986269000,False,False,r_kdpm7tstey,26050,TARE LLC dba Great.full Goods,http://www.shopgreatfull.com,General or Mercantile Store,True
-bo_jvzz4st4hx,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1720982069000,False,False,r_rn4car6nba,24095,The Filling Station,,,False
-bo_cjzu8y9k6a,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1720980869000,False,False,r_wc5g4jqy72,25541,Katie’s Faves Boutique,https://m.facebook.com/1981809472034449/,Gift Store,True
-bo_vvqby7r3hh,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1720905269000,False,False,r_m9gbz7qtcm,36640,Moonflower Community Cooperative,http://moonflower.coop/,Grocery or Liquor Store,False
-bo_mu2kkwcxxh,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1720895069000,False,False,r_hkdrolox,28196,"Cooks' Emporium, Nook & Nest, or Z.W. Mercantile",http://cooksemporiumames.com,,True
-bo_rard6a9x7u,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1720886969000,False,False,r_ye6hpp3j9w,24095,My Zero Waste Store,http://myzerowastestore.com/,General or Mercantile Store,True
-bo_cn86tbwx52,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1720828169000,True,True,r_9cnw4ucnmk,19345,Live Oak Refillery Station Project,,Spa or Beauty Store,True
-bo_2t3v3f9k7e,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1720814669000,False,False,r_8h367txtsh,32367,Indigo River & Co.,http://www.indigoriverandco.com,Gift Store,True
-bo_j25rsurkcb,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1720807926000,False,False,r_4nb4wrbo85,39052,Nature’s Embrace Soap Company,https://naturesembracesoapcompany.com/,,True
-bo_pvwgwwyzyf,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1720803126000,False,False,r_7xay4wfoux,10585,Yes!,http://www.yesplasticfree.com,,True
-bo_cg838gwtyp,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1720783026000,False,False,r_dpj0foo9,17900,Bona Fide LLC,http://www.bonafide.eco,,True
-bo_mwuga36kk6,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1720747926000,False,False,r_896f6u7lri,10013,Driver's Market,https://driversmarket.com/,,True
-bo_8yzgzhr2ny,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720733526000,False,False,r_g4yv92u6tv,49426,Refill Madness,http://www.refillmadnesssacramento.com/,General or Mercantile Store,True
-bo_pvcpa5twxk,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720728588000,False,False,r_299uxie2a8,26438,Earth & Me,http://www.earthandme.co,Home Decor Store,True
-bo_7jbdwzhbq3,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720726188000,False,False,r_v94tuqpwpd,10147,Rayne Refillery,http://www.raynerefillery.com/,,False
-bo_fce6n7x8qb,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720708188000,False,False,r_ej3k4cv8xo,16651,Wedge Community Co-Op,https://wedge.coop,Grocery or Liquor Store,True
-bo_tv2t8jutwa,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720698888000,False,False,r_5u4k9r8g78,23768,Frae Everyday Goods,http://www.shopfrae.com/,General or Mercantile Store,True
-bo_anb66rfb34,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720661388000,False,False,r_d5jcsbx4sm,9810,Solstice Mercantile,http://solsticemercantile.com,General or Mercantile Store,True
-bo_jzekw4sccp,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1720653288000,False,False,r_p3m63fgesj,33793,Bridge Refill Market,,,True
-bo_8d4ss9zhvs,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720645788000,False,False,r_7dmu2w3mm7,13814,We Fill Good,http://wefillgoodseacoast.com,General or Mercantile Store,True
-bo_as69gmfz42,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720639188000,False,False,r_jhfzezgde2,21241,Refillosophy,http://refillosophy-wnc.com,General or Mercantile Store,True
-bo_ch2d25j2c9,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720630788000,False,False,r_pxtqscr38f,13494,Oh Eco,http://oh-eco.com/,General or Mercantile Store,False
+bo_vw5fg4yvfw,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1722803035000,False,False,r_z7wsudmv59,20345,It Refills,http://www.it-refills.com/,General or Mercantile Store,True
+bo_9mv4nszvq6,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1722790135000,True,True,r_dgj2rxdch5,19270,Lotus 8 - CBD Apothecary,http://www.lotus8.com/,,False
+bo_9pkj2mws79,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1722740335000,False,False,r_gvzkxfnhxk,14928,Candid Naturals,http://www.candid-naturals.com,,False
+bo_6gw3xgzezv,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1722717235000,False,False,r_2z1z96my7z,33385,Village General Store,,General or Mercantile Store,True
+bo_zwuwa3j5wf,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1722716635000,False,False,r_4d4svmnchw,11068,Pretty Well Beauty,http://prettywellbeauty.com/,,False
+bo_rfnm5w72pz,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1722711835000,False,False,r_dpj0foo9,8935,Bona Fide LLC,http://www.bonafide.eco,,True
+bo_cecfzhchu8,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1722622135000,True,True,r_sbqawm3w7q,22659,Greenhouse Coffee Company,http://greenhousecoffeecompany.com/,Cafe or Restaurant,True
+bo_xyn3wmaz5n,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1722544099000,False,False,r_5vhwkkilx3,4860,Kaaterskill Market,http://kaaterskillmarket.com,General or Mercantile Store,True
+bo_v3zpvrnf8n,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1722542899000,False,False,r_drmm6ipiux,16327,Ulmer's Drug And Hardware,http://www.ulmersdrugandhardware.com/,,False
+bo_bkn2djdzdy,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1722539299000,False,False,r_96xv6fplj4,40500,Ren Market,http://www.renmarketmn.com,General or Mercantile Store,True
+bo_xs6693543a,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1722532099000,False,False,r_299uxie2a8,11797,Earth & Me,http://www.earthandme.co,Home Decor Store,True
+bo_kajdeftdaw,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1722468324000,False,False,r_31rkt1g4w0,151794,Re-Up Refills,http://reuprefills.org,,False
+bo_4x44fay529,NEW_ORDER,PROCESSING,FULFILLED,ELEVATE,1722393455000,False,False,r_f0lv57qzfc,14219,Lil Beans toys,,Kids or Toy Store,False
+bo_q6cq9aapka,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1722375755000,False,False,r_b2hyav284r,47660,The Eco Flamingo,http://ecoandtheflamingo.com/,General or Mercantile Store,True
+bo_k545w8u7mp,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1722353855000,False,False,r_axd99fx8ks,29616,Oh Yes,http://forhandler.ohyes.no/,,True
+bo_bspxkry7vb,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1722275554000,False,False,r_cqr371eira,28436,re_ grocery,http://www.regrocery.co,Grocery or Liquor Store,True
+bo_4b43fbmqzs,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1722267754000,False,False,r_brggpubu5r,28497,Locust Grove Farm Co.,http://www.locustgrovefarmco.com,Spa or Beauty Store,False
+bo_hc5n49xgse,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1722261154000,False,False,r_s23y7vd43v,36726,Simple Sundries,https://simplesundries.life/,General or Mercantile Store,False
+bo_z6hutcktkm,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1722223954000,False,False,r_3ggkjn4kzd,9464,Simply Delivered Labor Bags LLC,http://simplydeliveredlaborbags.com/,,False
+bo_zrdbqu5p5d,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1722201454000,False,False,r_z23h4mhrgj,34308,Sam Saves,http://sam-saves.square.site/,General or Mercantile Store,False
+bo_8rcmuysvjd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1722184654000,False,False,r_nzwuwzxfmq,9992,Sustainable Soul,http://sustainablesoulsalon.com,Spa or Beauty Store,False
+bo_wzq39yx75p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1722007871000,True,True,r_tn9ncuwmqu,10012,Holistically You,http://Holi.sticallyyou,,False
+bo_zyfqc6kgjr,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721967971000,False,False,r_7twcstexaw,11429,Initially Yours,,Gift Store,False
+bo_zsnyvxb4yn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721966171000,False,False,r_nsxz8kvbr4,10563,The Ramblin' Bee,http://theramblinbee.com/,Florist or Garden Store,False
+bo_g6xrjtdsng,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721963471000,True,True,r_3ejv3yptgv,13807,Sustain LA,http://www.sustainla.com/,General or Mercantile Store,False
+bo_ep2a5svtz6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721962871000,False,False,r_986bdvxyb8,11741,Green Home & Co.,https://greenhomeandco.myshopify.com/,General or Mercantile Store,False
+bo_esmj7sk4ay,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721961071000,False,False,r_61j4reub4s,44839,Center Goods,http://www.center-goods.com,,True
+bo_ufj3vqm5rh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721961071000,False,False,r_1v7icbrr,16858,Larson’s General,http://www.larsonsgeneral.com,General or Mercantile Store,False
+bo_nysravcwyb,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721960171000,False,False,r_cwbnztvjat,19656,The Yukon Refillery,http://yukonrefillery.ca/,General or Mercantile Store,False
+bo_chqr5avrdq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721959571000,False,False,r_jqrsv7kseh,12699,bare market,http://www.baremarket.ca/,,False
+bo_87njw9gyg2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1721958071000,True,True,r_276zpjqbpu,9638,208 S Randolph St Garret Indiana,https://www.thenoblerootsfarm.com/,,False
+bo_2xrmj8wp86,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721952971000,False,False,r_440a6fjxjl,11264,ECOccasion,https://ecoccasion.com,,True
+bo_v7baj2e5bj,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721951471000,False,False,r_cprnqq9xdx,28344,Local Lather,http://www.locallatherok.com/,,True
+bo_2um8yj7auj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721949971000,False,False,r_txrsrt2cp9,25089,Sonoma County Trading Company,http://www.socotradingcompany.com,General or Mercantile Store,True
+bo_szk85tjha3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721946671000,False,False,r_7cv9hhwd6k,19534,Less,http://www.lessismorelawrence.com,General or Mercantile Store,True
+bo_38zcecnejk,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721943671000,False,False,r_d1smcxnq2h,33881,Sixth and Zero,http://www.sixthandzero.com/,,True
+bo_k2ncx4r9rf,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721943371000,False,False,r_c69nu2gdn0,11475,Roberta Gene,https://www.robertagene.com,,True
+bo_fxmzxmx947,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721941871000,False,False,r_mw7r95cz7j,6897,Swish Oral Care,http://swishoralcare.ca/,,False
+bo_wa6p7mcvj7,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721938871000,False,False,r_v94tuqpwpd,12699,Rayne Refillery,http://www.raynerefillery.com/,,False
+bo_wxgqrzp3xv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721938571000,False,False,r_ye6hpp3j9w,55570,My Zero Waste Store,http://myzerowastestore.com/,General or Mercantile Store,True
+bo_t57upjdthb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721935571000,False,False,r_3xnh1sxjg8,8864,A Wild Hare,https://maps.google.com/?cid=15161085462117107777,Clothing Boutique,False
+bo_4nyzy3cp9u,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721933471000,False,False,r_es3rrvr8oi,44129,The Good Fill,http://thegoodfill.co,General or Mercantile Store,True
+bo_rkpakwf336,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721930471000,False,False,r_ca7he3u3pp,58911,The Wellnest Shop,http://thewellnest.shop,General or Mercantile Store,True
+bo_8cm358wcuf,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721930171000,False,False,r_7dmu2w3mm7,10205,We Fill Good,http://wefillgoodseacoast.com,General or Mercantile Store,True
+bo_3s62fes4kg,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721928671000,False,False,r_9engnjt7xe,61632,Evergreen Collective,http://ecoevergreen.co,General or Mercantile Store,True
+bo_tkjtv4whj2,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721926571000,False,False,r_rkr6u7ehvy,10444,Sunset Refillery,http://sunsetrefillery.com/,,False
+bo_se7xmfsr88,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721919957000,False,False,r_8inv8xabzu,8275,Craft Smiles: Modern Family Dentistry,http://www.craftsmilesclt.com/,,True
+bo_qr4f4gcmzh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721916957000,False,False,r_6f8drhgeic,33290,Beauty Grace,http://beautygraceboutique.com/,Gift Store,True
+bo_2z2sr9ybma,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721888757000,False,False,r_ptjk52zauz,11508,Sustainable Marketplace,http://www.rootandsplendor.com/,,False
+bo_pgzhtc9gk8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721882757000,True,True,r_8i7bxh9z,34972,Craft + Foster,https://craftandfoster.com/,,True
+bo_59fv248aaa,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721882157000,False,False,r_ab3avssytq,9687,Ciclado,http://www.ciclado.com/,,False
+bo_srvxm2m4ha,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721882157000,False,False,r_2ax85sy5ad,13977,Honua Collective LLC,http://rootedinwailuku.com,,False
+bo_np9g97ug6b,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721880357000,False,False,r_6o0zzlwgne,36294,One World Zero Waste,http://oneworld-zerowaste.com/,General or Mercantile Store,True
+bo_gxhju6hnw5,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721877957000,True,True,r_gn655rsjqx,31910,Good Fills,http://www.goodfills.co/,General or Mercantile Store,True
+bo_w6guujd6y5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721875857000,False,False,r_54zb3dkxgt,60298,Sustain M.E.,http://www.sustainmotherearth.com/,General or Mercantile Store,False
+bo_5dc4n9ckm9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721866857000,False,False,r_cqccp2an68,16086,Earthen Soul,http://www.earthensoul.org/,,True
+bo_63e63f822f,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721865357000,False,False,r_8cz38qyu76,21180,Meow Meow Tweet,http://meowmeowtweet.com/,,True
+bo_498xyrwdj3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721861757000,False,False,r_zv9fj5pykx,24070,Suds Refillery,http://www.sudsrefillery.com,Gift Store,True
+bo_qdncf3zcv5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721861157000,False,False,r_baqel7dzy0,8638,Jocelyn Blank,http://www.jociandfriendsllc.com/,General or Mercantile Store,False
+bo_7nm8tna34r,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721860857000,False,False,r_m3ceq6u9uc,42828,geartrade,http://geartrade.ca/,,False
+bo_fg6wudve8h,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721860857000,False,False,r_d7njeerd5s,14187,The Unwaste Shop,http://theunwasteshop.com/,General or Mercantile Store,False
+bo_tk4wts3c56,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721859657000,False,False,r_43opifq9kb,36132,Good Buy Supply,http://goodbuysupply.co,General or Mercantile Store,True
+bo_d4ruf4uyy5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721858457000,False,False,r_mask9fg9ks,32768,Mission Refill,http://www.missionrefill.com,,True
+bo_amzqsuzpfp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721858457000,False,False,r_m7f37ewsvu,40316,The Soap Bar,http://www.thesoapbar.store,General or Mercantile Store,True
+bo_kw4kdwt8eb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721856357000,False,False,r_qqay7kddsz,8747,Anatomy & Alchemy,http://www.anatomyandalchemy.com/,,False
+bo_c3ckqrqhsg,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721855757000,False,False,r_p3m63fgesj,8941,Bridge Refill Market,http://www.bridgerefill.com/,,False
+bo_dsc6bnpwf8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721854257000,False,False,r_7ipgcp2gj9,8803,Burncoat center for arts and wellness,http://www.bcawworcester.com,Gift Store,True
+bo_qsyatapb2j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721854257000,False,False,r_7wqblemy5i,24002,Coyote Supply Co.,http://www.coyotesupplyco.com/,General or Mercantile Store,True
+bo_83ad2g3mfe,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721852457000,False,False,r_9rqqnd5e2e,10535,Refill Emporium,https://www.refillemporium.com/,General or Mercantile Store,True
+bo_28gwrw3cxz,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721850357000,False,False,r_grzsbut3e5,10488,The Eau Claire Refillery,http://eauclairerefillery.com,,False
+bo_h9zmrjsc4d,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721850057000,False,False,r_df09ptu87y,20934,The ReFill,https://www.facebook.com/The-ReFill-107407501938639,Gift Store,False
+bo_t2qvmtf39z,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721849457000,False,False,r_97bu234842,13738,Mamie's Apothecary,http://www.mamiesapothecary.com/,Gift Store,True
+bo_yhnk7azkey,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721847357000,False,False,r_d7zh6fvgv4,264094,Free the Ocean,https://shop.freetheocean.com/,,True
+bo_gmc6825fet,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721846457000,False,False,r_juv2klyg,111560,Life Unplastic,http://www.lifeunplastic.com,General or Mercantile Store,True
+bo_4hfjegpy3n,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721841957000,False,False,r_wyxqeyc0ms,75672,Desert Refillery,http://www.desertrefillery.com,General or Mercantile Store,True
+bo_ar5zt84trn,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721841057000,False,False,r_7dmu2w3mm7,47087,We Fill Good,http://wefillgoodseacoast.com,General or Mercantile Store,True
+bo_xunb8rfxrp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721839257000,False,False,r_8vbj64wk99,25865,Little Salmon,http://littlesalmon.co,General or Mercantile Store,False
+bo_whz53vnmsv,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721837757000,False,False,r_alq81h6r14,32477,Marilla's Mindful Supplies,http://marillas.com,,True
+bo_egufr37x5q,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721823946000,True,True,r_5m88vrmdxu,9543,Authentic Roots Salon,https://erin-tabarez.square.site/,Spa or Beauty Store,False
+bo_bva9dvcxkk,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721807746000,True,True,r_vkfnhdbbn5,24752,Tienda De Mi Cali,,,False
+bo_g7qgwzmmw8,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721795746000,False,False,r_v45upgcxss,58919,Blue Market AK,http://www.bluemarketak.com/,,False
+bo_m9jhhcba3f,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721793946000,False,False,r_dzhg4f7t,64817,BESTIES Vegan Paradise,https://bestiesveganparadise.com/,Grocery or Liquor Store,True
+bo_atrzudrft3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721792446000,True,True,r_5az6jf3dbv,8600,Bushwood Tailors Opportunity Shop,http://www.bushwoodtailors.com/,Clothing Boutique,False
+bo_8vu85dxt7h,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721786746000,False,False,r_d6t2qvp2xp,63342,Atlo,http://helloatlo.com/,General or Mercantile Store,True
+bo_xwyqbe8v5f,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721783446000,False,False,r_5caoe0qv3l,9841,Elroy's Fine Foods,http://elroysfinefoods.com,Grocery or Liquor Store,False
+bo_yxyzym5dtz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721783146000,False,False,r_e1pcs4d8eo,22843,fulFILLed Lifestyle Co.,http://fulfilledutah.com,,True
+bo_wapwgcb8q7,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721779846000,False,False,r_ft3ehhthuq,42291,Adrienne Grolbert,http://www.refillary.co,General or Mercantile Store,True
+bo_sx2z2puwds,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1721778346000,True,True,r_7iz5f88uuy,33443,Fran's Organic Bodycare,,Spa or Beauty Store,True
+bo_szd6smttpp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721773846000,False,False,r_mbuu84bgq6,62621,Refill Madness Sonoma,http://refillmadnesssacramento.com/,General or Mercantile Store,True
+bo_y3wwzj7vq3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721770963000,False,False,r_3rxhbsr2g0,64022,The Waste Less Shop,http://Www.thewastelessshop.com,General or Mercantile Store,True
+bo_3cb6e2nbw6,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1721770963000,False,False,r_cjk9g6pls9,69383,Haley Queen,https://www.sustainablerituals.com/,Gift Store,True
+bo_uakqpvdvfa,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721770063000,False,False,r_6emfdnet,33121,Cambridge Naturals,http://www.cambridgenaturals.com/,General or Mercantile Store,True
+bo_497ah3au4c,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721769163000,False,False,r_a24680go24,11509,Living Pantry,http://www.livingpantry.com,,True
+bo_x57n2kjd4d,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721768563000,False,False,r_e8908tz810,24415,Devine Wellness and Relaxation,http://www.devinemarket.com,Spa or Beauty Store,True
+bo_wrdscrtsne,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721767963000,False,False,r_7antmh6lfj,14366,Re:Supply,http://www.resupplytx.com/,General or Mercantile Store,True
+bo_u8s9c3u7cr,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721766126000,False,False,r_kysjp6wfh6,9751,Right On! Refillery,http://www.rightonrefillery.com/,,True
+bo_4awxhu8nfb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721766126000,False,False,r_pprxz5fbmh,16965,Vessel Refillery FW,https://www.facebook.com/VesselRefilleryFW/,,True
+bo_kzn369m37p,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721765826000,False,False,r_4mqu4owzlx,25709,Fill,http://www.fill-mi.com,,True
+bo_dupzpyydtq,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721764026000,False,False,r_g4yv92u6tv,51430,Refill Madness,http://www.refillmadnesssacramento.com/,General or Mercantile Store,True
+bo_guqd9ndzhh,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721763726000,False,False,r_g7bgeq2ehb,45821,re_ grocery Mar Vista,http://www.regrocery.co/,Grocery or Liquor Store,False
+bo_mng26fsxsu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721761626000,False,False,r_ke9qtdy0,44644,Terra Shepherd Boutique and Apothecary,http://www.terrashepherd.com,,True
+bo_nhfewew47c,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721760126000,False,False,r_6ckuyxdn9e,115605,Replenish Refillery,http://www.replenishrefillery.com/,,True
+bo_fvx5gf5gfz,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721758626000,False,False,r_6dwbvxo15u,64780,Tare Market,http://thetaremarket.com/,,True
+bo_gcjfds7ht9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721758326000,False,False,r_qtpfsxpn9z,8803,The Refillery Co,https://therefillerycoilm.com/,,False
+bo_mxu25smgxz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721758026000,False,False,r_a3e3vktba8,13819,Haskill Creek,http://hc.farm/,General or Mercantile Store,True
+bo_7tyekd5jss,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721758026000,False,False,r_d8hfwsahee,9072,Sunkissed Pantry,http://www.sunkissedpantry.com/,General or Mercantile Store,False
+bo_9kvvuebdzs,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721756826000,False,False,r_acav89px49,5858,Mindful Merchant,https://www.mindfulmerchantnc.com/,General or Mercantile Store,True
+bo_tjn4hebzwr,BACKORDER,BACKORDERED,UNFULFILLED,MARKETPLACE,1721756826000,False,False,r_acav89px49,4646,Mindful Merchant,https://www.mindfulmerchantnc.com/,General or Mercantile Store,True
+bo_gvphvh5dry,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721755926000,False,False,r_3mgmvufb7r,48306,Juniper Station,http://juniperstationnapa.com,,True
+bo_fjw8ydkk4r,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721755626000,False,False,r_eab1y4mebi,73692,GoGo Refill,http://www.gogorefill.com,,True
+bo_runpaqh3x4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721755026000,False,False,r_3p1glewhey,9004,Red River Refillery,,,False
+bo_u7989mj5q2,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721754426000,False,False,r_ntk8gas7w4,19970,Joyful Jarra,http://www.joyfuljarra.com/,,False
+bo_vnpkbebgwz,BACKORDER,BACKORDERED,UNFULFILLED,MARKETPLACE,1721754426000,False,False,r_ntk8gas7w4,1528,Joyful Jarra,http://www.joyfuljarra.com/,,False
+bo_z9w9mh3rr3,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721753826000,False,False,r_pfytu46p4x,3915,Maison Verte,http://www.maisonverte.us/,,True
+bo_5vz8aqzuhu,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721752926000,False,False,r_4sfkt6gdk7,579591,ZeroWasteStore,http://zerowastestore.com,General or Mercantile Store,False
+bo_5ycubta8x9,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721750826000,False,False,r_bubw9fp77p,17981,Boshi Botanicals,http://www.boshibotanicals.com/,,True
+bo_gr2y6nxejj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721749626000,False,False,r_e9856bmdez,29244,The Source Zero,http://www.thesourcezero.com/,,False
+bo_ybmva3jh2h,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721748420000,False,False,r_fjqvc6bcam,43433,The Laundry,http://todaytthelaundry.com/,Home Decor Store,True
+bo_za2vupye5a,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721746320000,False,False,r_4bka00tq,126808,Eco Now,http://www.econowca.com,,True
+bo_jh557pb9gw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721745420000,False,False,r_3nmyjzzqh8,35658,Minimal Market,http://theminimalmarket.com/,Grocery or Liquor Store,False
+bo_kwvhre2e84,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721744820000,False,False,r_sq7x5kvhqx,18389,R Marketplace,https://www.facebook.com/R.Marketplace.MN,General or Mercantile Store,False
+bo_nn32d7eurp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721743320000,False,False,r_3kpknvw63k,30937,Yardley Refillery,,,True
+bo_wux8semj6k,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721740620000,False,False,r_6ihzvivt2n,49600,Unpacked Living,http://www.unpackedliving.com,,True
+bo_2mwwzrgmjs,BACKORDER,BACKORDERED,UNFULFILLED,MARKETPLACE,1721740620000,False,False,r_6ihzvivt2n,4646,Unpacked Living,http://www.unpackedliving.com,,True
+bo_ss22zw6e47,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721739720000,False,False,r_y73wqm7vaz,42033,The Refillery Supply Co,https://therefillerysupply.co/,General or Mercantile Store,False
+bo_uevcrcgaqm,BACKORDER,CANCELED,CANCELED,ELEVATE,1721739720000,False,False,r_y73wqm7vaz,0,The Refillery Supply Co,https://therefillerysupply.co/,General or Mercantile Store,False
+bo_tqmspda5sa,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721722620000,False,False,r_jpo5s1y1hj,10988,Ecojoyous,https://www.instagram.com/ecojoyous/,,True
+bo_h645zb9e2h,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721714220000,False,False,r_f0exk3iovj,77429,Me Mother Earth,https://memotherearthbrand.com/,,False
+bo_mh4ucxrauc,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721703120000,False,False,r_f459am8aa9,54791,Fillagreen,http://www.fillagreen.com,,False
+bo_ey7jvq2z8e,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721702520000,False,False,r_rn4car6nba,102752,The Filling Station,,,False
+bo_baqgb8pbsw,BACKORDER,BACKORDERED,UNFULFILLED,ELEVATE,1721702520000,False,False,r_rn4car6nba,7352,The Filling Station,,,False
+bo_nh6fwvj2nn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1721701020000,False,False,r_zxbqdjjjn4,8908,WonderFill Low Waste Market,http://wonderfillmarket.com,,False
+bo_cs6t6vmgw2,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1721700420000,False,False,r_632pews2gy,40572,Kona Compost Co.,http://www.konacompost.com/,,False
+bo_5ucyfyqqq8,BACKORDER,BACKORDERED,UNFULFILLED,ELEVATE,1721700420000,False,False,r_632pews2gy,9197,Kona Compost Co.,http://www.konacompost.com/,,False
+bo_sqgcnsezzt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721695620000,False,False,r_sxxzecpjfs,73841,Alexandria Jones,http://quartz-and-company.myshopify.com/,General or Mercantile Store,True
+bo_x5x82hd9bp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721695620000,True,True,r_d8yeuhprau,7701,Neddy + Rose,http://www.neddyandrose.com/,Clothing Boutique,False
+bo_nbqjvcuzne,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721690520000,False,False,r_hgqhfbjshz,46135,Brit Snipes,http://www.therealmrefillery.com/,,True
+bo_9ctvrjag87,BACKORDER,CANCELED,CANCELED,ELEVATE,1721690520000,False,False,r_hgqhfbjshz,0,Brit Snipes,http://www.therealmrefillery.com/,,True
+bo_h3f5nrebr6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721686620000,False,False,r_4feuykx041,26477,Off the Bottle Refill Shop,http://www.offthebottlerefills.com/,General or Mercantile Store,True
+bo_k5f6e32y4x,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721685420000,False,False,r_8vnxsdyrnb,40267,BYO Long Beach,http://www.byolongbeach.com/,,True
+bo_bbffcwbzzp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721683620000,False,False,r_5awonartnc,14195,Hoey Apothecary,http://www.hoeyrx.com/,Spa or Beauty Store,True
+bo_6z8qepv7ys,NEW_ORDER,PROCESSING,FULFILLED,ELEVATE,1721682720000,False,False,r_3yrjfjxfzd,7039,Fulfilled Goods,http://fulfilledgoods.com/,Grocery or Liquor Store,True
+bo_6s5r53ws6h,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721681820000,False,False,r_jpo5s1y1hj,10118,Ecojoyous,https://www.instagram.com/ecojoyous/,,True
+bo_bnu3ywhmkk,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1721681520000,False,False,r_mznvftufyf,6083,Dogwood General Store,http://dogwoodgeneralstore.com,General or Mercantile Store,True
+bo_tzdf4f72dv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721681520000,True,True,r_8i6m8hnkuq,15370,Quincy Pharmacy,http://www.quincypharmacy.com,,True
+bo_u4ubsxqna5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721681220000,False,False,r_2x2tm7nvcx,42421,The Foundry,https://www.facebook.com/thefoundry.minot/,,True
+bo_tnwvdtbdhy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721679265000,False,False,r_9b7v9ui3ot,34563,REWASH Refillery,http://rewashrefillery.com,,True
+bo_a4qmyg7fqj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721678365000,False,False,r_q2p2h8fgf2,13934,The Source Zero NoCo,http://www.thesourcezero.com/,,False
+bo_kcfx2xktyd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721678365000,False,False,r_b2yjdxz0p0,25729,The Green Directive,http://Thegreendirective.com,General or Mercantile Store,True
+bo_nkjcrwtyhh,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1721677465000,False,False,r_31wvrfwd3i,6897,Island lily boutique,https://islandlilyboutique.com/,Clothing Boutique,False
+bo_76a5jm2s5h,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721677165000,True,True,r_vmsagd6ev4,11783,Birdies,,,False
+bo_ngu33ar3jv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721676565000,False,False,r_db2l3js40s,13652,The Refillery Traverse City,http://www.refillerytc.com/,,True
+bo_k85sn6xwju,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721675492000,False,False,r_7fnqbsdug2,32131,Greater Goods Refillery,http://www.greatergoodsrefillery.com,,True
+bo_vje39cj7zq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721675492000,False,False,r_j7uty8jes2,10519,New Moon Natural Foods,http://newmoonnaturalfoods.com/,Grocery or Liquor Store,True
+bo_na7yjsaqcs,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721673992000,False,False,r_5iixxjo239,81324,SOAP Santa Fe LLC,http://soapsantafe.com/,,True
+bo_x5f5beb3ap,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721673092000,False,False,r_c69nu2gdn0,22938,Roberta Gene,https://www.robertagene.com,,True
+bo_vr78rzm3va,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721672492000,False,False,r_rx6gp4rg8x,15338,Rio Refills,https://www.facebook.com/riorefills,,False
+bo_8rft8ntkjc,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721672192000,False,False,r_68roc1co,40797,Peace of the Earth,http://www.peaceoftheearth.com/,Gift Store,True
+bo_w84nqb6pyy,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721672192000,False,False,r_c2pwtemvg8,63736,New Moon Refillery,http://www.newmoonrefillery.com,,False
+bo_t335xat9dr,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1721671892000,False,False,r_qyrycdpktg,56768,Love Thy Nature Refillery,http://lovethynaturerefillery.com,,True
+bo_3ccagcc6bv,BACKORDER,BACKORDERED,UNFULFILLED,MARKETPLACE,1721671892000,False,False,r_qyrycdpktg,1528,Love Thy Nature Refillery,http://lovethynaturerefillery.com,,True
+bo_zfj6ref3z7,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721670992000,False,False,r_3lhihc5u0h,56930,Lite Foot Company,http://www.litefootcompany.com,General or Mercantile Store,True
+bo_hm8y3nq8pr,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721669792000,False,False,r_561wtaebuv,30991,Clean Refillery,http://www.cleanrefillery.com/,General or Mercantile Store,True
+bo_zphyw3qr44,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721669492000,False,False,r_813qnj6xk8,171022,THE COLLECTIVE,http://www.thecollectivedsm.com,,True
+bo_w7c4467pra,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721669192000,False,False,r_f54a84ymy7,14951,Frank Giardino,http://www.franksmarketrefillery.com,Cafe or Restaurant,False
+bo_x46tzcj2ru,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721669192000,False,False,r_fnkcrvyns2,17689,Resen Refillery and Natural Market,,General or Mercantile Store,False
+bo_n6zfkrq4bb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1721667992000,True,True,r_am6pp8rnaf,9795,Casa Bella Market,http://www.casabellamarketnc.com,Home Decor Store,False
+bo_upe4pu59ac,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721666492000,False,False,r_ej3k4cv8xo,12759,Wedge Community Co-Op,https://wedge.coop,Grocery or Liquor Store,True
+bo_qw9qe9ue6c,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721665892000,False,False,r_bd3yel9fec,280231,Refill Renew,https://www.refillrenew.com/,General or Mercantile Store,False
+bo_aecwtzaqps,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721665592000,True,True,r_6gfhm49g4d,12849,Enlightened Styles,http://www.enlightenedstyles.com/,Spa or Beauty Store,False
+bo_7fcuvzh6nu,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721665592000,False,False,r_ayxrrxa5xf,48736,86 Plastic,,General or Mercantile Store,True
+bo_7m4c24h6ry,BACKORDER,BACKORDERED,UNFULFILLED,MARKETPLACE,1721665592000,False,False,r_ayxrrxa5xf,6204,86 Plastic,,General or Mercantile Store,True
+bo_k8jpj32xbr,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721664392000,False,False,r_7ouak4dr6h,36196,Sage Refill Market,http://sagerefillmarket.com,,True
+bo_jk87kwrzje,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721663492000,False,False,r_db2l3js40s,69321,The Refillery Traverse City,http://www.refillerytc.com/,,True
+bo_bq87eh9bj8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721663492000,False,False,r_69q7gj3ck2,11258,Reformation Refill Boutique,http://Reformationrefill.com,,True
+bo_cw2jy28a4f,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721663192000,False,False,r_a4f38znqko,29966,Understory Market,http://www.understorymarket.com,Grocery or Liquor Store,True
+bo_nxgu2ftv3x,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721663192000,False,False,r_2656f9auk1,35046,Planet Renu,http://www.planetrenu.com/,General or Mercantile Store,True
+bo_h64avcfays,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721662892000,False,False,r_a0ph9f00im,49392,The Mighty Bin,http://www.themightybin.com,Grocery or Liquor Store,True
+bo_uxm5xpdje8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721662292000,False,False,r_5q48a8z7,28629,Green Life Trading Co.,http://greenlifetradingco.com,,True
+bo_xmhsnfqnbm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721661992000,False,False,r_bhtvm4f344,75810,Reboot Eco,http://www.rebooteco.com,General or Mercantile Store,True
+bo_sme6dewp7e,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721661092000,False,False,r_623p52dkbk,9079,No Trace,http://www.no-trace-waste.com/,,False
+bo_fbnpvku5z8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721660792000,False,False,r_ty628hghmz,27992,Bonnie J Pariser,http://www.ecoloka.shop,Fitness or Yoga Studio,True
+bo_dr2azpm7jp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721660492000,False,False,r_7ptfgp8hh7,44649,simple.,http://simple-sf.com/,General or Mercantile Store,True
+bo_g27nxw74g6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721660492000,False,False,r_nwcy3fh48z,52336,"People & Planet Refill, PBC",http://www.peopleplanetrefill.com/,General or Mercantile Store,True
+bo_97p4h6nuff,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721659292000,False,False,r_s8mx7d88vj,52197,A Sustainable Village,,General or Mercantile Store,True
+bo_zjjafnax79,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721659292000,False,False,r_hjxk8uyyjx,8924,Love Sustain Refill,,,True
+bo_7zj6ut4h4e,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721658992000,False,False,r_4wlf39q2,132158,Ethos,http://www.ethossantacruz.com,,True
+bo_pw3hyb7h7u,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721658692000,False,False,r_2vh9sff6rr,9332,Trove Green Provisions,http://www.trovegreenprovisions.com,General or Mercantile Store,True
+bo_sge8xwa68v,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721658392000,False,False,r_esqv6u0aeg,12519,Truly Pure Refillery,http://trulypurerefillery.com,,True
+bo_vpp2nb6c9g,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721658092000,False,False,r_hfvg70by39,47423,"Refill Mercantile, LLC",http://www.refillmercantile.com,General or Mercantile Store,True
+bo_2awp3h53s2,BACKORDER,BACKORDERED,UNFULFILLED,MARKETPLACE,1721658092000,False,False,r_hfvg70by39,3087,"Refill Mercantile, LLC",http://www.refillmercantile.com,General or Mercantile Store,True
+bo_b78ghrcf3w,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721657492000,False,False,r_5zy9zh4qey,21509,BYOC Co.,http://www.byocco.com,General or Mercantile Store,True
+bo_bq3fn4a9vw,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721657192000,False,False,r_urkdgvqazj,79979,Eco Inspired,http://www.livingecoinspired.com/,General or Mercantile Store,True
+bo_nwue2qtk9k,BACKORDER,BACKORDERED,UNFULFILLED,MARKETPLACE,1721657192000,False,False,r_urkdgvqazj,4646,Eco Inspired,http://www.livingecoinspired.com/,General or Mercantile Store,True
+bo_nr6uhy8npj,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721656892000,False,False,r_5zy9zh4qey,404801,BYOC Co.,http://www.byocco.com,General or Mercantile Store,True
+bo_cneya6d92n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721656892000,False,False,r_u5jsrb23xs,56226,Bulk Refillery,http://www.bulkrefillery.com/,,True
+bo_pzcffdq4ta,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721656292000,False,False,r_5zy9zh4qey,21697,BYOC Co.,http://www.byocco.com,General or Mercantile Store,True
+bo_j95czvcp7q,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721656292000,False,False,r_v7j8g3y6r4,32254,Rooted Merchant,https://rootedmerchant.com/,,False
+bo_v2qzkhhdee,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721655392000,False,False,r_gqt2juxqm3,18164,Brighton Refillery and Market,http://www.brightonrefillery.com/,,True
+bo_c35exy5jtt,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721654792000,False,False,r_27adilxcrp,21881,Fill Happy,http://www.fillhappy-va.com,General or Mercantile Store,False
+bo_4x82gbmpug,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721653292000,False,False,r_32ykxzece7,28685,Wake Refill,http://wakerefill.com/,General or Mercantile Store,True
+bo_nd85gvbzme,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721652092000,False,False,r_6bd685ugsb,20450,Little Wild Refillery,https://www.facebook.com/littlewildrefillery,,True
+bo_74g9scct9y,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721651192000,False,False,r_styp5juyxq,27237,Perennial Refill Hub,http://perennialrefillhub.com,,False
+bo_ya9jva934b,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721650592000,False,False,r_bfc9pmy89m,37882,Gaia's Market & Refillery,http://gaiasmarket.com,General or Mercantile Store,False
+bo_yd9vzh5cg2,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721649092000,False,False,r_ad4qxn2qua,24878,Rivermont Refillery,,General or Mercantile Store,False
+bo_6qc6x39a5n,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721639792000,False,False,r_alevyodysv,33597,Dry Goods Refillery,http://www.drygoodsrefillery.com/,,True
+bo_rt2aj2z2dy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721634392000,False,False,r_5r5pqrzn,23490,Marie Pechkam,http://www.unearthmalee.com/,,True
+bo_da935crf42,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721634392000,False,False,r_mt3njycmpt,89378,Feel good Market,,,True
+bo_6dfcbhpgxu,SPLIT_ORDER,CANCELED,CANCELED,MARKETPLACE,1721634392000,False,False,r_mt3njycmpt,1702,Feel good Market,,,True
+bo_k446tjyxhu,SPLIT_ORDER,BACKORDERED,UNFULFILLED,MARKETPLACE,1721634392000,False,False,r_mt3njycmpt,4646,Feel good Market,,,True
+bo_7m56gezt9g,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721624192000,False,False,r_2k5hd9yg45,12587,"Vintage Green Review, LLC",http://www.vintagegreenreview.com,General or Mercantile Store,True
+bo_ym6phns27v,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721623892000,False,False,r_e6uqw37f,7870,The Perish Trust,http://www.theperishtrust.com/,Gift Store,True
+bo_9r3yw2n8bk,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1721619392000,False,False,r_9qogilvn,16351,Fetch Mkt.,,,False
+bo_rpcrtnr868,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721605592000,True,True,r_rkg3avak3u,16754,just Be...Market & Refillery,,,True
+bo_uxag8pt4ka,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721581292000,False,False,r_h2x86pczqv,9444,Menla Bookstore,http://menla.org/,Gift Store,False
+bo_ve5hk5d25g,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721516192000,False,False,r_7ctfc15ybn,17587,Green in BKLYN,http://www.greeninbklyn.com/,General or Mercantile Store,True
+bo_e89dhnbau6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721499692000,False,False,r_alq81h6r14,29251,Marilla's Mindful Supplies,http://marillas.com,,True
+bo_5yn2qh8sz2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721449892000,True,True,r_zf9r4bp2x2,9988,Longmont Lockshop.,http://longmontlockshop.com/,,False
+bo_gsxscvygwk,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721428292000,False,False,r_2g2a6vry7v,27848,East End Food Co-op,http://www.eastendfood.coop/,Grocery or Liquor Store,False
+bo_ep6fxvwf3g,SPLIT_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721428292000,False,False,r_2g2a6vry7v,9332,East End Food Co-op,http://www.eastendfood.coop/,Grocery or Liquor Store,False
+bo_2tk9rr35pa,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721416892000,False,False,r_78qgr6ysr2,27101,Groovy Glow Teeth Whitening Co.,http://groovyglowteethco.com,,False
+bo_czgp9stxcu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721406962000,False,False,r_5vhwkkilx3,13246,Kaaterskill Market,http://kaaterskillmarket.com,General or Mercantile Store,True
+bo_667vk8tzcs,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721403962000,False,False,r_b5a4edn3pb,16709,One Stop Eco Shop,http://www.onestopecoshop.co,Cafe or Restaurant,False
+bo_ptwtvzvw6d,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721360151000,False,False,r_db377ncw7v,37068,Jillian Corn,,Grocery or Liquor Store,False
+bo_e692mf3qt4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721335258000,False,False,r_6ieue3uu0p,9764,Alive + Well,http://aliveandwell.com,Gift Store,True
+bo_896cmhac8q,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721334051000,False,False,r_8qzeqbvu4w,11685,Refill GB,https://refillgb.com,,True
+bo_y9gvce9b9d,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721333751000,False,False,r_w43y3dz3rs,26724,Earth + Plant,http://www.earthandplant.com/,,True
+bo_62yq3jb5v9,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721331951000,False,False,r_cqr371eira,13682,re_ grocery,http://www.regrocery.co,Grocery or Liquor Store,True
+bo_nca4ah7dr4,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721320590000,False,False,r_3v2v2ut0of,89765,KnoxFill,http://knoxfill.com/,General or Mercantile Store,False
+bo_d4ybmn3adu,REPLACE_DAMAGED_OR_MISSING_ITEMS,SHIPPED,FULFILLED,MARKETPLACE,1721318940000,False,False,r_e2pjthpsx9,83100,Oak & Willow,https://www.oakandwillow.store/,,True
+bo_xd434y2age,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721318490000,False,False,r_cqgoed7ooz,20672,Amend,https://amendmarket.com/,General or Mercantile Store,False
+bo_3gmu3scjka,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721218023000,False,False,r_tdee2t4jwe,15691,Clean earth refillery,http://Www.cleanearthrefillery.com,,False
+bo_xrhhg8esx6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721185323000,True,True,r_ztbthfe57f,21254,NOMADNI Collective,http://www.nomadni.co/,Clothing Boutique,False
+bo_amtcmnebgw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721174523000,False,False,r_9tx6cvyb25,11746,Raíces,http://www.raicesbeauty.com/,Clothing Boutique,True
+bo_6ffjnnuam9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721160423000,False,False,r_8i8iq99d9o,30757,The Cob Mercantile,https://www.worldswindowcf.com/,Gift Store,True
+bo_m37fpeqvhr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721152418000,False,False,r_ekos1rnhga,44677,Good Earth Natural Foods,http://goodearthmarkets.com,,True
+bo_jzkv6zpzkk,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721142184000,False,False,r_ntj2xykzzw,13407,Violet Whitney,http://www.tianibodycare.com/,Gift Store,True
+bo_9pgw69aeqz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721089684000,True,True,r_m9hsxqdsgm,15437,Bee Zero Plastic,http://beezeroplastic.com,General or Mercantile Store,False
+bo_pazyc9zgja,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721083384000,False,False,r_32ykxzece7,14231,Wake Refill,http://wakerefill.com/,General or Mercantile Store,False
+bo_42t3kd43a6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721080984000,False,False,r_5uc8bmurxa,16682,The Ritual Refill,http://www.theritualrefill.com/,General or Mercantile Store,False
+bo_n34xwecacq,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721080084000,False,False,r_67dsy2mgmd,29762,Beauty Heroes,http://beauty-heroes.com/,Spa or Beauty Store,False
+bo_jjbyjcx65n,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1721078284000,False,False,r_31rkt1g4w0,255944,Re-Up Refills,http://reuprefills.org,,False
+bo_qwbdar6wrg,SPLIT_ORDER,DELIVERED,FULFILLED,ELEVATE,1721078284000,False,False,r_31rkt1g4w0,98066,Re-Up Refills,http://reuprefills.org,,False
+bo_cxua6x7gfv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721076484000,False,False,r_5f591og1sd,29994,JOY FILL,http://www.joyfill.co/,,True
+bo_3zhnwbq2qp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721068384000,True,True,r_9awz8w57ha,8783,Traveler On A Mission Sustainable boutique,http://www.toamhygiene.com,Gift Store,False
+bo_d9vqffe4nt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721047469000,False,False,r_3vclvxye1c,9682,Appalachian Root Works,,Fitness or Yoga Studio,False
+bo_w2mts39az4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721034269000,True,True,r_fsmjp5s7hv,46922,Clean Collective Refillery,http://cleancollectiverefillery.com/,,True
+bo_wyte64gykh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721006369000,False,False,r_hfvg70by39,9810,"Refill Mercantile, LLC",http://www.refillmercantile.com,General or Mercantile Store,True
+bo_vrtytegfd4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720986269000,False,False,r_kdpm7tstey,27542,TARE LLC dba Great.full Goods,http://www.shopgreatfull.com,General or Mercantile Store,True
+bo_jvzz4st4hx,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720982069000,False,False,r_rn4car6nba,25053,The Filling Station,,,False
+bo_cjzu8y9k6a,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720980869000,False,False,r_wc5g4jqy72,27302,Katie’s Faves Boutique,https://m.facebook.com/1981809472034449/,Gift Store,True
+bo_vvqby7r3hh,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720905269000,False,False,r_m9gbz7qtcm,38148,Moonflower Community Cooperative,http://moonflower.coop/,Grocery or Liquor Store,False
+bo_mu2kkwcxxh,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720895069000,False,False,r_hkdrolox,29453,"Cooks' Emporium, Nook & Nest, or Z.W. Mercantile",http://cooksemporiumames.com,,True
+bo_rard6a9x7u,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720886969000,False,False,r_ye6hpp3j9w,25006,My Zero Waste Store,http://myzerowastestore.com/,General or Mercantile Store,True
+bo_cn86tbwx52,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720828169000,True,True,r_9cnw4ucnmk,20303,Live Oak Refillery Station Project,,Spa or Beauty Store,True
+bo_2t3v3f9k7e,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720814669000,False,False,r_8h367txtsh,33814,Indigo River & Co.,http://www.indigoriverandco.com,Gift Store,True
+bo_j25rsurkcb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720807926000,False,False,r_4nb4wrbo85,40568,Nature’s Embrace Soap Company,https://naturesembracesoapcompany.com/,,True
+bo_pvwgwwyzyf,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720803126000,False,False,r_7xay4wfoux,11797,Yes!,http://www.yesplasticfree.com,,True
+bo_cg838gwtyp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720783026000,False,False,r_dpj0foo9,19278,Bona Fide LLC,http://www.bonafide.eco,,True
+bo_mwuga36kk6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720747926000,False,False,r_896f6u7lri,10013,Driver's Market,https://driversmarket.com/,,True
+bo_8yzgzhr2ny,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720733526000,False,False,r_g4yv92u6tv,49426,Refill Madness,http://www.refillmadnesssacramento.com/,General or Mercantile Store,True
+bo_pvcpa5twxk,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720728588000,False,False,r_299uxie2a8,26438,Earth & Me,http://www.earthandme.co,Home Decor Store,True
+bo_7jbdwzhbq3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720726188000,False,False,r_v94tuqpwpd,10147,Rayne Refillery,http://www.raynerefillery.com/,,False
+bo_fce6n7x8qb,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720708188000,False,False,r_ej3k4cv8xo,16651,Wedge Community Co-Op,https://wedge.coop,Grocery or Liquor Store,True
+bo_tv2t8jutwa,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720698888000,False,False,r_5u4k9r8g78,23768,Frae Everyday Goods,http://www.shopfrae.com/,General or Mercantile Store,True
+bo_anb66rfb34,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720661388000,False,False,r_d5jcsbx4sm,9810,Solstice Mercantile,http://solsticemercantile.com,General or Mercantile Store,True
+bo_jzekw4sccp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720653288000,False,False,r_p3m63fgesj,35463,Bridge Refill Market,http://www.bridgerefill.com/,,True
+bo_8d4ss9zhvs,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720645788000,False,False,r_7dmu2w3mm7,13814,We Fill Good,http://wefillgoodseacoast.com,General or Mercantile Store,True
+bo_as69gmfz42,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720639188000,False,False,r_jhfzezgde2,21241,Refillosophy,http://refillosophy-wnc.com,General or Mercantile Store,True
+bo_ch2d25j2c9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720630788000,False,False,r_pxtqscr38f,13494,Oh Eco,http://oh-eco.com/,General or Mercantile Store,False
 bo_ja8y8w87qj,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720566618000,False,False,r_ba62ebq7uu,11436,re_ grocery Studio City,http://www.regrocery.co/,Grocery or Liquor Store,False
-bo_t7szp7p2qx,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720556118000,False,False,r_f7f4mxky2z,14308,Elaine Rose Apothecary,http://instagram.com/ElaineRoseApothecary,,False
-bo_kse7rtmw5d,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720554318000,False,False,r_x7cyvxel6v,19198,Dharma + Dwell,http://www.dharmaanddwell.com,General or Mercantile Store,True
-bo_epsjzjrjvs,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720553418000,False,False,r_t2u6kht5a4,10870,Monadnock Green Shop,https://www.facebook.com/profile.php?id=100090394033975&mibextid=ZbWKwL,,True
-bo_g9rk8jp9se,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720550718000,False,False,r_62kmw1lbd1,20966,Parker and Scott,http://parkerandscott.com/,General or Mercantile Store,False
-bo_y86qprxw83,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720543218000,False,False,r_878bjhc2xc,10102,Balanced Eco Refillery,http://www.balancedyakima.com,,True
-bo_msa4qtvrsf,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720540218000,False,False,r_7xay4wfoux,12728,Yes!,http://www.yesplasticfree.com,,True
-bo_uh5d8uujk8,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720510414000,False,False,r_7ptfgp8hh7,11701,simple.,http://simple-sf.com/,General or Mercantile Store,True
-bo_p59kqgbkwb,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720497214000,True,True,r_wxcyckjqmz,9835,Raw Market Company,http://rawmarketcompany.com/,,False
+bo_t7szp7p2qx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720556118000,False,False,r_f7f4mxky2z,14308,Elaine Rose Apothecary,http://instagram.com/ElaineRoseApothecary,,False
+bo_kse7rtmw5d,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720554318000,False,False,r_x7cyvxel6v,19198,Dharma + Dwell,http://www.dharmaanddwell.com,General or Mercantile Store,True
+bo_epsjzjrjvs,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720553418000,False,False,r_t2u6kht5a4,10870,Monadnock Green Shop,https://www.facebook.com/profile.php?id=100090394033975&mibextid=ZbWKwL,,True
+bo_g9rk8jp9se,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720550718000,False,False,r_62kmw1lbd1,20966,Parker and Scott,http://parkerandscott.com/,General or Mercantile Store,False
+bo_y86qprxw83,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720543218000,False,False,r_878bjhc2xc,10102,Balanced Eco Refillery,http://www.balancedyakima.com,,True
+bo_msa4qtvrsf,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720540218000,False,False,r_7xay4wfoux,12728,Yes!,http://www.yesplasticfree.com,,True
+bo_uh5d8uujk8,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720510414000,False,False,r_7ptfgp8hh7,11701,simple.,http://simple-sf.com/,General or Mercantile Store,True
+bo_p59kqgbkwb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720497214000,True,True,r_wxcyckjqmz,9835,Raw Market Company,http://rawmarketcompany.com/,,False
 bo_egc5wxwegm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720492414000,False,False,r_7c40g531,15416,ANIMALIA,http://www.animaliaslc.com/,,True
-bo_y8esz89yjc,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1720487914000,False,False,r_gexqxt3k3b,65349,Homebody Refill,https://www.homebodyrefill.com/,,False
-bo_ve6tj4b2b9,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1720471714000,False,False,r_es3rrvr8oi,69754,The Good Fill,http://thegoodfill.co,General or Mercantile Store,True
-bo_e29r3pmktv,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720453301000,False,False,r_6mro2ejaiz,19511,Peachy Mama,https://shoppeachymama.com/,Clothing Boutique,True
-bo_cye7ys38jy,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720378715000,False,False,r_sggjbmemrc,21579,Revolution Refillery,http://www.revolutionrefillery.com,,True
-bo_rf2r8r2p97,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1720302215000,True,True,r_yyn362btkz,13274,Always Hungry Grocery & Goods,http://alwayshungrygrocery.com,Grocery or Liquor Store,True
-bo_jnnn9hbmju,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720291115000,False,False,r_dzkp5s6b4h,11806,"Pine Hill Farm, Wellness Collective + Market",http://www.thepinehillfarm.com/,,False
-bo_v46jkvr72p,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720286915000,True,True,r_a3v3ufe5nc,35178,Simple Bare Necessities,https://www.instagram.com/simple.barenecessities/,General or Mercantile Store,True
-bo_rtv6bcdqmf,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720280615000,False,False,r_7gbugf8t,14070,Eastside Food Coop,http://www.eastsidefood.coop/,Grocery or Liquor Store,True
-bo_uqnmnj3kfh,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720217615000,False,False,r_vjxtgx7gx5,21750,Lierer's Market,https://www.instagram.com/lierers.market/,,False
-bo_9jvuc6meyg,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720217015000,False,False,r_gaf5ewphm2,58667,Ray's Reusables,http://www.raysreusables.com,,False
+bo_y8esz89yjc,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720487914000,False,False,r_gexqxt3k3b,66573,Homebody Refill,https://www.homebodyrefill.com/,,False
+bo_ve6tj4b2b9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720471714000,False,False,r_es3rrvr8oi,71949,The Good Fill,http://thegoodfill.co,General or Mercantile Store,True
+bo_e29r3pmktv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720453301000,False,False,r_6mro2ejaiz,19511,Peachy Mama,https://shoppeachymama.com/,Clothing Boutique,True
+bo_cye7ys38jy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720378715000,False,False,r_sggjbmemrc,21579,Revolution Refillery,http://www.revolutionrefillery.com,,True
+bo_rf2r8r2p97,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1720302215000,True,True,r_yyn362btkz,13274,Always Hungry Grocery & Goods,http://alwayshungrygrocery.com,Cafe or Restaurant,True
+bo_jnnn9hbmju,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720291115000,False,False,r_dzkp5s6b4h,11806,"Pine Hill Farm, Wellness Collective + Market",http://www.thepinehillfarm.com/,,False
+bo_v46jkvr72p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720286915000,True,True,r_a3v3ufe5nc,35178,Simple Bare Necessities,https://www.instagram.com/simple.barenecessities/,General or Mercantile Store,True
+bo_rtv6bcdqmf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720280615000,False,False,r_7gbugf8t,14070,Eastside Food Coop,http://www.eastsidefood.coop/,Grocery or Liquor Store,True
+bo_uqnmnj3kfh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720217615000,False,False,r_vjxtgx7gx5,21750,Lierer's Market,https://www.instagram.com/lierers.market/,,False
+bo_9jvuc6meyg,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720217015000,False,False,r_gaf5ewphm2,58667,Ray's Reusables,http://www.raysreusables.com,,False
 bo_49b988wwa7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720213715000,False,False,r_yg6mr7t2nj,22068,Ecology Center,http://www.ecologycenter.org/store,,False
-bo_p4yddhsr3x,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720211915000,False,False,r_u5jsrb23xs,11729,Bulk Refillery,http://www.bulkrefillery.com/,,True
-bo_hgxy78sz32,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720204415000,False,False,r_acav89px49,27135,Mindful Merchant,https://www.mindfulmerchantnc.com/,General or Mercantile Store,True
+bo_p4yddhsr3x,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720211915000,False,False,r_u5jsrb23xs,11729,Bulk Refillery,http://www.bulkrefillery.com/,,True
+bo_hgxy78sz32,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720204415000,False,False,r_acav89px49,27135,Mindful Merchant,https://www.mindfulmerchantnc.com/,General or Mercantile Store,True
 bo_rxncpw95m6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720202015000,False,False,r_1kkona4ukv,16324,Esalen Institute - Bookstore,http://www.esalen.org,Gift Store,False
-bo_cem8k5qwqa,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720199015000,False,False,r_e2pjthpsx9,162970,Oak & Willow,https://www.oakandwillow.store/,,False
-bo_3ts9j9t49s,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720199015000,False,False,r_e2pjthpsx9,166230,Oak & Willow,https://www.oakandwillow.store/,,False
-bo_mfqrtcd6rk,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720197515000,False,False,r_299uxie2a8,40141,Earth & Me,http://www.earthandme.co,Home Decor Store,True
-bo_9rdx535e59,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720197215000,False,False,r_7dmu2w3mm7,42656,We Fill Good,http://wefillgoodseacoast.com,General or Mercantile Store,True
-bo_urckwze2pp,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720135115000,False,False,r_s23y7vd43v,11752,Simple Sundries,https://simplesundries.life/,General or Mercantile Store,False
-bo_48v73b6szu,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720133015000,False,False,r_cqr371eira,63738,re_ grocery,http://www.regrocery.co,Grocery or Liquor Store,True
-bo_m9kchr6f23,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720129415000,False,False,r_co323vzqln,20903,Jar-the Zero Waste Store,http://www.jarzerowastestore.com,,False
+bo_cem8k5qwqa,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720199015000,False,False,r_e2pjthpsx9,162970,Oak & Willow,https://www.oakandwillow.store/,,False
+bo_3ts9j9t49s,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720199015000,False,False,r_e2pjthpsx9,166230,Oak & Willow,https://www.oakandwillow.store/,,False
+bo_mfqrtcd6rk,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720197515000,False,False,r_299uxie2a8,40141,Earth & Me,http://www.earthandme.co,Home Decor Store,True
+bo_9rdx535e59,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720197215000,False,False,r_7dmu2w3mm7,42656,We Fill Good,http://wefillgoodseacoast.com,General or Mercantile Store,True
+bo_urckwze2pp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720135115000,False,False,r_s23y7vd43v,11752,Simple Sundries,https://simplesundries.life/,General or Mercantile Store,False
+bo_48v73b6szu,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720133015000,False,False,r_cqr371eira,63738,re_ grocery,http://www.regrocery.co,Grocery or Liquor Store,True
+bo_m9kchr6f23,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720129415000,False,False,r_co323vzqln,20903,Jar-the Zero Waste Store,http://www.jarzerowastestore.com,,False
 bo_sx3kw5qdg2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1720116215000,True,True,r_df9y43lg,8397,Devil’s Food,https://devilsfoodbakerydenver.com/,,True
-bo_atfdvewa7p,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720044663000,False,False,r_urkdgvqazj,42407,Eco Inspired,http://www.livingecoinspired.com/,General or Mercantile Store,True
-bo_qw73un4cen,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720041363000,False,False,r_8ldqah6s,10889,Shelley Green,https://www.thegreencornerstore.com/,Gift Store,True
-bo_62mmyueeb2,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720040163000,False,False,r_3kpknvw63k,13043,Yardley Refillery,,,False
+bo_atfdvewa7p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720044663000,False,False,r_urkdgvqazj,42407,Eco Inspired,http://www.livingecoinspired.com/,General or Mercantile Store,True
+bo_qw73un4cen,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720041363000,False,False,r_8ldqah6s,10889,Shelley Green,https://www.thegreencornerstore.com/,Gift Store,True
+bo_62mmyueeb2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720040163000,False,False,r_3kpknvw63k,13043,Yardley Refillery,,,False
 bo_dwdwskw3nq,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720034143000,False,False,r_ba62ebq7uu,29382,re_ grocery Studio City,http://www.regrocery.co/,Grocery or Liquor Store,False
-bo_qbfaewfz9t,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720026196000,False,False,r_mw7r95cz7j,10157,Swish Oral Care,http://swishoralcare.ca/,,False
-bo_rcbc59q69z,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720021096000,False,False,r_4h3xyhsu6z,28395,Root Green Shoppe,http://www.rootgreenshoppe.com,,False
+bo_qbfaewfz9t,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720026196000,False,False,r_mw7r95cz7j,10157,Swish Oral Care,http://swishoralcare.ca/,,False
+bo_rcbc59q69z,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720021096000,False,False,r_4h3xyhsu6z,28395,Root Green Shoppe,http://www.rootgreenshoppe.com,,False
 bo_5dc6wp9y8p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1719976996000,True,True,r_knm8gewh9a,22996,Nuvitru Wellness,http://www.nuvitruwellness.com/,,False
-bo_wgd5fxbncx,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1719967696000,False,False,r_7antmh6lfj,14174,Re:Supply,http://www.resupplytx.com/,General or Mercantile Store,True
-bo_v7nn5kngfb,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1719958996000,False,False,r_4iv1hg3dt4,47255,Our Footprints Eco Store,http://Www.ourfootprints.shop,General or Mercantile Store,False
-bo_8gkf9eprqs,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1719955096000,False,False,r_6dwbvxo15u,53890,Tare Market,http://thetaremarket.com/,,True
+bo_wgd5fxbncx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719967696000,False,False,r_7antmh6lfj,14174,Re:Supply,http://www.resupplytx.com/,General or Mercantile Store,True
+bo_v7nn5kngfb,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719958996000,False,False,r_4iv1hg3dt4,47255,Our Footprints Eco Store,http://Www.ourfootprints.shop,General or Mercantile Store,False
+bo_8gkf9eprqs,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719955096000,False,False,r_6dwbvxo15u,53890,Tare Market,http://thetaremarket.com/,,True
 bo_detgkaj6wx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719944896000,False,False,r_kgwrwkzxzc,9786,The golden triangle,http://www.thegoldentriangleshop.com/,,True
-bo_zd2uqfzg4w,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1719934543000,False,False,r_6emfdnet,16468,Cambridge Naturals,http://www.cambridgenaturals.com/,General or Mercantile Store,True
+bo_zd2uqfzg4w,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719934543000,False,False,r_6emfdnet,16468,Cambridge Naturals,http://www.cambridgenaturals.com/,General or Mercantile Store,True
 bo_94j23w3edk,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719877543000,False,False,r_g7bgeq2ehb,33605,re_ grocery Mar Vista,http://www.regrocery.co/,Grocery or Liquor Store,False
 bo_xapn5yyj9q,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719876943000,True,True,r_qvkfkc4pey,58076,Cariño Botánica,https://carinobotanica.square.site/,Home Decor Store,True
-bo_xrehh63mey,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1719869443000,False,False,r_7goqn6511c,86768,Simply Zero,http://www.simplyzero.co,General or Mercantile Store,False
-bo_dy6e8v2skr,SPLIT_ORDER,SHIPPED,FULFILLED,ELEVATE,1719869443000,False,False,r_7goqn6511c,25500,Simply Zero,http://www.simplyzero.co,General or Mercantile Store,False
-bo_yycmgz54h9,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1719862543000,False,False,r_dpj0foo9,15611,Bona Fide LLC,http://www.bonafide.eco,,True
+bo_xrehh63mey,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719869443000,False,False,r_7goqn6511c,86768,Simply Zero,http://www.simplyzero.co,General or Mercantile Store,False
+bo_dy6e8v2skr,SPLIT_ORDER,DELIVERED,FULFILLED,ELEVATE,1719869443000,False,False,r_7goqn6511c,25500,Simply Zero,http://www.simplyzero.co,General or Mercantile Store,False
+bo_yycmgz54h9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719862543000,False,False,r_dpj0foo9,15611,Bona Fide LLC,http://www.bonafide.eco,,True
 bo_duavnuswef,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719859843000,False,False,r_hgqhfbjshz,14904,Brit Snipes,http://www.therealmrefillery.com/,,True
-bo_s6xcegghrx,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1719844459000,False,False,r_5zy9zh4qey,34754,BYOC Co.,http://www.byocco.com,General or Mercantile Store,True
-bo_rfq6keext3,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1719839059000,False,False,r_3yrjfjxfzd,12871,Fulfilled Goods,http://fulfilledgoods.com/,Grocery or Liquor Store,True
-bo_9btpv3tkae,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1719706759000,False,False,r_c4pvo3olhn,26837,Spoken Creation LLC,http://www.spoken-creation.com,,True
+bo_s6xcegghrx,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719844459000,False,False,r_5zy9zh4qey,34754,BYOC Co.,http://www.byocco.com,General or Mercantile Store,True
+bo_rfq6keext3,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719839059000,False,False,r_3yrjfjxfzd,12871,Fulfilled Goods,http://fulfilledgoods.com/,Grocery or Liquor Store,True
+bo_9btpv3tkae,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719706759000,False,False,r_c4pvo3olhn,26837,Spoken Creation LLC,http://www.spoken-creation.com,,True
 bo_mb56w69kcc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719706159000,False,False,r_s7p6a74mfd,20813,Refill Vashon,,General or Mercantile Store,False
-bo_exbg6zw48e,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1719688159000,False,False,r_v2zdhx5uu9,10203,Refill Goods,http://www.refillgoods.square.site,Cafe or Restaurant,True
-bo_s9cgtktsct,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1719684559000,False,False,r_a24680go24,25285,Living Pantry,http://www.livingpantry.com,,True
-bo_5h5q5tsb5n,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1719611059000,False,False,r_k97ggtuktu,12421,Natural Northern,http://www.naturalnorthern.com/,General or Mercantile Store,False
+bo_exbg6zw48e,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719688159000,False,False,r_v2zdhx5uu9,10203,Refill Goods,http://www.refillgoods.square.site,Cafe or Restaurant,True
+bo_s9cgtktsct,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719684559000,False,False,r_a24680go24,25285,Living Pantry,http://www.livingpantry.com,,True
+bo_5h5q5tsb5n,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719611059000,False,False,r_k97ggtuktu,12421,Natural Northern,http://www.naturalnorthern.com/,General or Mercantile Store,False
 bo_3cak7s97rf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719608059000,False,False,r_440a6fjxjl,13587,ECOccasion,https://ecoccasion.com,,True
 bo_c2teqa3zks,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719607459000,False,False,r_q2p2h8fgf2,10102,The Source Zero NoCo,http://www.thesourcezero.com/,,False
 bo_nkh5nw5k5h,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719592159000,False,False,r_ctdd3qseur,21774,Live Free Refillery,https://www.facebook.com/profile.php?id=100091945354857&mibextid=LQQJ4d,Grocery or Liquor Store,False
@@ -88,7 +333,7 @@ bo_6ju792pq4a,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719533866000,True,True,
 bo_2axywyvz6r,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719531766000,False,False,r_v1uobt3i2s,30577,Good Deeds,http://www.gooddeedsmarket.com/,General or Mercantile Store,True
 bo_2f7jqhzr68,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719531466000,False,False,r_kjinwevfw4,9378,Plants By Yours Truly,http://instagram.com/plantsbyyourstruly,Florist or Garden Store,True
 bo_uj4gverjnw,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719507881000,False,False,r_d7zh6fvgv4,208114,Free the Ocean,https://shop.freetheocean.com/,,True
-bo_tnzvw7fy2n,SPLIT_ORDER,SHIPPED,FULFILLED,ELEVATE,1719507881000,False,False,r_d7zh6fvgv4,115086,Free the Ocean,https://shop.freetheocean.com/,,True
+bo_tnzvw7fy2n,SPLIT_ORDER,DELIVERED,FULFILLED,ELEVATE,1719507881000,False,False,r_d7zh6fvgv4,115086,Free the Ocean,https://shop.freetheocean.com/,,True
 bo_czaf8w8b6m,SPLIT_ORDER,DELIVERED,FULFILLED,ELEVATE,1719507881000,False,False,r_d7zh6fvgv4,57747,Free the Ocean,https://shop.freetheocean.com/,,True
 bo_dc9uuys7xs,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1719489281000,False,False,r_12jc16441o,17922,The Ash House,https://theashhousesoap.com/,General or Mercantile Store,False
 bo_7e5vjd9ugf,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1719469181000,False,False,r_db377ncw7v,77444,Jillian Corn,,Grocery or Liquor Store,False
@@ -152,7 +397,7 @@ bo_uwmexqmwet,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718683662000,False,Fals
 bo_pw4nyrm5wq,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1718668062000,False,False,r_cqr371eira,23281,re_ grocery,http://www.regrocery.co,Grocery or Liquor Store,True
 bo_mfvecq7ybr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718665362000,False,False,r_dro3evuyqp,10947,Wilma's Health Care & Food,http://www.wilmashealthcare.com/,Grocery or Liquor Store,False
 bo_n3zfnr4nyy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718652462000,False,False,r_nppkgv2asr,17576,Breeze,http://lydianonlamar.com,,False
-bo_a6e4g2dcjc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718652462000,False,False,r_6kpqct9xya,12882,The Well,https://www.thewell.health/,,False
+bo_a6e4g2dcjc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718652462000,False,False,r_6kpqct9xya,12882,The Well,https://www.thewell.health/,General or Mercantile Store,False
 bo_nr2wu5neqj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718652162000,False,False,r_3r4hg4ejnp,10069,Treat,http://www.treat.com/,,True
 bo_ntatubgmh4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1718641962000,False,False,r_e2pjthpsx9,105105,Oak & Willow,https://www.oakandwillow.store/,,False
 bo_2nprn8uwu7,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1718638558000,False,False,r_8vnxsdyrnb,35701,BYO Long Beach,http://www.byolongbeach.com/,,True

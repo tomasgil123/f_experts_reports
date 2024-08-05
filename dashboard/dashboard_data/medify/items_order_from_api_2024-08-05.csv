@@ -1,4 +1,7 @@
 token,order_token,product_token,brand_order_token,product_name,product_option_name,suggested_retail_price,retailer_price,retailer_original_price,quantity,total_retailer_price,retailer_total,discount_percentage,localized_brand_order_number,product_variations
+oi_yytdm298xp,o_4scty5ybkg,p_7yjjxvv4v3,bo_tch4nh359n,MA-125 Air Purifier,White,39899,23939,23939,1,23939,23939,0,#TCH4NH359N,
+oi_gfcvpuvxnp,o_4scty5ybkg,p_7yjjxvv4v3,bo_75rhs4ng45,MA-125 Air Purifier,White,39899,23939,23939,1,23939,23939,0,#75RHS4NG45,
+oi_s27mysfbat,o_4scty5ybkg,p_pwqpt8upsk,bo_75rhs4ng45,MA-125 Replacement Air Filter,True HEPA H14 / Single,9899,5939,5939,5,29695,29695,0,#75RHS4NG45,
 oi_5k8s9rvejd,o_nbfghr4us3,p_zh8u8fdpv4,bo_yzbvhww88e,MA-40 Air Purifier,Single / Black / UV LIGHT + TRUE HEPA H14,22983,3447,3447,1,3447,3447,0,#YZBVHWW88E,
 oi_7yx6wa2adb,o_nbfghr4us3,p_zh8u8fdpv4,bo_yzbvhww88e,MA-40 Air Purifier,Single / White / UV LIGHT + TRUE HEPA H14,22983,3447,3447,1,3447,3447,0,#YZBVHWW88E,
 oi_pqv73drbks,o_nbfghr4us3,p_zthjyt6gqz,bo_yzbvhww88e,MA-40 Replacement Air Filter,Four-Pack / True HEPA H13,16639,2495,2495,1,2495,2495,0,#YZBVHWW88E,

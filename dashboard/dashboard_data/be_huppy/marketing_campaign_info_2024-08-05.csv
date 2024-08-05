@@ -1,9 +1,19 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_9sseyjgkma,Never Ordered | The Huppy Story | 6.27.24,ONE_TIME,COMPLETED,1719497639000.0,1557.0,1351.0,519.0,19.0,0.0,0.0,0.0,0.0
-bmc_q4dh5wttde,Tools for Teeth,ONE_TIME,COMPLETED,1718978400000.0,2527.0,2009.0,914.0,18.0,13.0,3682.5,0.0,0.0
-bmc_w6gpsx7t6w,30 Day | Bulk Options Available | 6.13.24,ONE_TIME,COMPLETED,1718480097000.0,724.0,472.0,218.0,3.0,10.0,2970.0,0.0,0.0
-bmc_vqnwvk7m4h,RESEND Spring Best Sellers | 6.18.24,ONE_TIME,COMPLETED,1718739358000.0,970.0,636.0,353.0,4.0,21.0,4982.5,0.0,0.0
-bmc_9zqh85c3b3,All | Watermelon Sale | 6.10.24,ONE_TIME,COMPLETED,1718070134000.0,2100.0,1635.0,767.0,20.0,24.0,6650.0,3.0,942.5
+bmc_bve3xpecsc,Faire Market Thank You | 8.1.24,ONE_TIME,COMPLETED,1722527278000.0,2585.0,2478.0,1009.0,13.0,7.0,747.5,0.0,0.0
+bmc_uhtyk4ugvs,Faire Market Last Day | 7.25.24,ONE_TIME,COMPLETED,1721956622000.0,3137.0,2476.0,646.0,17.0,10.0,2282.5,0.0,0.0
+bmc_cj6sy6yvju,Faire Market Reminder | 7.24.24,ONE_TIME,COMPLETED,1721848980000.0,3136.0,2434.0,704.0,17.0,20.0,6462.5,0.0,0.0
+bmc_krasxus9av,Faire Market Launch | 7.23.24,ONE_TIME,COMPLETED,1721747950000.0,3132.0,2345.0,425.0,9.0,15.0,8010.0,0.0,0.0
+bmc_7bnq95kctg,Faire Market Insider Day | 7.22.24 ,ONE_TIME,COMPLETED,1721648735000.0,3127.0,2464.0,786.0,26.0,73.0,34855.0,10.0,4690.0
+bmc_xrbt8zamfk,Faire Market Teaser | 7.19.24,ONE_TIME,COMPLETED,1721417077000.0,3126.0,2485.0,663.0,16.0,77.0,37397.5,4.0,880.0
+bmc_j3wxvdnu64,3 Reasons to Carry Huppy | Dent/Oral Prof. | 7.12.24,ONE_TIME,COMPLETED,1721052000000.0,641.0,613.0,189.0,7.0,0.0,0.0,0.0,0.0
+bmc_4pbysjpv4g,3 Reasons to Carry Huppy | Boutique/Shop/Vit. Store | 7.12.24,ONE_TIME,COMPLETED,1721057119000.0,128.0,101.0,41.0,1.0,0.0,0.0,0.0,0.0
+bmc_4gnv2gruxv,6 Reasons to Carry Huppy | Health/Med Spas | 7.12.24,ONE_TIME,COMPLETED,1721056944000.0,244.0,204.0,92.0,6.0,0.0,0.0,0.0,0.0
+bmc_mbj8qsrjmr,All | Faire Market | 7.3.24,ONE_TIME,COMPLETED,1720057366000.0,2712.0,2140.0,776.0,11.0,18.0,6955.0,0.0,0.0
+bmc_9sseyjgkma,Never Ordered | The Huppy Story | 6.27.24,ONE_TIME,COMPLETED,1719497639000.0,1557.0,1351.0,542.0,20.0,0.0,0.0,0.0,0.0
+bmc_q4dh5wttde,Tools for Teeth,ONE_TIME,COMPLETED,1718978400000.0,2527.0,2009.0,924.0,18.0,15.0,4075.0,0.0,0.0
+bmc_w6gpsx7t6w,30 Day | Bulk Options Available | 6.13.24,ONE_TIME,COMPLETED,1718480097000.0,724.0,472.0,219.0,3.0,11.0,3237.5,0.0,0.0
+bmc_vqnwvk7m4h,RESEND Spring Best Sellers | 6.18.24,ONE_TIME,COMPLETED,1718739358000.0,970.0,636.0,358.0,4.0,21.0,4982.5,0.0,0.0
+bmc_9zqh85c3b3,All | Watermelon Sale | 6.10.24,ONE_TIME,COMPLETED,1718070134000.0,2100.0,1635.0,770.0,20.0,25.0,6917.5,3.0,942.5
 bmc_wjakzt5e97,"60Day, Credit | Spring Best Sellers | 6.5.24",ONE_TIME,COMPLETED,1717628653000.0,700.0,451.0,222.0,1.0,10.0,2265.0,0.0,0.0
 bmc_3ag5cf3yxb,Earth Week 2024 - Email #3,ONE_TIME,COMPLETED,1714060856000.0,1978.0,1529.0,433.0,13.0,15.0,5280.0,2.0,440.0
 bmc_gk2j95zbry,Earth Week 2024 - Email #2,ONE_TIME,COMPLETED,1713801626000.0,1976.0,1531.0,472.0,19.0,31.0,10730.0,9.0,3930.0

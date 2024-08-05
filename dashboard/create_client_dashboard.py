@@ -122,7 +122,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
             if selected_client == 'teleties':
                 df_orders = get_orders_teleties()
-                date_last_update_orders = "2024-07-08"
+                date_last_update_orders = "2024-08-05"
                 date_last_update_orders = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
             else:
                 df_orders = pd.read_csv(product_file_orders[0])
@@ -243,7 +243,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         if selected_client == 'teleties':
             df = get_orders_teleties()
-            date_last_update_orders = "2024-07-08"
+            date_last_update_orders = "2024-08-05"
             date_last_update = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
             st.write(f"Data was last updated at: {date_last_update.date()}")
         else:

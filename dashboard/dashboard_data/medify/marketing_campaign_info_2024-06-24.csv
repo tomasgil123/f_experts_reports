@@ -1,8 +1,0 @@
-tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_ubm9fw4emq,All | Why Choose | 6.24.24,ONE_TIME,COMPLETED,1719231004000,668,640,134,9,0,0.0,0,0.0
-bmc_97rrh6ud7w,All | Why Buy | 6.21.24,ONE_TIME,COMPLETED,1718971731000,668,627,198,12,0,0.0,0,0.0
-bmc_wvn6acupb5,All | Helping Shoppers RESEND | 6.18.24,ONE_TIME,COMPLETED,1718725868000,399,358,39,1,0,0.0,0,0.0
-bmc_rqnjxwb7e4,All | Testimonial/Review | 6.17.24,ONE_TIME,COMPLETED,1718639339000,546,500,133,6,0,0.0,0,0.0
-bmc_9mz9dvvrfw,All | Helping Shoppers | 6.12.24,ONE_TIME,COMPLETED,1718247014000,546,506,152,10,0,0.0,0,0.0
-bmc_6e4gvbtq5w,All | Breath of Fresh Air RESEND | 6.11.24,ONE_TIME,COMPLETED,1718130941000,538,504,156,9,0,0.0,0,0.0
-bmc_rpaf8xgjpg,Breath of Fresh Air | 6.5.24,ONE_TIME,COMPLETED,1717648268000,132,123,48,3,0,0.0,0,0.0

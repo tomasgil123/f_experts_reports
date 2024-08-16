@@ -12,7 +12,8 @@ import glob
 # brand_owner = "Medify"
 # brand_owner = "Future Kind"
 # brand_owner = "Dolan Geiman"
-brand_owner = "Viori"
+# brand_owner = "Viori"
+brand_owner = "Levtex Home"
 
 df_brand_info = pd.read_csv("brand_info.csv")
 

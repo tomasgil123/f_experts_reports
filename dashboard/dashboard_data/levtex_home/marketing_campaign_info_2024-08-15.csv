@@ -1,0 +1,4 @@
+tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
+bmc_fgyzgwymjw,Atlanta Market 2024 Reminder,ONE_TIME,COMPLETED,1720811825000,219,176,80,0,4,2522.0,0,0.0
+bmc_ebfn8dmn83,Atlanta Market 2024 Announcement (Copy 1),ONE_TIME,COMPLETED,1720022400000,217,159,70,1,7,4598.5,0,0.0
+bmc_qh8ff8geuw,Atlanta Market 2024 Announcement,ONE_TIME,COMPLETED,1704748285000,142,107,49,1,4,5060.65,0,0.0

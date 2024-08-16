@@ -20,11 +20,12 @@ from cookie import (cookie_token)
 # brand_name = "shinesty"
 # brand_name = "latico_leathers"
 
-brand_name = "teleties"
+#brand_name = "teleties"
 # brand_name = "medify"
 
 #brand_name = "dolan_geiman"
 # brand_name = "viori"
+brand_name = "levtex_home"
 
 # brand_name = "grab2art"
 # brand_name = "tushy"

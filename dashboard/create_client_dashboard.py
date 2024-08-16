@@ -236,6 +236,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
         generate_page_views_and_ratio_by_category_with_selector(data)
 
         generate_page_views_and_ratio_by_product_with_selector(data)
+        
 
     elif selected_report == "Order analytics":
 

@@ -49,6 +49,7 @@ def create_competitors_dashboard(selected_client, markdown_text):
                 # Competitors analytics
                 """)
     
+    
     if selected_client == "teleties":
         st.markdown("""
                     Competitors were selected based on their presence in the Hair Claws and Clips category, which accounts for the majority of Teleties' sales.
@@ -59,6 +60,7 @@ def create_competitors_dashboard(selected_client, markdown_text):
                     """)
         
     review_analysis = get_text_between_comments(markdown_text, "<!-- Competitors: Review analysis -->", "<!")
+    
 
     if review_analysis is not None:
         st.markdown(review_analysis, unsafe_allow_html=True)

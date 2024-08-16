@@ -17,7 +17,8 @@ from get_product_info_custom import (get_products_info)
 # brand_owner = "Future Kind"
 # brand_owner = "Jack Archer"
 # brand_owner = "Dolan Geiman"
-brand_owner = "Viori"
+# brand_owner = "Viori"
+brand_owner = "Levtex Home"
 
 data = get_products_info(brand_owner)
 

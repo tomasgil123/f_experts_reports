@@ -40,8 +40,8 @@ from utils import (get_orders_teleties, get_orders_items_teleties)
 # brand_token = "b_9884o1r7ea"
 # brand_name = "shinesty"
 
-brand_token = "b_12tpkawx"
-brand_name = "teleties"
+# brand_token = "b_12tpkawx"
+# brand_name = "teleties"
 
 # brand_token = "b_fg3z6jazys"
 # brand_name = "medify"
@@ -51,6 +51,9 @@ brand_name = "teleties"
 
 # brand_token = "b_aqaeteuq89"
 # brand_name = "viori"
+
+brand_token = "b_abnh48rfz1"
+brand_name = "levtex_home"
 
 
 

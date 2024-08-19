@@ -1,13 +1,15 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_jhy8atusax,Back to School | 8.8.24,ONE_TIME,RUNNING,,,,,,,,,
-bmc_432ymbhw5m,Customer Reviews | 8.5.24,ONE_TIME,RUNNING,,,,,,,,,
-bmc_7q7tjk6yur,Compare At A Glance | 7.30.24,ONE_TIME,COMPLETED,1722440704000.0,1563.0,1403.0,486.0,15.0,0.0,0.0,0.0,0.0
-bmc_pfrg55ca66,New Discount/Lowered Minimum Reminder,ONE_TIME,COMPLETED,1721826007000.0,1082.0,939.0,330.0,8.0,0.0,0.0,0.0,0.0
-bmc_pw592uhabh,MKA-125 Purifier | 7.19.24,ONE_TIME,COMPLETED,1721417052000.0,1081.0,946.0,330.0,4.0,0.0,0.0,0.0,0.0
-bmc_g4c3f6ctqu,Know When To Change The Filter | 7.14.23,ONE_TIME,COMPLETED,1721097000000.0,1081.0,959.0,408.0,6.0,0.0,0.0,0.0,0.0
-bmc_ea76sxd6uy,New Discount/Min. Order,ONE_TIME,COMPLETED,1720726373000.0,1081.0,974.0,387.0,14.0,0.0,0.0,0.0,0.0
+bmc_bcnt7a4ry4,Reminder New Discount/Lowered Minimum | 8.12.24,ONE_TIME,COMPLETED,1723490108000.0,1385.0,1342.0,464.0,22.0,0.0,0.0,0.0,0.0
+bmc_eg28ymb6tw,Fall Allergies | 8.13.24,ONE_TIME,COMPLETED,1723749306000.0,1375.0,1345.0,396.0,16.0,0.0,0.0,0.0,0.0
+bmc_jhy8atusax,Back to School | 8.8.24,ONE_TIME,COMPLETED,1723137334000.0,1396.0,1358.0,574.0,18.0,0.0,0.0,0.0,0.0
+bmc_432ymbhw5m,Customer Reviews | 8.5.24,ONE_TIME,COMPLETED,1722870786000.0,1419.0,1392.0,479.0,23.0,0.0,0.0,0.0,0.0
+bmc_7q7tjk6yur,Compare At A Glance | 7.30.24,ONE_TIME,COMPLETED,1722440704000.0,1563.0,1403.0,500.0,17.0,0.0,0.0,0.0,0.0
+bmc_pfrg55ca66,New Discount/Lowered Minimum Reminder,ONE_TIME,COMPLETED,1721826007000.0,1082.0,939.0,333.0,8.0,0.0,0.0,0.0,0.0
+bmc_pw592uhabh,MKA-125 Purifier | 7.19.24,ONE_TIME,COMPLETED,1721417052000.0,1081.0,946.0,331.0,4.0,0.0,0.0,0.0,0.0
+bmc_g4c3f6ctqu,Know When To Change The Filter | 7.14.23,ONE_TIME,COMPLETED,1721097000000.0,1081.0,959.0,409.0,6.0,0.0,0.0,0.0,0.0
+bmc_ea76sxd6uy,New Discount/Min. Order,ONE_TIME,COMPLETED,1720726373000.0,1081.0,974.0,389.0,15.0,0.0,0.0,0.0,0.0
 bmc_9bb3qbhfvg,Assisted Living/Retirement Home | Why Buy | 7.9.24,ONE_TIME,COMPLETED,1720620000000.0,137.0,127.0,41.0,4.0,0.0,0.0,0.0,0.0
-bmc_n5ct3tc7s2,Barber Shops | Why Buy | 7.9.24 ,ONE_TIME,COMPLETED,1720620000000.0,123.0,110.0,34.0,0.0,0.0,0.0,0.0,0.0
+bmc_n5ct3tc7s2,Barber Shops | Why Buy | 7.9.24 ,ONE_TIME,COMPLETED,1720620000000.0,123.0,110.0,35.0,0.0,0.0,0.0,0.0,0.0
 bmc_cdt9pucn8n,Businesses | Why Buy | 7.9.24,ONE_TIME,COMPLETED,1720620000000.0,158.0,134.0,52.0,4.0,0.0,0.0,0.0,0.0
 bmc_b2mtgvrrcq,Medical | Why Buy | 7.2.24,ONE_TIME,COMPLETED,1719983756000.0,312.0,279.0,83.0,5.0,0.0,0.0,0.0,0.0
 bmc_ubm9fw4emq,All | Why Choose | 6.24.24,ONE_TIME,COMPLETED,1719231004000.0,668.0,640.0,211.0,9.0,0.0,0.0,0.0,0.0

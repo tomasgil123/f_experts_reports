@@ -1,16 +1,29 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
-bo_tp3aua4fq9,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1722652135000,False,False,r_b64vigmfcw,29886,Merryweather,http://www.merryweather.shop,Home Decor Store,True
-bo_r3ejjs7927,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1722484652000,False,False,r_5zrtdpe7,34933,ASSEMBLAGE Contemporary Craftsman Gallery,http://www.assemblageccg.com/,,True
+bo_xk789d3dy5,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1723822565000,False,False,r_ckrlm8sa,8995,CLP,http://www.clpjewelry.com,Gift Store,True
+bo_h66hchjngn,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1723748672000,True,True,r_fyqzqw4kj8,0,The Vortex,http://vortexrep.org/,General or Mercantile Store,True
+bo_z5yvgkkxc5,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1723737572000,False,False,r_mbgwcdem4j,27634,Gunnison Gallery,http://www.gunnisongallery.net/,,True
+bo_2q6u88bqhb,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1723673672000,False,False,r_d5pwy6dpz5,65206,"Mercury Leather Works, LLC",http://www.mercuryleatherworks.com/,,True
+bo_q59p4w63q2,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1723652072000,False,False,r_yh33wg25sz,41520,The Ordinary Fellow,http://theordinaryfellow.com/,,True
+bo_tb2tafvnsq,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1723586528000,False,False,r_b2cin9xm1j,6950,Danielle Fortin,http://www.thenorthcountrymn.com,,True
+bo_kx629xb975,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1723478666000,False,False,r_42yrawuz,23698,Blackchalk Home and Laundry,https://maps.google.com/?cid=15490396746407588471,Clothing Boutique,False
+bo_vrxyyg3htc,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1723307517000,False,False,r_sravmafrnv,15568,Boulder Frameworks,http://www.boulderframeworks.com/,,False
+bo_2tprmavwzx,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1723247817000,True,True,r_3ubhvfj2wm,33324,Narrow Path Provision Co. LLC,http://www.narrowpathprovisionco.com/,Clothing Boutique,False
+bo_8t27z7u83n,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1723235517000,True,True,r_eexv9ctpeh,29017,Howell Nature Center,http://howellnaturecenter.org/,,True
+bo_fs8yn5ueuz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1723207304000,True,True,r_55124rgits,28833,Bonnes Amies,http://www.bonnesamies.net/,Home Decor Store,True
+bo_kd2yz8y7qc,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1723104543000,True,True,r_hu2pvqf8vu,143527,Peak Art & Frame,http://www.peakartandframe.com/,Home Decor Store,True
+bo_sa4xgtvys6,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1722902935000,True,True,r_h22j9aewer,38258,Forever George Frame Co,https://www.facebook.com/profile.php?id=61560969280508,,True
+bo_tp3aua4fq9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1722652135000,False,False,r_b64vigmfcw,31771,Merryweather,http://www.merryweather.shop,Home Decor Store,True
+bo_r3ejjs7927,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1722484652000,False,False,r_5zrtdpe7,34933,ASSEMBLAGE Contemporary Craftsman Gallery,http://www.assemblageccg.com/,,True
 bo_su9hx9uvak,NEW_ORDER,CANCELED,CANCELED,ELEVATE,1722474152000,True,True,r_3ubhvfj2wm,0,Narrow Path Provision Co. LLC,http://www.narrowpathprovisionco.com/,Clothing Boutique,False
-bo_4gk57jtax8,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1722376955000,False,False,r_568wovnh,64618,"CURATE by Stash \ Round Top, Texas",https://www.stash-co.com/,Clothing Boutique,True
-bo_sth4csv8rj,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1722277054000,False,False,r_b64vigmfcw,105979,Merryweather,http://www.merryweather.shop,Home Decor Store,True
+bo_4gk57jtax8,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1722376955000,False,False,r_568wovnh,67399,"CURATE by Stash \ Round Top, Texas",https://www.stash-co.com/,Clothing Boutique,True
+bo_sth4csv8rj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1722277054000,False,False,r_b64vigmfcw,105979,Merryweather,http://www.merryweather.shop,Home Decor Store,True
 bo_srhg84bbbv,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1722272573000,False,False,r_b64vigmfcw,91480,Merryweather,http://www.merryweather.shop,Home Decor Store,True
 bo_zsc2yatwj9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1722269554000,True,True,r_ev2b4c2y4c,27459,At Home in Blowing Rock,http://www.athomeinblowingrock.com/,Home Decor Store,False
 bo_8pyabh256b,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1722035634000,True,True,r_d0bdf698x0,571157,Mountain Home,http://www.mountainhome.net/,,False
 bo_hrgq7vvtz4,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1722020854000,False,False,r_fnbeyw9v6h,64886,River Oaks Framing Co LLC,http://riveroaksframing.com/,Home Decor Store,False
 bo_jw2wjb264s,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721983571000,False,False,r_b64vigmfcw,459097,Merryweather,http://www.merryweather.shop,Home Decor Store,True
-bo_ej4s8z3dnn,SPLIT_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721983571000,False,False,r_b64vigmfcw,104595,Merryweather,http://www.merryweather.shop,Home Decor Store,True
-bo_5dfmq8uc58,SPLIT_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721983571000,False,False,r_b64vigmfcw,16922,Merryweather,http://www.merryweather.shop,Home Decor Store,True
+bo_ej4s8z3dnn,SPLIT_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721983571000,False,False,r_b64vigmfcw,104595,Merryweather,http://www.merryweather.shop,Home Decor Store,True
+bo_5dfmq8uc58,SPLIT_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721983571000,False,False,r_b64vigmfcw,16922,Merryweather,http://www.merryweather.shop,Home Decor Store,True
 bo_xp6seap9y5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721982071000,False,False,r_3idwdjai,145671,The Artisan's Bench,http://www.artisansbench.com/,Furniture Store,True
 bo_hpxjp9thcx,SPLIT_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721982071000,False,False,r_3idwdjai,512788,The Artisan's Bench,http://www.artisansbench.com/,Furniture Store,True
 bo_mycgsv2xfv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721949671000,False,False,r_9bfyf8irh8,95125,Steamboat Art Museum,https://www.steamboatartmuseum.org/,Gift Store,True
@@ -19,13 +32,13 @@ bo_4qe3psjdbv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721882757000,True,True,
 bo_shugt58zr9,SPLIT_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721882757000,True,True,r_d78dmgd778,158898,Cactusflower Boutique & Gifts,http://www.cactusflowerboutique@yahoo.com/,Clothing Boutique,True
 bo_sqq9nf528d,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721868957000,False,False,r_82bebb58,108080,Favor the Kind,http://favorthekind.com/,,True
 bo_qgx7c3vwg4,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721868657000,False,False,r_82bebb58,511120,Favor the Kind,http://favorthekind.com/,,True
-bo_herhsmypz9,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721864157000,False,False,r_6dmnh6c3,74136,Teaselwood Design,http://www.teaselwooddesign.com/,Home Decor Store,True
-bo_6r2gckt8jm,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721858757000,False,False,r_ns7a94cgdp,46713,The Crow & Cactus Company,http://crowandcactus.com,,True
+bo_herhsmypz9,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721864157000,False,False,r_6dmnh6c3,74136,Teaselwood Design,http://www.teaselwooddesign.com/,Home Decor Store,True
+bo_6r2gckt8jm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721858757000,False,False,r_ns7a94cgdp,46713,The Crow & Cactus Company,http://crowandcactus.com,,True
 bo_zb6vhy867d,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721858457000,False,False,r_ckrlm8sa,21090,CLP,http://www.clpjewelry.com,Gift Store,True
 bo_5ya742njn7,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721854257000,False,False,r_d0kqzj9b,47088,Texana Outfitters,http://texasshirts.com/,Clothing Boutique,True
 bo_drz7884nya,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721847057000,False,False,r_9rus6s4t62,399256,"Roots In Santa Fe, LLC",http://rootsinsantafe.com/,Clothing Boutique,True
 bo_fxuh8a29bp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721833557000,False,False,r_568wovnh,54881,"CURATE by Stash \ Round Top, Texas",https://www.stash-co.com/,Clothing Boutique,True
-bo_aprhcjwqv2,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721796046000,False,False,r_91xgljbftn,24069,Mountain Treasures LLC,http://mountainhometreasures.com/,Home Decor Store,True
+bo_aprhcjwqv2,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721796046000,False,False,r_91xgljbftn,24069,Mountain Treasures LLC,http://mountainhometreasures.com/,Home Decor Store,True
 bo_p6zw7dyzsk,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721773363000,False,False,r_5aus7r2v8a,405536,Maverick Western Wear,,Clothing Boutique,True
 bo_z9pf96feuv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721770063000,False,False,r_8io7pwl3dh,21090,"Beautiful Art Picture Framing, Inc.",http://www.beautifulartpictureframing.com/,,False
 bo_aqzcbgau9f,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1721748720000,False,False,r_gsb6ghtruy,107370,Leia Fox Designs,,Clothing Boutique,True
@@ -35,7 +48,7 @@ bo_c9hvfzbd9q,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721673992000,False,F
 bo_8ur4dchvk7,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721653892000,False,False,r_gs5pq5agru,45757,Rancho Diaz,http://ranchodiaz.com/,Home Decor Store,True
 bo_5pxt4nkm68,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721623292000,False,False,r_82bebb58,202948,Favor the Kind,http://favorthekind.com/,,True
 bo_8kknv7h37n,SPLIT_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721623292000,False,False,r_82bebb58,56676,Favor the Kind,http://favorthekind.com/,,True
-bo_wde4nmtsem,SPLIT_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1721623292000,False,False,r_82bebb58,480120,Favor the Kind,http://favorthekind.com/,,True
+bo_wde4nmtsem,SPLIT_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1721623292000,False,False,r_82bebb58,480120,Favor the Kind,http://favorthekind.com/,,True
 bo_njzsyha6uv,SPLIT_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1721623292000,False,False,r_82bebb58,116709,Favor the Kind,http://favorthekind.com/,,True
 bo_2mbsn8j6rw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721316090000,False,False,r_dymwvxenlq,40505,Bar Diamond Bar Boutique & Gallery,,,True
 bo_whjj3qp3sz,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721259947000,False,False,r_b3878rcczz,65261,Saddletree Gallery,https://saddletreegallery.com/,,False
@@ -50,13 +63,13 @@ bo_p7ejzu3rjj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720658988000,False,Fals
 bo_saxj8va6j6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720564218000,False,False,r_b64vigmfcw,26400,Merryweather,http://www.merryweather.shop,Home Decor Store,True
 bo_4dc4544ven,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720560621000,False,False,r_82bebb58,52944,Favor the Kind,http://favorthekind.com/,,True
 bo_yp7yb2d2xu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720543518000,False,False,r_82bebb58,110444,Favor the Kind,http://favorthekind.com/,,True
-bo_aewq8tqwes,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1720478314000,False,False,r_82bebb58,157835,Favor the Kind,http://favorthekind.com/,,True
+bo_aewq8tqwes,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720478314000,False,False,r_82bebb58,157835,Favor the Kind,http://favorthekind.com/,,True
 bo_dmty5js3mp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720462001000,False,False,r_d5pwy6dpz5,35646,"Mercury Leather Works, LLC",http://www.mercuryleatherworks.com/,,True
 bo_xggd4nymmu,SPLIT_ORDER,DELIVERED,FULFILLED,ELEVATE,1720462001000,False,False,r_d5pwy6dpz5,13732,"Mercury Leather Works, LLC",http://www.mercuryleatherworks.com/,,True
 bo_vcfjpkenxs,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720199728000,False,False,r_b0j3c57x6f,435441,Kemo Sabe,http://kemosabe.com/,,True
 bo_tn273fx3sj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1720114415000,False,False,r_66r8oig7,7992,Ampersand Old & New,http://Www.ampersandoldandnew.com,Home Decor Store,True
 bo_p2esyddf22,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720082163000,False,False,r_b0j3c57x6f,404549,Kemo Sabe,http://kemosabe.com/,,True
-bo_qkesrcdbf6,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1720082163000,False,False,r_b0j3c57x6f,895900,Kemo Sabe,http://kemosabe.com/,,True
+bo_qkesrcdbf6,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720082163000,False,False,r_b0j3c57x6f,895900,Kemo Sabe,http://kemosabe.com/,,True
 bo_f47krhdx8x,SPLIT_ORDER,DELIVERED,FULFILLED,ELEVATE,1720082163000,False,False,r_b0j3c57x6f,374563,Kemo Sabe,http://kemosabe.com/,,True
 bo_uyd89d67x4,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1720040163000,False,False,r_b0j3c57x6f,152050,Kemo Sabe,http://kemosabe.com/,,True
 bo_sv2d2tueab,NEW_ORDER,CANCELED,CANCELED,ELEVATE,1720039863000,False,False,r_b0j3c57x6f,0,Kemo Sabe,http://kemosabe.com/,,True

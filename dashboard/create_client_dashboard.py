@@ -52,6 +52,8 @@ from dashboard.seo_analytics_charts import (get_brands_with_most_products_in_top
 # Dashboard creation
 from dashboard.create_competitors_dashboard import (create_competitors_dashboard, create_custom_competitors_dashboard)
 
+from dashboard.reviews_charts import get_retailers_with_reviews_purchase_last_60_days
+
 
 def create_dashboard(selected_client, selected_report, is_admin):
 
@@ -60,6 +62,29 @@ def create_dashboard(selected_client, selected_report, is_admin):
         save_user_log_report(selected_client, selected_report)
 
     markdown_text = read_md_file(f"./dashboard/dashboard_text/{selected_client}/texts.md")
+
+    if selected_report == "Reviews":
+        st.markdown("""
+                # Reviews
+                """)
+        reviews_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/brand_reviews_*.csv")
+        orders_file = glob.glob(f"./dashboard/dashboard_data/{selected_client}/orders_from_api_*.csv")
+
+        date_last_update = extract_date_from_filename(reviews_file[0])
+
+        st.write(f"Data was last updated at: {date_last_update.date()}")
+
+        df_reviews = pd.read_csv(reviews_file[0])
+        df_orders = pd.read_csv(orders_file[0])
+
+        df_retailers_with_reviews = get_retailers_with_reviews_purchase_last_60_days(df_orders, df_reviews, date_last_update)
+
+        st.write("Retailers that made a purchase in the last 60 days and haven't left a review for their last order, but have left one or more reviews before:")
+
+        df_retailers_with_reviews.columns = ['Retailer Name', 'Review Count', 'Send a DM', 'Days Since Last Order', 'Last Order Date']
+
+        st.write(df_retailers_with_reviews.to_html(escape=False, index=False), unsafe_allow_html=True)
+
 
     if selected_report == "SEO":
         st.markdown("""

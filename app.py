@@ -35,7 +35,7 @@ tushy = "tushy88!"
 future_kind = "future44kind!"
 jack_archer = "jack22archer!"
 
-inactive_clients = ['tenzo_tea', 'free_planet', 'the_perfect_jeans', 'couleur_nature', 'caravan', 'bon_artis', 'lothantique', 'boredwalk', 'born_to_rally', 'glimmer_wish', 'little_hometown']
+inactive_clients = ['tenzo_tea', 'free_planet', 'the_perfect_jeans', 'couleur_nature', 'caravan', 'bon_artis', 'lothantique', 'boredwalk', 'born_to_rally', 'glimmer_wish', 'little_hometown', "trek_light", "true_classic", "shinesty", "tushy", "jack_archer", "grab2art", "future_kind", "cheese_brothers"]
 
 openai_api_key = st.secrets["openai_api_key"]
 
@@ -174,6 +174,9 @@ if st.session_state.get("is_admin", False):
     
     if any("competitors_data/custom_product" in file for file in files):
         report_options.append("Custom Competitors analytics")
+
+    if any("brand_reviews" in file for file in files):
+        report_options.append("Reviews")
 
     default_report_option = report_options[0]
 

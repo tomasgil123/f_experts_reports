@@ -4,11 +4,17 @@ import glob
 from get_reviews_utils import (get_reviews)
 from cookie import (cookie_token)
 
-brand_token = "b_1c6eqlam"
-brand_name = "dolan_geiman"
+# brand_token = "b_1c6eqlam"
+# brand_name = "dolan_geiman"
 
-# brand_token = "b_aqaeteuq89"
-# brand_name = "viori"
+brand_token = "b_aqaeteuq89"
+brand_name = "viori"
+
+# brand_token = "b_abnh48rfz1"
+# brand_name = "levtex_home"
+
+# brand_token = "b_12tpkawx"
+# brand_name = "teleties"
 
 # # we check if there is data already downloaded
 product_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/brand_reviews_*.csv")

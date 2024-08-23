@@ -229,6 +229,9 @@ else:
     if any("competitors_data/custom_product" in file for file in files):
         report_options.append("Custom Competitors analytics")
 
+    if any("brand_reviews" in file for file in files):
+        report_options.append("Reviews")
+
     default_report_option = report_options[0]
     if st.session_state['user_name'] == 'latico_leathers':
         st.sidebar.title("----- -----")

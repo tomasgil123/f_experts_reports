@@ -1,10 +1,21 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
-bo_bkxj4br93f,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1722527599000,True,True,r_3lr31ppc,22081,Infusion Tea,http://www.infusionorlando.com/,,False
+bo_jf6d842veh,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1725581389000,False,False,r_amkvzx3d,58683,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
+bo_v257hg7grs,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1725208040000,True,True,r_90h28nnk,28698,Lemon,http://LemonGiftShop.com,Gift Store,True
+bo_s3mujabrtd,NEW_ORDER,PROCESSING,FULFILLED,ELEVATE,1725041540000,False,False,r_1d2l17a2,31625,Ecology Sports,http://www.ecologysports.com/,Clothing Boutique,True
+bo_a4pf2gk7qj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724716484000,True,True,r_bcrshxd61v,11601,Nu Shuz,http://www.poshmark.com/closet/lovenushuz,Clothing Boutique,True
+bo_kqpb5ux9qy,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1724537486000,True,True,r_y8gct93jwu,27568,Classic Toys,http://toydango.com/,Kids or Toy Store,True
+bo_gg7t5r7x92,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724379254000,True,True,r_c9jry624j2,13835,EOS Med Spa,https://eos-stl.com/,Spa or Beauty Store,False
+bo_akvpfeqvvk,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1723659272000,True,True,r_ccpewe9f,19725,Graffitti Key West,http://www.graffittikw.com/,Clothing Boutique,False
+bo_sf72axmjj6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1723577828000,True,True,r_kf3x9te853,68304,Abbey Caroline Salon & Experience,https://abbeycaroline.com/,General or Mercantile Store,True
+bo_pf9y67xxp8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1723554566000,True,True,r_sk7qq77qez,23750,Beckett Scott Boutique,,Clothing Boutique,True
+bo_qktdjrgjaq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1723407117000,False,False,r_zzfheqp374,28860,Adult Video Warehouse,https://adultsatplay.net/,,False
+bo_egdrr9xqtw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1723067277000,False,False,r_zzfheqp374,10370,Adult Video Warehouse,https://adultsatplay.net/,,False
+bo_bkxj4br93f,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1722527599000,True,True,r_3lr31ppc,22081,Infusion Tea,http://www.infusionorlando.com/,,False
 bo_fdxqb9n4md,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1722007571000,True,True,r_ovvl42fxrh,47860,Fugates Inc,,Clothing Boutique,False
 bo_6x2cudeq8j,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721964071000,True,True,r_5y4km2u2,17971,Leela,http://leelamarket.com,Clothing Boutique,False
 bo_j6w3p3v3z7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721942471000,False,False,r_j8ztn2tudq,14092,Terry Family Funeral Home,http://www.terryfamilyfuneralhome.com/,,True
 bo_gswvcb95bf,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721844357000,True,True,r_bawtovjh70,86793,Dam Near Inn,,Clothing Boutique,True
-bo_43h5dchh2p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721838657000,True,True,r_9d9fq582y2,114527,Stormin Norman's/Beachcombers,http://stormin-normans.paqe.io/,Clothing Boutique,True
+bo_43h5dchh2p,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721838657000,True,True,r_9d9fq582y2,114527,Stormin Norman's/Beachcombers,,Gift Store,True
 bo_mprazxcxrp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721673692000,False,False,r_9immfion,49125,A & A village treasures,http://aavillagetreasures.com/,,False
 bo_vxqapruf6e,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1721671292000,True,True,r_4ezd21k5vj,64374,5518 Designs,http://www.shop5518.com/,Clothing Boutique,False
 bo_2tx5577q2n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721417192000,False,False,r_1g6zjos83y,50342,Amazing Lace,,,True

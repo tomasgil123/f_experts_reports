@@ -4,17 +4,26 @@ import glob
 from get_reviews_utils import (get_reviews)
 from cookie import (cookie_token)
 
-# brand_token = "b_1c6eqlam"
-# brand_name = "dolan_geiman"
+#brand_token = "b_1c6eqlam"
+#brand_name = "dolan_geiman"
 
-brand_token = "b_aqaeteuq89"
-brand_name = "viori"
+#brand_token = "b_aqaeteuq89"
+#brand_name = "viori"
 
-# brand_token = "b_abnh48rfz1"
-# brand_name = "levtex_home"
+#brand_token = "b_abnh48rfz1"
+#brand_name = "levtex_home"
 
-# brand_token = "b_12tpkawx"
-# brand_name = "teleties"
+#brand_token = "b_12tpkawx"
+#brand_name = "teleties"
+
+#brand_token = "b_4v6l6ww3o7"
+#brand_name = "tushy"
+
+#brand_token = "b_fg3z6jazys"
+#brand_name = "medify"
+
+brand_token = "b_9884o1r7ea"
+brand_name = "shinesty"
 
 # # we check if there is data already downloaded
 product_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/brand_reviews_*.csv")
@@ -29,7 +38,7 @@ if len(product_file) > 0:
     df_current_review = pd.read_csv(product_file[0])
 
     # identify campaign with the most recent start_sending_at date
-    time_most_recent_review = df_current_review['start_sending_at'].max()
+    time_most_recent_review = df_current_review['created_at'].max()
 
     # we substract a month to the time_most_recent_campaign
     # we do this because some campaign attributes could have been updated. We assume older campaigns don't get updated anymore

@@ -1,7 +1,10 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
+bmc_7sacxqc3ty,TUSHY Toilet Brush,ONE_TIME,DRAFT,,,,,,,,,
+bmc_dmd2syq3vg,Welcome Campaign,ONE_TIME,COMPLETED,1720702800000.0,18.0,7.0,2.0,0.0,0.0,0.0,0.0,0.0
+bmc_6jfcqxsx55,Consumables Big Announcement,ONE_TIME,DRAFT,,,,,,,,,
 bmc_ehtwqyxbjj,Untitled campaign 2,ONE_TIME,DRAFT,,,,,,,,,
 bmc_xfmpysw4vc,Untitled campaign 1,ONE_TIME,DRAFT,,,,,,,,,
 bmc_zfeymmpz49,Untitled campaign,ONE_TIME,DRAFT,,,,,,,,,
 bmc_q4qf9f9eaq,Items in Cart,ONE_TIME,DRAFT,,,,,,,,,
-bmc_7vx86b4ebf,Big Announcement,ONE_TIME,DRAFT,,,,,,,,,
+bmc_7vx86b4ebf,Travel Big Announcement,ONE_TIME,COMPLETED,1725541200000.0,10.0,9.0,5.0,0.0,0.0,0.0,0.0,0.0
 bmc_5cg27vfrj8,Faire Invitation,ONE_TIME,DRAFT,,,,,,,,,

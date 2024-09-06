@@ -1,16 +1,22 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_5p8mwjfvfw,Head Turners | 8.1.24,ONE_TIME,COMPLETED,1722525295000.0,8685.0,7630.0,3125.0,64.0,0.0,0.0,0.0,0.0
-bmc_ecynrhv2qx,Faire Market Last Day #2 | 7.25.24,ONE_TIME,COMPLETED,1721958356000.0,11048.0,7426.0,1846.0,41.0,0.0,0.0,0.0,0.0
-bmc_uusjdsq99q,Faire Market Last Day | 7.25.24,ONE_TIME,COMPLETED,1721939433000.0,11048.0,6957.0,1705.0,20.0,1.0,490.68,0.0,0.0
-bmc_f875j6azw8,Faire Market Reminder | 7.24.24,ONE_TIME,COMPLETED,1721848982000.0,11049.0,7331.0,2422.0,27.0,1.0,189.96,0.0,0.0
-bmc_bay2cpdsez,Faire Market Launch | 7.23.24,ONE_TIME,COMPLETED,1721740391000.0,11046.0,6965.0,2335.0,24.0,1.0,189.96,0.0,0.0
-bmc_35be635gws,Faire Market Insider Launch | 7.22.24,ONE_TIME,COMPLETED,1721648868000.0,11045.0,7487.0,2587.0,30.0,2.0,680.64,0.0,0.0
-bmc_yaw38c3khe,Faire Market Teaser | 7.19.24,ONE_TIME,COMPLETED,1721418354000.0,11045.0,7274.0,2773.0,36.0,2.0,680.64,0.0,0.0
-bmc_meau95ham8,Summer's Best Sellers | Gift Shops | 7.12.24 ,ONE_TIME,COMPLETED,1721099719000.0,130.0,98.0,32.0,1.0,0.0,0.0,0.0,0.0
+bmc_4admeqtypn,August's Best Sellers | 9.6.24,ONE_TIME,COMPLETED,1725635828000.0,191.0,180.0,38.0,1.0,0.0,0.0,0.0,0.0
+bmc_syhrdar9pd,New Arrivals | 8.27.24,ONE_TIME,COMPLETED,1724771713000.0,9026.0,8074.0,3160.0,50.0,0.0,0.0,0.0,0.0
+bmc_vez5d9sfwc,Head Turners | 8.31.24,ONE_TIME,COMPLETED,1725154225000.0,9113.0,8444.0,3609.0,54.0,0.0,0.0,0.0,0.0
+bmc_x28hujnj2m,Holiday/Christmas | 8.22.24,ONE_TIME,COMPLETED,1724426155000.0,9066.0,8040.0,2766.0,30.0,1.0,335.76,0.0,0.0
+bmc_xkdkbwgywx,Summer's Best Sellers | 8.13.24,ONE_TIME,COMPLETED,1723562112000.0,8644.0,7554.0,2729.0,38.0,1.0,202.41,0.0,0.0
+bmc_rt8cwkahqb,Mens/Womens Undies | 8.6.24,ONE_TIME,COMPLETED,1723058251000.0,8637.0,7815.0,2896.0,52.0,3.0,678.07,0.0,0.0
+bmc_5p8mwjfvfw,Head Turners | 8.1.24,ONE_TIME,COMPLETED,1722525295000.0,8685.0,7630.0,3292.0,74.0,1.0,125.91,0.0,0.0
+bmc_ecynrhv2qx,Faire Market Last Day #2 | 7.25.24,ONE_TIME,COMPLETED,1721958356000.0,11048.0,7426.0,1942.0,41.0,0.0,0.0,0.0,0.0
+bmc_uusjdsq99q,Faire Market Last Day | 7.25.24,ONE_TIME,COMPLETED,1721939433000.0,11048.0,6957.0,1793.0,20.0,1.0,490.68,0.0,0.0
+bmc_f875j6azw8,Faire Market Reminder | 7.24.24,ONE_TIME,COMPLETED,1721848982000.0,11049.0,7331.0,2478.0,30.0,1.0,189.96,0.0,0.0
+bmc_bay2cpdsez,Faire Market Launch | 7.23.24,ONE_TIME,COMPLETED,1721740391000.0,11046.0,6965.0,2375.0,25.0,1.0,189.96,0.0,0.0
+bmc_35be635gws,Faire Market Insider Launch | 7.22.24,ONE_TIME,COMPLETED,1721648868000.0,11045.0,7487.0,2624.0,31.0,2.0,680.64,0.0,0.0
+bmc_yaw38c3khe,Faire Market Teaser | 7.19.24,ONE_TIME,COMPLETED,1721418354000.0,11045.0,7274.0,2805.0,36.0,2.0,680.64,0.0,0.0
+bmc_meau95ham8,Summer's Best Sellers | Gift Shops | 7.12.24 ,ONE_TIME,COMPLETED,1721099719000.0,130.0,98.0,34.0,2.0,0.0,0.0,0.0,0.0
 bmc_pj69murxf8,Summer's Best Sellers | Western Wear | 7.12.24 ,ONE_TIME,COMPLETED,1721056528000.0,91.0,79.0,23.0,0.0,0.0,0.0,0.0,0.0
-bmc_yrbefmxjvr,Summer's Best Sellers | Clothing Boutiques | 7.12.24,ONE_TIME,COMPLETED,1720813524000.0,2453.0,1564.0,662.0,13.0,0.0,0.0,0.0,0.0
-bmc_2tgajds947,RESEND New Ball Hammock™ Pouch Underwear | 7.3.24,ONE_TIME,COMPLETED,1720056777000.0,6774.0,5831.0,1623.0,16.0,0.0,0.0,0.0,0.0
-bmc_3bx5w9yza3,New Ball Hammock™ Pouch Underwear | 7.2.24,ONE_TIME,COMPLETED,1720015200000.0,10648.0,7536.0,2743.0,39.0,2.0,2066.53,1.0,699.5
+bmc_yrbefmxjvr,Summer's Best Sellers | Clothing Boutiques | 7.12.24,ONE_TIME,COMPLETED,1720813524000.0,2453.0,1564.0,665.0,13.0,0.0,0.0,0.0,0.0
+bmc_2tgajds947,RESEND New Ball Hammock™ Pouch Underwear | 7.3.24,ONE_TIME,COMPLETED,1720056777000.0,6774.0,5831.0,1630.0,16.0,0.0,0.0,0.0,0.0
+bmc_3bx5w9yza3,New Ball Hammock™ Pouch Underwear | 7.2.24,ONE_TIME,COMPLETED,1720015200000.0,10648.0,7536.0,2750.0,39.0,2.0,2066.53,1.0,699.5
 bmc_kxyfc7m8qb,Not on Faire | Opening Order | 7.1.24,ONE_TIME,DRAFT,,,,,,,,,
 bmc_mcagvdrqza,"Ordered, 60 Day Eng, Credit, Ab. Cart | Women's Swim | 7.1.24 ",ONE_TIME,COMPLETED,1719845026000.0,77.0,51.0,23.0,0.0,1.0,699.5,0.0,0.0
 bmc_wyfbr8r3zp,"Ordered, 60 Day Eng, Credit, Ab. Cart | Olympics | 6.23.24",ONE_TIME,COMPLETED,1719198059000.0,520.0,150.0,79.0,4.0,0.0,0.0,0.0,0.0

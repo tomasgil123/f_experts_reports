@@ -1,5 +1,5 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
-bo_tch4nh359n,REPLACE_DAMAGED_OR_MISSING_ITEMS,BRAND_CONTACTED,NEW,MARKETPLACE,1722536535000,True,True,r_5a6j6yvfnu,19743,MY PET MARKET,https://shop.mypetmarket.com/,Pet Store,True
+bo_tch4nh359n,REPLACE_DAMAGED_OR_MISSING_ITEMS,CANCELED,CANCELED,MARKETPLACE,1722536535000,True,True,r_5a6j6yvfnu,0,MY PET MARKET,https://shop.mypetmarket.com/,Pet Store,True
 bo_75rhs4ng45,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721716020000,True,True,r_5a6j6yvfnu,23498,MY PET MARKET,https://shop.mypetmarket.com/,Pet Store,False
 bo_yzbvhww88e,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1716978313000,True,True,r_kjuke3v6ky,0,Hundeliebe Amrum,http://www.hundeliebe-amrum.de/,Pet Store,False
 bo_dvcuuc4npf,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1716746313000,True,True,r_5cg8a7zrrn,0,The Yuppy Puppy Pet Spa And Boutique,https://www.theyuppypuppypetspa.com/,Pet Store,True

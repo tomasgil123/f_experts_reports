@@ -185,7 +185,8 @@ def get_orders_teleties():
         return pd.DataFrame()
     else:
         return df_orders
-    
+
+
 def get_orders_items_teleties():
 
     # Get the data from the Google Cloud Storage bucket

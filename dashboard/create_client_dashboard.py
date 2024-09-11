@@ -321,7 +321,8 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         new_merchants_by_source(df, date_last_update)
 
-        sales_by_category(df, df_order_items, df_page_views)
+        if selected_client != 'teleties':
+            sales_by_category(df, df_order_items, df_page_views)
 
         get_top_products(df_order_items, df)
 

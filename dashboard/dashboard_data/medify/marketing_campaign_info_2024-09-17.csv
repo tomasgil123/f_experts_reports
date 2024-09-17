@@ -1,11 +1,15 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_92ypdr95a4,Help You Help Them | 9.3.24,ONE_TIME,COMPLETED,1725388185000.0,1852.0,1808.0,715.0,8.0,0.0,0.0,0.0,0.0
-bmc_d7m27mt3uu,Allergy Season | 8.31.24,ONE_TIME,COMPLETED,1725155125000.0,1867.0,1827.0,656.0,28.0,0.0,0.0,0.0,0.0
-bmc_6uxuagazd4,5 Reasons to Buy Air Purifiers | 8.26.24,ONE_TIME,COMPLETED,1724771766000.0,1357.0,1328.0,446.0,9.0,0.0,0.0,0.0,0.0
-bmc_pakcqpt9gv,Air Quality | 8.20.24,ONE_TIME,COMPLETED,1724267745000.0,1363.0,1332.0,441.0,12.0,0.0,0.0,0.0,0.0
+bmc_a6vjt7zk72,New MOQ | $150 | 9.17.24,ONE_TIME,SENDING,1726600634000.0,2037.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+bmc_swkhbngqq5,Thank you | 9.14.24,ONE_TIME,COMPLETED,1726454726000.0,1824.0,1784.0,667.0,17.0,0.0,0.0,0.0,0.0
+bmc_99xrerfhbk,RSND: Back to School | 9.13.24,ONE_TIME,COMPLETED,1726240639000.0,781.0,748.0,109.0,3.0,0.0,0.0,0.0,0.0
+bmc_vwr49m7chz,Customer Reviews | 9.9.24,ONE_TIME,COMPLETED,1725917270000.0,1846.0,1797.0,656.0,9.0,0.0,0.0,0.0,0.0
+bmc_92ypdr95a4,Help You Help Them | 9.3.24,ONE_TIME,COMPLETED,1725388185000.0,1852.0,1808.0,743.0,9.0,0.0,0.0,0.0,0.0
+bmc_d7m27mt3uu,Allergy Season | 8.31.24,ONE_TIME,COMPLETED,1725155125000.0,1867.0,1827.0,676.0,31.0,0.0,0.0,0.0,0.0
+bmc_6uxuagazd4,5 Reasons to Buy Air Purifiers | 8.26.24,ONE_TIME,COMPLETED,1724771766000.0,1357.0,1328.0,456.0,9.0,0.0,0.0,0.0,0.0
+bmc_pakcqpt9gv,Air Quality | 8.20.24,ONE_TIME,COMPLETED,1724267745000.0,1363.0,1332.0,442.0,13.0,0.0,0.0,0.0,0.0
 bmc_bcnt7a4ry4,Reminder New Discount/Lowered Minimum | 8.12.24,ONE_TIME,COMPLETED,1723490108000.0,1385.0,1342.0,480.0,22.0,0.0,0.0,0.0,0.0
-bmc_eg28ymb6tw,Fall Allergies | 8.13.24,ONE_TIME,COMPLETED,1723749306000.0,1375.0,1345.0,458.0,18.0,0.0,0.0,0.0,0.0
-bmc_jhy8atusax,Back to School | 8.8.24,ONE_TIME,COMPLETED,1723137334000.0,1396.0,1358.0,585.0,18.0,0.0,0.0,0.0,0.0
+bmc_eg28ymb6tw,Fall Allergies | 8.13.24,ONE_TIME,COMPLETED,1723749306000.0,1375.0,1345.0,462.0,18.0,0.0,0.0,0.0,0.0
+bmc_jhy8atusax,Back to School | 8.8.24,ONE_TIME,COMPLETED,1723137334000.0,1396.0,1358.0,586.0,18.0,0.0,0.0,0.0,0.0
 bmc_432ymbhw5m,Customer Reviews | 8.5.24,ONE_TIME,COMPLETED,1722870786000.0,1419.0,1392.0,484.0,23.0,0.0,0.0,0.0,0.0
 bmc_7q7tjk6yur,Compare At A Glance | 7.30.24,ONE_TIME,COMPLETED,1722440704000.0,1563.0,1403.0,503.0,17.0,0.0,0.0,0.0,0.0
 bmc_pfrg55ca66,New Discount/Lowered Minimum Reminder,ONE_TIME,COMPLETED,1721826007000.0,1082.0,939.0,336.0,8.0,0.0,0.0,0.0,0.0

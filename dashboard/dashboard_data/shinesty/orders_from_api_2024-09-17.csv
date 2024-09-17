@@ -1,9 +1,12 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
-bo_jf6d842veh,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1725581389000,False,False,r_amkvzx3d,58683,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
-bo_v257hg7grs,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1725208040000,True,True,r_90h28nnk,28698,Lemon,http://LemonGiftShop.com,Gift Store,True
-bo_s3mujabrtd,NEW_ORDER,PROCESSING,FULFILLED,ELEVATE,1725041540000,False,False,r_1d2l17a2,31625,Ecology Sports,http://www.ecologysports.com/,Clothing Boutique,True
+bo_g2f6kpctec,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1726507012000,True,True,r_m8hnv37kjh,11360,The Hunt Homestead,http://thehunthomestead.com,,True
+bo_wfpjfjy74b,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1726413795000,True,True,r_t7gafy896y,18615,The Bennie Bloomer,https://www.facebook.com/thebenniebloomer,Florist or Garden Store,True
+bo_tpgvj9kzge,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725745361000,False,False,r_56e6tj1o,33415,Rebel Supply Co.,http://rebelsupplyap.com/,Gift Store,True
+bo_jf6d842veh,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725581389000,False,False,r_amkvzx3d,57303,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
+bo_v257hg7grs,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725208040000,True,True,r_90h28nnk,28698,Lemon,http://LemonGiftShop.com,Gift Store,True
+bo_s3mujabrtd,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725041540000,False,False,r_1d2l17a2,31625,Ecology Sports,http://www.ecologysports.com/,Clothing Boutique,True
 bo_a4pf2gk7qj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724716484000,True,True,r_bcrshxd61v,11601,Nu Shuz,http://www.poshmark.com/closet/lovenushuz,Clothing Boutique,True
-bo_kqpb5ux9qy,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1724537486000,True,True,r_y8gct93jwu,27568,Classic Toys,http://toydango.com/,Kids or Toy Store,True
+bo_kqpb5ux9qy,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724537486000,True,True,r_y8gct93jwu,27568,Classic Toys,http://toydango.com/,Kids or Toy Store,True
 bo_gg7t5r7x92,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724379254000,True,True,r_c9jry624j2,13835,EOS Med Spa,https://eos-stl.com/,Spa or Beauty Store,False
 bo_akvpfeqvvk,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1723659272000,True,True,r_ccpewe9f,19725,Graffitti Key West,http://www.graffittikw.com/,Clothing Boutique,False
 bo_sf72axmjj6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1723577828000,True,True,r_kf3x9te853,68304,Abbey Caroline Salon & Experience,https://abbeycaroline.com/,General or Mercantile Store,True

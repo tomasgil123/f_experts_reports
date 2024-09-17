@@ -1,12 +1,22 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
-bo_r6ycjh59va,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725555391000,False,False,r_yh33wg25sz,5371,The Ordinary Fellow,http://theordinaryfellow.com/,,True
-bo_pt9xepd6bc,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725552351000,False,False,r_2ju3uduxah,57309,Tribes Gallery,https://www.tribes131.com/,Gift Store,True
-bo_nun8pasemy,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1725496551000,False,False,r_d5pwy6dpz5,43624,"Mercury Leather Works, LLC",http://www.mercuryleatherworks.com/,,True
-bo_abt4c67sbd,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1725397946000,False,False,r_3idwdjai,12723,The Artisan's Bench,http://www.artisansbench.com/,Furniture Store,True
+bo_jxb2ksrwzc,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1726155910000,False,False,r_9w7ijpywq0,37129,Altitude Jewelry,http://altitudejewelry.com/,Gift Store,True
+bo_uvpswcu8xv,SPLIT_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726155910000,False,False,r_9w7ijpywq0,20690,Altitude Jewelry,http://altitudejewelry.com/,Gift Store,True
+bo_tumw2xmufg,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1726078304000,False,False,r_b64vigmfcw,9889,Merryweather,http://www.merryweather.shop,Home Decor Store,True
+bo_ptgabmdbhd,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1725915579000,False,False,r_8unzpr3rk1,52944,Sierra Design Studio,http://www.sierradesignstudio.com/,Furniture Store,True
+bo_4cxm3cxt9s,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725746561000,False,False,r_3idwdjai,25966,The Artisan's Bench,http://www.artisansbench.com/,Furniture Store,True
+bo_cepqdjfaf2,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725744161000,False,False,r_b3878rcczz,26853,Saddletree Gallery,https://saddletreegallery.com/,General or Mercantile Store,False
+bo_w4ehf5apmp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725727361000,True,True,r_eaybs41pau,91123,Jess & Rosie's,,Clothing Boutique,False
+bo_822sj52pf8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725723161000,False,False,r_eexv9ctpeh,4708,Howell Nature Center,http://howellnaturecenter.org/,,False
+bo_q8d3frz8zb,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725632389000,True,True,r_3u8j3g8cbl,145550,The Dockside Trading Company,http://thedocksidetradingcompany.com/,Clothing Boutique,True
+bo_r6ycjh59va,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725555391000,False,False,r_yh33wg25sz,6570,The Ordinary Fellow,http://theordinaryfellow.com/,,True
+bo_pt9xepd6bc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725552351000,False,False,r_2ju3uduxah,61815,Tribes Gallery,https://www.tribes131.com/,Gift Store,True
+bo_nun8pasemy,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725496551000,False,False,r_d5pwy6dpz5,43624,"Mercury Leather Works, LLC",http://www.mercuryleatherworks.com/,,True
+bo_abt4c67sbd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725397946000,False,False,r_3idwdjai,12723,The Artisan's Bench,http://www.artisansbench.com/,Furniture Store,True
 bo_3v7um35k4c,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1725383191000,False,False,r_b0j3c57x6f,144668,Kemo Sabe,http://kemosabe.com/,,True
-bo_4wbqywkpap,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725338240000,True,True,r_311v72kb4f,102429,Harperrose Studios Gallery & Goods,http://www.harper-rose.com/,,True
-bo_jeywmskeb3,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725311240000,False,False,r_b64vigmfcw,136669,Merryweather,http://www.merryweather.shop,Home Decor Store,True
-bo_mpevaua377,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1725182540000,False,False,r_8unzpr3rk1,6501,Sierra Design Studio,http://www.sierradesignstudio.com/,Furniture Store,True
+bo_4wbqywkpap,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725338240000,True,True,r_311v72kb4f,107259,Harperrose Studios Gallery & Goods,http://www.harper-rose.com/,,True
+bo_jeywmskeb3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725311240000,False,False,r_b64vigmfcw,123616,Merryweather,http://www.merryweather.shop,Home Decor Store,True
+bo_mrbz8rxx69,SPLIT_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725311240000,False,False,r_b64vigmfcw,20083,Merryweather,http://www.merryweather.shop,Home Decor Store,True
+bo_mpevaua377,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725182540000,False,False,r_8unzpr3rk1,6501,Sierra Design Studio,http://www.sierradesignstudio.com/,Furniture Store,True
 bo_rwb74nnj7u,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1724690226000,False,False,r_rzk87tn8an,13508,Flee The Flock Curated Goods,http://ftfgoods.com,Gift Store,True
 bo_qtnm6apj2b,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1724535386000,False,False,r_gs5pq5agru,37248,Rancho Diaz,http://ranchodiaz.com/,Home Decor Store,True
 bo_4p459cmcpr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724432159000,False,False,r_82bebb58,30900,Favor the Kind,http://favorthekind.com/,,True
@@ -14,11 +24,11 @@ bo_n4tmntu5jv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724359561000,False,Fals
 bo_stc6f9rxm9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724350655000,False,False,r_dymwvxenlq,18252,Bar Diamond Bar Boutique & Gallery,,,True
 bo_94dypr2ksp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724348540000,False,False,r_dymwvxenlq,44228,Bar Diamond Bar Boutique & Gallery,,,True
 bo_q6nk4r5j59,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724297331000,False,False,r_dymwvxenlq,13266,Bar Diamond Bar Boutique & Gallery,,,True
-bo_7fyaycygvn,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1724272379000,False,False,r_2vdnejddez,111125,Spunky Steer,http://www.spunkysteer.com/,,False
-bo_pehazse378,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1724266356000,False,False,r_42yrawuz,23238,Blackchalk Home and Laundry,https://maps.google.com/?cid=15490396746407588471,Clothing Boutique,False
+bo_7fyaycygvn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724272379000,False,False,r_2vdnejddez,111125,Spunky Steer,http://www.spunkysteer.com/,,False
+bo_pehazse378,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1724266356000,False,False,r_42yrawuz,23238,Blackchalk Home and Laundry,https://maps.google.com/?cid=15490396746407588471,Clothing Boutique,False
 bo_hdquy5redp,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1724195873000,False,False,r_6k6uwtr24a,23486,Hi-Lonesome Boutique,http://www.hi-lonesomebv.com,Clothing Boutique,True
-bo_wzebksp9ue,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1724193773000,True,False,r_8unzpr3rk1,133386,Sierra Design Studio,http://www.sierradesignstudio.com/,Furniture Store,False
-bo_egmq3d7n8n,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1724188673000,True,True,r_8unzpr3rk1,83355,Sierra Design Studio,http://www.sierradesignstudio.com/,Furniture Store,False
+bo_wzebksp9ue,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1724193773000,True,False,r_8unzpr3rk1,133386,Sierra Design Studio,http://www.sierradesignstudio.com/,Furniture Store,False
+bo_egmq3d7n8n,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1724188673000,True,True,r_8unzpr3rk1,83355,Sierra Design Studio,http://www.sierradesignstudio.com/,Furniture Store,False
 bo_mc45az84ux,SPLIT_ORDER,DELIVERED,FULFILLED,ELEVATE,1724188673000,True,True,r_8unzpr3rk1,7660,Sierra Design Studio,http://www.sierradesignstudio.com/,Furniture Store,False
 bo_5yfckwwbad,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724178773000,False,False,r_3idwdjai,13723,The Artisan's Bench,http://www.artisansbench.com/,Furniture Store,True
 bo_dd9c6ddnbu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1723833365000,False,False,r_42yrawuz,187406,Blackchalk Home and Laundry,https://maps.google.com/?cid=15490396746407588471,Clothing Boutique,False

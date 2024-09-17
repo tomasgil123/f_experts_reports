@@ -32,31 +32,31 @@ from utils import (get_orders_teleties, get_orders_items_teleties)
 # brand_token = "b_vllag6pj"
 # brand_name = "trek_light"
 
-# ====================
-
 # brand_token = "b_f65wemh3b7"
 # brand_name = "be_huppy"
 
-brand_token = "b_9884o1r7ea"
-brand_name = "shinesty"
+# ====================
 
-#brand_token = "b_12tpkawx"
-#brand_name = "teleties"
+# brand_token = "b_9884o1r7ea"
+# brand_name = "shinesty"
 
-#brand_token = "b_fg3z6jazys"
-#brand_name = "medify"
+# brand_token = "b_12tpkawx"
+# brand_name = "teleties"
 
-#brand_token = "b_1c6eqlam"
-#brand_name = "dolan_geiman"
+# brand_token = "b_fg3z6jazys"
+# brand_name = "medify"
 
-#brand_token = "b_aqaeteuq89"
-#brand_name = "viori"
+# brand_token = "b_1c6eqlam"
+# brand_name = "dolan_geiman"
+
+# brand_token = "b_aqaeteuq89"
+# brand_name = "viori"
 
 #brand_token = "b_abnh48rfz1"
 #brand_name = "levtex_home"
 
-#brand_token = "b_4v6l6ww3o7"
-#brand_name = "tushy"
+brand_token = "b_4v6l6ww3o7"
+brand_name = "tushy"
 
 
 # brand_token = "b_2j1b52vu"

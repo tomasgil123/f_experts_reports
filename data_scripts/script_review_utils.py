@@ -1,11 +1,15 @@
 import pandas as pd
 import glob
+from datetime import datetime
 
 from get_reviews_utils import (get_reviews)
 from cookie import (cookie_token)
 
-#brand_token = "b_1c6eqlam"
-#brand_name = "dolan_geiman"
+# brand_token = "b_12tpkawx"
+# brand_name = "teleties"
+
+# brand_token = "b_1c6eqlam"
+# brand_name = "dolan_geiman"
 
 #brand_token = "b_aqaeteuq89"
 #brand_name = "viori"
@@ -13,53 +17,48 @@ from cookie import (cookie_token)
 #brand_token = "b_abnh48rfz1"
 #brand_name = "levtex_home"
 
-#brand_token = "b_12tpkawx"
-#brand_name = "teleties"
+brand_token = "b_4v6l6ww3o7"
+brand_name = "tushy"
 
-#brand_token = "b_4v6l6ww3o7"
-#brand_name = "tushy"
+# brand_token = "b_fg3z6jazys"
+# brand_name = "medify"
 
-#brand_token = "b_fg3z6jazys"
-#brand_name = "medify"
 
-brand_token = "b_9884o1r7ea"
-brand_name = "shinesty"
-
-# # we check if there is data already downloaded
+# Check if there is data already downloaded
 product_file = glob.glob(f"../dashboard/dashboard_data/{brand_name}/brand_reviews_*.csv")
 
-# create variable time_most_recent_campaign using default Unix epoch timestamp
+# Initialize variables
 time_most_recent_review = 0
-
-# df_current_marketing_campaign_info is an empty dataframe
 df_current_review = pd.DataFrame()
 
 if len(product_file) > 0:
     df_current_review = pd.read_csv(product_file[0])
+    
+    if not df_current_review.empty:
+        # Identify the most recent review date
+        time_most_recent_review = df_current_review['created_at'].max()
+        
+        # Convert milliseconds to seconds (Unix timestamp)
+        time_most_recent_review = int(time_most_recent_review / 1000)
+        
+        # Add 1 second to ensure we don't duplicate the last review
+        time_most_recent_review += 1
 
-    # identify campaign with the most recent start_sending_at date
-    time_most_recent_review = df_current_review['created_at'].max()
-
-    # we substract a month to the time_most_recent_campaign
-    # we do this because some campaign attributes could have been updated. We assume older campaigns don't get updated anymore
-    time_most_recent_review = time_most_recent_review - 2630304000
-   
+# Get new reviews
 reviews_info = get_reviews(brand_token, cookie=cookie_token, time_most_recent_review=time_most_recent_review)
 
-# we convert orders_info to a dataframe and then we download it as csv
-df = pd.DataFrame(reviews_info)
+# Convert new reviews to a dataframe
+df_new_reviews = pd.DataFrame(reviews_info)
 
-# we append to df_current_marketing_campaign_info the new data
-df = pd.concat([df, df_current_review], ignore_index=True)
+# Combine new and existing reviews
+df = pd.concat([df_new_reviews, df_current_review], ignore_index=True)
 
-# we drop duplicates
+# Drop duplicates
 df = df.drop_duplicates(subset='token', keep='first')
 
-# get today date
-today = pd.to_datetime('today').date()
-# convert it to a string with format yyyy/mm/dd
-today = today.strftime('%Y-%m-%d')
+# Get today's date
+today = datetime.now().strftime('%Y-%m-%d')
 
+# Save to CSV
 name_csv = f'../dashboard/dashboard_data/{brand_name}/brand_reviews_{today}.csv'
-
 df.to_csv(name_csv, index=False)

@@ -14,14 +14,19 @@ from cookie import (cookie_token)
 #brand_token = "b_aqaeteuq89"
 #brand_name = "viori"
 
-#brand_token = "b_abnh48rfz1"
-#brand_name = "levtex_home"
-
-brand_token = "b_4v6l6ww3o7"
-brand_name = "tushy"
+# brand_token = "b_4v6l6ww3o7"
+# brand_name = "tushy"
 
 # brand_token = "b_fg3z6jazys"
 # brand_name = "medify"
+
+brand_token = "b_9kwxe5342a"
+brand_name = "tagua"
+
+
+
+#brand_token = "b_abnh48rfz1"
+#brand_name = "levtex_home"
 
 
 # Check if there is data already downloaded

@@ -17,7 +17,8 @@ from get_competitors_brand_info import (get_all_competitors_brand_data)
 # brand_owner = "Jack Archer"
 # brand_owner = "Dolan Geiman"
 # brand_owner = "Viori"
-brand_owner = "Levtex Home"
+# brand_owner = "Levtex Home"
+brand_owner = "Tagua"
 
 brands_data = get_all_competitors_brand_data(brand_owner)
 

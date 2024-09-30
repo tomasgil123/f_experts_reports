@@ -22,9 +22,14 @@ from cookie import (cookie_token)
 
 #brand_name = "teleties"
 #brand_name = "medify"
-brand_name = "tushy"
-#brand_name = "dolan_geiman"
+#brand_name = "tushy"
 #brand_name = "viori"
+
+brand_name = "tagua"
+
+
+
+#brand_name = "dolan_geiman"
 # brand_name = "levtex_home"
 
 # brand_name = "grab2art"

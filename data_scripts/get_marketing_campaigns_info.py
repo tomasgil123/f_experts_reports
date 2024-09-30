@@ -1,5 +1,6 @@
 import requests
 import time
+import json
 
 def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
     
@@ -29,11 +30,13 @@ def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
     page_count = 1
 
     retry_count = 0
+    max_retries = 5
+    base_wait_time = 30
 
-    while retry_count < 3:
+    while retry_count < max_retries:
         try:
             # Make the GET request to the API
-            response = requests.get(endpoint, headers=headers)
+            response = requests.get(endpoint, headers=headers, timeout=30)
 
             # Check if the request was successful (status code 200)
             if response.status_code == 200:
@@ -79,25 +82,45 @@ def get_marketing_campaigns_info_page(page_number, brand_token, cookie):
                         click_based_total_order_value.append(campaign_statistics["click_based_total_order_value"]["amount_cents"]/100)
                 break  # Successful request, exit the loop
 
-            elif response.status_code == 429:
-                print(f"Rate limit exceeded. Retrying in 30 seconds (Retry {retry_count + 1}/3)")
-                time.sleep(30)  # Wait for 30 seconds before retrying
-                retry_count += 1
+            elif response.status_code in [429, 503]:
+                wait_time = base_wait_time * (2 ** retry_count)  # Exponential backoff
+                print(f"Rate limit exceeded or service unavailable. Retrying in {wait_time} seconds (Retry {retry_count + 1}/{max_retries})")
+                time.sleep(wait_time)
             else:
-                print(endpoint)
                 print(f"Request failed with status code {response.status_code}")
-                # we print the error message
-                print(response.json())
-                time.sleep(30)  # Wait for 30 seconds before retrying
-                # we change headers to avoid being blocked
-                headers = {
-                    'User-Agent': "insomnia/8.6.1",
-                    'Cookie': cookie
-                }
-                retry_count += 1
+                print(f"Response content: {response.text}")
+                
+                # Attempt to parse and print JSON response, if possible
+                try:
+                    error_json = response.json()
+                    print(f"Error details: {json.dumps(error_json, indent=2)}")
+                except json.JSONDecodeError:
+                    print("Unable to parse error response as JSON")
+
+                # Change headers to avoid being blocked
+                headers['User-Agent'] = f"CustomBot/{retry_count + 1}"
+
+            retry_count += 1
+
+        except requests.exceptions.RequestException as e:
+            print(f"Request exception occurred: {e}")
+            retry_count += 1
+            time.sleep(base_wait_time)
+
+        except json.JSONDecodeError as e:
+            print(f"JSON decode error: {e}")
+            print(f"Response content: {response.text}")
+            retry_count += 1
+            time.sleep(base_wait_time)
+
         except Exception as e:
-            print(f"An error occurred: {e}")
+            print(f"An unexpected error occurred: {e}")
             break
+
+    if retry_count == max_retries:
+        print(f"Max retries reached. Unable to process page {page_number}")
+        return [], [], [], [], [], [], [], [], [], [], [], [], [], 0
+
     print(f"Page {page_number} of {page_count} processed")
     return tokens, names, types, states, start_sending_at, recipient_count, delivered_count, view_count, click_count, open_based_orders_count, open_based_total_order_value, click_based_orders_count, click_based_total_order_value, page_count
 
@@ -222,4 +245,12 @@ def get_marketing_campaigns_info(brand_token, cookie, time_most_recent_campaign)
         "click_based_orders_count": click_based_orders_count,
         "click_based_total_order_value": click_based_total_order_value
     }
+
+    # Find the maximum length among all lists
+    max_length = max(len(v) for v in data.values())
+
+    # Pad shorter lists with None values
+    for key in data:
+        data[key] = data[key] + [None] * (max_length - len(data[key]))
+
     return data

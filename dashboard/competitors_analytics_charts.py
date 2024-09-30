@@ -152,6 +152,9 @@ def get_competitors_most_common_words_title_data(df, selected_brand, selected_ca
     else:
         filtered_df = df[(df['brand'] == selected_brand) & (df['Product Category'] == selected_category)]
     
+    # Group by brand and get the first 200 products for each
+    filtered_df = filtered_df.groupby('brand').apply(lambda x: x.head(125)).reset_index(drop=True)
+    
     return filtered_df[['Product Name', 'brand']]
 
 def get_competitors_most_common_words_title_display(df, selected_brand, selected_category):

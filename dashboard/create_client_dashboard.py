@@ -37,7 +37,8 @@ from dashboard.order_analytics_charts import (lifetime_performance_metrics, sale
                                     new_merchants_by_source, sales_by_retailer, cumulative_distribution_of_retailers,
                                     type_of_store_top_10_retailers, sales_distribution, 
                                     sales_quantiles, purchase_frequency, retailers_did_not_reorder, 
-                                    sales_by_store_type, sales_by_category, avg_order_value_by_store_type, get_cold_outreach_lead_sales,
+                                    sales_by_store_type, sales_by_category, avg_order_value_by_store_type, get_cold_outreach_lead_sales, 
+                                    get_cold_outreach_lead_sales_without_fuzz,
                                     display_insider_info, get_top_products)
 
 
@@ -148,7 +149,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
             if selected_client == 'teleties':
                 df_orders = get_orders_teleties()
-                date_last_update_orders = "2024-09-17"
+                date_last_update_orders = "2024-10-02"
                 date_last_update_orders = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
             else:
                 df_orders = pd.read_csv(product_file_orders[0])
@@ -270,7 +271,7 @@ def create_dashboard(selected_client, selected_report, is_admin):
 
         if selected_client == 'teleties':
             df = get_orders_teleties()
-            date_last_update_orders = "2024-09-17"
+            date_last_update_orders = "2024-10-02"
             date_last_update = datetime.strptime(date_last_update_orders, '%Y-%m-%d')
             st.write(f"Data was last updated at: {date_last_update.date()}")
         else:
@@ -342,8 +343,12 @@ def create_dashboard(selected_client, selected_report, is_admin):
             st.markdown("""
                         ### Cold outreach results
                         """)
-            selected_client_formatted = selected_client.replace('_', ' ').title()
-            get_cold_outreach_lead_sales(df_orders=df, selected_client=selected_client_formatted)
+            if selected_client == "teleties":
+                selected_client_formatted = selected_client.replace('_', ' ').title()
+                get_cold_outreach_lead_sales_without_fuzz(df_orders=df, selected_client=selected_client_formatted)
+            else:
+                selected_client_formatted = selected_client.replace('_', ' ').title()
+                get_cold_outreach_lead_sales(df_orders=df, selected_client=selected_client_formatted)
 
     elif selected_report == "Competitors analytics":
         

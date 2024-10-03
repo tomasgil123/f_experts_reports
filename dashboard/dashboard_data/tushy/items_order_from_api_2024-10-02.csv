@@ -1,4 +1,7 @@
 token,order_token,product_token,brand_order_token,product_name,product_option_name,suggested_retail_price,retailer_price,retailer_original_price,quantity,total_retailer_price,retailer_total,discount_percentage,localized_brand_order_number,product_variations
+oi_9dkmp4npdf,o_k3bn4d95my,p_tz7z5h3fkc,bo_qnnf3k4zkw,TUSHY Stand & Squares,default,6400,3840,3840,1,3840,3840,0,#QNNF3K4ZKW,
+oi_fzqppqhg5c,o_k3bn4d95my,p_gecufm4tyv,bo_qnnf3k4zkw,TUSHY Spa 3.0,Bamboo,15900,9540,9540,2,19080,19080,0,#QNNF3K4ZKW,
+oi_3dfzstjp3b,o_cgw47e2h4h,p_a8z8vex5cr,bo_srjm7362ha,TUSHY Classic 3.0,Bamboo,12900,7740,7740,2,15480,15480,0,#SRJM7362HA,
 oi_3xbnbtnx9p,o_b6h27dun8k,p_a8z8vex5cr,bo_w47xbm6q9f,TUSHY Classic 3.0,Gold,12900,7740,7740,1,7740,7740,0,#W47XBM6Q9F,
 oi_sfkhcz2q3v,o_b6h27dun8k,p_bp43y6t2u4,bo_w47xbm6q9f,TUSHY Toilet Brush,default,4900,2940,2940,1,2940,2940,0,#W47XBM6Q9F,
 oi_dykara574a,o_b6h27dun8k,p_96g34f4pv7,bo_w47xbm6q9f,TUSHY Bathroom Spray,EVENING WOOD,2500,1500,1500,1,1500,1500,0,#W47XBM6Q9F,

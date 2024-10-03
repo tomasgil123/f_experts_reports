@@ -1,40 +1,148 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
-bo_9pumaeb2se,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1725507651000,True,True,r_kg3q4wxh84,32385,Sweet Jude Boutique,http://sweetjudeboutique.com/,Clothing Boutique,False
-bo_9m78an678c,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1725482451000,False,False,r_77ui0c7k,54010,Ridge Avenue & CO.,https://maps.google.com/?cid=12511228537626366635,,False
-bo_v83cscbecw,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1725475251000,True,True,r_2swb6p83fb,38335,5 Points of Interest,http://facebook.com/5pointsofinterest,General or Mercantile Store,True
-bo_mynz5rj58a,NEW_ORDER,BRAND_CONTACTED,NEW,ELEVATE,1725475251000,False,False,r_4lcclev93u,15555,Jennifer Hermann,http://hermannfurniture.com,Furniture Store,False
-bo_8m67ynyggd,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1725472551000,True,True,r_ttwx6xop,24072,Gather,,Home Decor Store,True
-bo_b3ehrd5bcv,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1725469851000,False,False,r_kck2fi8nge,176372,Christmas Point Wild Rice Co,http://www.christmaspoint.com/,Home Decor Store,True
-bo_csa9f9zwc7,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725465951000,True,True,r_6yxmv9cq98,22197,Office Products Center & Gifts,http://officeproductscenter.com/,Gift Store,False
-bo_5rx5ttp68x,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725412456000,True,True,r_jwahzck8bm,47442,April Showers,,,False
-bo_sfqz4h4dxn,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725397646000,True,True,r_6e4495r3re,115279,Jolly Elfish LLC,http://www.jollyelfish.com/,,False
-bo_p7nauavgx5,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725389191000,False,False,r_brmxigp4qm,32916,Blue Star Trading Co,https://bluestartrading.com/,,True
-bo_xgtayuc7vc,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725383791000,False,False,r_45y53cbju2,55390,Sumthin Beachie,http://Sumthinbeachiepi.com,Home Decor Store,False
-bo_agwgwyhh6k,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725351740000,True,True,r_kdrbkt2fr4,19589,The Crafthouse,,Clothing Boutique,False
-bo_cj3xxtyc27,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725333740000,True,True,r_9xnilpos67,21015,Sweet Creek Boutique LLC,http://www.sweet-creek.com/,Clothing Boutique,False
-bo_rcft7wb22s,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725310040000,False,False,r_cx8p8zvden,12807,Dermaglow,http://www.vagaro.com/dermaglow,Spa or Beauty Store,False
-bo_u7bu53f5rj,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725306140000,True,True,r_pkhh3e3j36,21667,City Haus Interiors,,Home Decor Store,False
-bo_s9jpmr25q7,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725302240000,True,True,r_dwn9633zys,20669,The Market at Kimsey Parker Farms,,,False
-bo_k7pqfjtkvq,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725295940000,False,False,r_64xy2xcphj,24420,Tags Hardware,http://www.acehardware.com/store-details/16390,Gift Store,False
-bo_dzn22tct8r,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725292640000,True,True,r_ytw5nx3x7w,37683,Blissful Alchemists,http://www.blissfulalchemist.com,,False
-bo_62vj2yrban,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725196940000,True,True,r_qtexkz3cjz,20567,Soul’y Raw Artisan Pet Food,https://www.soulyraw.com/,,False
-bo_4ppkwz326q,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725135140000,True,False,r_1s3lxiubge,18429,Laura Ingram Photo,http://lauraingramphoto.com/,,False
-bo_xn9z4fjyas,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725133640000,True,True,r_qgfqoye1sl,42908,High Camp Home,http://www.highcamphome.com/,Home Decor Store,True
-bo_n4a79tthak,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725110240000,True,True,r_bou24h3ip4,33281,K Robi Art LLC,,Gift Store,False
-bo_hgnym3yxnh,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725062840000,True,True,r_1s3lxiubge,24438,Laura Ingram Photo,http://lauraingramphoto.com/,,False
-bo_w39fta5gj3,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1725041840000,True,True,r_165v6ojx9p,23602,Prescott Meat Company,http://www.prescottmeatcompany.com/,Grocery or Liquor Store,True
-bo_jk5svrx2kz,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1724974940000,True,True,r_ctox4kzlku,24622,The Small Hinge,http://thesmallhinge.com,Home Decor Store,True
-bo_rzf4kdj55e,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1724966540000,True,True,r_zvebdyekp2,19853,Merle Norman Cosmetic Studio,https://www.merlenorman.com/,Gift Store,False
-bo_nazxs4hn84,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1724950340000,False,False,r_1799n35qba,59800,Elizabeth Collins,http://www.livingwellfairhope.com/,Home Decor Store,True
-bo_375sacgjtv,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1724944699000,False,False,r_avpdbmktxk,26084,Green worx,https://maps.google.com/?cid=17812294182525245942,Clothing Boutique,False
-bo_u5rzmpbn5s,REPLACE_DAMAGED_OR_MISSING_ITEMS,SHIPPED,FULFILLED,MARKETPLACE,1724939280000,True,True,r_4cqtznjy,25199,Hollyberry Primitives,http://www.hollyberryprimitives.com,Home Decor Store,True
-bo_jwr2j25ak9,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1724936299000,True,True,r_r98taz5qzt,93696,The Store Canada & Etats-Unis,https://maps.google.com/?cid=6242813772205852809,,False
-bo_mkaqdms4up,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1724907799000,True,True,r_vm6b6xrh9z,32568,Miele Apothecary,https://maps.google.com/?cid=1324500615096169491,,True
+bo_u27sy7t894,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727885122000,True,True,r_7eh4h1vffa,20567,Beth's Country Treasures,,Home Decor Store,False
+bo_fe63ueccqu,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727820022000,True,True,r_iophpiuh5g,23898,A Thompson Boutique LLC,http://alyjeanboutique.com,Clothing Boutique,True
+bo_cfenn2t28j,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727818222000,True,True,r_2yz823jz,20139,Third and Vine Design,http://thebaronmushmouse.com,General or Mercantile Store,False
+bo_7kag8u4pfa,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727815522000,False,False,r_h44nqkdtdf,23197,St. Elizabeth Gift Shop,http://saintelizabethonline.org/,,False
+bo_uudqkff3j4,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727815222000,True,False,r_6xe72ug8p6,102905,Barefoot Sunday,http://www.barefootsunday.co.uk/,Home Decor Store,False
+bo_u5a2tgd7qp,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727813422000,True,True,r_6xe72ug8p6,101436,Barefoot Sunday,http://www.barefootsunday.co.uk/,Home Decor Store,False
+bo_fjf9y26gty,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727744044000,True,True,r_e8gi7qytef,21545,Southern sisters gifts,http://Southernsistersgifts.com,Gift Store,False
+bo_tjqwytcjzh,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727738792000,True,True,r_86g447lbla,23909,"Shuwee, LLC",http://www.shuwee.com,Furniture Store,True
+bo_rtykqdmwun,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727724992000,False,False,r_scvahsd3p7,26712,Marty’s Real Wood Furniture and Home Decor,,,False
+bo_8q85r7jzj4,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727722592000,False,False,r_9k6skj9ngk,27336,SB Trading Co,https://www.shopsbtradingco.com,Home Decor Store,True
+bo_jzkz2479a3,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727716292000,False,False,r_1dsneh0xif,15171,Calabash Trading,https://www.facebook.com/coastalshopping,,False
+bo_bxa6wvbsks,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727712392000,False,False,r_1tjtl0cxwj,87482,Bronzed & Blessed Boutique & Tanning,https://maps.google.com/?cid=3172118019263889353,Clothing Boutique,False
+bo_9wwb2guudp,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727705792000,True,True,r_ssivwj9uls,20649,Chanel Shabby Rose Vintage store,https://maps.google.com/?cid=7909417689806748331,Clothing Boutique,False
+bo_k2z7sd2b8m,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727675792000,True,True,r_8m0j7o00r5,35318,Isabellas Pioneer Market Antiques,,,True
+bo_z9xm7gmqub,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727672192000,False,False,r_7nqtp4m09h,17317,Dyer Drug Co,http://Dyerdrugky@live.com/,Gift Store,False
+bo_6warsjx27u,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727656292000,True,True,r_feqw8yqnef,20455,The Gift Box,https://www.thegiftboxcorp.com/,General or Mercantile Store,False
+bo_zdsy4qeb6y,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727654192000,False,False,r_2swb6p83fb,29381,5 Points of Interest,http://facebook.com/5pointsofinterest,General or Mercantile Store,True
+bo_csssxu6kqw,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727638592000,False,False,r_8tkb10qj,23228,Seaglass Home,,Home Decor Store,False
+bo_29fkcwm3d4,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727632292000,False,False,r_ttwx6xop,30090,Gather,,Home Decor Store,True
+bo_cdxd2u4r58,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727578592000,True,True,r_daoxx00528,30449,The Pink Rose,,Furniture Store,True
+bo_h34pgnutqm,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1727554592000,False,False,r_2t4aa7yaiw,44360,The Willow Tree,https://www.facebook.com/thewillowtreemi,,False
+bo_f8v5r37mc5,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727546492000,False,False,r_9yqnona9,23919,Soak,http://soakshore.com,Spa or Beauty Store,False
+bo_ex2qp856uh,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727542892000,False,False,r_c0aojv61ax,71844,Guthrie Interiors : MHC,http://guthrieinteriors.com/,Furniture Store,False
+bo_vgqj22ktwf,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727479529000,False,False,r_3hn8qxiiax,39396,Cabin Fever,http://cabinfevertahoe.com/,Home Decor Store,True
+bo_rak5ns6vyz,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727465994000,True,True,r_2xekwie083,30637,"Jim's Mattress & More, LLC",http://www.jimsmattress.com,Furniture Store,False
+bo_ghxpzhpwpj,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727463594000,True,True,r_52qk6udqtr,49683,Made for Home,http://hannessonhome.com/,Furniture Store,True
+bo_ztajx8nqpj,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727461794000,True,True,r_v9casbruty,222942,Dreamweaver Interiors & Fabrics,http://dreamweaverde.com/,Home Decor Store,False
+bo_zqphtc4gyw,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727459394000,True,True,r_db6dej7m3n,23859,The Embroidered Girl,http://www.theembroideredgirl.com/,Gift Store,False
+bo_xr6v923z6e,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727445162000,True,True,r_3d7wvqgery,24763,Allison allen Design,http://www.allisonallendesign.com/,Home Decor Store,False
+bo_q24ruf76su,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727408862000,True,True,r_71cnzslv2d,26642,Swaddle,http://swaddleambler.com,Kids or Toy Store,False
+bo_vuzrmdnuyq,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1727372285000,False,False,r_ak8jt5w5we,36670,Two Trees bed & bath,http://www.twotreesbnb.com,,True
+bo_3qc5786pqk,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1727370485000,False,False,r_6yxmv9cq98,15643,Office Products Center & Gifts,http://officeproductscenter.com/,Gift Store,False
+bo_z558vjp5da,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1727305085000,False,False,r_ak8jt5w5we,22268,Two Trees bed & bath,http://www.twotreesbnb.com,,False
+bo_kxyzpxehu9,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727304185000,True,True,r_beldkrdo1w,19964,Vegala,http://bennettdesigns.org/,,False
+bo_b6fcz89bea,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727303885000,True,True,r_7rbmfd9j,62000,The Rabbit’s Den,,Home Decor Store,False
+bo_myzqywsqzr,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1727298485000,False,False,r_ak8jt5w5we,14640,Two Trees bed & bath,http://www.twotreesbnb.com,,False
+bo_q8wfa6r8su,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727294885000,True,True,r_9t37psmxvf,21616,"RIVER CITY SPACES, LLC",http://www.rivercityspaces.com/,Home Decor Store,False
+bo_cngfb73nwb,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1727290385000,False,False,r_b46hnnq9bx,22219,Lasting Impressions Gifts,https://maps.google.com/?cid=7077938503167921793,Home Decor Store,False
+bo_nmcye9s6eb,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727288285000,False,False,r_ct4eo06i3s,238225,PIN IT CO.,,Home Decor Store,False
+bo_8g4dhsuzdn,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727274185000,True,True,r_c994nqwy,30426,Wintle & Co.,,,True
+bo_kbg67ptcqr,NEW_ORDER,BRAND_CONTACTED,NEW,MARKETPLACE,1727268185000,True,True,r_e5vgzjxrns,20262,Home At Lilah's,https://homeatlilahs.com/password,Clothing Boutique,False
+bo_ngt2xhkryx,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1727266385000,True,True,r_hvkrjbftvk,30705,Cotton Blue Cottage,http://cottonbluecottage.com/,Home Decor Store,False
+bo_83jr7fecpm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727243285000,False,False,r_3hn8qxiiax,28902,Cabin Fever,http://cabinfevertahoe.com/,Home Decor Store,True
+bo_m3cs4cq97c,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727234285000,True,True,r_cj7hgeg8,22332,Jennifer Lynn Martin,https://www.shopmartins.com/,Gift Store,False
+bo_6vguq63thg,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727220819000,True,True,r_6h3do0yi4y,117969,The Burly Bear,http://www.theburlybear.com/,Home Decor Store,True
+bo_ggkjnh4mmg,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1727199069000,False,False,r_2t4aa7yaiw,24357,The Willow Tree,https://www.facebook.com/thewillowtreemi,,False
+bo_pcd66d4e7h,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727193069000,False,False,r_zh82xm78ka,15114,Magnolia Hotel,http://magnolia-inn.com/,,False
+bo_jz75na882m,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1727130928000,True,True,r_3hn8qxiiax,7691,Cabin Fever,http://cabinfevertahoe.com/,Home Decor Store,True
+bo_uzr6jddpyt,NEW_ORDER,CANCELED,CANCELED,MARKETPLACE,1727130069000,True,True,r_427ecqsvje,19957,The Southern Stork Baby Boutique,https://thesouthernstork.co/,Clothing Boutique,False
+bo_34hzuc2576,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727128869000,False,False,r_qs7z8tuvkj,27919,Cloud and Feather,http://www.cloudandfeather.com/,,False
+bo_tq3xc8y85x,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727069769000,False,False,r_1cgx613o,17157,The Little Yellow Bench Company,http://thelittleyellowbenchcompany.com,Gift Store,False
+bo_4hhawjfrab,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727042169000,False,False,r_bhrdqnmx90,36538,Family Style Design Co.,,,True
+bo_tqr2u983yp,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1727041869000,True,True,r_e8wd2h8bwh,44967,Rustic Cabin Decor,https://maps.google.com/?cid=9209357555450890434,Home Decor Store,True
+bo_z554a4xgkg,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1727025244000,False,False,r_38iv6bec,31922,Home Sweet Home,http://hshhomefashions.com/,,True
+bo_mxgr3xnanu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726957444000,True,True,r_k9ht2fsa89,24551,"WWC Enterprises, Inc. DBA Down to Earth",http://texassagenursery.com,Florist or Garden Store,False
+bo_s24my3kmk4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726950544000,False,False,r_ak8jt5w5we,17101,Two Trees bed & bath,http://www.twotreesbnb.com,,False
+bo_n6rjrjnfj8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726950244000,True,True,r_58za6qv8lo,22848,Flowers Etc Inc,https://facebook.com/Flowers-Etc-167402879975687/,,False
+bo_vk649s9fms,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726946344000,False,False,r_qs7z8tuvkj,16899,Cloud and Feather,http://www.cloudandfeather.com/,,False
+bo_jsd77jwvc4,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1726940344000,True,True,r_eihvwlrh,23663,Accents,http://www.facebook.com/AccentsHomeDecorAK,Furniture Store,True
+bo_sjq6yszdru,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726938544000,True,True,r_btegdpgwrf,66774,Mountain Lake Lodge,http://www.mtnlakelodge.com/,Gift Store,False
+bo_9p9gjyxymp,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1726907044000,True,True,r_kss4d765xm,44650,Uniquely Christmas,http://uniquelychristmas.com.au/,Home Decor Store,False
+bo_5prw3zfwaq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726875244000,False,False,r_xmrxdya6zg,16654,Millen Meadow Mercantile,,Home Decor Store,False
+bo_7nchyt8xqu,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1726767464000,False,False,r_7gsz4qfgg4,241203,LeRoux Kitchen,http://www.lerouxkitchen.com,,False
+bo_w2mh7padb5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726765064000,False,False,r_45y53cbju2,20227,Sumthin Beachie,http://Sumthinbeachiepi.com,Home Decor Store,False
+bo_a7qh4tgq6d,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1726725105000,True,True,r_6q0ciiiqix,38132,Lady Lanells Inc,http://www.ladylanells.com/,Clothing Boutique,False
+bo_xjh3htw2wr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726716405000,True,True,r_i09oa14c6n,28859,Mystical Paths Of Pea Ridge,https://maps.google.com/?cid=9820607149951674229,,False
+bo_nams35ewan,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726623690000,True,True,r_a0cfemu6la,102354,Chapel Farm Collection,http://chapelfarm.com/,,True
+bo_z6x6mracze,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1726610490000,False,False,r_ch4yffms29,35239,Black Mountain Home & Accents,http://www.blackmountainquilts.net/,,False
+bo_yctkwyuzn6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726608990000,True,True,r_mxks9ca577,39740,Olde Lovely,http://oldelovely.blogspot.com/,Home Decor Store,False
+bo_75df9aszfm,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1726530665000,False,False,r_2lah38gue1,86707,Brown & Hopkins Country Store,http://www.shopbrownandhopkins.com/,Home Decor Store,False
+bo_tw3qmuvter,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1726508812000,False,False,r_9gc52evf6r,209834,Welcome Home Furniture & Accessories,https://www.facebook.com/Welcome-Home-Furniture-Accessories-110176869895/about/?ref=page_internal,Furniture Store,False
+bo_4pwtacyzcv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726503412000,True,True,r_rnabzdt6p9,66675,Ann's Quilts and Country Store,,General or Mercantile Store,True
+bo_tsm4u43dpc,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1726492164000,False,False,r_1799n35qba,30365,Elizabeth Collins,http://www.livingwellfairhope.com/,Home Decor Store,True
+bo_t6bqkjhzk4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726455264000,False,False,r_f9e48wyf6n,265270,Sweet Tea Living,http://www.sweettealiving.design/,Home Decor Store,True
+bo_dstfquymrb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726436064000,False,False,r_6yxmv9cq98,25851,Office Products Center & Gifts,http://officeproductscenter.com/,Gift Store,False
+bo_6vc793hs7f,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726422195000,True,True,r_zh82xm78ka,22510,Magnolia Hotel,http://magnolia-inn.com/,,False
+bo_k3gpm7gbbx,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1726411695000,False,False,r_45napww07f,26355,K&A Coastal Design,https://maps.google.com/?cid=11085197794378436636,Home Decor Store,False
+bo_urwh4ft5bw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726337621000,False,False,r_bqt0zy43,17223,The Lacy,,Home Decor Store,False
+bo_d3ppu3jsub,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726331621000,True,True,r_cv8cudew85,43873,Clotheshorse,http://www.shoptheclotheshorse.com/,Clothing Boutique,False
+bo_eyxpujcztw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726312121000,False,False,r_gwyh24sm2s,13005,Doodlebug Kidz,https://www.doodlebugkidz.com/,,False
+bo_qs6e6pvr5j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726280271000,False,False,r_43s36mb6sj,18593,Texture and Tuft,http://www.textureandtuft.com/,Home Decor Store,False
+bo_33mesd682t,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726276671000,True,True,r_1777ykljcj,25570,Wellness Mercantile,http://hennesseyhemp.com/,Clothing Boutique,False
+bo_5euccg8chm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726261736000,False,False,r_jhwwm94kja,36608,Finders Keepers,http://fkconsign.com/,Clothing Boutique,False
+bo_hu6d8xc7ut,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726246377000,False,False,r_5oh8b5qm1z,15955,Chartreuse & co.,http://www.chartreuseandco.com/,Home Decor Store,False
+bo_85wgjwhmzh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726246377000,False,False,r_ctox4kzlku,14461,The Small Hinge,http://thesmallhinge.com,Home Decor Store,False
+bo_h8mbc76p9j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726237377000,True,True,r_az34wfz1wx,22611,Lake and Pine Co.,http://www.shoplakeandpine.com,Gift Store,False
+bo_f5fqu6t9r2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726194336000,False,False,r_2juv8405pe,23755,The Urban Unwind,,,False
+bo_q5e2fsh4zw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726171021000,False,False,r_45y53cbju2,19087,Sumthin Beachie,http://Sumthinbeachiepi.com,Home Decor Store,False
+bo_yjrrnyy44j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726168024000,False,False,r_45y53cbju2,27055,Sumthin Beachie,http://Sumthinbeachiepi.com,Home Decor Store,False
+bo_3gr5v9n8ak,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726167724000,True,True,r_4w413wisd3,29421,Entwined with Love Designs,https://pin.it/4wmpfWg,Home Decor Store,True
+bo_myc4pcnd9c,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726096144000,False,False,r_1dsneh0xif,15221,Calabash Trading,https://www.facebook.com/coastalshopping,,False
+bo_jubrf2pbft,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726092244000,True,True,r_7pcxyans6w,22727,Gathered Grove LLC,,Home Decor Store,False
+bo_s2765ex5j6,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726077718000,True,True,r_rs4w9yd649,47417,Hamptons furniture & Design Center,http://www.hamptonsfurnishing.com,Furniture Store,True
+bo_9w533ryaqz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726074327000,True,True,r_2etb6a6v,26848,Stitches In Time,,Gift Store,True
+bo_shwc9mbh9f,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725991604000,True,True,r_j5m8hc9mfb,26747,The Hardware INC,https://maps.google.com/?cid=12960183070877716650,Cafe or Restaurant,False
+bo_x3wr5dwecj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725956959000,True,True,r_7phkaj0v7p,71630,Whistle stop home decor and boutique,,Clothing Boutique,False
+bo_5yerv4y2gk,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725952759000,True,True,r_3hn8qxiiax,317163,Cabin Fever,http://cabinfevertahoe.com/,Home Decor Store,True
+bo_d8bqb37sxr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725920453000,False,False,r_8swz46cwys,197838,Rustic Furniture Depot,https://www.rusticfurnituredepot.com/,,False
+bo_wxw3n9k6y5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725907553000,False,False,r_3n9bgzjtha,18693,Down & Quilt Shop,http://www.downandquilt.com/,Home Decor Store,False
+bo_qyy75b4gz9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725853061000,True,True,r_eyu36z3nwy,33693,Anchor Nineteen,http://anchornineteen.com/,Clothing Boutique,False
+bo_x3sxbd38dz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725837761000,True,True,r_n2pnrg5y4w,33582,/Lab U,https://www.johnrenaud.com/pages/john-renaud-lab-u,Gift Store,False
+bo_96xecbshrr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725831461000,True,True,r_n3wmj4ddwr,66457,VA Christmas,,Home Decor Store,False
+bo_77ntv3ay3j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725829961000,False,False,r_ak8jt5w5we,42248,Two Trees bed & bath,http://www.twotreesbnb.com,,True
+bo_es87qr9mud,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725746861000,False,False,r_38iv6bec,32383,Home Sweet Home,http://hshhomefashions.com/,,True
+bo_kb5gudvy3n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725735461000,True,True,r_u516q401i0,33235,L B Forcellati & Sons,http://www.lbforcellati.com/,Gift Store,False
+bo_945qr83t28,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725731261000,False,False,r_ak8jt5w5we,22429,Two Trees bed & bath,http://www.twotreesbnb.com,,False
+bo_xtr6py4pad,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725651382000,True,True,r_3nlvnz3i,57133,Restless Natives,http://shoprestlessnatives.com,Gift Store,False
+bo_ann2qefwmc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725642289000,False,False,r_fwbs6c4773,34200,Charlotte Henry Design,http://www.charlottehenrydesign.com/,Home Decor Store,False
+bo_9pumaeb2se,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725507651000,True,True,r_kg3q4wxh84,38097,Sweet Jude Boutique,http://sweetjudeboutique.com/,Clothing Boutique,False
+bo_9m78an678c,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725482451000,False,False,r_77ui0c7k,64294,Ridge Avenue & CO.,https://maps.google.com/?cid=12511228537626366635,,False
+bo_v83cscbecw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725475251000,True,True,r_2swb6p83fb,44619,5 Points of Interest,http://facebook.com/5pointsofinterest,General or Mercantile Store,True
+bo_mynz5rj58a,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725475251000,False,False,r_4lcclev93u,17594,Jennifer Hermann,http://hermannfurniture.com,Furniture Store,False
+bo_8m67ynyggd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725472551000,True,True,r_ttwx6xop,24713,Gather,,Home Decor Store,True
+bo_b3ehrd5bcv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725469851000,False,False,r_kck2fi8nge,176372,Christmas Point Wild Rice Co,http://www.christmaspoint.com/,Home Decor Store,True
+bo_csa9f9zwc7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725465951000,True,True,r_6yxmv9cq98,26149,Office Products Center & Gifts,http://officeproductscenter.com/,Gift Store,False
+bo_5rx5ttp68x,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725412456000,True,True,r_jwahzck8bm,56133,April Showers,,,False
+bo_sfqz4h4dxn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725397646000,True,True,r_6e4495r3re,128474,Jolly Elfish LLC,http://www.jollyelfish.com/,,False
+bo_p7nauavgx5,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725389191000,False,False,r_brmxigp4qm,38268,Blue Star Trading Co,https://bluestartrading.com/,,True
+bo_xgtayuc7vc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725383791000,False,False,r_45y53cbju2,66138,Sumthin Beachie,http://Sumthinbeachiepi.com,Home Decor Store,False
+bo_agwgwyhh6k,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725351740000,True,True,r_kdrbkt2fr4,23484,The Crafthouse,,Clothing Boutique,False
+bo_cj3xxtyc27,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725333740000,True,True,r_9xnilpos67,23397,Sweet Creek Boutique LLC,http://www.sweet-creek.com/,Clothing Boutique,False
+bo_rcft7wb22s,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725310040000,False,False,r_cx8p8zvden,14611,Dermaglow,http://www.vagaro.com/dermaglow,Spa or Beauty Store,False
+bo_u7bu53f5rj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725306140000,True,True,r_pkhh3e3j36,23731,City Haus Interiors,http://www.cityhauschicago.com/,Furniture Store,False
+bo_s9jpmr25q7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725302240000,True,True,r_dwn9633zys,25897,The Market at Kimsey Parker Farms,,,False
+bo_k7pqfjtkvq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725295940000,False,False,r_64xy2xcphj,27438,Tags Hardware,http://www.acehardware.com/store-details/16390,Gift Store,False
+bo_dzn22tct8r,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725292640000,True,True,r_ytw5nx3x7w,44221,Blissful Alchemists,http://www.blissfulalchemist.com,,False
+bo_62vj2yrban,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725196940000,True,True,r_qtexkz3cjz,21988,Soul’y Raw Artisan Pet Food,https://www.soulyraw.com/,,False
+bo_4ppkwz326q,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725135140000,True,False,r_1s3lxiubge,21579,Laura Ingram Photo,http://lauraingramphoto.com/,,False
+bo_xn9z4fjyas,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725133640000,True,True,r_qgfqoye1sl,35187,High Camp Home,http://www.highcamphome.com/,Home Decor Store,True
+bo_n4a79tthak,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725110240000,True,True,r_bou24h3ip4,40151,K Robi Art LLC,,Gift Store,False
+bo_hgnym3yxnh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725062840000,True,True,r_1s3lxiubge,28926,Laura Ingram Photo,http://lauraingramphoto.com/,,False
+bo_w39fta5gj3,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725041840000,True,True,r_165v6ojx9p,26412,Prescott Meat Company,http://www.prescottmeatcompany.com/,Grocery or Liquor Store,True
+bo_jk5svrx2kz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724974940000,True,True,r_ctox4kzlku,30172,The Small Hinge,http://thesmallhinge.com,Home Decor Store,True
+bo_rzf4kdj55e,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724966540000,True,True,r_zvebdyekp2,22266,Merle Norman Cosmetic Studio,https://www.merlenorman.com/,Gift Store,False
+bo_nazxs4hn84,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1724950340000,False,False,r_1799n35qba,59800,Elizabeth Collins,http://www.livingwellfairhope.com/,Home Decor Store,True
+bo_375sacgjtv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724944699000,False,False,r_avpdbmktxk,26084,Green worx,https://maps.google.com/?cid=17812294182525245942,Clothing Boutique,False
+bo_u5rzmpbn5s,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,MARKETPLACE,1724939280000,True,True,r_4cqtznjy,25199,Hollyberry Primitives,http://www.hollyberryprimitives.com,Home Decor Store,True
+bo_jwr2j25ak9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724936299000,True,True,r_r98taz5qzt,93696,The Store Canada & Etats-Unis,https://maps.google.com/?cid=6242813772205852809,,False
+bo_mkaqdms4up,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724907799000,True,True,r_vm6b6xrh9z,36412,Miele Apothecary,https://maps.google.com/?cid=1324500615096169491,,True
 bo_tk4s3tcgds,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724893399000,False,False,r_rse25vz4hn,279194,Sitka Mercantile LLC,,Home Decor Store,True
 bo_6k9vctcqzc,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724887399000,False,False,r_b37mqsddfq,15211,Jenni Leigh’s,,Home Decor Store,False
 bo_aaha4phgup,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1724863099000,False,False,r_euivh820on,19322,Sleep Central,http://www.yourbeddingheadquarters.com/,Furniture Store,False
 bo_ezmu5d6vdw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724838190000,False,False,r_tjc767dk9s,51105,Cape May Linen,http://www.capemaylinen.com,Home Decor Store,False
-bo_espduxbnbs,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1724824738000,True,True,r_6es98odbms,28337,Javelinas & Hollyhocks,https://www.javelinasandhollyhocks.com/,General or Mercantile Store,True
+bo_espduxbnbs,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724824738000,True,True,r_6es98odbms,28337,Javelinas & Hollyhocks,https://www.javelinasandhollyhocks.com/,General or Mercantile Store,True
 bo_7s9jtkcvvz,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724778663000,True,True,r_f62e6nol,25582,Kelly Hale,https://www.mymultitudes.com/,,False
 bo_qwg53znffh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724774384000,False,False,r_1tjtl0cxwj,88948,Bronzed & Blessed Boutique & Tanning,https://maps.google.com/?cid=3172118019263889353,Clothing Boutique,False
 bo_dn5uwbgkhu,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724712584000,True,True,r_b2o8k5pexa,25191,Oak creek collection,,Gift Store,False
@@ -43,9 +151,9 @@ bo_85n2s7szj4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724557886000,False,Fals
 bo_e73g8ct7tm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724556986000,True,True,r_dimtco0v,33641,Holbrook Drug,http://www.holbrookdrug.com/,Gift Store,False
 bo_2456cgyugb,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724550986000,False,False,r_tjc767dk9s,81730,Cape May Linen,http://www.capemaylinen.com,Home Decor Store,False
 bo_fyy45hfxfs,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724539586000,False,False,r_6drvny22l7,30730,Laurel Hedge,https://www.laurelhedge.net/,Florist or Garden Store,True
-bo_8phkptus5z,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1724515286000,True,True,r_6k3gahw4uf,30451,Where Memories Are Made,https://wherememoriesaremadect.com,Gift Store,True
+bo_8phkptus5z,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724515286000,True,True,r_6k3gahw4uf,30451,Where Memories Are Made,https://wherememoriesaremadect.com,Gift Store,True
 bo_2xwdf2w456,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724481686000,False,False,r_b82wyxukaf,40971,After Five Designs,http://www.afterfivedesigns.net/,Gift Store,False
-bo_t2j5z23cmm,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1724476286000,True,True,r_7j22b4fi,22217,Home,http://vintage-bliss.business.site/,Home Decor Store,False
+bo_t2j5z23cmm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724476286000,True,True,r_7j22b4fi,22217,Home,http://vintage-bliss.business.site/,Home Decor Store,False
 bo_rjgbe53dju,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724447786000,True,True,r_6k309k7xft,27537,These Four Walls,http://www.these4walls.net/,Furniture Store,False
 bo_t9chdnu2pp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1724442986000,False,False,r_7pejmq53,14011,Eco Chic Boutique,http://www.iloveecochic.com/,Home Decor Store,False
 bo_dnvxw7umpa,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1724344655000,False,False,r_2t4aa7yaiw,37458,The Willow Tree,https://www.facebook.com/thewillowtreemi,,False

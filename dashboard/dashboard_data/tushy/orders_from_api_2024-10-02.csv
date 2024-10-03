@@ -1,4 +1,6 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
+bo_qnnf3k4zkw,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727814922000,True,True,r_xwc29snsaz,17902,SoulSisters Spa,http://soulsistersspa.com/,Spa or Beauty Store,True
+bo_srjm7362ha,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1726627321000,True,True,r_ms8myyyuzh,11756,Poppy Cafe & Market,http://poppyvt.com/,Cafe or Restaurant,False
 bo_w47xbm6q9f,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725215540000,True,True,r_p6h6jzhpft,9031,East Kennedy,http://www.eastkennedy.com/,,True
 bo_ygphaak8ee,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721850357000,True,True,r_3p1glewhey,10478,Red River Refillery,,,False
 bo_m36qx7qxfn,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1721837757000,True,True,r_urkdgvqazj,21985,Eco Inspired,http://www.livingecoinspired.com/,General or Mercantile Store,False

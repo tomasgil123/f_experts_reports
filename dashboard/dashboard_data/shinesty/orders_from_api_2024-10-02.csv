@@ -1,6 +1,14 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
-bo_g2f6kpctec,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1726507012000,True,True,r_m8hnv37kjh,11360,The Hunt Homestead,http://thehunthomestead.com,,True
-bo_wfpjfjy74b,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1726413795000,True,True,r_t7gafy896y,18615,The Bennie Bloomer,https://www.facebook.com/thebenniebloomer,Florist or Garden Store,True
+bo_f4vb67ssgx,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727889622000,True,True,r_ttjtedgpy4,15070,Norman's Tuxedo,http://www.normanstux.com/,Clothing Boutique,False
+bo_zdnm6pc47g,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1727676392000,True,True,r_b4ugue562q,24548,"Gilbert Wax Bar, LLC",http://www.gilbertwaxbar.com/,Spa or Beauty Store,False
+bo_grf963jkrb,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1727562092000,False,False,r_amkvzx3d,71559,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
+bo_k5j7uy8mpw,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727530892000,False,False,r_kf3x9te853,83875,Abbey Caroline Salon & Experience,https://abbeycaroline.com/,General or Mercantile Store,True
+bo_gujqpd2mq4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1727382785000,True,True,r_cxd7dboa,75122,Rhonda Henderson,http://www.stevensvillehardware.com/,Gift Store,True
+bo_8dhw4vnf7n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727215119000,True,True,r_d7xn3e2s,15148,Angel Macauley,http://www.ffintimates.com/,Clothing Boutique,True
+bo_t7u6hwxrbw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727189169000,True,True,r_1e0yki83cg,81884,Southern Cove,http://www.shopwhatadeal.com/,Gift Store,True
+bo_prwg4bhu9y,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1726780187000,True,True,r_smxbnaqaff,36836,Christopher James Menswear,https://cjmenswear.com/,Clothing Boutique,True
+bo_g2f6kpctec,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726507012000,True,True,r_m8hnv37kjh,11360,The Hunt Homestead,http://thehunthomestead.com,,True
+bo_wfpjfjy74b,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1726413795000,True,True,r_t7gafy896y,18615,The Bennie Bloomer,https://www.facebook.com/thebenniebloomer,Florist or Garden Store,True
 bo_tpgvj9kzge,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725745361000,False,False,r_56e6tj1o,33415,Rebel Supply Co.,http://rebelsupplyap.com/,Gift Store,True
 bo_jf6d842veh,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1725581389000,False,False,r_amkvzx3d,57303,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
 bo_v257hg7grs,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1725208040000,True,True,r_90h28nnk,28698,Lemon,http://LemonGiftShop.com,Gift Store,True

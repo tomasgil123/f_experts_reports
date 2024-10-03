@@ -5,6 +5,8 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import numpy as np
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
+import re
+from fuzzywuzzy import fuzz
 
 from dashboard.utils import get_data_from_google_spreadsheet
 
@@ -806,6 +808,94 @@ def avg_order_value_by_store_type(df, day_data_was_obtained):
     st.pyplot(fig)
 
 def get_cold_outreach_lead_sales(df_orders, selected_client):
+    # The ID of the spreadsheet to update.
+    spreadsheet_id = '1lMKl4HHkPZDMDgFnQsQ2SGLtbiOo-4sOQWXWr_XcJa0'  # Please set the Spreadsheet ID.
+    range_name = 'ID'  # Example sheet name
+    # lost & found
+    df_leads = get_data_from_google_spreadsheet(spreadsheet_id, range_name)
+
+    range_name_thumbnail = 'Thumbnail'  # Example sheet name
+
+    df_leads_thumbnail = get_data_from_google_spreadsheet(spreadsheet_id, range_name_thumbnail)
+
+    # we keep only column "Lead" and "name"
+    df_leads = df_leads[['Lead', 'name']]
+    df_leads_thumbnail = df_leads_thumbnail[['By Brand', 'Name']]
+    # we change name columns to Lead and name
+    df_leads_thumbnail.rename(columns={"By Brand": "Lead", "Name": "name"}, inplace=True)
+
+    df_leads = pd.concat([df_leads, df_leads_thumbnail])
+    # we drop duplicates
+    df_leads.drop_duplicates(subset=['name'], inplace=True)
+
+    if selected_client == "Caravan":
+        selected_client = "Caravan Home"
+    
+    if selected_client == "Be Huppy":
+        selected_client = "Huppy"
+
+    if selected_client == "Grab2Art":
+        selected_client = "garb2ART"
+
+    # if df_leads is empty, we display a message telling "No leads found"
+    if df_leads.empty:
+        st.write("No leads found for this client")
+        return
+
+    df_leads_selected_client = df_leads[df_leads['Lead'] == selected_client]
+
+    # Function to find the best match
+    def find_best_match(lead_name, order_names, threshold=90):
+        best_match = None
+        best_ratio = 0
+        for order_name in order_names:
+            ratio = fuzz.ratio(lead_name.lower(), order_name.lower())
+            if ratio > best_ratio and ratio >= threshold:
+                best_ratio = ratio
+                best_match = order_name
+        return best_match, best_ratio
+
+    # Create a dictionary to store matches
+    matches = {}
+
+    # Find matches for each lead
+    for lead_name in df_leads_selected_client['name']:
+        best_match, ratio = find_best_match(lead_name, df_orders['retailer_names'])
+        if best_match:
+            matches[lead_name] = (best_match, ratio)
+
+    # Create a new dataframe with the matches
+    df_matches = pd.DataFrame([(lead, match[0], match[1]) for lead, match in matches.items()],
+                              columns=['Lead Name', 'Matched Retailer', 'Match Ratio'])
+
+    # Merge with orders data
+    df_leads_orders = pd.merge(df_matches, df_orders, left_on='Matched Retailer', right_on='retailer_names', how='left')
+
+    # Filter rows where "retailer_names" is not null
+    df_leads_orders = df_leads_orders[df_leads_orders['retailer_names'].notnull()]
+
+    # Display summary
+    df_leads_orders_summary = df_leads_orders[['Lead Name', 'brand_contacted_at_values', 'payout_total_values', 'Match Ratio', 'Matched Retailer']]
+    df_leads_orders_summary.rename(columns={
+        "Lead Name": "Retailer Name",
+        "Matched Retailer": "Lead Name",
+        "brand_contacted_at_values": "Date of purchase",
+        "payout_total_values": "Amount",
+        "Match Ratio": "Confidence"
+    }, inplace=True)
+
+    if df_leads_orders_summary.empty:
+        st.write("No leads have made a purchase yet for this client.")
+        return
+    
+    st.dataframe(df_leads_orders_summary)
+
+    # Check if purchases are before March 2024
+    if df_leads_orders_summary['Date of purchase'].max() < pd.Timestamp('2024-03-01'):
+        st.write("Note: These orders appear to have been placed before we began working with this client.")
+        return
+    
+def get_cold_outreach_lead_sales_without_fuzz(df_orders, selected_client):
     # The ID of the spreadsheet to update.
     spreadsheet_id = '1lMKl4HHkPZDMDgFnQsQ2SGLtbiOo-4sOQWXWr_XcJa0'  # Please set the Spreadsheet ID.
     range_name = 'ID'  # Example sheet name

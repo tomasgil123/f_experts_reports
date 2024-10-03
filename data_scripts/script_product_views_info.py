@@ -13,24 +13,25 @@ from cookie import (cookie_token)
 # brand_name = "little_hometown"
 # brand_name = "trek_light"
 # brand_name = "true_classic"
-
+# brand_name = "be_huppy"
 # ==============
 
-# brand_name = "be_huppy"
+
 #brand_name = "shinesty"
 # brand_name = "latico_leathers"
 
 #brand_name = "teleties"
-#brand_name = "medify"
+brand_name = "medify"
 #brand_name = "tushy"
 #brand_name = "viori"
 
-brand_name = "tagua"
+#brand_name = "tagua"
 
+#brand_name = "levtex_home"
 
 
 #brand_name = "dolan_geiman"
-# brand_name = "levtex_home"
+
 
 # brand_name = "grab2art"
 

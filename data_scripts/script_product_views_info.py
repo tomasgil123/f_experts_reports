@@ -20,8 +20,8 @@ from cookie import (cookie_token)
 #brand_name = "shinesty"
 # brand_name = "latico_leathers"
 
-#brand_name = "teleties"
-brand_name = "medify"
+brand_name = "teleties"
+#brand_name = "medify"
 #brand_name = "tushy"
 #brand_name = "viori"
 

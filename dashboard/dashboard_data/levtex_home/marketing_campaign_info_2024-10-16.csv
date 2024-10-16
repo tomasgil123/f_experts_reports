@@ -1,11 +1,14 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_qvj3nu5p7y,September's Best-Sellers | 9.30.24,ONE_TIME,COMPLETED,1727728657000,857,778,403,10,1,300.0,0,0.0
-bmc_ewm72m3m9f,Closeouts & Phaseouts #2 | 9.26.24 ,ONE_TIME,COMPLETED,1727363717000,847,778,337,8,7,2997.5,2,920.0
+bmc_p2vrksv4qk,Christmas Rugs | 10.15.24,ONE_TIME,COMPLETED,1729055737000,1373,1270,260,10,0,0.0,0,0.0
+bmc_tgdhrvhmse,Kasey + Angelica | 10.9.24,ONE_TIME,COMPLETED,1728501348000,856,798,365,8,7,3532.5,0,0.0
+bmc_f4rjm2gbgm,Back in Stock | 10.4.24,ONE_TIME,COMPLETED,1728058508000,850,782,382,7,6,4265.0,1,965.0
+bmc_qvj3nu5p7y,September's Best-Sellers | 9.30.24,ONE_TIME,COMPLETED,1727728657000,857,778,420,10,7,3813.0,0,0.0
+bmc_ewm72m3m9f,Closeouts & Phaseouts #2 | 9.26.24 ,ONE_TIME,COMPLETED,1727363717000,847,778,340,9,10,3895.5,2,920.0
 bmc_8a8xjhnmyp,Closeouts & Phaseouts | 9.22.24,ONE_TIME,COMPLETED,1727057013000,840,808,429,10,11,6129.5,4,1177.5
-bmc_s8qg8znckf,Christmas is Coming | 9.13.24,ONE_TIME,COMPLETED,1726168552000,648,610,300,13,10,9304.0,0,0.0
+bmc_s8qg8znckf,Christmas is Coming | 9.13.24,ONE_TIME,COMPLETED,1726168552000,648,610,302,13,10,9304.0,0,0.0
 bmc_cykqq2dqrd,New Colors #3 | Best-Sellers | 9.10.24,ONE_TIME,COMPLETED,1725995912000,647,613,284,9,5,6105.0,1,160.0
-bmc_9merrsa45e,New Colors #2 | Best-Sellers | 9.6.24,ONE_TIME,COMPLETED,1725655292000,481,449,213,3,9,3148.5,0,0.0
-bmc_3jqc3yzgv2,New Colors #1 | Best-Sellers | 9.4.24,ONE_TIME,COMPLETED,1725463773000,478,446,207,4,4,1161.0,0,0.0
+bmc_9merrsa45e,New Colors #2 | Best-Sellers | 9.6.24,ONE_TIME,COMPLETED,1725655292000,481,449,214,3,9,3148.5,0,0.0
+bmc_3jqc3yzgv2,New Colors #1 | Best-Sellers | 9.4.24,ONE_TIME,COMPLETED,1725463773000,478,446,208,4,4,1161.0,0,0.0
 bmc_qvxmvvnx6f,NEW Fall Arrivals | 8.28.24,ONE_TIME,COMPLETED,1724858127000,457,430,220,14,6,1884.0,2,482.5
 bmc_fwkv38bjfj,Holiday Collection 5% Off | 8.21.24,ONE_TIME,COMPLETED,1724426239000,456,421,203,7,11,4299.75,1,157.5
 bmc_fgyzgwymjw,Atlanta Market 2024 Reminder,ONE_TIME,COMPLETED,1720811825000,219,176,80,0,4,2522.0,0,0.0

@@ -40,11 +40,11 @@ from cookie import (cookie_token)
 # brand_token = "b_9884o1r7ea"
 # brand_name = "shinesty"
 
-# brand_token = "b_12tpkawx"
-# brand_name = "teleties"
+brand_token = "b_12tpkawx"
+brand_name = "teleties"
 
-brand_token = "b_fg3z6jazys"
-brand_name = "medify"
+# brand_token = "b_fg3z6jazys"
+# brand_name = "medify"
 
 # brand_token = "b_1c6eqlam"
 # brand_name = "dolan_geiman"

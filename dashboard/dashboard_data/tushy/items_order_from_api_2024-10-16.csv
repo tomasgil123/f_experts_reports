@@ -1,4 +1,11 @@
 token,order_token,product_token,brand_order_token,product_name,product_option_name,suggested_retail_price,retailer_price,retailer_original_price,quantity,total_retailer_price,retailer_total,discount_percentage,localized_brand_order_number,product_variations
+oi_dbydhetp6c,o_3akrfh5a5f,p_a8z8vex5cr,bo_264c9f3wqy,TUSHY Classic 3.0 Bidet,Bamboo,11900,7140,7140,20,142800,142800,0,#264C9F3WQY,
+oi_r4rptf4vh8,o_3zz65785mc,p_gecufm4tyv,bo_5deq3xcmze,TUSHY Spa 3.0 Bidet,Bamboo,15900,9540,9540,2,19080,19080,0,#5DEQ3XCMZE,
+oi_g68zjhemzu,o_grxjdhwp96,p_bp43y6t2u4,bo_e5v94b9r3w,TUSHY Toilet Brush,default,4900,2940,2940,1,2940,2940,0,#E5V94B9R3W,
+oi_ksx4vxnz9b,o_grxjdhwp96,p_gecufm4tyv,bo_e5v94b9r3w,TUSHY Spa 3.0 Bidet,Platinum,15900,9540,9540,1,9540,9540,0,#E5V94B9R3W,
+oi_52keewbfzx,o_grxjdhwp96,p_gecufm4tyv,bo_e5v94b9r3w,TUSHY Spa 3.0 Bidet,Gold,15900,9540,9540,1,9540,9540,0,#E5V94B9R3W,
+oi_5esxbmfcrq,o_grxjdhwp96,p_a8z8vex5cr,bo_e5v94b9r3w,TUSHY Classic 3.0 Bidet,Gold,11900,7140,7140,1,7140,7140,0,#E5V94B9R3W,
+oi_vnh6cww328,o_grxjdhwp96,p_a8z8vex5cr,bo_e5v94b9r3w,TUSHY Classic 3.0 Bidet,Platinum,11900,7140,7140,1,7140,7140,0,#E5V94B9R3W,
 oi_9dkmp4npdf,o_k3bn4d95my,p_tz7z5h3fkc,bo_qnnf3k4zkw,TUSHY Stand & Squares,default,6400,3840,3840,1,3840,3840,0,#QNNF3K4ZKW,
 oi_fzqppqhg5c,o_k3bn4d95my,p_gecufm4tyv,bo_qnnf3k4zkw,TUSHY Spa 3.0,Bamboo,15900,9540,9540,2,19080,19080,0,#QNNF3K4ZKW,
 oi_3dfzstjp3b,o_cgw47e2h4h,p_a8z8vex5cr,bo_srjm7362ha,TUSHY Classic 3.0,Bamboo,12900,7740,7740,2,15480,15480,0,#SRJM7362HA,

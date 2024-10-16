@@ -1,8 +1,17 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
-bo_f4vb67ssgx,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1727889622000,True,True,r_ttjtedgpy4,15070,Norman's Tuxedo,http://www.normanstux.com/,Clothing Boutique,False
-bo_zdnm6pc47g,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1727676392000,True,True,r_b4ugue562q,24548,"Gilbert Wax Bar, LLC",http://www.gilbertwaxbar.com/,Spa or Beauty Store,False
-bo_grf963jkrb,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1727562092000,False,False,r_amkvzx3d,71559,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
-bo_k5j7uy8mpw,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1727530892000,False,False,r_kf3x9te853,83875,Abbey Caroline Salon & Experience,https://abbeycaroline.com/,General or Mercantile Store,True
+bo_x93dgzpmuh,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1729034984000,False,False,r_amkvzx3d,77799,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
+bo_mkwk2jtyex,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1728953093000,False,False,r_bcrshxd61v,16726,Nu Shuz,http://www.poshmark.com/closet/lovenushuz,Clothing Boutique,True
+bo_rbjrg4ncrk,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE_PAID_PLACEMENT,1728949193000,True,True,r_r7ed46m96c,18794,North Country Pharmacy,http://northcountrypharmacy.com/,Gift Store,False
+bo_4u6d65zyjg,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE_PAID_PLACEMENT,1728776783000,True,True,r_bv6822yu84,28706,The Cotton Blossoms Boutique,http://www.thecottonblossomsboutique.com/,Clothing Boutique,True
+bo_mm7k4r5pfm,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1728775883000,False,False,r_1d2l17a2,55952,Ecology Sports,http://www.ecologysports.com/,Clothing Boutique,True
+bo_aqj3y6u338,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE_PAID_PLACEMENT,1728689483000,True,True,r_6hk02awc,138964,The Cove Gifts,https://www.shopthecovegifts.com/,,True
+bo_8f4n4ve3b3,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1728489958000,True,True,r_306x8bb19o,40846,George Gregory,http://www.shopgeorgegregory.com/,,True
+bo_r85vynzh4e,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1728315611000,True,True,r_by823ukx2u,27258,Bigfoot General Store,https://www.facebook.com/profile.php?id=100089847890870&mibextid=LQQJ4d,General or Mercantile Store,True
+bo_7vmnrkc3w7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727924560000,True,True,r_8oudr3fr,18112,Western Reserve Harley-Davidson,http://wrhd.com,,False
+bo_f4vb67ssgx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727889622000,True,True,r_ttjtedgpy4,15070,Norman's Tuxedo,http://www.normanstux.com/,Clothing Boutique,False
+bo_zdnm6pc47g,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1727676392000,True,True,r_b4ugue562q,24548,"Gilbert Wax Bar, LLC",http://www.gilbertwaxbar.com/,Spa or Beauty Store,False
+bo_grf963jkrb,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1727562092000,False,False,r_amkvzx3d,69872,Eureka Clothing Company,http://facebook.com/eurekaclothingcompany,Clothing Boutique,True
+bo_k5j7uy8mpw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727530892000,False,False,r_kf3x9te853,83875,Abbey Caroline Salon & Experience,https://abbeycaroline.com/,General or Mercantile Store,True
 bo_gujqpd2mq4,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1727382785000,True,True,r_cxd7dboa,75122,Rhonda Henderson,http://www.stevensvillehardware.com/,Gift Store,True
 bo_8dhw4vnf7n,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727215119000,True,True,r_d7xn3e2s,15148,Angel Macauley,http://www.ffintimates.com/,Clothing Boutique,True
 bo_t7u6hwxrbw,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1727189169000,True,True,r_1e0yki83cg,81884,Southern Cove,http://www.shopwhatadeal.com/,Gift Store,True

@@ -5,8 +5,8 @@ from datetime import datetime
 from get_reviews_utils import (get_reviews)
 from cookie import (cookie_token)
 
-# brand_token = "b_12tpkawx"
-# brand_name = "teleties"
+brand_token = "b_12tpkawx"
+brand_name = "teleties"
 
 # brand_token = "b_1c6eqlam"
 # brand_name = "dolan_geiman"
@@ -24,9 +24,8 @@ from cookie import (cookie_token)
 # brand_name = "tagua"
 
 
-
-brand_token = "b_abnh48rfz1"
-brand_name = "levtex_home"
+# brand_token = "b_abnh48rfz1"
+# brand_name = "levtex_home"
 
 
 # Check if there is data already downloaded

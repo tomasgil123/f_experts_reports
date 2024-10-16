@@ -4,7 +4,6 @@ import matplotlib.ticker as mtick
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import numpy as np
-from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
 import re
 from fuzzywuzzy import fuzz
 
@@ -874,12 +873,15 @@ def get_cold_outreach_lead_sales(df_orders, selected_client):
     # Filter rows where "retailer_names" is not null
     df_leads_orders = df_leads_orders[df_leads_orders['retailer_names'].notnull()]
 
+    # Sort by date and keep only the first purchase for each retailer
+    df_leads_orders = df_leads_orders.sort_values('brand_contacted_at_values').groupby('Lead Name').first().reset_index()
+
     # Display summary
     df_leads_orders_summary = df_leads_orders[['Lead Name', 'brand_contacted_at_values', 'payout_total_values', 'Match Ratio', 'Matched Retailer']]
     df_leads_orders_summary.rename(columns={
         "Lead Name": "Retailer Name",
         "Matched Retailer": "Lead Name",
-        "brand_contacted_at_values": "Date of purchase",
+        "brand_contacted_at_values": "Date of first purchase",
         "payout_total_values": "Amount",
         "Match Ratio": "Confidence"
     }, inplace=True)
@@ -891,7 +893,7 @@ def get_cold_outreach_lead_sales(df_orders, selected_client):
     st.dataframe(df_leads_orders_summary)
 
     # Check if purchases are before March 2024
-    if df_leads_orders_summary['Date of purchase'].max() < pd.Timestamp('2024-03-01'):
+    if df_leads_orders_summary['Date of first purchase'].max() < pd.Timestamp('2024-03-01'):
         st.write("Note: These orders appear to have been placed before we began working with this client.")
         return
     
@@ -944,8 +946,10 @@ def get_cold_outreach_lead_sales_without_fuzz(df_orders, selected_client):
     # filter rows where "retailer_names" is not null
     df_leads_orders = df_leads_orders[df_leads_orders['retailer_names'].notnull()]
 
-    # just display columns "Name" and "brand_contacted_at_values"
+    # Sort by date and keep only the first purchase for each retailer
+    df_leads_orders = df_leads_orders.sort_values('brand_contacted_at_values').groupby('name').first().reset_index()
 
+    # just display columns "Name" and "brand_contacted_at_values"
     df_leads_orders_summary = df_leads_orders[['name', 'brand_contacted_at_values', "payout_total_values"]]
 
     # change "brand_contacted_at_values" to "Date of purchase"

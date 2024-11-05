@@ -1,4 +1,8 @@
 token,order_token,product_token,brand_order_token,product_name,product_option_name,suggested_retail_price,retailer_price,retailer_original_price,quantity,total_retailer_price,retailer_total,discount_percentage,localized_brand_order_number,product_variations
+oi_6evstg7ztj,o_j28hj63h6j,p_a8z8vex5cr,bo_a5smak9sv2,TUSHY Classic 3.0 Bidet,Platinum,11900,7140,7140,3,21420,21420,0,#A5SMAK9SV2,
+oi_5bnscgpwr3,o_j28hj63h6j,p_a8z8vex5cr,bo_a5smak9sv2,TUSHY Classic 3.0 Bidet,Bamboo,11900,7140,7140,3,21420,21420,0,#A5SMAK9SV2,
+oi_c4dx4crd58,o_9rkz7uhgyt,p_a8z8vex5cr,bo_ktt9pyqk7n,TUSHY Classic 3.0 Bidet,Bamboo,11900,7140,7140,4,28560,28560,0,#KTT9PYQK7N,
+oi_fav4c3czyd,o_9rkz7uhgyt,p_96g34f4pv7,bo_ktt9pyqk7n,TUSHY Bathroom Spray,AFTERNOON DIP,2500,1500,1500,1,1500,1500,0,#KTT9PYQK7N,
 oi_dbydhetp6c,o_3akrfh5a5f,p_a8z8vex5cr,bo_264c9f3wqy,TUSHY Classic 3.0 Bidet,Bamboo,11900,7140,7140,20,142800,142800,0,#264C9F3WQY,
 oi_r4rptf4vh8,o_3zz65785mc,p_gecufm4tyv,bo_5deq3xcmze,TUSHY Spa 3.0 Bidet,Bamboo,15900,9540,9540,2,19080,19080,0,#5DEQ3XCMZE,
 oi_g68zjhemzu,o_grxjdhwp96,p_bp43y6t2u4,bo_e5v94b9r3w,TUSHY Toilet Brush,default,4900,2940,2940,1,2940,2940,0,#E5V94B9R3W,

@@ -807,6 +807,7 @@ def avg_order_value_by_store_type(df, day_data_was_obtained):
     st.pyplot(fig)
 
 def get_cold_outreach_lead_sales(df_orders, selected_client):
+    st.write(selected_client)
     # The ID of the spreadsheet to update.
     spreadsheet_id = '1lMKl4HHkPZDMDgFnQsQ2SGLtbiOo-4sOQWXWr_XcJa0'  # Please set the Spreadsheet ID.
     range_name = 'ID'  # Example sheet name
@@ -817,13 +818,19 @@ def get_cold_outreach_lead_sales(df_orders, selected_client):
 
     df_leads_thumbnail = get_data_from_google_spreadsheet(spreadsheet_id, range_name_thumbnail)
 
+    range_name_open_mart = 'OpenMart'
+
+    df_leads_open_mart = get_data_from_google_spreadsheet(spreadsheet_id, range_name_open_mart)
+
     # we keep only column "Lead" and "name"
     df_leads = df_leads[['Lead', 'name']]
     df_leads_thumbnail = df_leads_thumbnail[['By Brand', 'Name']]
+    df_leads_open_mart = df_leads_open_mart[['Brand', 'Company name']]
     # we change name columns to Lead and name
     df_leads_thumbnail.rename(columns={"By Brand": "Lead", "Name": "name"}, inplace=True)
+    df_leads_open_mart.rename(columns={"Brand": "Lead", "Company name": "name"}, inplace=True)
 
-    df_leads = pd.concat([df_leads, df_leads_thumbnail])
+    df_leads = pd.concat([df_leads, df_leads_thumbnail, df_leads_open_mart])
     # we drop duplicates
     df_leads.drop_duplicates(subset=['name'], inplace=True)
 
@@ -836,6 +843,8 @@ def get_cold_outreach_lead_sales(df_orders, selected_client):
     if selected_client == "Grab2Art":
         selected_client = "garb2ART"
 
+    if selected_client == "Levtex Home":
+        selected_client = "LevTex"
     # if df_leads is empty, we display a message telling "No leads found"
     if df_leads.empty:
         st.write("No leads found for this client")

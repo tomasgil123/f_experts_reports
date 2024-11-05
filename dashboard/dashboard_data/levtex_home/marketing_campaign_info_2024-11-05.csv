@@ -1,10 +1,14 @@
 tokens,names,types,states,start_sending_at,recipient_count,delivered_count,view_count,click_count,open_based_orders_count,open_based_total_order_value,click_based_orders_count,click_based_total_order_value
-bmc_p2vrksv4qk,Christmas Rugs | 10.15.24,ONE_TIME,COMPLETED,1729055737000,1373,1270,260,10,0,0.0,0,0.0
-bmc_tgdhrvhmse,Kasey + Angelica | 10.9.24,ONE_TIME,COMPLETED,1728501348000,856,798,365,8,7,3532.5,0,0.0
-bmc_f4rjm2gbgm,Back in Stock | 10.4.24,ONE_TIME,COMPLETED,1728058508000,850,782,382,7,6,4265.0,1,965.0
-bmc_qvj3nu5p7y,September's Best-Sellers | 9.30.24,ONE_TIME,COMPLETED,1727728657000,857,778,420,10,7,3813.0,0,0.0
-bmc_ewm72m3m9f,Closeouts & Phaseouts #2 | 9.26.24 ,ONE_TIME,COMPLETED,1727363717000,847,778,340,9,10,3895.5,2,920.0
-bmc_8a8xjhnmyp,Closeouts & Phaseouts | 9.22.24,ONE_TIME,COMPLETED,1727057013000,840,808,429,10,11,6129.5,4,1177.5
+bmc_5kfd37vsyx,October's Best-Sellers | 11.5.24,ONE_TIME,COMPLETED,1730826908000,1857,1647,353,16,0,0.0,0,0.0
+bmc_9rfcr7xf3b,"10% Off Holiday Sale: Rugs, Pets, Throws | 10.29.24",ONE_TIME,COMPLETED,1730319304000,1412,1255,538,11,6,1117.5,0,0.0
+bmc_fdmmddgq94,NEW Arrivals | 10.21.24,ONE_TIME,COMPLETED,1729609204000,1388,1241,588,12,11,3960.0,1,315.0
+bmc_2ubqmzkqvp,RSND Christmas Rugs | 10.15.24,ONE_TIME,COMPLETED,1729282500000,674,594,73,2,0,0.0,0,0.0
+bmc_p2vrksv4qk,Christmas Rugs | 10.15.24,ONE_TIME,COMPLETED,1729055737000,1373,1270,517,13,5,552.5,0,0.0
+bmc_tgdhrvhmse,Kasey + Angelica | 10.9.24,ONE_TIME,COMPLETED,1728501348000,856,798,372,8,8,3827.5,0,0.0
+bmc_f4rjm2gbgm,Back in Stock | 10.4.24,ONE_TIME,COMPLETED,1728058508000,850,782,385,7,6,4265.0,1,965.0
+bmc_qvj3nu5p7y,September's Best-Sellers | 9.30.24,ONE_TIME,COMPLETED,1727728657000,857,778,424,12,7,3813.0,0,0.0
+bmc_ewm72m3m9f,Closeouts & Phaseouts #2 | 9.26.24 ,ONE_TIME,COMPLETED,1727363717000,847,778,343,10,10,3895.5,2,920.0
+bmc_8a8xjhnmyp,Closeouts & Phaseouts | 9.22.24,ONE_TIME,COMPLETED,1727057013000,840,808,432,10,11,6129.5,4,1177.5
 bmc_s8qg8znckf,Christmas is Coming | 9.13.24,ONE_TIME,COMPLETED,1726168552000,648,610,302,13,10,9304.0,0,0.0
 bmc_cykqq2dqrd,New Colors #3 | Best-Sellers | 9.10.24,ONE_TIME,COMPLETED,1725995912000,647,613,284,9,5,6105.0,1,160.0
 bmc_9merrsa45e,New Colors #2 | Best-Sellers | 9.6.24,ONE_TIME,COMPLETED,1725655292000,481,449,214,3,9,3148.5,0,0.0

@@ -1,28 +1,63 @@
 tokens,creation_reasons,states,fulfillment_states,sources,brand_contacted_at_values,first_order_for_brand_values,very_first_order_for_brand_values,retailer_tokens,payout_total_values,retailer_names,retailer_website_urls,retailer_store_types,is_insider
-bo_xqpupwkcgh,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1730816670000,True,True,r_76a3ptj747,22594,Veda healing spa,http://vedahealingspa.com/,Spa or Beauty Store,True
-bo_rntndgc7xe,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1730758770000,True,True,r_z63uuen4zh,15903,Dolfin Touch,http://www.dolfintouch.com/,Spa or Beauty Store,True
-bo_jdjn3r3uun,NEW_ORDER,PROCESSING,UNFULFILLED,MARKETPLACE,1730758470000,True,True,r_5y54psv5,8246,Unearthed Vintage Digs,,,True
-bo_vesf5u47jh,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1730756070000,False,False,r_907jgivwz2,12365,Nuts 'n Berries,https://www.nutsnberries.com/,Grocery or Liquor Store,True
-bo_ckkgumt8jx,NEW_ORDER,PROCESSING,FULFILLED,ELEVATE,1730742977000,False,False,r_934yxcrr7q,4728,Smile Sciences,https://smilesciences.com/,,True
-bo_bnn79wcpnv,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1730729249000,False,False,r_bzi68b1i,32680,Beauty Organix,http://www.beautyorganix.com,,True
-bo_xxpczp97uu,NEW_ORDER,PROCESSING,FULFILLED,ELEVATE,1730724449000,True,True,r_bhqj6cynj5,49814,Devine Design,https://maps.google.com/?cid=11414254295700966466,Spa or Beauty Store,True
-bo_avu5ncbddp,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1730689949000,False,False,r_6y48v8lhiu,17646,Thrive Family Wellness Center LLC,http://www.thrivefamilywellness.com/,,True
-bo_p7d5fsrwdt,NEW_ORDER,PROCESSING,FULFILLED,ELEVATE,1730670749000,True,True,r_dpv9yg6zgk,64093,Tyte Medispa,http://www.tytemedispa.com/,Fitness or Yoga Studio,True
-bo_du5vc9nbgr,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1730650349000,True,True,r_r3zs9wd9yc,7230,Lucy Lu soapery,http://lucylusoapery.com/,,True
-bo_txgvrr84hm,NEW_ORDER,PROCESSING,FULFILLED,MARKETPLACE,1730476960000,False,False,r_78fbubp3y3,8560,Sister Collective/Rise Nutrition,https://m.facebook.com/risenutrition22/,,True
-bo_g9ygd3hntk,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1730399560000,False,False,r_sc3gc9gxtu,32628,Senses SPA and Salon,http://www.ipbiloxi.com/,Spa or Beauty Store,False
-bo_dxbnnyzwen,NEW_ORDER,PROCESSING,FULFILLED,ELEVATE,1730397760000,True,True,r_s4avy6b7ag,14601,Unjaded Beauty,,Spa or Beauty Store,True
+bo_wr56bt7976,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1731597926000,False,False,r_e33vcn7d4b,33837,ashley hughes,http://ashleyhughes.glossgenius.com/,Spa or Beauty Store,True
+bo_9ypa5jcjkh,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1731537926000,False,False,r_era229yqkw,28762,DYHair,,Spa or Beauty Store,True
+bo_fgsssn63n9,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1731525626000,False,False,r_9ohic85ewy,10423,Paradise,,,False
+bo_jynrrcszq9,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1731503075000,False,False,r_8z3vezmvv5,42140,Everyday Magick Salon,http://www.everydaymagicksalon.com/,Spa or Beauty Store,True
+bo_3rj54uzgsn,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1731459875000,False,False,r_1weg0titnx,13351,Sustainable Exchange,http://www.sustainablexchange.com/,General or Mercantile Store,True
+bo_t36uzbft9u,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1731434263000,False,False,r_ip8c263107,11204,Golden Harvest,http://goldenharvestmarket.com/,,True
+bo_cjufajpecx,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1731384836000,False,False,r_440a6fjxjl,15678,ECOccasion,https://ecoccasion.com,,True
+bo_jpmf2tsja4,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1731364279000,False,False,r_934yxcrr7q,3625,Smile Sciences,https://smilesciences.com/,,True
+bo_dffnmtkjgp,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1731359936000,False,False,r_d8gnhbnn32,10802,Holistic Skin and Tonics,,Gift Store,False
+bo_4ks2zz46b6,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1731348836000,False,False,r_v7hzaqpnfe,14224,Natural Beauty Hair Salon,https://maps.google.com/?cid=10214370233718818783,Spa or Beauty Store,True
+bo_fp5jx23y3v,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1731341036000,False,False,r_84mawt4m,89567,MightyNest,http://www.mightynest.com,,True
+bo_6425rgh7m4,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1731339236000,False,False,r_bj6mt95axd,12195,Evergreen- A Beauty & Wellness Salon LLC,,,True
+bo_rdeczwxnpu,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1731257336000,True,True,r_545cz85chm,10286,Bronze Fox Beauty,http://www.bronzefoxbeauty.com,Spa or Beauty Store,True
+bo_pbmuxn7kp7,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1731237536000,False,False,r_bky93g2c,9390,Faraways Boutique,https://maps.google.com/?cid=934553347909336933,Clothing Boutique,True
+bo_vwy6nwygad,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1731214736000,False,False,r_gzft4exekk,34967,Aqua Blue Salon & Studios,https://aquasalonstudio.com/,Spa or Beauty Store,True
+bo_f43grrcras,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1731189836000,False,False,r_895cy9843n,10316,"Sol Life Studio, LLC",http://Sol-Life-Studio.com,Fitness or Yoga Studio,True
+bo_thasdvghuv,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1731176336000,True,True,r_6d9bbrps6m,21777,Good Health Dispensary,https://www.pharmachoice.com/locations/good-health-dispensary/,General or Mercantile Store,True
+bo_tsqrtrpzvd,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1731173936000,False,False,r_934yxcrr7q,9632,Smile Sciences,https://smilesciences.com/,,True
+bo_dhry3fdttr,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1731145736000,False,False,r_7qyxtzzql5,19595,Studio Buus,http://www.studiobuus.dk,Clothing Boutique,True
+bo_5cbg7ajmeh,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1731135236000,True,True,r_c9oyptuz,40848,GYPSEA CARAVAN,http://www.gypseacaravan.com,,True
+bo_u2hrywz66m,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,ELEVATE,1731106170000,True,True,r_s4avy6b7ag,1274,Unjaded Beauty,,Spa or Beauty Store,True
+bo_w2c42rc5ra,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,ELEVATE,1731091068000,False,False,r_vvjtjzhqjy,5392,Immaculata Salon & Day Spa,http://www.immaculataspa.com/,Spa or Beauty Store,True
+bo_r6rxn34u9s,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1731069157000,False,False,r_nhjnub2fzn,84894,Harmony Salon,https://harmonysalonhelena.com/,Spa or Beauty Store,True
+bo_vfzg77xpns,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1731024757000,True,True,r_26n48v3eri,11536,Northside Pharmacy,http://northsidepharmacy.nyc/,,True
+bo_e6rupd3ezh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1731023857000,True,True,r_rcrbx868yq,7766,Alana Spa,https://www.royallahaina.com/alana-spa/,Spa or Beauty Store,True
+bo_gryh6h68jf,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1731021157000,False,False,r_5gsn2xc3f6,20612,All About Herbs,http://allaboutherbs.com/,,True
+bo_qzw49zw7sr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1731011857000,False,False,r_ty628hghmz,19381,Bonnie J Pariser,http://www.ecoloka.shop,Fitness or Yoga Studio,True
+bo_q7t4233cxt,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1731011557000,False,False,r_avtr6c1f39,20170,The Wild Rose,https://maps.google.com/?cid=7386552124466823089,Gift Store,True
+bo_sdk7mdncyx,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1731010657000,False,False,r_ej9qsma7th,122002,Beauty Kiss Inc.,http://beautykissus.com/,,True
+bo_dvtzgjpgv7,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730980375000,True,True,r_v7hzaqpnfe,14315,Natural Beauty Hair Salon,https://maps.google.com/?cid=10214370233718818783,Spa or Beauty Store,True
+bo_c5p8dust55,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730938975000,False,False,r_gqrphr5cud,29170,She's duBon,http://shesdubon.com,Clothing Boutique,True
+bo_36evsbqshy,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730862201000,True,True,r_83ykawfvp2,10072,Savvy & Co. LLC,https://www.facebook.com/Savvy71295/,,True
+bo_54426ued9v,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730851401000,True,True,r_akjnorym4m,28376,Morganne Frazier,http://www.drinkmoregood.com/,General or Mercantile Store,True
+bo_8w7xf9ee67,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730846301000,False,False,r_975z6u7yzq,15348,Tulip - Est. 2007 -,http://www.tulipperfume.com,Gift Store,True
+bo_ewy6rh79gr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730843601000,True,True,r_bmt4568wds,27814,BORDO Lash Lounge and Academy Ltd.,http://www.bordolash.com/,Spa or Beauty Store,False
+bo_xqpupwkcgh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730816670000,True,True,r_76a3ptj747,22594,Veda healing spa,http://vedahealingspa.com/,Spa or Beauty Store,True
+bo_rntndgc7xe,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730758770000,True,True,r_z63uuen4zh,15903,Dolfin Touch,http://www.dolfintouch.com/,Spa or Beauty Store,True
+bo_jdjn3r3uun,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730758470000,True,True,r_5y54psv5,9258,Unearthed Vintage Digs,,,True
+bo_vesf5u47jh,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730756070000,False,False,r_907jgivwz2,12365,Nuts 'n Berries,https://www.nutsnberries.com/,Grocery or Liquor Store,True
+bo_ckkgumt8jx,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730742977000,False,False,r_934yxcrr7q,4728,Smile Sciences,https://smilesciences.com/,,True
+bo_bnn79wcpnv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730729249000,False,False,r_bzi68b1i,33856,Beauty Organix,http://www.beautyorganix.com,,True
+bo_xxpczp97uu,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730724449000,True,True,r_bhqj6cynj5,53430,Devine Design,https://maps.google.com/?cid=11414254295700966466,Spa or Beauty Store,True
+bo_avu5ncbddp,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730689949000,False,False,r_6y48v8lhiu,18352,Thrive Family Wellness Center LLC,http://www.thrivefamilywellness.com/,,True
+bo_p7d5fsrwdt,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730670749000,True,True,r_dpv9yg6zgk,68440,Tyte Medispa,http://www.tytemedispa.com/,Fitness or Yoga Studio,True
+bo_du5vc9nbgr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE_PAID_PLACEMENT,1730650349000,True,True,r_r3zs9wd9yc,7230,Lucy Lu soapery,http://lucylusoapery.com/,,True
+bo_txgvrr84hm,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730476960000,False,False,r_78fbubp3y3,8560,Sister Collective/Rise Nutrition,https://m.facebook.com/risenutrition22/,,True
+bo_g9ygd3hntk,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730399560000,False,False,r_sc3gc9gxtu,32628,Senses SPA and Salon,http://www.ipbiloxi.com/,Spa or Beauty Store,False
+bo_dxbnnyzwen,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730397760000,True,True,r_s4avy6b7ag,14601,Unjaded Beauty,,Spa or Beauty Store,True
 bo_4abja9m3w4,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730397760000,False,False,r_s4avy6b7ag,10680,Unjaded Beauty,,Spa or Beauty Store,True
-bo_x6h8ps2j3v,NEW_ORDER,SHIPPED,FULFILLED,MARKETPLACE,1730394460000,False,False,r_czqm5m4cq9,11342,Pelage,,Spa or Beauty Store,True
+bo_x6h8ps2j3v,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730394460000,False,False,r_czqm5m4cq9,11342,Pelage,,Spa or Beauty Store,True
 bo_vy6rsupdhj,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730389460000,False,False,r_8kti36djff,9466,Essential Health,http://www.essentialhealthct.com/,Grocery or Liquor Store,False
-bo_qcsqtp4rdg,NEW_ORDER,PROCESSING,UNFULFILLED,ELEVATE,1730386760000,False,False,r_sbjv3qgksp,13244,Darling and Dapper Studio,https://darlinganddapperstudio.com/,Spa or Beauty Store,True
-bo_egckwzmk5u,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1730349500000,False,False,r_vvjtjzhqjy,71911,Immaculata Salon & Day Spa,http://www.immaculataspa.com/,Spa or Beauty Store,False
+bo_qcsqtp4rdg,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730386760000,False,False,r_sbjv3qgksp,14540,Darling and Dapper Studio,https://darlinganddapperstudio.com/,Spa or Beauty Store,True
+bo_egckwzmk5u,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730349500000,False,False,r_vvjtjzhqjy,71911,Immaculata Salon & Day Spa,http://www.immaculataspa.com/,Spa or Beauty Store,False
 bo_su5zcj4wqv,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730314904000,False,False,r_3hztegdp3s,9689,Cabins at Seven Foxes,https://www.sevenfoxes.com,Gift Store,False
 bo_as2jndq9vc,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730301840000,False,False,r_4xppft96tz,16079,The JP Digital Emporium,http://thejpdigitalemporium.com/,,True
 bo_n949zrce87,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730255940000,True,True,r_ka3dxfx9a8,8375,Ashley Jackson Beauty,http://ashleyjacksonbeauty.com/,Spa or Beauty Store,False
 bo_eayz9zcnu8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730236140000,False,False,r_d3qczrv8dw,22975,Three Chicks Mercantile,,Home Decor Store,True
 bo_j4pghj7y2c,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730205866000,True,True,r_2etkpz4hmb,31008,Shine Bright,http://shinebrightleather.com/,Clothing Boutique,False
-bo_6eg2gfzprj,REPLACE_DAMAGED_OR_MISSING_ITEMS,SHIPPED,FULFILLED,ELEVATE,1730173187000,True,True,r_rpgbmjdw8t,1385,LaBaress Body Sugaring,http://www.labaress.com/,Spa or Beauty Store,True
+bo_6eg2gfzprj,REPLACE_DAMAGED_OR_MISSING_ITEMS,DELIVERED,FULFILLED,ELEVATE,1730173187000,True,True,r_rpgbmjdw8t,1385,LaBaress Body Sugaring,http://www.labaress.com/,Spa or Beauty Store,True
 bo_nf8qcy7keq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730168066000,True,True,r_reezggwmbn,65333,Sacred Earth Apothecary,,,True
 bo_5xc4744r29,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1730165666000,True,True,r_6f5bhtkhv4,74634,Zebo,http://shopzebo.com/,,True
 bo_psdy758wa2,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1730115491000,True,True,r_wx64b4txeb,45992,Austin Hodges Hairapy,http://www.vagaro.com/mossandmagnolia,,True
@@ -31,7 +66,7 @@ bo_tqa3n66rus,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729887791000,False,Fals
 bo_nj4x24ad8g,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1729869285000,True,True,r_1ffqurv6wt,31300,spa three ten,http://www.spa310.com/,Spa or Beauty Store,True
 bo_ramxgf8fc9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729826685000,True,True,r_bs9484g0mv,15015,New Image,https://www.kittieskloset.com,Spa or Beauty Store,False
 bo_na5dbrbxeh,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729797885000,False,False,r_42lgda6v,9142,The Massage Center and Yoga Studio,http://www.themassagecenter.org/,Spa or Beauty Store,False
-bo_8kj9w76z2g,NEW_ORDER,SHIPPED,FULFILLED,ELEVATE,1729789540000,False,False,r_5gsn2xc3f6,26200,All About Herbs,http://allaboutherbs.com/,,False
+bo_8kj9w76z2g,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1729789540000,False,False,r_5gsn2xc3f6,26200,All About Herbs,http://allaboutherbs.com/,,False
 bo_4zpttf5fe9,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729782640000,False,False,r_eu4m31rehr,14346,Ten Thousand Villages Baltimore,http://tenthousandvillages.com/baltimore,Gift Store,False
 bo_8xcj4ptenm,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1729781740000,False,False,r_c92h5vndya,18972,Creative Roots Salon,https://m.facebook.com/creativerootspasadena/,Spa or Beauty Store,True
 bo_q4z9jdk6pz,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1729772140000,False,False,r_934yxcrr7q,14122,Smile Sciences,https://smilesciences.com/,,True
@@ -42,11 +77,11 @@ bo_3xf8fys52c,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729644613000,False,Fals
 bo_vcua2r2zmq,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729581572000,True,True,r_3hztegdp3s,11249,Cabins at Seven Foxes,https://www.sevenfoxes.com,Gift Store,False
 bo_zvhwhay9kv,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1729560872000,False,False,r_71vb502tez,13327,Elevate Hair Studio,https://elevatehairstudio.business.site/?utm_source=gmb&utm_medium=referral,Spa or Beauty Store,False
 bo_phd2r2kwgr,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1729546472000,True,True,r_4xppft96tz,17663,The JP Digital Emporium,http://thejpdigitalemporium.com/,,True
-bo_z8x5a6h55j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729533272000,False,False,r_ej9qsma7th,43971,Beauty Kiss Inc.,http://beautykissus.com/,,True
+bo_z8x5a6h55j,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729533272000,False,False,r_ej9qsma7th,42484,Beauty Kiss Inc.,http://beautykissus.com/,,True
 bo_zp8jb9szde,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729493635000,False,False,r_g9er3kp57f,57051,Kent General Store LLC,http://kentgeneralstore.myshopify.com/,General or Mercantile Store,True
 bo_7n35a4sj65,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729454635000,True,True,r_xmsx6d3y6k,10885,Modern Apothecary,https://maps.google.com/?cid=10802592853537956634,,True
 bo_yyva86gfm8,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729364035000,False,False,r_aztm4vwz,13062,a lily & a sparrow,http://www.alilyandasparrow.com/,,False
-bo_n5yauqf56u,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729359535000,False,False,r_ej9qsma7th,75855,Beauty Kiss Inc.,http://beautykissus.com/,,True
+bo_n5yauqf56u,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729359535000,False,False,r_ej9qsma7th,68916,Beauty Kiss Inc.,http://beautykissus.com/,,True
 bo_sbecwzp4mr,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729323235000,False,False,r_g9er3kp57f,21748,Kent General Store LLC,http://kentgeneralstore.myshopify.com/,General or Mercantile Store,False
 bo_6ryxw3tjc6,NEW_ORDER,DELIVERED,FULFILLED,ELEVATE,1729294135000,False,False,r_4swph6nckq,10023,The Front Page Beauty Bar & Barber,http://TheFrontPageBBB.com,Spa or Beauty Store,True
 bo_3adbrqk5hd,NEW_ORDER,DELIVERED,FULFILLED,MARKETPLACE,1729283035000,False,False,r_9ewu6p1w40,9868,VISIONS CO.,http://www.shopvisionsco.com,Gift Store,True

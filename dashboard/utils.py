@@ -176,7 +176,7 @@ def get_orders_teleties():
 
     # Get the data from the Google Cloud Storage bucket
     bucket_name = "faire_reports_old"
-    source_blob_name = "orders_from_api_2024-11-05"
+    source_blob_name = "orders_from_api_2024-11-15"
 
     df_orders = download_csv_from_cloud_storage(bucket_name, source_blob_name)
 
@@ -191,7 +191,7 @@ def get_orders_items_teleties():
 
     # Get the data from the Google Cloud Storage bucket
     bucket_name = "faire_reports_old"
-    source_blob_name = "items_order_from_api_2024-11-05"
+    source_blob_name = "items_order_from_api_2024-11-15"
 
     df_orders = download_csv_from_cloud_storage(bucket_name, source_blob_name)
 

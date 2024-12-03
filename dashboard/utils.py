@@ -119,6 +119,9 @@ def get_data_from_google_spreadsheet(spreadsheet_id, range_name):
     result = sheet.values().get(spreadsheetId=spreadsheet_id, range=range_name).execute()
     values = result.get('values', [])
 
+    # Truncate each row to 29 columns
+    values = [row[:29] for row in values]
+
     column_names = values[0]
 
     if range_name == "ID":
